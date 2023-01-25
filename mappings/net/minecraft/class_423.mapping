@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_423
+	FIELD field_2056 minecraftDir Ljava/io/File;
+	METHOD method_1464 getMinecraftDirectory ()Ljava/io/File;
+	METHOD method_1467 getHomeSubdirectory (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 name
+	METHOD method_1471 getOperatingSystem ()Lnet/minecraft/class_429;
