@@ -1,3 +1,3 @@
-CLASS net/minecraft/class_687 HitType
+CLASS net/minecraft/class_687 net/minecraft/unmapped/HitType
 	FIELD field_3148 BLOCK Lnet/minecraft/class_687;
 	FIELD field_3149 ENTITY Lnet/minecraft/class_687;
