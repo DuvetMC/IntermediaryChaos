@@ -1,12 +1,12 @@
 CLASS net/minecraft/class_339 net/minecraft/world/entity/PassiveEntity
-	METHOD <init> (net/minecraft/class_14;)V
+	METHOD <init> (Lnet/minecraft/class_14;)V
 		ARG 1 world
 	METHOD a (III)F
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD a storeTag (net/minecraft/class_461;)V
+	METHOD a storeTag (Lnet/minecraft/class_461;)V
 		ARG 1 tag
-	METHOD b loadFromTag (net/minecraft/class_461;)V
+	METHOD b loadFromTag (Lnet/minecraft/class_461;)V
 		ARG 1 tag
 	METHOD c isSpawnable ()Z

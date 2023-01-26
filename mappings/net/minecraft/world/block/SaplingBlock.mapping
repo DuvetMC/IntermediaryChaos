@@ -1,2 +1,2 @@
 CLASS net/minecraft/class_148 net/minecraft/world/block/SaplingBlock
-	METHOD a randomTick (net/minecraft/class_14;IIILjava/util/Random;)V
+	METHOD a randomTick (Lnet/minecraft/class_14;IIILjava/util/Random;)V

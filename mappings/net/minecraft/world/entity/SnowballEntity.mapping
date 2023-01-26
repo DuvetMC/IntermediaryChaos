@@ -1,15 +1,15 @@
 CLASS net/minecraft/class_499 net/minecraft/world/entity/SnowballEntity
-	METHOD <init> (net/minecraft/class_14;)V
+	METHOD <init> (Lnet/minecraft/class_14;)V
 		ARG 1 world
-	METHOD <init> (net/minecraft/class_14;net/minecraft/class_209;)V
+	METHOD <init> (Lnet/minecraft/class_14;net/minecraft/class_209;)V
 		ARG 1 world
 		ARG 2 entity
 	METHOD a isDistanceInHitbox (D)Z
-	METHOD a storeTag (net/minecraft/class_461;)V
+	METHOD a storeTag (Lnet/minecraft/class_461;)V
 		ARG 1 tag
-	METHOD b attack (net/minecraft/class_3;)V
+	METHOD b attack (Lnet/minecraft/class_3;)V
 		ARG 1 player
-	METHOD b loadFromTag (net/minecraft/class_461;)V
+	METHOD b loadFromTag (Lnet/minecraft/class_461;)V
 		ARG 1 tag
 	METHOD k_ i_ ()F
 	METHOD q_ tick ()V

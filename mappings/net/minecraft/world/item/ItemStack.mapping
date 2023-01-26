@@ -4,11 +4,11 @@ CLASS net/minecraft/class_229 net/minecraft/world/item/ItemStack
 	FIELD field_1466 durability I
 	METHOD method_684 getItem ()net/minecraft/class_255;
 	METHOD method_1641 postMine (IIII)V
-	METHOD method_1647 postHit (net/minecraft/class_209;)V
-	METHOD method_1193 writeData (net/minecraft/class_461;)net/minecraft/class_461;
-	METHOD method_1642 getAttackStrength (net/minecraft/class_1;)I
+	METHOD method_1647 postHit (Lnet/minecraft/class_209;)V
+	METHOD method_1193 writeData (Lnet/minecraft/class_461;)net/minecraft/class_461;
+	METHOD method_1642 getAttackStrength (Lnet/minecraft/class_1;)I
 	METHOD method_820 damage (I)V
-	METHOD method_1649 readData (net/minecraft/class_461;)V
-	METHOD method_1650 canBreak (net/minecraft/class_18;)Z
+	METHOD method_1649 readData (Lnet/minecraft/class_461;)V
+	METHOD method_1650 canBreak (Lnet/minecraft/class_18;)Z
 	METHOD method_1652 getMaxStack ()I
 	METHOD method_819 getMaxDurability ()I

@@ -1,4 +1,4 @@
 CLASS net/minecraft/class_1 net/minecraft/world/entity/Entity
 	FIELD field_1031 enttiy Lnet/minecraft/class_14;
-	METHOD <init> (net/minecraft/class_14;)V
+	METHOD <init> (Lnet/minecraft/class_14;)V
 		ARG 1 world

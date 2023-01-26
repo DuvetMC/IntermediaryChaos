@@ -1,7 +1,7 @@
 CLASS net/minecraft/class_398 net/minecraft/unpackaged/SpawnHelper
-	METHOD method_1330 pickRandomBlock (net/minecraft/class_14;II)net/minecraft/class_386;
+	METHOD method_1330 pickRandomBlock (Lnet/minecraft/class_14;II)net/minecraft/class_386;
 		ARG 0 world
 		ARG 1 x
 		ARG 2 z
-	METHOD method_1216 tickMobSpawning (net/minecraft/class_14;ZZ)I
+	METHOD method_1216 tickMobSpawning (Lnet/minecraft/class_14;ZZ)I
 		ARG 0 world

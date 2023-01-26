@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_599 net/minecraft/world/entity/GhastEntity
-	METHOD <init> (net/minecraft/class_14;)V
+	METHOD <init> (Lnet/minecraft/class_14;)V
 		ARG 1 world
 	METHOD c isSpawnable ()Z
 	METHOD f idleSound ()Ljava/lang/String;

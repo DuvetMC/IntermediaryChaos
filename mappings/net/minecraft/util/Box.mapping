@@ -16,11 +16,11 @@ CLASS net/minecraft/class_19 net/minecraft/util/Box
 		ARG 11 maxZ
 	METHOD method_1415 dropCache ()V
 	METHOD method_1416 create (DDDDDD)net/minecraft/class_19;
-	METHOD method_1099 intersects (net/minecraft/class_19;)Z
+	METHOD method_1099 intersects (Lnet/minecraft/class_19;)Z
 		ARG 1 other
 	METHOD method_522 expand (DDD)net/minecraft/class_19;
 	METHOD method_1418 cached (DDDDDD)net/minecraft/class_19;
-	METHOD method_1419 set (net/minecraft/class_19;)V
+	METHOD method_1419 set (Lnet/minecraft/class_19;)V
 	METHOD method_518 asCached ()net/minecraft/class_19;
 	METHOD method_1420 set (DDDDDD)net/minecraft/class_19;
 		ARG 1 minX

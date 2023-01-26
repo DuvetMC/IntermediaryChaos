@@ -3,7 +3,7 @@ CLASS net/minecraft/class_486 net/minecraft/world/block/RedstoneOreBlock
 	METHOD a getDroppedItem (ILjava/util/Random;)I
 		ARG 1 meta
 		ARG 2 random
-	METHOD a randomTick (net/minecraft/class_14;IIILjava/util/Random;)V
+	METHOD a randomTick (Lnet/minecraft/class_14;IIILjava/util/Random;)V
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
@@ -11,5 +11,5 @@ CLASS net/minecraft/class_486 net/minecraft/world/block/RedstoneOreBlock
 		ARG 5 random
 	METHOD a getDroppedItemCount (Ljava/util/Random;)I
 		ARG 1 random
-	METHOD b emitParticle (net/minecraft/class_14;IIILjava/util/Random;)V
+	METHOD b emitParticle (Lnet/minecraft/class_14;IIILjava/util/Random;)V
 	METHOD d getUpdateRate ()I

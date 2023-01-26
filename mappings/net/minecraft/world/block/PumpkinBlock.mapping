@@ -3,14 +3,14 @@ CLASS net/minecraft/class_603 net/minecraft/world/block/PumpkinBlock
 	METHOD a getTextureId (I)I
 		ARG 1 blockId
 	METHOD a getTextureId (II)I
-	METHOD a canPlaceAt (net/minecraft/class_14;III)Z
+	METHOD a canPlaceAt (Lnet/minecraft/class_14;III)Z
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD a (net/minecraft/class_14;IIInet/minecraft/class_209;)V
+	METHOD a (Lnet/minecraft/class_14;IIInet/minecraft/class_209;)V
 		ARG 1 world
-	METHOD e onPlace (net/minecraft/class_14;III)V
+	METHOD e onPlace (Lnet/minecraft/class_14;III)V
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y

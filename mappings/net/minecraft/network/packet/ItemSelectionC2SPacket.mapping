@@ -2,4 +2,4 @@ CLASS net/minecraft/class_658 net/minecraft/network/packet/ItemSelectionC2SPacke
 	METHOD a getSize ()I
 	METHOD a read (Ljava/io/DataInputStream;)V
 	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a send (net/minecraft/class_514;)V
+	METHOD a send (Lnet/minecraft/class_514;)V

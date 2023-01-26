@@ -1,4 +1,4 @@
 CLASS net/minecraft/class_97 net/minecraft/client/renderer/Renderer
 	FIELD field_554 client Lnet/minecraft/class_4;
-	METHOD <init> (net/minecraft/class_4;)V
+	METHOD <init> (Lnet/minecraft/class_4;)V
 		ARG 1 client

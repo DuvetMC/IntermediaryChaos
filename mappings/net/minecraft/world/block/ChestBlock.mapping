@@ -1,14 +1,14 @@
 CLASS net/minecraft/class_261 net/minecraft/world/block/ChestBlock
 	METHOD a getTextureId (I)I
 		ARG 1 blockId
-	METHOD a canPlaceAt (net/minecraft/class_14;III)Z
+	METHOD a canPlaceAt (Lnet/minecraft/class_14;III)Z
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD a getTextureId (net/minecraft/class_447;IIII)I
+	METHOD a getTextureId (Lnet/minecraft/class_447;IIII)I
 	METHOD a_ createBlockEntity ()net/minecraft/class_262;
-	METHOD b onBreak (net/minecraft/class_14;III)V
+	METHOD b onBreak (Lnet/minecraft/class_14;III)V
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y

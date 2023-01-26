@@ -5,4 +5,4 @@ CLASS net/minecraft/class_644 net/minecraft/client/resources/TexturePacks
 	FIELD field_2971 client Lnet/minecraft/class_4;
 	FIELD field_2973 loadedName Ljava/lang/String;
 	METHOD method_2040 loadTexturePacks ()V
-	METHOD method_2041 load (net/minecraft/class_641;)Z
+	METHOD method_2041 load (Lnet/minecraft/class_641;)Z

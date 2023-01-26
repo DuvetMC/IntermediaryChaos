@@ -6,9 +6,9 @@ CLASS net/minecraft/class_3 net/minecraft/world/entity/PlayerEntity
 	METHOD method_1801 getHeldItem ()net/minecraft/class_229;
 	METHOD F getEyeHeight ()D
 	METHOD H remove ()V
-	METHOD method_582 addItem (net/minecraft/class_229;Z)V
-	METHOD a storeTag (net/minecraft/class_461;)V
-	METHOD a takeDamage (net/minecraft/class_1;I)Z
-	METHOD b loadFromTag (net/minecraft/class_461;)V
-	METHOD method_2039 attackEntity (net/minecraft/class_1;)V
+	METHOD method_582 addItem (Lnet/minecraft/class_229;Z)V
+	METHOD a storeTag (Lnet/minecraft/class_461;)V
+	METHOD a takeDamage (Lnet/minecraft/class_1;I)Z
+	METHOD b loadFromTag (Lnet/minecraft/class_461;)V
+	METHOD method_2039 attackEntity (Lnet/minecraft/class_1;)V
 	METHOD q_ tick ()V

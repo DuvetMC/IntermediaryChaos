@@ -6,12 +6,12 @@ CLASS net/minecraft/class_210 net/minecraft/world/inventory/PlayerInventory
 	METHOD a getSize ()I
 	METHOD a takeItemsFromStack (II)net/minecraft/class_229;
 	METHOD a setStack (Inet/minecraft/class_229;)V
-	METHOD method_1078 addItem (net/minecraft/class_229;)Z
-	METHOD method_1628 getAttackStrength (net/minecraft/class_1;)I
-	METHOD method_1629 writeTag (net/minecraft/class_464;)net/minecraft/class_464;
+	METHOD method_1078 addItem (Lnet/minecraft/class_229;)Z
+	METHOD method_1628 getAttackStrength (Lnet/minecraft/class_1;)I
+	METHOD method_1629 writeTag (Lnet/minecraft/class_464;)net/minecraft/class_464;
 	METHOD method_527 getHeldItem ()net/minecraft/class_229;
 	METHOD method_1631 moveCursor (I)V
-	METHOD method_1633 readTag (net/minecraft/class_464;)V
+	METHOD method_1633 readTag (Lnet/minecraft/class_464;)V
 	METHOD c getDisplay ()Ljava/lang/String;
 	METHOD method_1635 contains (I)Z
 	METHOD c_ getStack (I)net/minecraft/class_229;

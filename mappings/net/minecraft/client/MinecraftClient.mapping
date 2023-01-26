@@ -17,7 +17,7 @@ CLASS net/minecraft/class_4 net/minecraft/client/MinecraftClient
 	METHOD method_1450 init ()V
 	METHOD method_222 handleMouseButton (I)V
 		ARG 1 mouseButton
-	METHOD method_162 handleMenuInput (net/minecraft/class_49;)V
+	METHOD method_162 handleMenuInput (Lnet/minecraft/class_49;)V
 		ARG 1 handler
 	METHOD method_1403 printOglError (Ljava/lang/String;)V
 		ARG 1 error

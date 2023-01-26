@@ -1,6 +1,6 @@
 CLASS net/minecraft/class_455 net/minecraft/world/block/entity/MobSpawnerBlockEntity
 	FIELD field_2172 defaultEntity Ljava/lang/String;
-	METHOD a loadTag (net/minecraft/class_461;)V
+	METHOD a loadTag (Lnet/minecraft/class_461;)V
 		ARG 1 tag
-	METHOD b saveToTag (net/minecraft/class_461;)V
+	METHOD b saveToTag (Lnet/minecraft/class_461;)V
 		ARG 1 tag

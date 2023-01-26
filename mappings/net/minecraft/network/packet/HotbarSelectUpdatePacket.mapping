@@ -4,5 +4,5 @@ CLASS net/minecraft/class_648 net/minecraft/network/packet/HotbarSelectUpdatePac
 		ARG 1 dataInputStream
 	METHOD a write (Ljava/io/DataOutputStream;)V
 		ARG 1 dataOutputStream
-	METHOD a send (net/minecraft/class_514;)V
+	METHOD a send (Lnet/minecraft/class_514;)V
 		ARG 1 handler
