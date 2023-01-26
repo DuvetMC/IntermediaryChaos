@@ -1,0 +1,33 @@
+CLASS net/minecraft/class_371 net/minecraft/Painting
+	FIELD field_1765 KEBAB Lnet/minecraft/class_371;
+	FIELD field_1767 width I
+	FIELD field_1768 height I
+	FIELD field_1771 AZTEC Lnet/minecraft/class_371;
+	FIELD field_1772 ALBAN Lnet/minecraft/class_371;
+	FIELD field_1773 AZTEC2 Lnet/minecraft/class_371;
+	FIELD field_1774 BOMB Lnet/minecraft/class_371;
+	FIELD field_1775 PLANT Lnet/minecraft/class_371;
+	FIELD field_1776 WASTELAND Lnet/minecraft/class_371;
+	FIELD field_1777 POOL Lnet/minecraft/class_371;
+	FIELD field_1778 COURBET Lnet/minecraft/class_371;
+	FIELD field_1779 SEA Lnet/minecraft/class_371;
+	FIELD field_1780 SUNSET Lnet/minecraft/class_371;
+	FIELD field_1781 WANDERER Lnet/minecraft/class_371;
+	FIELD field_1782 MATCH Lnet/minecraft/class_371;
+	FIELD field_1783 BUST Lnet/minecraft/class_371;
+	FIELD field_1784 STAGE Lnet/minecraft/class_371;
+	FIELD field_1785 VOID Lnet/minecraft/class_371;
+	FIELD field_1786 SKULL_AND_ROSES Lnet/minecraft/class_371;
+	FIELD field_1787 FIGHTERS Lnet/minecraft/class_371;
+	FIELD field_1788 POINTER Lnet/minecraft/class_371;
+	FIELD field_1934 name Ljava/lang/String;
+	FIELD field_2761 CREEBET Lnet/minecraft/class_371;
+	FIELD field_2762 GRAHAM Lnet/minecraft/class_371;
+	FIELD field_2763 PIGSCENE Lnet/minecraft/class_371;
+	FIELD field_2764 SKELETON Lnet/minecraft/class_371;
+	FIELD field_2765 DONKEY_KONG Lnet/minecraft/class_371;
+	FIELD field_3212 BURNING_SKULL Lnet/minecraft/class_371;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
+		ARG 3 name
+		ARG 4 width
+		ARG 5 height
