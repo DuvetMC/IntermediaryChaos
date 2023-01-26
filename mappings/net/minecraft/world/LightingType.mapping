@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_377 net/minecraft/world/LightingType
+	FIELD field_1988 defaultLight I

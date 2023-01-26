@@ -1,0 +1,16 @@
+CLASS net/minecraft/class_254 net/minecraft/world/item/MiningToolItem
+	FIELD field_1275 breakable [Lqk;
+	FIELD field_1276 breakSpeed F
+	METHOD a postMine (net/minecraft/class_229;IIII)V
+		ARG 1 stack
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 direction
+	METHOD a postHit (net/minecraft/class_229;net/minecraft/class_209;)V
+		ARG 1 stack
+		ARG 2 entity
+	METHOD a breakMultiplier (net/minecraft/class_229;net/minecraft/class_18;)F
+		ARG 1 stack
+		ARG 2 block
+	METHOD a getAttackStrength (net/minecraft/class_1;)I

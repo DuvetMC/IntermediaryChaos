@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_9 net/minecraft/util/Vec3d
+	FIELD field_14 x D
+	FIELD field_15 y D
+	FIELD field_16 z D
+	FIELD field_2189 INSTANCES Ljava/util/List;
+	FIELD field_2190 LAST_INSTANCE I
+	METHOD method_1408 dropCache ()V
+	METHOD method_1409 create (DDD)net/minecraft/class_9;
+	METHOD method_822 subtract (net/minecraft/class_9;)net/minecraft/class_9;
+	METHOD method_1410 cached (DDD)net/minecraft/class_9;
+	METHOD method_1476 set (DDD)net/minecraft/class_9;

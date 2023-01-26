@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_49 net/minecraft/client/menu/Menu
+	FIELD field_333 client Lnet/minecraft/class_4;
+	METHOD method_263 onClick (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 button
+	METHOD method_180 (net/minecraft/class_4;II)V
+		ARG 1 client
+	METHOD method_1904 getClipboard ()Ljava/lang/String;

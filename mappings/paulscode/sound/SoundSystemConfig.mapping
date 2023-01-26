@@ -1,0 +1,3 @@
+CLASS paulscode/sound/SoundSystemConfig paulscode/sound/SoundSystemConfig
+	METHOD addLibrary addLibrary (Ljava/lang/Class;)V
+	METHOD setCodec setCodec (Ljava/lang/String;Ljava/lang/Class;)V

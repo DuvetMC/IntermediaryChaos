@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_640 net/minecraft/network/packet/EntityInteractionC2SPacket
+	FIELD field_2939 player I
+	FIELD field_2940 entity I
+	FIELD field_3000 interaction I
+	METHOD a getSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+		ARG 1 dataInputStream
+	METHOD a write (Ljava/io/DataOutputStream;)V
+		ARG 1 dataOutputStream
+	METHOD a send (net/minecraft/class_514;)V
+		ARG 1 handler

@@ -1,0 +1,13 @@
+CLASS net/minecraft/class_379 net/minecraft/world/chunk/ChunkView
+	METHOD method_1027 isChunkLoaded (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD method_1087 generateChunk (net/minecraft/class_379;II)V
+		ARG 1 chunk
+		ARG 2 x
+		ARG 3 z
+	METHOD method_1180 (Znet/minecraft/class_482;)Z
+		ARG 2 listener
+	METHOD method_1018 getChunk (II)net/minecraft/class_381;
+		ARG 1 x
+		ARG 2 z

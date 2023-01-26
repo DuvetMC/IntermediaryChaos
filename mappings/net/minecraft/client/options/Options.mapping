@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_660 net/minecraft/client/options/Options
+	FIELD field_3067 isSlider Z
+	FIELD field_3068 defaultValue Z
+	FIELD field_3069 langKey Ljava/lang/String;
+	METHOD method_2103 isSlider ()Z
+	METHOD method_2104 fromId (I)net/minecraft/class_660;
+	METHOD method_2105 getDefault ()Z
+	METHOD method_2106 id ()I
+	METHOD method_2107 getLangKey ()Ljava/lang/String;

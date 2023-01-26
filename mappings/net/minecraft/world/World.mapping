@@ -1,0 +1,115 @@
+CLASS net/minecraft/class_14 net/minecraft/world/World
+	FIELD field_2321 caveSoundTicks I
+	FIELD field_2195 collisionCache Ljava/util/List;
+	FIELD field_2805 isGenerating Z
+	FIELD field_1871 entities Ljava/util/List;
+	FIELD field_1909 blockEntities Ljava/util/List;
+	FIELD field_2322 players Ljava/util/List;
+	FIELD field_1851 skylight I
+	FIELD field_1573 difficulty I
+	FIELD field_953 random Ljava/util/Random;
+	FIELD field_1852 chunkView Lnet/minecraft/class_379;
+	FIELD field_2364 isClient Z
+	FIELD field_1910 tickNextTick1 Ljava/util/TreeSet;
+	FIELD field_2090 tickNextTick2 Ljava/util/Set;
+	FIELD field_2613 lastSaveTime J
+	METHOD <init> (net/minecraft/class_746;Ljava/lang/String;Jnet/minecraft/class_634;)V
+		ARG 2 worldName
+		ARG 3 seed
+	METHOD method_1742 locateNearestPlayer (DDDD)net/minecraft/class_3;
+	METHOD method_675 playSound (DDDLjava/lang/String;FF)V
+	METHOD method_1269 getTopBlock (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD method_1043 setBlock (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 block
+		ARG 5 meta
+	METHOD method_1092 addBlockEntity (IIInet/minecraft/class_262;)V
+	METHOD method_1055 getLight (IIIZ)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_1289 cast (net/minecraft/class_9;net/minecraft/class_9;)net/minecraft/class_2;
+	METHOD method_1045 getLight (net/minecraft/class_377;III)I
+	METHOD method_1860 setLight (net/minecraft/class_377;IIIIII)V
+	METHOD method_741 spawnParticle (Ljava/lang/String;DDDDDD)V
+	METHOD method_1888 playSound (Ljava/lang/String;III)V
+	METHOD method_1239 addEntities (List;)V
+	METHOD method_1068 spawnEntity (net/minecraft/class_1;)Z
+	METHOD method_2058 (net/minecraft/class_1;B)V
+		ARG 1 entity
+	METHOD method_1743 locateNearestPlayer (net/minecraft/class_1;D)net/minecraft/class_3;
+	METHOD method_1093 spawnExplosion (net/minecraft/class_1;DDDF)net/minecraft/class_478;
+	METHOD method_2069 spawnExplosion (net/minecraft/class_1;DDDFZ)net/minecraft/class_478;
+	METHOD method_1370 (net/minecraft/class_1;IIIF)net/minecraft/class_331;
+		ARG 1 entity
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_613 playSound (net/minecraft/class_1;Ljava/lang/String;FF)V
+	METHOD method_1189 saveChunks (Znet/minecraft/class_482;)V
+		ARG 2 listener
+	METHOD method_1584 getChunkByBlockPosition (II)net/minecraft/class_381;
+	METHOD b getBlockEntity (III)net/minecraft/class_262;
+	METHOD method_1090 setBlock (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+	METHOD method_1288 setBlockThenUpdate (IIIII)Z
+	METHOD method_1240 removeEntities (List;)V
+	METHOD method_1069 getEntitiesInBox (net/minecraft/class_1;net/minecraft/class_19;)List;
+	METHOD method_1054 getChunk (II)net/minecraft/class_381;
+	METHOD method_1095 setMetaThenUpdate (IIII)V
+	METHOD method_1138 h (IIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 block
+	METHOD method_1049 getHeight (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD method_2091 isAir (III)Z
+	METHOD method_1587 setMeta (IIII)Z
+	METHOD method_1070 removeEntity (net/minecraft/class_1;)V
+	METHOD method_1012 setBlockThenUpdate (IIII)Z
+	METHOD method_1067 entityTick ()V
+	METHOD f getPropetiesAt (III)net/minecraft/class_79;
+	METHOD method_1291 onUpdateBlock (IIII)V
+	METHOD method_1934 addEntity (net/minecraft/class_1;)V
+	METHOD method_848 f3EntityCountString ()Ljava/lang/String;
+	METHOD method_1051 isChunkLoaded (II)Z
+	METHOD g isFullBlock (III)Z
+	METHOD method_1042 isInWorld (III)Z
+	METHOD method_1137 updateNeighbors (IIII)V
+	METHOD method_1723 (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 direction
+	METHOD method_1136 isAboveTopBlock (III)Z
+	METHOD method_1724 (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 direction
+	METHOD method_1227 getLight (III)I
+	METHOD method_1140 updateBlock (IIII)V
+	METHOD method_1229 isAboveTopBlockAndInWorld (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_1139 removeBlockEntity (III)V
+	METHOD method_1880 quitWorld ()V
+	METHOD method_1141 tickRandom_maybe (III)V
+	METHOD method_1725 n (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_1726 o (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

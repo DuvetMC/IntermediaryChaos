@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_18 net/minecraft/world/block/Block
+	FIELD field_208 BLOCKS [Lqk;

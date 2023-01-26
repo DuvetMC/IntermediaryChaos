@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_418 net/minecraft/unpackaged/PlantPlacer
+	FIELD field_2038 block I
+	METHOD <init> (I)V
+		ARG 1 block

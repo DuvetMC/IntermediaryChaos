@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_316 net/minecraft/world/entity/SkeletonEntity
+	FIELD field_2809 defaultStack Lnet/minecraft/class_229;
+	METHOD a storeTag (net/minecraft/class_461;)V
+	METHOD b loadFromTag (net/minecraft/class_461;)V
+	METHOD f idleSound ()Ljava/lang/String;
+	METHOD g hurtSound ()Ljava/lang/String;
+	METHOD h_ deathSound ()Ljava/lang/String;
+	METHOD i itemDrop ()I
+	METHOD o_ getDefaultStack ()net/minecraft/class_229;

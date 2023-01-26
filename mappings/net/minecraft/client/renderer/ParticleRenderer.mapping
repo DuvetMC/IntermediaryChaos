@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_26 net/minecraft/client/renderer/ParticleRenderer
+	FIELD field_1141 world Lnet/minecraft/class_14;
+	FIELD field_917 particles [Ljava/util/List;
+	FIELD field_348 textureLoader Lnet/minecraft/class_5;
+	FIELD field_1142 random Ljava/util/Random;
+	METHOD method_657 spawnBlockParticles (III)V
+	METHOD method_658 renderHitParticle (IIII)V
+	METHOD method_660 setWorld (net/minecraft/class_14;)V
+	METHOD method_572 addParticle (net/minecraft/class_25;)V
+	METHOD method_1550 count ()Ljava/lang/String;

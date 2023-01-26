@@ -1,0 +1,22 @@
+CLASS net/minecraft/class_147 net/minecraft/world/block/LeavesBlock
+	FIELD field_2036 baseTextureId I
+	METHOD a isFullBlock ()Z
+	METHOD a getTextureId (II)I
+	METHOD a getDroppedItem (ILjava/util/Random;)I
+		ARG 1 meta
+		ARG 2 random
+	METHOD a randomTick (net/minecraft/class_14;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
+	METHOD a getDroppedItemCount (Ljava/util/Random;)I
+		ARG 1 random
+	METHOD method_1292 updateTextureId (Z)V
+	METHOD b onBreak (net/minecraft/class_14;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_2051 decay (net/minecraft/class_14;III)V

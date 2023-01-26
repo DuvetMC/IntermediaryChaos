@@ -1,0 +1,14 @@
+CLASS net/minecraft/class_3 net/minecraft/world/entity/PlayerEntity
+	FIELD field_1073 inventory Lnet/minecraft/class_210;
+	FIELD field_1071 score I
+	FIELD field_1812 name Ljava/lang/String;
+	FIELD field_2814 dimension I
+	METHOD method_1801 getHeldItem ()net/minecraft/class_229;
+	METHOD F getEyeHeight ()D
+	METHOD H remove ()V
+	METHOD method_582 addItem (net/minecraft/class_229;Z)V
+	METHOD a storeTag (net/minecraft/class_461;)V
+	METHOD a takeDamage (net/minecraft/class_1;I)Z
+	METHOD b loadFromTag (net/minecraft/class_461;)V
+	METHOD method_2039 attackEntity (net/minecraft/class_1;)V
+	METHOD q_ tick ()V

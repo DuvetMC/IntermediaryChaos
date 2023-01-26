@@ -1,0 +1,21 @@
+CLASS net/minecraft/class_408 net/minecraft/world/block/LadderBlock
+	METHOD a isFullBlock ()Z
+	METHOD a canPlaceAt (net/minecraft/class_14;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a onNeighborUpdated (net/minecraft/class_14;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a getDroppedItemCount (Ljava/util/Random;)I
+		ARG 1 random
+	METHOD b isSolid ()Z
+	METHOD d getCollisionBox (net/minecraft/class_14;III)net/minecraft/class_19;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD d onUseBlock (net/minecraft/class_14;IIII)V

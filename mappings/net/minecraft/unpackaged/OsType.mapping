@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_96 net/minecraft/unpackaged/OsType
+	FIELD field_1136 LINUX Lnet/minecraft/class_96;
+	FIELD field_1137 SOLARIS Lnet/minecraft/class_96;
+	FIELD field_1138 BINBOWS Lnet/minecraft/class_96;
+	FIELD field_1139 MACOS Lnet/minecraft/class_96;
+	FIELD field_1140 OTHER Lnet/minecraft/class_96;

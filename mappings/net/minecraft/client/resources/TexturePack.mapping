@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_641 net/minecraft/client/resources/TexturePack
+	FIELD field_2941 name Ljava/lang/String;
+	METHOD method_2032 open ()V
+	METHOD method_2033 getResourceAsStream (Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD method_2035 close ()V
+	METHOD method_2037 createIcon (net/minecraft/class_4;)V

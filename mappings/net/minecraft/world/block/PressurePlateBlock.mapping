@@ -1,0 +1,47 @@
+CLASS net/minecraft/class_487 net/minecraft/world/block/PressurePlateBlock
+	METHOD a isFullBlock ()Z
+	METHOD a canPlaceAt (net/minecraft/class_14;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a onNeighborUpdated (net/minecraft/class_14;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a randomTick (net/minecraft/class_14;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
+	METHOD a (net/minecraft/class_14;IIInet/minecraft/class_1;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 entity
+	METHOD b isSolid ()Z
+	METHOD b onBreak (net/minecraft/class_14;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD c d (net/minecraft/class_14;IIII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 direction
+	METHOD d getUpdateRate ()I
+	METHOD d getCollisionBox (net/minecraft/class_14;III)net/minecraft/class_19;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD e onPlace (net/minecraft/class_14;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_474 net/minecraft/util/BufUtil
+	FIELD field_2196 lists Ljava/util/List;
+	FIELD field_2199 textures Ljava/util/List;
+	METHOD method_1427 clear ()V
+	METHOD method_1428 genLists (I)I
+	METHOD method_1429 genTextures (Ljava/nio/IntBuffer;)V
+	METHOD method_1430 allocateByteBuf (I)Ljava/nio/ByteBuffer;
+	METHOD method_1431 allocateIntBuf (I)Ljava/nio/IntBuffer;
+	METHOD method_1432 allocateFloatBuf (I)Ljava/nio/FloatBuffer;

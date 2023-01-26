@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_639 net/minecraft/world/block/NetherPortalBlock
+	METHOD a isFullBlock ()Z
+	METHOD a onNeighborUpdated (net/minecraft/class_14;IIII)V
+	METHOD a getDroppedItemCount (Ljava/util/Random;)I
+	METHOD b isSolid ()Z
+	METHOD b emitParticle (net/minecraft/class_14;IIILjava/util/Random;)V
+	METHOD d getCollisionBox (net/minecraft/class_14;III)net/minecraft/class_19;

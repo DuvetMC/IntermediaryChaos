@@ -1,0 +1,14 @@
+CLASS net/minecraft/class_508 net/minecraft/network/packet/PlayerInitPacket
+	METHOD <init> (DDDDFFZ)V
+		ARG 1 x
+		ARG 3 headY
+		ARG 5 y
+		ARG 7 z
+		ARG 9 yaw
+		ARG 10 pitch
+		ARG 11 newPlayer
+	METHOD a getSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+		ARG 1 dataInputStream
+	METHOD a write (Ljava/io/DataOutputStream;)V
+		ARG 1 dataOutputStream

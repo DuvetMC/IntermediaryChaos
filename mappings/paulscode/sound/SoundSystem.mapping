@@ -1,0 +1,7 @@
+CLASS paulscode/sound/SoundSystem paulscode/sound/SoundSystem
+	METHOD backgroundMusic backgroundMusic (Ljava/lang/String;L;Ljava/lang/String;Z)V
+	METHOD cleanup cleanup ()V
+	METHOD play play (Ljava/lang/String;)V
+	METHOD playing playing (Ljava/lang/String;)Z
+	METHOD setVolume setVolume (Ljava/lang/String;F)V
+	METHOD stop stop (Ljava/lang/String;)V
