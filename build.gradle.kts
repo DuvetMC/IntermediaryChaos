@@ -24,8 +24,15 @@ plugins {
     id("de.undercouch.download") version "4.1.2"
 }
 
-val minecraftVersion = "b1.3"
-val officialVersion = "b1.3-1750"
+enum class EnvType {
+    CLIENT,
+    SERVER,
+    BOTH
+}
+
+val minecraftVersion = "b1.7.3"
+val officialVersion = "b1.7.3"
+val env = EnvType.CLIENT
 
 repositories {
     mavenCentral()
@@ -91,11 +98,11 @@ tasks {
             val clientUrl = if ("\"client\": {" in json) json.substringAfter("\"client\":").substringAfter("\"url\":").substringAfter("\"").substringBefore("\"") else null
             val serverUrl = if ("\"server\": {" in json) json.substringAfter("\"server\":").substringAfter("\"url\":").substringAfter("\"").substringBefore("\"") else null
 
-            if (clientUrl != null && serverUrl == null) {
+            if (clientUrl != null && env == EnvType.CLIENT) {
                 download(clientUrl, outputFile)
-            } else if (clientUrl == null && serverUrl != null) {
+            } else if (serverUrl != null && env == EnvType.SERVER) {
                 download(serverUrl, outputFile)
-            } else if (clientUrl != null && serverUrl != null) {
+            } else if (clientUrl != null && serverUrl != null && env == EnvType.BOTH) {
                 val clientFile = file("$mcJarsDir/$minecraftVersion-official-client.jar")
                 val serverFile = file("$mcJarsDir/$minecraftVersion-official-server.jar")
                 download(clientUrl, clientFile)
@@ -105,7 +112,7 @@ tasks {
                     it.merge()
                 }
             } else {
-                throw IllegalStateException("No client or server jar found for $minecraftVersion")
+                throw IllegalStateException("No client/server jar found for $minecraftVersion for env $env")
             }
         }
     }
