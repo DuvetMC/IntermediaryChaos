@@ -40,12 +40,13 @@ repositories {
     maven("https://maven.quiltmc.org/repository/release/")
     maven("https://maven.quiltmc.org/repository/snapshot/")
     maven("https://libraries.minecraft.net/")
+    maven("https://maven.concern.i.ng/releases/")
 }
 
 val enigmaConfig by configurations.creating
 
 dependencies {
-    enigmaConfig("org.quiltmc:enigma-swing:1.5.0")
+    enigmaConfig("org.quiltmc:enigma-swing:1.5.0+local")
     enigmaConfig("org.quiltmc:quilt-enigma-plugin:1.2.1")
     enigmaConfig("net.fabricmc:name-proposal:0.1.4")
     listOf(
