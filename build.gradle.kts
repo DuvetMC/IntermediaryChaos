@@ -1,3 +1,5 @@
+import java.net.URL
+
 buildscript {
     repositories {
         maven("https://maven.fabricmc.net/")
@@ -21,8 +23,6 @@ plugins {
     `maven-publish`
     id("de.undercouch.download") version "4.1.2"
 }
-
-import java.net.URL
 
 val minecraftVersion = "b1.3"
 val officialVersion = "b1.3-1750"
