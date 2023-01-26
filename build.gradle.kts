@@ -49,6 +49,15 @@ dependencies {
     ).forEach { enigmaConfig("org.ow2.asm:$it:9.4") }
 }
 
+fun download(path: String, output: File) {
+    val url = URL(path)
+    url.openStream().use { input ->
+        output.outputStream().use { output ->
+            input.copyTo(output)
+        }
+    }
+}
+
 tasks {
     val mappingsGroup = "mappings"
     val mappingsDir = file("$buildDir/mappings")
@@ -61,13 +70,10 @@ tasks {
         val outputFile = file("$mappingsDir/$minecraftVersion-intermediary.tiny")
         outputs.file(outputFile)
 
+        onlyIf { !outputFile.exists() }
+
         doLast {
-            val url = URL("https://raw.githubusercontent.com/DuvetMC/old-intermediaries/master/intermediaries/$officialVersion.tiny")
-            url.openStream().use { input ->
-                outputFile.outputStream().use { output ->
-                    input.copyTo(output)
-                }
-            }
+            download("https://raw.githubusercontent.com/DuvetMC/old-intermediaries/master/intermediaries/$officialVersion.tiny", outputFile)
         }
     }
 
@@ -75,6 +81,8 @@ tasks {
         group = mappingsGroup
         val outputFile = file("$mcJarsDir/$minecraftVersion-official.jar")
         outputs.file(outputFile)
+
+        onlyIf { !outputFile.exists() }
 
         doLast {
             val jsonUrl = URL("https://skyrising.github.io/mc-versions/version/$officialVersion.json")
@@ -84,34 +92,14 @@ tasks {
             val serverUrl = if ("\"server\": {" in json) json.substringAfter("\"server\":").substringAfter("\"url\":").substringAfter("\"").substringBefore("\"") else null
 
             if (clientUrl != null && serverUrl == null) {
-                val url = URL(clientUrl)
-                url.openStream().use { input ->
-                    outputFile.outputStream().use { output ->
-                        input.copyTo(output)
-                    }
-                }
+                download(clientUrl, outputFile)
             } else if (clientUrl == null && serverUrl != null) {
-                val url = URL(serverUrl)
-                url.openStream().use { input ->
-                    outputFile.outputStream().use { output ->
-                        input.copyTo(output)
-                    }
-                }
+                download(serverUrl, outputFile)
             } else if (clientUrl != null && serverUrl != null) {
-                val clientUrl = URL(clientUrl)
-                val serverUrl = URL(serverUrl)
                 val clientFile = file("$mcJarsDir/$minecraftVersion-official-client.jar")
                 val serverFile = file("$mcJarsDir/$minecraftVersion-official-server.jar")
-                clientUrl.openStream().use { input ->
-                    clientFile.outputStream().use { output ->
-                        input.copyTo(output)
-                    }
-                }
-                serverUrl.openStream().use { input ->
-                    serverFile.outputStream().use { output ->
-                        input.copyTo(output)
-                    }
-                }
+                download(clientUrl, clientFile)
+                download(serverUrl, serverFile)
 
                 net.fabricmc.stitch.merge.JarMerger(clientFile, serverFile, outputFile).use {
                     it.merge()
@@ -126,15 +114,19 @@ tasks {
         group = mappingsGroup
         dependsOn(downloadIntermediary)
 
+        val outputFile = file("$mappingsDir/$minecraftVersion-intermediary-v2.tiny")
+        outputs.file(outputFile)
+
+        onlyIf { !outputFile.exists() }
+
         doLast {
             val mappings = file("$mappingsDir/$minecraftVersion-intermediary.tiny")
-            val v2Mappings = file("$mappingsDir/$minecraftVersion-intermediary-v2.tiny")
 
             cuchaz.enigma.command.ConvertMappingsCommand.run(
                 "tiny",
                 mappings.toPath(),
                 "tinyv2:official:intermediary",
-                v2Mappings.toPath()
+                outputFile.toPath()
             )
         }
     }
@@ -145,6 +137,8 @@ tasks {
 
         val outputJar = file("$mcJarsDir/$minecraftVersion-intermediary.jar")
         outputs.file(outputJar)
+
+        onlyIf { !outputJar.exists() }
 
         doLast {
             val mappings = file("$mappingsDir/$minecraftVersion-intermediary.tiny")
@@ -182,6 +176,109 @@ tasks {
 
         doFirst {
             mappings.mkdirs()
+        }
+    }
+
+    val genMappings by registering {
+        group = mappingsGroup
+
+        val outputFile = file("$mappingsDir/$minecraftVersion-named.tiny")
+        outputs.file(outputFile)
+
+        onlyIf { !outputFile.exists() }
+
+        doLast {
+            val mappingsDir = file("mappings/")
+
+            cuchaz.enigma.command.ConvertMappingsCommand.run(
+                "enigma",
+                mappingsDir.toPath(),
+                "tinyv2:intermediary:named",
+                outputFile.toPath()
+            )
+        }
+    }
+
+    val genV1Mappings by registering {
+        group = mappingsGroup
+        dependsOn(genMappings)
+
+        val outputFile = file("$mappingsDir/$minecraftVersion-named-v1.tiny")
+        outputs.file(outputFile)
+
+        onlyIf { !outputFile.exists() }
+
+        doLast {
+            val mappings = file("$mappingsDir/$minecraftVersion-named.tiny")
+
+            cuchaz.enigma.command.ConvertMappingsCommand.run(
+                "tinyv2",
+                mappings.toPath(),
+                "tiny:intermediary:named",
+                outputFile.toPath()
+            )
+        }
+    }
+
+    val genMappingsJar by registering(Jar::class) {
+        group = mappingsGroup
+        dependsOn(genMappings)
+
+        archiveClassifier.set("named-v2")
+        from(genMappings.get().outputs.files.singleFile) {
+            rename { "mappings/mappings.tiny" }
+        }
+    }
+
+    val genCombinedMappings by registering {
+        group = mappingsGroup
+        dependsOn(genMappings, genV2Intermediary)
+
+        val outputFile = file("$mappingsDir/$minecraftVersion-combined.tiny")
+        outputs.file(outputFile)
+
+        onlyIf { !outputFile.exists() }
+
+        doLast {
+            val intermediaries = genV2Intermediary.get().outputs.files.singleFile
+            val named = genMappings.get().outputs.files.singleFile
+
+            val temp = file("$buildDir/temp")
+            temp.mkdirs()
+
+            val invertedIntermediaries = file("$temp/inverted-intermediaries.tiny")
+            val unordered = file("$temp/unordered.tiny")
+
+            net.fabricmc.stitch.commands.tinyv2.CommandReorderTinyV2().run(arrayOf(
+                intermediaries.absolutePath,
+                invertedIntermediaries.absolutePath,
+                "intermediary",
+                "official",
+            ))
+
+            net.fabricmc.stitch.commands.tinyv2.CommandMergeTinyV2().run(arrayOf(
+                invertedIntermediaries.absolutePath,
+                named.absolutePath,
+                unordered.absolutePath,
+            ))
+
+            net.fabricmc.stitch.commands.tinyv2.CommandReorderTinyV2().run(arrayOf(
+                unordered.absolutePath,
+                outputFile.absolutePath,
+                "official",
+                "intermediary",
+                "named",
+            ))
+        }
+    }
+
+    val combinedMappingsJar by registering(Jar::class) {
+        group = mappingsGroup
+        dependsOn(genCombinedMappings)
+
+        archiveClassifier.set("combined-v2")
+        from(genCombinedMappings.get().outputs.files.singleFile) {
+            rename { "mappings/mappings.tiny" }
         }
     }
 }
