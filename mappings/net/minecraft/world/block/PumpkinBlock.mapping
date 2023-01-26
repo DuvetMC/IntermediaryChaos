@@ -8,7 +8,7 @@ CLASS net/minecraft/class_603 net/minecraft/world/block/PumpkinBlock
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD a (Lnet/minecraft/class_14;IIInet/minecraft/class_209;)V
+	METHOD a (Lnet/minecraft/class_14;IIILnet/minecraft/class_209;)V
 		ARG 1 world
 	METHOD e onPlace (Lnet/minecraft/class_14;III)V
 		ARG 1 world

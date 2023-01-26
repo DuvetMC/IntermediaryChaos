@@ -6,4 +6,4 @@ CLASS net/minecraft/class_316 net/minecraft/world/entity/SkeletonEntity
 	METHOD g hurtSound ()Ljava/lang/String;
 	METHOD h_ deathSound ()Ljava/lang/String;
 	METHOD i itemDrop ()I
-	METHOD o_ getDefaultStack ()net/minecraft/class_229;
+	METHOD o_ getDefaultStack ()Lnet/minecraft/class_229;

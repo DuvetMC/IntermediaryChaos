@@ -4,5 +4,5 @@ CLASS net/minecraft/class_2 net/minecraft/unpackaged/RayCast
 	FIELD field_3 y I
 	FIELD field_5 z I
 	FIELD field_817 pos Lnet/minecraft/class_9;
-	METHOD <init> (IIIInet/minecraft/class_9;)V
+	METHOD <init> (IIIILnet/minecraft/class_9;)V
 		ARG 5 pos

@@ -1,7 +1,7 @@
 CLASS net/minecraft/class_499 net/minecraft/world/entity/SnowballEntity
 	METHOD <init> (Lnet/minecraft/class_14;)V
 		ARG 1 world
-	METHOD <init> (Lnet/minecraft/class_14;net/minecraft/class_209;)V
+	METHOD <init> (Lnet/minecraft/class_14;Lnet/minecraft/class_209;)V
 		ARG 1 world
 		ARG 2 entity
 	METHOD a isDistanceInHitbox (D)Z

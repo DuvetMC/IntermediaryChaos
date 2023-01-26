@@ -7,10 +7,10 @@ CLASS net/minecraft/class_254 net/minecraft/world/item/MiningToolItem
 		ARG 3 y
 		ARG 4 z
 		ARG 5 direction
-	METHOD a postHit (Lnet/minecraft/class_229;net/minecraft/class_209;)V
+	METHOD a postHit (Lnet/minecraft/class_229;Lnet/minecraft/class_209;)V
 		ARG 1 stack
 		ARG 2 entity
-	METHOD a breakMultiplier (Lnet/minecraft/class_229;net/minecraft/class_18;)F
+	METHOD a breakMultiplier (Lnet/minecraft/class_229;Lnet/minecraft/class_18;)F
 		ARG 1 stack
 		ARG 2 block
 	METHOD a getAttackStrength (Lnet/minecraft/class_1;)I

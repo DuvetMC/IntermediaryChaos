@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_448 net/minecraft/util/tag/TagUtil
-	METHOD method_1449 readTag (Ljava/io/DataInput;)net/minecraft/class_461;
-	METHOD method_1382 loadFromInputStream (Ljava/io/InputStream;)net/minecraft/class_461;
+	METHOD method_1449 readTag (Ljava/io/DataInput;)Lnet/minecraft/class_461;
+	METHOD method_1382 loadFromInputStream (Ljava/io/InputStream;)Lnet/minecraft/class_461;
 	METHOD method_1448 writeTag (Lnet/minecraft/class_461;Ljava/io/DataOutput;)V
 	METHOD method_1380 writeToOutputStream (Lnet/minecraft/class_461;Ljava/io/OutputStream;)V

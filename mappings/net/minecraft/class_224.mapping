@@ -4,6 +4,6 @@ CLASS net/minecraft/class_224
 		ARG 1 client
 	METHOD method_1443 (Lnet/minecraft/class_14;)V
 		ARG 1 world
-	METHOD method_2046 interactWithEntity (Lnet/minecraft/class_3;net/minecraft/class_1;)V
+	METHOD method_2046 interactWithEntity (Lnet/minecraft/class_3;Lnet/minecraft/class_1;)V
 		ARG 1 player
-	METHOD method_2047 attackEntity (Lnet/minecraft/class_3;net/minecraft/class_1;)V
+	METHOD method_2047 attackEntity (Lnet/minecraft/class_3;Lnet/minecraft/class_1;)V

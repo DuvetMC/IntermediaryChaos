@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_398 net/minecraft/unpackaged/SpawnHelper
-	METHOD method_1330 pickRandomBlock (Lnet/minecraft/class_14;II)net/minecraft/class_386;
+	METHOD method_1330 pickRandomBlock (Lnet/minecraft/class_14;II)Lnet/minecraft/class_386;
 		ARG 0 world
 		ARG 1 x
 		ARG 2 z

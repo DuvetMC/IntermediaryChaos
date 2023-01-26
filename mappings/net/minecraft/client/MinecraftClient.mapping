@@ -10,7 +10,7 @@ CLASS net/minecraft/class_4 net/minecraft/client/MinecraftClient
 	FIELD field_296 rayCast Lnet/minecraft/class_2;
 	FIELD field_2186 applet Lnet/minecraft/class_27;
 	FIELD field_1244 soundManager Lnet/minecraft/class_249;
-	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;net/minecraft/class_27;IIZ)V
+	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/class_27;IIZ)V
 		ARG 1 component
 		ARG 2 canvas
 		ARG 3 minecraftApplet
@@ -23,4 +23,4 @@ CLASS net/minecraft/class_4 net/minecraft/client/MinecraftClient
 		ARG 1 error
 	METHOD method_173 tickInput ()V
 	METHOD run run ()V
-	METHOD method_1457 getOsType ()net/minecraft/class_96;
+	METHOD method_1457 getOsType ()Lnet/minecraft/class_96;

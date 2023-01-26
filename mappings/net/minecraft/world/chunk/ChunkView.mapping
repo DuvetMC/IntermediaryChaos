@@ -6,8 +6,8 @@ CLASS net/minecraft/class_379 net/minecraft/world/chunk/ChunkView
 		ARG 1 chunk
 		ARG 2 x
 		ARG 3 z
-	METHOD method_1180 (Znet/minecraft/class_482;)Z
+	METHOD method_1180 (ZLnet/minecraft/class_482;)Z
 		ARG 2 listener
-	METHOD method_1018 getChunk (II)net/minecraft/class_381;
+	METHOD method_1018 getChunk (II)Lnet/minecraft/class_381;
 		ARG 1 x
 		ARG 2 z

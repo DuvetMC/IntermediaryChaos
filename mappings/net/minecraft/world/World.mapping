@@ -13,10 +13,10 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 	FIELD field_1910 tickNextTick1 Ljava/util/TreeSet;
 	FIELD field_2090 tickNextTick2 Ljava/util/Set;
 	FIELD field_2613 lastSaveTime J
-	METHOD <init> (Lnet/minecraft/class_746;Ljava/lang/String;Jnet/minecraft/class_634;)V
+	METHOD <init> (Lnet/minecraft/class_746;Ljava/lang/String;JLnet/minecraft/class_634;)V
 		ARG 2 worldName
 		ARG 3 seed
-	METHOD method_1742 locateNearestPlayer (DDDD)net/minecraft/class_3;
+	METHOD method_1742 locateNearestPlayer (DDDD)Lnet/minecraft/class_3;
 	METHOD method_675 playSound (DDDLjava/lang/String;FF)V
 	METHOD method_1269 getTopBlock (II)I
 		ARG 1 x
@@ -27,12 +27,12 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 		ARG 3 z
 		ARG 4 block
 		ARG 5 meta
-	METHOD method_1092 addBlockEntity (IIInet/minecraft/class_262;)V
+	METHOD method_1092 addBlockEntity (IIILnet/minecraft/class_262;)V
 	METHOD method_1055 getLight (IIIZ)I
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD method_1289 cast (Lnet/minecraft/class_9;net/minecraft/class_9;)net/minecraft/class_2;
+	METHOD method_1289 cast (Lnet/minecraft/class_9;Lnet/minecraft/class_9;)Lnet/minecraft/class_2;
 	METHOD method_1045 getLight (Lnet/minecraft/class_377;III)I
 	METHOD method_1860 setLight (Lnet/minecraft/class_377;IIIIII)V
 	METHOD method_741 spawnParticle (Ljava/lang/String;DDDDDD)V
@@ -41,19 +41,19 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 	METHOD method_1068 spawnEntity (Lnet/minecraft/class_1;)Z
 	METHOD method_2058 (Lnet/minecraft/class_1;B)V
 		ARG 1 entity
-	METHOD method_1743 locateNearestPlayer (Lnet/minecraft/class_1;D)net/minecraft/class_3;
-	METHOD method_1093 spawnExplosion (Lnet/minecraft/class_1;DDDF)net/minecraft/class_478;
-	METHOD method_2069 spawnExplosion (Lnet/minecraft/class_1;DDDFZ)net/minecraft/class_478;
-	METHOD method_1370 (Lnet/minecraft/class_1;IIIF)net/minecraft/class_331;
+	METHOD method_1743 locateNearestPlayer (Lnet/minecraft/class_1;D)Lnet/minecraft/class_3;
+	METHOD method_1093 spawnExplosion (Lnet/minecraft/class_1;DDDF)Lnet/minecraft/class_478;
+	METHOD method_2069 spawnExplosion (Lnet/minecraft/class_1;DDDFZ)Lnet/minecraft/class_478;
+	METHOD method_1370 (Lnet/minecraft/class_1;IIIF)Lnet/minecraft/class_331;
 		ARG 1 entity
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 	METHOD method_613 playSound (Lnet/minecraft/class_1;Ljava/lang/String;FF)V
-	METHOD method_1189 saveChunks (Znet/minecraft/class_482;)V
+	METHOD method_1189 saveChunks (ZLnet/minecraft/class_482;)V
 		ARG 2 listener
-	METHOD method_1584 getChunkByBlockPosition (II)net/minecraft/class_381;
-	METHOD b getBlockEntity (III)net/minecraft/class_262;
+	METHOD method_1584 getChunkByBlockPosition (II)Lnet/minecraft/class_381;
+	METHOD b getBlockEntity (III)Lnet/minecraft/class_262;
 	METHOD method_1090 setBlock (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -61,8 +61,8 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 		ARG 4 id
 	METHOD method_1288 setBlockThenUpdate (IIIII)Z
 	METHOD method_1240 removeEntities (List;)V
-	METHOD method_1069 getEntitiesInBox (Lnet/minecraft/class_1;net/minecraft/class_19;)List;
-	METHOD method_1054 getChunk (II)net/minecraft/class_381;
+	METHOD method_1069 getEntitiesInBox (Lnet/minecraft/class_1;Lnet/minecraft/class_19;)List;
+	METHOD method_1054 getChunk (II)Lnet/minecraft/class_381;
 	METHOD method_1095 setMetaThenUpdate (IIII)V
 	METHOD method_1138 h (IIIII)V
 		ARG 1 x
@@ -77,7 +77,7 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 	METHOD method_1070 removeEntity (Lnet/minecraft/class_1;)V
 	METHOD method_1012 setBlockThenUpdate (IIII)Z
 	METHOD method_1067 entityTick ()V
-	METHOD f getPropetiesAt (III)net/minecraft/class_79;
+	METHOD f getPropetiesAt (III)Lnet/minecraft/class_79;
 	METHOD method_1291 onUpdateBlock (IIII)V
 	METHOD method_1934 addEntity (Lnet/minecraft/class_1;)V
 	METHOD method_848 f3EntityCountString ()Ljava/lang/String;
