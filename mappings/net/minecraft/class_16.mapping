@@ -1,5 +1,2 @@
 CLASS net/minecraft/class_16
 	FIELD field_250 world Lnet/minecraft/class_14;
-	FIELD field_774 client Lnet/minecraft/class_4;
-	METHOD <init> (Lnet/minecraft/class_4;Lnet/minecraft/class_5;)V
-		ARG 1 client
