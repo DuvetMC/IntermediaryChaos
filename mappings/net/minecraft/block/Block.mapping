@@ -14,7 +14,6 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_1995 WOODEN_DOOR Lnet/minecraft/class_18;
 	FIELD field_1996 LADDER Lnet/minecraft/class_18;
 	FIELD field_208 BLOCKS [Lnet/minecraft/class_18;
-	FIELD field_208 BLOCKS [Lqk;
 	FIELD field_2091 RAIL Lnet/minecraft/class_18;
 	FIELD field_211 GRASS Lnet/minecraft/class_24;
 	FIELD field_213 BEDROCK Lnet/minecraft/class_18;

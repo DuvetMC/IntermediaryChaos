@@ -1,5 +1,3 @@
 CLASS net/minecraft/class_231 net/minecraft/entity/ClientPlayerEntity
 	FIELD field_1375 minecraft Lnet/minecraft/class_4;
-	METHOD a storeTag (Lnet/minecraft/class_461;)V
-	METHOD b loadFromTag (Lnet/minecraft/class_461;)V
 	METHOD method_1859 sendChatMessage (Ljava/lang/String;)V

@@ -17,9 +17,6 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 	METHOD <init> (Lnet/minecraft/class_746;Ljava/lang/String;JLnet/minecraft/class_634;)V
 		ARG 2 worldName
 		ARG 3 seed
-	METHOD b getBlockEntity (III)Lnet/minecraft/class_262;
-	METHOD f getPropetiesAt (III)Lnet/minecraft/class_79;
-	METHOD g isFullBlock (III)Z
 	METHOD method_1012 setBlockThenUpdate (IIII)Z
 	METHOD method_1042 isInWorld (III)Z
 	METHOD method_1043 setBlock (IIIII)Z
@@ -40,7 +37,6 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 		ARG 3 z
 	METHOD method_1067 entityTick ()V
 	METHOD method_1068 spawnEntity (Lnet/minecraft/class_1;)Z
-	METHOD method_1069 getEntitiesInBox (Lnet/minecraft/class_1;Lnet/minecraft/class_19;)List;
 	METHOD method_1069 (Lnet/minecraft/class_1;Lnet/minecraft/class_19;)Ljava/util/List;
 		ARG 1 entity
 		ARG 2 box
@@ -71,8 +67,6 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD method_1239 addEntities (List;)V
-	METHOD method_1240 removeEntities (List;)V
 	METHOD method_1269 getTopBlock (II)I
 		ARG 1 x
 		ARG 2 z

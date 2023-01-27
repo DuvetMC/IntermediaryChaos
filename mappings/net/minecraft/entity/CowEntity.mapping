@@ -1,13 +1,1 @@
 CLASS net/minecraft/class_553 net/minecraft/entity/CowEntity
-	METHOD <init> (Lnet/minecraft/class_14;)V
-		ARG 1 world
-	METHOD a onPlayerInteract (Lnet/minecraft/class_3;)Z
-		ARG 1 player
-	METHOD a storeTag (Lnet/minecraft/class_461;)V
-		ARG 1 tag
-	METHOD b loadFromTag (Lnet/minecraft/class_461;)V
-		ARG 1 tag
-	METHOD f idleSound ()Ljava/lang/String;
-	METHOD g hurtSound ()Ljava/lang/String;
-	METHOD h_ deathSound ()Ljava/lang/String;
-	METHOD i itemDrop ()I
