@@ -1,5 +1,6 @@
 CLASS net/minecraft/class_885 net/minecraft/block/PistonBaseBlock
 	FIELD field_3922 sticky Z
+	FIELD field_3946 deaf Z
 	METHOD <init> (IIZ)V
 		ARG 3 sticky
 	METHOD method_2889 getExtended (I)I

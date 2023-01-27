@@ -71,7 +71,14 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	METHOD <init> (ILnet/minecraft/class_79;)V
 		ARG 1 id
 		ARG 2 entityProperties
-	METHOD method_1728 isEmittingPower (Lnet/minecraft/class_447;IIII)Z
+	METHOD method_1728 hasSignal (Lnet/minecraft/class_447;IIII)Z
 	METHOD method_1729 hasDirectSignal (Lnet/minecraft/class_14;IIII)Z
 	METHOD method_2135 name (Ljava/lang/String;)Lnet/minecraft/class_18;
+	METHOD method_2237 doBlockEvent (Lnet/minecraft/class_14;IIIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 type
+		ARG 6 data
 	METHOD method_488 emitsLight (F)Lnet/minecraft/class_18;

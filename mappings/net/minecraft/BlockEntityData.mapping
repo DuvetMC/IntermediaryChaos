@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_262 net/minecraft/BlockEntityData
+	FIELD field_1904 world Lnet/minecraft/class_14;
+	METHOD method_1174 read (Lnet/minecraft/class_461;)V
+		ARG 1 nbt
+	METHOD method_1176 write (Lnet/minecraft/class_461;)V
+		ARG 1 nbt
