@@ -1,0 +1,6 @@
+CLASS net/minecraft/client/Minecraft net/minecraft/client/MinecraftClient
+	FIELD field_301 world Lnet/minecraft/class_14;
+	FIELD field_302 loginState Lnet/minecraft/class_67;
+	FIELD field_3407 INSTANCE Lnet/minecraft/client/Minecraft;
+	METHOD method_1453 connectToServer (Ljava/lang/String;I)V
+	METHOD method_173 tickInput ()V

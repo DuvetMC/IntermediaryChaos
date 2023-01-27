@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_67 net/minecraft/network/LoginState
-	FIELD field_526 BLOCKS Ljava/util/List;
-	FIELD field_345 username Ljava/lang/String;
 	FIELD field_2241 token Ljava/lang/String;
+	FIELD field_2242 password Ljava/lang/String;
+	FIELD field_345 username Ljava/lang/String;
+	FIELD field_526 BLOCKS Ljava/util/List;
