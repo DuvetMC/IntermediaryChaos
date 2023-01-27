@@ -1,6 +1,8 @@
 CLASS net/minecraft/class_49 net/minecraft/client/screen/Screen
 	FIELD field_333 client Lnet/minecraft/class_4;
-	FIELD field_336 items Ljava/util/List;
+	FIELD field_334 screenWidth I
+	FIELD field_335 screenHeight I
+	FIELD field_336 elements Ljava/util/List;
 	METHOD method_176 render (IIF)V
 		ARG 1 x
 		ARG 2 y

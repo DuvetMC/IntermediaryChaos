@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_888 net/minecraft/block/MovingBlock
+	METHOD method_2915 newMovingBlockEntity (IIIZZ)Lnet/minecraft/class_262;
+		ARG 0 movedBlockId
+		ARG 1 movedBlockData
+		ARG 2 facing
+		ARG 3 extending
+		ARG 4 source

@@ -71,6 +71,16 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	METHOD <init> (ILnet/minecraft/class_79;)V
 		ARG 1 id
 		ARG 2 entityProperties
+	METHOD method_1084 onAdded (Lnet/minecraft/class_14;III)V
+		ARG 1 world
+	METHOD method_1126 removeBlockEntity (Lnet/minecraft/class_14;III)V
+		ARG 1 world
+	METHOD method_1127 neighborChanged (Lnet/minecraft/class_14;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 neighborBlockId
 	METHOD method_1728 hasSignal (Lnet/minecraft/class_447;IIII)Z
 	METHOD method_1729 hasDirectSignal (Lnet/minecraft/class_14;IIII)Z
 	METHOD method_2135 name (Ljava/lang/String;)Lnet/minecraft/class_18;
@@ -81,4 +91,10 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 		ARG 4 z
 		ARG 5 type
 		ARG 6 data
+	METHOD method_2920 getPistonMoveBehavior ()I
+		COMMENT Returns this block's behavior when moved by a piston.
+		COMMENT <br>0: this block can be pushed and pulled
+		COMMENT <br>1: this block will be destroyed if pushed
+		COMMENT <br>2: this block cannot be moved
+	METHOD method_2922 getMiningSpeed ()F
 	METHOD method_488 emitsLight (F)Lnet/minecraft/class_18;

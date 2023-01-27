@@ -110,7 +110,7 @@ CLASS net/minecraft/class_255 net/minecraft/item/Item
 	METHOD method_2095 setTextureAtlasPosition (II)Lnet/minecraft/class_255;
 		ARG 1 u
 		ARG 2 v
-	METHOD method_2096 setName (Ljava/lang/String;)Lnet/minecraft/class_255;
+	METHOD method_2096 setTranslationKey (Ljava/lang/String;)Lnet/minecraft/class_255;
 	METHOD method_2175 setMaxStackSize (I)Lnet/minecraft/class_255;
 		ARG 1 maxStackSize
 	METHOD method_2176 setMaxDurability (I)Lnet/minecraft/class_255;

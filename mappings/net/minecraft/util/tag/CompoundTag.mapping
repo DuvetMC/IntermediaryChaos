@@ -27,19 +27,19 @@ CLASS net/minecraft/class_461 net/minecraft/util/tag/CompoundTag
 	METHOD method_1152 putByteArray (Ljava/lang/String;[B)V
 		ARG 1 id
 		ARG 2 value
-	METHOD method_1153 (Ljava/lang/String;)B
+	METHOD method_1153 getByte (Ljava/lang/String;)B
 		ARG 1 id
-	METHOD method_1154 (Ljava/lang/String;)S
+	METHOD method_1154 getShort (Ljava/lang/String;)S
 		ARG 1 id
-	METHOD method_1155 (Ljava/lang/String;)I
+	METHOD method_1155 getInt (Ljava/lang/String;)I
 		ARG 1 id
-	METHOD method_1156 (Ljava/lang/String;)J
+	METHOD method_1156 getLong (Ljava/lang/String;)J
 		ARG 1 id
-	METHOD method_1158 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_1158 getString (Ljava/lang/String;)Ljava/lang/String;
 		ARG 1 id
-	METHOD method_1159 (Ljava/lang/String;)[B
+	METHOD method_1159 getByteArray (Ljava/lang/String;)[B
 		ARG 1 id
-	METHOD method_1160 (Ljava/lang/String;)Lnet/minecraft/class_461;
+	METHOD method_1160 getCompoundTag (Ljava/lang/String;)Lnet/minecraft/class_461;
 		ARG 1 id
 	METHOD method_1161 (Ljava/lang/String;)Lnet/minecraft/class_464;
 		ARG 1 id
@@ -50,11 +50,11 @@ CLASS net/minecraft/class_461 net/minecraft/util/tag/CompoundTag
 	METHOD method_1437 putFloat (Ljava/lang/String;F)V
 		ARG 1 id
 		ARG 2 value
-	METHOD method_1438 (Ljava/lang/String;)F
+	METHOD method_1438 getFloat (Ljava/lang/String;)F
 		ARG 1 id
 	METHOD method_1896 putDouble (Ljava/lang/String;D)V
 		ARG 1 id
 		ARG 2 value
-	METHOD method_1897 (Ljava/lang/String;)D
+	METHOD method_1897 getDouble (Ljava/lang/String;)D
 		ARG 1 id
 	METHOD method_2837 getEntries ()Ljava/util/Collection;
