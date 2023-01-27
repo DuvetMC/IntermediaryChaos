@@ -1,7 +1,7 @@
 CLASS net/minecraft/class_14 net/minecraft/world/World
 	FIELD field_1573 difficulty I
 	FIELD field_1851 skylight I
-	FIELD field_1852 chunkView Lnet/minecraft/class_379;
+	FIELD field_1852 chunkCache Lnet/minecraft/class_379;
 	FIELD field_1871 entities Ljava/util/List;
 	FIELD field_1909 blockEntities Ljava/util/List;
 	FIELD field_1910 tickNextTick1 Ljava/util/TreeSet;
@@ -12,6 +12,7 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 	FIELD field_2364 isClient Z
 	FIELD field_2613 lastSaveTime J
 	FIELD field_2805 isGenerating Z
+	FIELD field_2806 dimension Lnet/minecraft/class_634;
 	FIELD field_953 random Ljava/util/Random;
 	METHOD <init> (Lnet/minecraft/class_746;Ljava/lang/String;JLnet/minecraft/class_634;)V
 		ARG 2 worldName
@@ -40,6 +41,9 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 	METHOD method_1067 entityTick ()V
 	METHOD method_1068 spawnEntity (Lnet/minecraft/class_1;)Z
 	METHOD method_1069 getEntitiesInBox (Lnet/minecraft/class_1;Lnet/minecraft/class_19;)List;
+	METHOD method_1069 (Lnet/minecraft/class_1;Lnet/minecraft/class_19;)Ljava/util/List;
+		ARG 1 entity
+		ARG 2 box
 	METHOD method_1070 removeEntity (Lnet/minecraft/class_1;)V
 	METHOD method_1090 setBlock (IIII)Z
 		ARG 1 x
@@ -59,7 +63,7 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 	METHOD method_1139 removeBlockEntity (III)V
 	METHOD method_1140 updateBlock (IIII)V
 	METHOD method_1141 tickRandom_maybe (III)V
-	METHOD method_1189 saveChunks (ZLnet/minecraft/class_482;)V
+	METHOD method_1189 save (ZLnet/minecraft/class_482;)V
 		ARG 2 listener
 	METHOD method_1225 getEntityCount (Ljava/lang/Class;)I
 	METHOD method_1227 getLight (III)I
@@ -75,6 +79,7 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 	METHOD method_1288 setBlockThenUpdate (IIIII)Z
 	METHOD method_1289 cast (Lnet/minecraft/class_9;Lnet/minecraft/class_9;)Lnet/minecraft/class_2;
 	METHOD method_1291 onUpdateBlock (IIII)V
+	METHOD method_1300 initChunkCache ()Lnet/minecraft/class_379;
 	METHOD method_1370 (Lnet/minecraft/class_1;IIIF)Lnet/minecraft/class_331;
 		ARG 1 entity
 		ARG 2 x
@@ -116,6 +121,7 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 		ARG 3 z
 		ARG 4 type
 		ARG 5 data
+	METHOD method_2291 getTime ()J
 	METHOD method_613 playSound (Lnet/minecraft/class_1;Ljava/lang/String;FF)V
 	METHOD method_675 playSound (DDDLjava/lang/String;FF)V
 	METHOD method_741 spawnParticle (Ljava/lang/String;DDDDDD)V

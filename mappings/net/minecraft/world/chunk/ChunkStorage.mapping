@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_440 net/minecraft/world/chunk/ChunkStorage
+	METHOD method_1349 getChunk (Lnet/minecraft/class_14;II)Lnet/minecraft/class_381;
+		ARG 1 world
+		ARG 2 chunkX
+		ARG 3 chunkZ
+	METHOD method_1350 saveChunk (Lnet/minecraft/class_14;Lnet/minecraft/class_381;)V

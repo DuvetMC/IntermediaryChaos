@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_634 net/minecraft/world/dimension/Dimension
+	FIELD field_2917 world Lnet/minecraft/class_14;
+	FIELD field_2918 biomeSource Lnet/minecraft/class_636;
+	FIELD field_2920 brightnessTable [F
+	METHOD method_2008 initBiomeSource ()V
+	METHOD method_2010 fromId (I)Lnet/minecraft/class_634;
+		ARG 0 id
+	METHOD method_2013 init (Lnet/minecraft/class_14;)V
+		ARG 1 world
+	METHOD method_2015 initBrightnessTable ()V
+	METHOD method_2017 initChunkGenerator ()Lnet/minecraft/class_379;

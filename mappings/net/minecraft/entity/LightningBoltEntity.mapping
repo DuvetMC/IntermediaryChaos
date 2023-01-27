@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_781 net/minecraft/entity/LightningBoltEntity
+	FIELD field_3582 lifetime I

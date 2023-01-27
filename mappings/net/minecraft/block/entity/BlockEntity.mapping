@@ -9,7 +9,7 @@ CLASS net/minecraft/class_262 net/minecraft/block/entity/BlockEntity
 	METHOD method_1104 tick ()V
 	METHOD method_1174 read (Lnet/minecraft/class_461;)V
 		ARG 1 tag
-	METHOD method_1175 register (Ljava/lang/Class;Ljava/lang/String;)V
+	METHOD method_1175 registerData (Ljava/lang/Class;Ljava/lang/String;)V
 		ARG 0 clazz
 		ARG 1 id
 	METHOD method_1176 write (Lnet/minecraft/class_461;)V

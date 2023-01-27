@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_636 net/minecraft/world/biome/BiomeSource
+	METHOD method_2022 getBiome (Lnet/minecraft/class_495;)Lnet/minecraft/class_611;

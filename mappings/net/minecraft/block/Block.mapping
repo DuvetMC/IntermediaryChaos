@@ -41,6 +41,8 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_2516 CACTUS Lnet/minecraft/class_18;
 	FIELD field_2606 SUGARCANE Lnet/minecraft/class_18;
 	FIELD field_2913 NETHER_PORTAL Lnet/minecraft/class_639;
+	FIELD field_3181 CAKE Lnet/minecraft/class_18;
+	FIELD field_3433 REPEATER Lnet/minecraft/class_18;
 	FIELD field_3716 GOLD_RAIL Lnet/minecraft/class_18;
 	FIELD field_3938 STICKY_PISTON_BASE Lnet/minecraft/class_18;
 	FIELD field_3939 PISTON_BASE Lnet/minecraft/class_18;

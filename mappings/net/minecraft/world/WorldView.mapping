@@ -7,6 +7,7 @@ CLASS net/minecraft/class_447 net/minecraft/world/WorldView
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD method_2019 getBiomeSource ()Lnet/minecraft/class_636;
 	METHOD method_471 isRedstoneConductor (III)Z
 		ARG 1 x
 		ARG 2 y
