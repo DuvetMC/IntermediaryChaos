@@ -102,6 +102,7 @@ CLASS net/minecraft/class_255 net/minecraft/item/Item
 	FIELD field_2810 CLOCK Lnet/minecraft/class_255;
 	FIELD field_2811 GLOWSTONE_DUST Lnet/minecraft/class_255;
 	FIELD field_2812 RAW_FISH Lnet/minecraft/class_255;
+	FIELD field_2813 COOKED_FISH Lnet/minecraft/class_255;
 	FIELD field_3039 translationKey Ljava/lang/String;
 	FIELD field_3318 REPEATER Lnet/minecraft/class_255;
 	METHOD <init> (I)V

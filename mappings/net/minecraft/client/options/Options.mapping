@@ -34,16 +34,21 @@ CLASS net/minecraft/class_124 net/minecraft/client/options/Options
 	METHOD <init> (Lnet/minecraft/class_4;Ljava/io/File;)V
 		ARG 1 client
 		ARG 2 optionsFile
-	METHOD method_1951 setOption (Lnet/minecraft/class_660;F)V
+	METHOD method_1951 setFloatOption (Lnet/minecraft/class_660;F)V
 		ARG 1 option
 		ARG 2 value
 	METHOD method_1952 readFloat (Ljava/lang/String;)F
 		ARG 1 s
+	METHOD method_1954 getFloatOption (Lnet/minecraft/class_660;)F
+		ARG 1 option
 	METHOD method_2115 getKeybindTranslation (I)Ljava/lang/String;
 		ARG 1 i
+	METHOD method_2116 getBooleanOption (Lnet/minecraft/class_660;)Z
+		ARG 1 option
 	METHOD method_351 loadOptions ()V
 	METHOD method_354 saveOptions ()V
-	METHOD method_355 (Lnet/minecraft/class_660;)Ljava/lang/String;
+	METHOD method_355 getOptionDisplay (Lnet/minecraft/class_660;)Ljava/lang/String;
 		ARG 1 option
 	METHOD method_356 setOption (Lnet/minecraft/class_660;I)V
 		ARG 1 option
+		ARG 2 i

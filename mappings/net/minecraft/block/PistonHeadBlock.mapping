@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_883 net/minecraft/block/PistonHeadBlock
+	METHOD method_2882 getFacing (I)I
+		ARG 0 blockData

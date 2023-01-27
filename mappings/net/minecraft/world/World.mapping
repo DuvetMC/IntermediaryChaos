@@ -61,6 +61,7 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 	METHOD method_1141 tickRandom_maybe (III)V
 	METHOD method_1189 saveChunks (ZLnet/minecraft/class_482;)V
 		ARG 2 listener
+	METHOD method_1225 getEntityCount (Ljava/lang/Class;)I
 	METHOD method_1227 getLight (III)I
 	METHOD method_1229 isAboveTopBlockAndInWorld (III)Z
 		ARG 1 x
@@ -109,6 +110,12 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 		ARG 1 entity
 	METHOD method_2069 spawnExplosion (Lnet/minecraft/class_1;DDDFZ)Lnet/minecraft/class_478;
 	METHOD method_2091 isAir (III)Z
+	METHOD method_2165 doBlockEvent (IIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 type
+		ARG 5 data
 	METHOD method_613 playSound (Lnet/minecraft/class_1;Ljava/lang/String;FF)V
 	METHOD method_675 playSound (DDDLjava/lang/String;FF)V
 	METHOD method_741 spawnParticle (Ljava/lang/String;DDDDDD)V

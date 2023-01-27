@@ -37,12 +37,15 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_2306 REDSTONE_ORE Lnet/minecraft/class_18;
 	FIELD field_2307 GLOWING_REDSTONE_ORE Lnet/minecraft/class_18;
 	FIELD field_2333 ICE Lnet/minecraft/class_18;
+	FIELD field_24 id I
 	FIELD field_2516 CACTUS Lnet/minecraft/class_18;
 	FIELD field_2606 SUGARCANE Lnet/minecraft/class_18;
 	FIELD field_2913 NETHER_PORTAL Lnet/minecraft/class_639;
 	FIELD field_3716 GOLD_RAIL Lnet/minecraft/class_18;
 	FIELD field_3938 STICKY_PISTON_BASE Lnet/minecraft/class_18;
 	FIELD field_3939 PISTON_BASE Lnet/minecraft/class_18;
+	FIELD field_3940 PISTON_HEAD Lnet/minecraft/class_883;
+	FIELD field_3941 MOVING_BLOCK Lnet/minecraft/class_888;
 	FIELD field_405 PLANKS Lnet/minecraft/class_18;
 	FIELD field_407 SAND Lnet/minecraft/class_18;
 	FIELD field_408 GRAVEL Lnet/minecraft/class_18;
@@ -73,8 +76,14 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 		ARG 2 entityProperties
 	METHOD method_1084 onAdded (Lnet/minecraft/class_14;III)V
 		ARG 1 world
-	METHOD method_1126 removeBlockEntity (Lnet/minecraft/class_14;III)V
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_1126 onRemoved (Lnet/minecraft/class_14;III)V
 		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD method_1127 neighborChanged (Lnet/minecraft/class_14;IIII)V
 		ARG 1 world
 		ARG 2 x
@@ -82,7 +91,24 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 		ARG 4 z
 		ARG 5 neighborBlockId
 	METHOD method_1728 hasSignal (Lnet/minecraft/class_447;IIII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 direction
 	METHOD method_1729 hasDirectSignal (Lnet/minecraft/class_14;IIII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 direction
+	METHOD method_1730 isSignalSource ()Z
+	METHOD method_2004 onPlaced (Lnet/minecraft/class_14;IIILnet/minecraft/class_209;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 placer
 	METHOD method_2135 name (Ljava/lang/String;)Lnet/minecraft/class_18;
 	METHOD method_2237 doBlockEvent (Lnet/minecraft/class_14;IIIII)V
 		ARG 1 world
@@ -98,3 +124,8 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 		COMMENT <br>2: this block cannot be moved
 	METHOD method_2922 getMiningSpeed ()F
 	METHOD method_488 emitsLight (F)Lnet/minecraft/class_18;
+	METHOD method_733 canSurvive (Lnet/minecraft/class_14;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

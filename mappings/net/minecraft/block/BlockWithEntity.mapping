@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_265 net/minecraft/block/BlockWithEntity
+	METHOD method_1081 getBlockEntityData ()Lnet/minecraft/class_262;

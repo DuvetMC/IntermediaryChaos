@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_398 net/minecraft/world/NaturalSpawner
+	FIELD field_2319 mobSpawningChunks Ljava/util/Set;
+	METHOD method_1216 tickMobSpawning (Lnet/minecraft/class_14;ZZ)I
+		ARG 0 world
+		ARG 1 monsters
+		ARG 2 animals
+	METHOD method_1330 pickRandomPosition (Lnet/minecraft/class_14;II)Lnet/minecraft/class_386;
+		ARG 0 world
+		ARG 1 x
+		ARG 2 z

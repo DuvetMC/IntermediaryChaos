@@ -1,11 +1,14 @@
-CLASS net/minecraft/class_614 net/minecraft/EntityType
+CLASS net/minecraft/class_614 net/minecraft/entity/mob/MobCategory
 	FIELD field_2853 MONSTER Lnet/minecraft/class_614;
 	FIELD field_2854 PASSIVE Lnet/minecraft/class_614;
-	FIELD field_2855 baseClass Ljava/lang/Class;
+	FIELD field_2855 type Ljava/lang/Class;
+	FIELD field_2856 cap I
 	FIELD field_3158 WATER Lnet/minecraft/class_614;
 	FIELD field_3160 passive Z
 	METHOD <init> (Ljava/lang/String;ILjava/lang/Class;ILnet/minecraft/class_79;Z)V
 		ARG 3 baseClass
+		ARG 4 cap
 		ARG 6 passive
-	METHOD method_2198 getBase ()Ljava/lang/Class;
+	METHOD method_2198 getType ()Ljava/lang/Class;
+	METHOD method_2199 getCap ()I
 	METHOD method_2201 isPassive ()Z

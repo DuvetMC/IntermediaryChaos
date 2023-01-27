@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_383 net/minecraft/block/ChestBlockData
+	FIELD field_1882 items [Lnet/minecraft/class_229;

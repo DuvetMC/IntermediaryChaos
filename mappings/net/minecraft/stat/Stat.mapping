@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_844 net/minecraft/stat/Stat
+	METHOD method_2735 build ()Lnet/minecraft/class_844;

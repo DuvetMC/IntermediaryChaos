@@ -1,0 +1,21 @@
+CLASS net/minecraft/class_262 net/minecraft/block/entity/BlockEntity
+	FIELD field_1904 world Lnet/minecraft/class_14;
+	FIELD field_1905 x I
+	FIELD field_1906 y I
+	FIELD field_1907 z I
+	FIELD field_1925 idToClassMap Ljava/util/Map;
+	FIELD field_1926 classToIdMap Ljava/util/Map;
+	FIELD field_3928 removed Z
+	METHOD method_1104 tick ()V
+	METHOD method_1174 read (Lnet/minecraft/class_461;)V
+		ARG 1 tag
+	METHOD method_1175 register (Ljava/lang/Class;Ljava/lang/String;)V
+		ARG 0 clazz
+		ARG 1 id
+	METHOD method_1176 write (Lnet/minecraft/class_461;)V
+		ARG 1 tag
+	METHOD method_1177 fromTag (Lnet/minecraft/class_461;)Lnet/minecraft/class_262;
+		ARG 0 tag
+	METHOD method_2902 isRemoved ()Z
+	METHOD method_2903 markRemoved ()V
+	METHOD method_2904 cancelRemoval ()V

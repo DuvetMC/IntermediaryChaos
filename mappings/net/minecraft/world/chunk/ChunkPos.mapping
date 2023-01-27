@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_495 net/minecraft/world/chunk/ChunkPos
+	FIELD field_2328 x I
+	FIELD field_2329 z I
+	METHOD <init> (II)V
+		ARG 1 x
+		ARG 2 z
