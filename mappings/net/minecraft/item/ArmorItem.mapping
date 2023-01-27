@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_361 net/minecraft/item/ArmorItem
+	FIELD field_1720 material I
+	FIELD field_1721 defence I
+	FIELD field_1723 DEFENCES [I
+	FIELD field_1724 BASE_DURABILITIES [I
+	FIELD field_2261 slot I
+	METHOD <init> (IIII)V
+		ARG 1 id
+		ARG 2 slot
+		ARG 4 material

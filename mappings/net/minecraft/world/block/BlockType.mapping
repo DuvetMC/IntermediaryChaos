@@ -1,8 +1,0 @@
-CLASS net/minecraft/class_245 net/minecraft/world/block/BlockType
-	FIELD field_1226 sound Ljava/lang/String;
-	FIELD field_1227 volume F
-	FIELD field_1228 pitch F
-	METHOD method_925 breakSound ()Ljava/lang/String;
-	METHOD method_1504 volume ()F
-	METHOD method_1505 pitch ()F
-	METHOD method_926 stepSound ()Ljava/lang/String;

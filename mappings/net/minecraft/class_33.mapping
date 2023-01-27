@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_33
+	METHOD method_559 drawStringWithBackground (Ljava/lang/String;III)V
+		ARG 1 s
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color
+	METHOD method_597 drawString (Ljava/lang/String;III)V

@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_671 net/minecraft/entity/PlayerArrowEntity
+	FIELD field_3106 shake I
+	FIELD field_3107 x I
+	FIELD field_3108 y I
+	FIELD field_3109 z I
+	FIELD field_3110 inTile I
+	FIELD field_3111 inGround Z
+	FIELD field_3112 owningEntity Lnet/minecraft/class_209;
+	METHOD <init> (Lnet/minecraft/class_14;Lnet/minecraft/class_209;)V
+		ARG 1 world
+		ARG 2 owningEntity

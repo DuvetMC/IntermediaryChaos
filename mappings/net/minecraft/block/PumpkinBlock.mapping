@@ -1,0 +1,17 @@
+CLASS net/minecraft/class_603 net/minecraft/block/PumpkinBlock
+	FIELD field_2803 lit Z
+	METHOD a getTextureId (I)I
+		ARG 1 blockId
+	METHOD a getTextureId (II)I
+	METHOD a canPlaceAt (Lnet/minecraft/class_14;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a (Lnet/minecraft/class_14;IIILnet/minecraft/class_209;)V
+		ARG 1 world
+	METHOD e onPlace (Lnet/minecraft/class_14;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

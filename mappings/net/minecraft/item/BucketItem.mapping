@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_417 net/minecraft/item/BucketItem
+	METHOD a use (Lnet/minecraft/class_229;Lnet/minecraft/class_14;Lnet/minecraft/class_3;)Lnet/minecraft/class_229;
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player

@@ -1,0 +1,13 @@
+CLASS net/minecraft/class_253 net/minecraft/item/BlockItem
+	FIELD field_1274 blockId I
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getTranslationKey ()Ljava/lang/String;
+	METHOD a useOnBlock (Lnet/minecraft/class_229;Lnet/minecraft/class_3;Lnet/minecraft/class_14;IIII)Z
+		ARG 1 stack
+		ARG 2 player
+		ARG 3 world
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 direction

@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_462 net/minecraft/util/tag/IntTag
+	FIELD field_1916 value I
+	METHOD <init> (I)V
+		ARG 1 value

@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_285 net/minecraft/item/PickaxeItem
+	METHOD a canBreak (Lnet/minecraft/class_18;)Z

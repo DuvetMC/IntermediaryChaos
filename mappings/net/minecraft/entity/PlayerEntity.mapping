@@ -1,0 +1,15 @@
+CLASS net/minecraft/class_3 net/minecraft/entity/PlayerEntity
+	FIELD field_1071 score I
+	FIELD field_1073 inventory Lnet/minecraft/class_210;
+	FIELD field_1812 name Ljava/lang/String;
+	FIELD field_2814 dimension I
+	FIELD field_3044 shitHandler Lnet/minecraft/class_655;
+	METHOD F getEyeHeight ()D
+	METHOD H remove ()V
+	METHOD a takeDamage (Lnet/minecraft/class_1;I)Z
+	METHOD a storeTag (Lnet/minecraft/class_461;)V
+	METHOD b loadFromTag (Lnet/minecraft/class_461;)V
+	METHOD method_1801 getHeldItem ()Lnet/minecraft/class_229;
+	METHOD method_2039 attackEntity (Lnet/minecraft/class_1;)V
+	METHOD method_582 addItem (Lnet/minecraft/class_229;Z)V
+	METHOD q_ tick ()V

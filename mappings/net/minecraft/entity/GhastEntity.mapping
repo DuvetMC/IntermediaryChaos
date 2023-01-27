@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_599 net/minecraft/entity/GhastEntity
+	METHOD <init> (Lnet/minecraft/class_14;)V
+		ARG 1 world
+	METHOD c isSpawnable ()Z
+	METHOD f idleSound ()Ljava/lang/String;
+	METHOD g hurtSound ()Ljava/lang/String;
+	METHOD h_ deathSound ()Ljava/lang/String;
+	METHOD i itemDrop ()I

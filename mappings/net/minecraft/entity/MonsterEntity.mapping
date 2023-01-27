@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_337 net/minecraft/entity/MonsterEntity
+	METHOD a takeDamage (Lnet/minecraft/class_1;I)Z
+	METHOD a storeTag (Lnet/minecraft/class_461;)V
+	METHOD b loadFromTag (Lnet/minecraft/class_461;)V
+	METHOD c isSpawnable ()Z
+	METHOD q_ tick ()V

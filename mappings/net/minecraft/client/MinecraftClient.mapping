@@ -1,26 +1,28 @@
 CLASS net/minecraft/class_4 net/minecraft/client/MinecraftClient
-	FIELD field_2990 texturePacks Lnet/minecraft/class_644;
-	FIELD field_3407 INSTANCE Lnet/minecraft/class_4;
-	FIELD field_301 world Lnet/minecraft/class_14;
-	FIELD field_316 player Lnet/minecraft/class_231;
-	FIELD field_318 particleRenderer Lnet/minecraft/class_26;
-	FIELD field_302 loginState Lnet/minecraft/class_67;
-	FIELD field_320 canvas Ljava/awt/Canvas;
+	FIELD field_1244 soundManager Lnet/minecraft/class_249;
+	FIELD field_2186 applet Lnet/minecraft/class_27;
 	FIELD field_290 handler Lnet/minecraft/class_49;
 	FIELD field_296 rayCast Lnet/minecraft/class_2;
-	FIELD field_2186 applet Lnet/minecraft/class_27;
-	FIELD field_1244 soundManager Lnet/minecraft/class_249;
+	FIELD field_2990 texturePacks Lnet/minecraft/class_644;
+	FIELD field_301 world Lnet/minecraft/class_14;
+	FIELD field_302 loginState Lnet/minecraft/class_67;
+	FIELD field_316 player Lnet/minecraft/class_231;
+	FIELD field_318 particleRenderer Lnet/minecraft/class_26;
+	FIELD field_320 canvas Ljava/awt/Canvas;
+	FIELD field_3407 INSTANCE Lnet/minecraft/class_4;
 	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/class_27;IIZ)V
 		ARG 1 component
 		ARG 2 canvas
-		ARG 3 minecraftApplet
-	METHOD method_1450 init ()V
-	METHOD method_222 handleMouseButton (I)V
-		ARG 1 mouseButton
-	METHOD method_162 handleMenuInput (Lnet/minecraft/class_49;)V
-		ARG 1 handler
+		ARG 3 applet
+	METHOD method_1393 handleException (Lnet/minecraft/class_480;)V
+		ARG 1 exception
 	METHOD method_1403 printOglError (Ljava/lang/String;)V
 		ARG 1 error
-	METHOD method_173 tickInput ()V
-	METHOD run run ()V
+	METHOD method_1450 init ()V
 	METHOD method_1457 getOsType ()Lnet/minecraft/class_96;
+	METHOD method_162 handleMenuInput (Lnet/minecraft/class_49;)V
+		ARG 1 handler
+	METHOD method_173 tickInput ()V
+	METHOD method_222 handleMouseButton (I)V
+		ARG 1 mouseButton
+	METHOD run run ()V

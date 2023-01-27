@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_1 net/minecraft/entity/Entity
+	FIELD field_1031 entity Lnet/minecraft/class_14;
+	METHOD <init> (Lnet/minecraft/class_14;)V
+		ARG 1 world
+	METHOD method_1073 (Lnet/minecraft/class_3;)V
+		ARG 1 player

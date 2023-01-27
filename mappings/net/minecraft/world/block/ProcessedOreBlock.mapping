@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_171 net/minecraft/world/block/ProcessedOreBlock
-	METHOD a getTextureId (I)I

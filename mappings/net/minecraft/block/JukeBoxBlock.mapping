@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_574 net/minecraft/block/JukeBoxBlock
+	METHOD a getTextureId (I)I
+	METHOD a onBreakBlock (Lnet/minecraft/class_14;IIIIF)V

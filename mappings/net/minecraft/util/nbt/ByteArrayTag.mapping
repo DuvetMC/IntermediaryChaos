@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_467 net/minecraft/util/nbt/ByteArrayTag
-	FIELD field_1922 bytes [B
-	METHOD a getId ()B
-	METHOD a read (Ljava/io/DataInput;)V
-	METHOD a write (Ljava/io/DataOutput;)V

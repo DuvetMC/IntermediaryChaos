@@ -1,1 +1,4 @@
 CLASS net/minecraft/class_489 net/minecraft/Gatekeeping
+	FIELD field_2293 EVERYTHING Lnet/minecraft/class_489;
+	FIELD field_2294 MORBS_ONLY Lnet/minecraft/class_489;
+	FIELD field_2295 PLAYERS_ONLY Lnet/minecraft/class_489;

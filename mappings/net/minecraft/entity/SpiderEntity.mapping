@@ -1,0 +1,12 @@
+CLASS net/minecraft/class_315 net/minecraft/entity/SpiderEntity
+	METHOD <init> (Lnet/minecraft/class_14;)V
+		ARG 1 world
+	METHOD a storeTag (Lnet/minecraft/class_461;)V
+		ARG 1 tag
+	METHOD b loadFromTag (Lnet/minecraft/class_461;)V
+		ARG 1 tag
+	METHOD f idleSound ()Ljava/lang/String;
+	METHOD g hurtSound ()Ljava/lang/String;
+	METHOD h_ deathSound ()Ljava/lang/String;
+	METHOD i itemDrop ()I
+	METHOD l getRideHeight ()D

@@ -1,0 +1,16 @@
+CLASS net/minecraft/class_885 net/minecraft/block/PistonBaseBlock
+	FIELD field_3922 sticky Z
+	METHOD <init> (IIZ)V
+		ARG 3 sticky
+	METHOD method_2889 getExtended (I)I
+	METHOD method_2891 shouldBeExtended (Lnet/minecraft/class_14;IIII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 facing
+	METHOD method_2893 updateExtended (Lnet/minecraft/class_14;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

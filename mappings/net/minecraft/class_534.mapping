@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_534
+	FIELD field_2482 frame Ljava/awt/Frame;
+	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/class_27;IIZLjava/awt/Frame;)V
+		ARG 1 component
+		ARG 2 canvas
+		ARG 3 minecraftApplet
+		ARG 7 frame

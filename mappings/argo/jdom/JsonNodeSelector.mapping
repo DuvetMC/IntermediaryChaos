@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_800 argo/jdom/JsonNodeSelector
+	METHOD method_2622 with (Lnet/minecraft/class_800;)Lnet/minecraft/class_800;

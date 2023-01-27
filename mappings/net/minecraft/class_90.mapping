@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_90
+	FIELD field_513 client Lnet/minecraft/class_4;
+	METHOD <init> (Lnet/minecraft/class_4;)V
+		ARG 1 client

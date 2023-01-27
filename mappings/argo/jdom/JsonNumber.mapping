@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_799 argo/jdom/JsonNumber
+	FIELD field_3656 NUMBER_SPEC Ljava/util/regex/Pattern;
+	FIELD field_3657 s Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 s

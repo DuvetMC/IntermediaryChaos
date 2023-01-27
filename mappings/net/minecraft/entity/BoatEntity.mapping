@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_530 net/minecraft/entity/BoatEntity
+	METHOD a setPositionAndRotation (DDDFFI)V
+	METHOD a takeDamage (Lnet/minecraft/class_1;I)Z
+	METHOD a onPlayerInteract (Lnet/minecraft/class_3;)Z
+	METHOD a storeTag (Lnet/minecraft/class_461;)V
+	METHOD b loadFromTag (Lnet/minecraft/class_461;)V
+	METHOD k_ i_ ()F
+	METHOD l getRideHeight ()D
+	METHOD q_ tick ()V

@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_500 net/minecraft/item/SnowballItem
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a use (Lnet/minecraft/class_229;Lnet/minecraft/class_14;Lnet/minecraft/class_3;)Lnet/minecraft/class_229;
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player

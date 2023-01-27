@@ -1,0 +1,19 @@
+CLASS net/minecraft/class_210 net/minecraft/inventory/PlayerInventory
+	FIELD field_1066 inventory [Lgz;
+	FIELD field_1069 selected I
+	FIELD field_1726 armor [Lgz;
+	FIELD field_1727 player Lnet/minecraft/class_3;
+	METHOD a getSize ()I
+	METHOD a takeItemsFromStack (II)Lnet/minecraft/class_229;
+	METHOD a setStack (ILnet/minecraft/class_229;)V
+	METHOD c getDisplay ()Ljava/lang/String;
+	METHOD c_ getStack (I)Lnet/minecraft/class_229;
+	METHOD method_1078 addItem (Lnet/minecraft/class_229;)Z
+	METHOD method_1628 getAttackStrength (Lnet/minecraft/class_1;)I
+	METHOD method_1629 writeTag (Lnet/minecraft/class_464;)Lnet/minecraft/class_464;
+	METHOD method_1631 moveCursor (I)V
+	METHOD method_1633 readTag (Lnet/minecraft/class_464;)V
+	METHOD method_1635 contains (I)Z
+	METHOD method_1636 getArmorSlot (I)Lnet/minecraft/class_229;
+	METHOD method_527 getHeldItem ()Lnet/minecraft/class_229;
+	METHOD method_528 findItem (I)I

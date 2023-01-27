@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_447
+	METHOD method_1011 getBlock (III)I
+	METHOD method_471 isRedstoneConductor (III)Z

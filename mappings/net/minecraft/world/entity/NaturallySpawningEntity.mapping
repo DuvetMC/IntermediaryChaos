@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_338 net/minecraft/world/entity/NaturallySpawningEntity
-	METHOD c isSpawnable ()Z

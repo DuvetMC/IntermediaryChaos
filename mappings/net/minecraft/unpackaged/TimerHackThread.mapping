@@ -1,1 +1,6 @@
 CLASS net/minecraft/class_113 net/minecraft/unpackaged/TimerHackThread
+	FIELD field_2202 client Lnet/minecraft/class_4;
+	METHOD <init> (Lnet/minecraft/class_4;Ljava/lang/String;)V
+		ARG 1 client
+		ARG 2 name
+	METHOD run run ()V

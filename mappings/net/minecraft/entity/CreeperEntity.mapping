@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_317 net/minecraft/entity/CreeperEntity
+	METHOD a storeTag (Lnet/minecraft/class_461;)V
+	METHOD b loadFromTag (Lnet/minecraft/class_461;)V
+	METHOD g hurtSound ()Ljava/lang/String;
+	METHOD h_ deathSound ()Ljava/lang/String;
+	METHOD i itemDrop ()I
+	METHOD q_ tick ()V

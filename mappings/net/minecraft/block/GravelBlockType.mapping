@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_349 net/minecraft/block/GravelBlockType
+	METHOD a breakSound ()Ljava/lang/String;

@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_175 net/minecraft/world/block/BookshelfBlock
-	METHOD a getTextureId (I)I
-	METHOD a getDroppedItemCount (Ljava/util/Random;)I

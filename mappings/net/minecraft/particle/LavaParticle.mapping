@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_283 net/minecraft/particle/LavaParticle
+	METHOD a render (Lnet/minecraft/class_17;FFFFFF)V
+	METHOD q_ tick ()V

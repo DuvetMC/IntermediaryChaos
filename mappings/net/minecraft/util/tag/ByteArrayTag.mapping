@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_467 net/minecraft/util/tag/ByteArrayTag
+	FIELD field_1922 value [B
+	METHOD <init> ([B)V
+		ARG 1 value
+	METHOD a getId ()B
+	METHOD a read (Ljava/io/DataInput;)V
+	METHOD a write (Ljava/io/DataOutput;)V

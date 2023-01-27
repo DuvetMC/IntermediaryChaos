@@ -1,1 +1,6 @@
 CLASS net/minecraft/class_268 net/minecraft/unpackaged/ArrowEntity
+	FIELD field_1343 owningEntity Lnet/minecraft/class_209;
+	FIELD field_3884 isOwnedByPlayer Z
+	METHOD <init> (Lnet/minecraft/class_14;Lnet/minecraft/class_209;)V
+		ARG 1 world
+		ARG 2 owningEntity
