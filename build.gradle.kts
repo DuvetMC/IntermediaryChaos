@@ -46,8 +46,8 @@ repositories {
 val enigmaConfig by configurations.creating
 
 dependencies {
-    enigmaConfig("org.quiltmc:enigma-swing:1.5.0+local")
-    enigmaConfig("org.quiltmc:enigma-server:1.5.0+local")
+    enigmaConfig("org.quiltmc:enigma-swing:1.5.1+local")
+    enigmaConfig("org.quiltmc:enigma-server:1.5.1+local")
     enigmaConfig("org.quiltmc:quilt-enigma-plugin:1.2.1")
     enigmaConfig("net.fabricmc:name-proposal:0.1.4")
     listOf(
