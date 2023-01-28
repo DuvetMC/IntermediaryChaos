@@ -1,0 +1,19 @@
+CLASS net/minecraft/class_611 net/minecraft/world/biome/Biome
+	FIELD field_2828 RAINFOREST Lnet/minecraft/class_611;
+	FIELD field_2829 SWAMP Lnet/minecraft/class_611;
+	FIELD field_2830 SEASONAL_FOREST Lnet/minecraft/class_611;
+	FIELD field_2831 FOREST Lnet/minecraft/class_611;
+	FIELD field_2832 SAVANNA Lnet/minecraft/class_611;
+	FIELD field_2833 SHRUBLAND Lnet/minecraft/class_611;
+	FIELD field_2834 TAIGA Lnet/minecraft/class_611;
+	FIELD field_2835 DESERT Lnet/minecraft/class_611;
+	FIELD field_2836 PLAINS Lnet/minecraft/class_611;
+	FIELD field_2837 ICE_DESERT Lnet/minecraft/class_611;
+	FIELD field_2838 TUNDRA Lnet/minecraft/class_611;
+	FIELD field_2839 NETHER Lnet/minecraft/class_611;
+	FIELD field_2845 monsterSpawns Ljava/util/List;
+	FIELD field_2846 passiveSpawns Ljava/util/List;
+	FIELD field_3154 waterSpawns Ljava/util/List;
+	FIELD field_3853 END Lnet/minecraft/class_611;
+	METHOD method_1973 getSpawnEntries (Lnet/minecraft/class_614;)Ljava/util/List;
+	METHOD method_1974 setName (Ljava/lang/String;)Lnet/minecraft/class_611;

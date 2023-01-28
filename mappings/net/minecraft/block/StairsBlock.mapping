@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_473 net/minecraft/block/StairsBlock
+	FIELD field_2193 base Lnet/minecraft/class_18;

@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_750 net/minecraft/world/biome/WeightedEntityRecord
+	FIELD field_3448 entityClass Ljava/lang/Class;
+	FIELD field_3449 weight I
+	METHOD <init> (Ljava/lang/Class;I)V
+		ARG 1 clazz
+		ARG 2 weight

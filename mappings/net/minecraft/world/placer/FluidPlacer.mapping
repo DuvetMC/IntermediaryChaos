@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_652 net/minecraft/world/placer/FluidPlacer
+	FIELD field_3023 block I
+	METHOD <init> (I)V
+		ARG 1 block
