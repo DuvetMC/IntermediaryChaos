@@ -8,6 +8,7 @@ CLASS net/minecraft/class_124 net/minecraft/client/options/Options
 	FIELD field_2767 sneak Lnet/minecraft/class_123;
 	FIELD field_2975 skin Ljava/lang/String;
 	FIELD field_3007 mostRecentServer Ljava/lang/String;
+	FIELD field_3342 debugMode Z
 	FIELD field_3348 ambientOcclusion Z
 	FIELD field_3510 guiScale I
 	FIELD field_3511 GUI_SCALE_TRANSLATIONS [Ljava/lang/String;

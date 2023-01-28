@@ -1,2 +1,8 @@
 CLASS net/minecraft/class_231 net/minecraft/entity/ClientPlayerEntity
+	FIELD field_1375 client Lnet/minecraft/client/Minecraft;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Lnet/minecraft/class_14;Lnet/minecraft/class_67;I)V
+		ARG 1 client
+		ARG 2 world
+		ARG 3 loginState
+		ARG 4 dimension
 	METHOD method_1859 sendChatMessage (Ljava/lang/String;)V

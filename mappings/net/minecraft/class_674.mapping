@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_674
+	FIELD field_3121 ACCEPTABLE_CHARACTERS Ljava/lang/String;
+	METHOD method_2139 generateAcceptableCharacters ()Ljava/lang/String;

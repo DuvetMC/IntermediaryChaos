@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_416 net/minecraft/client/gui/screen/SignEditScreen
+	FIELD field_2015 sign Lnet/minecraft/class_405;
+	FIELD field_2017 editingLine I
+	FIELD field_3123 ACCEPTABLE_CHARACTERS Ljava/lang/String;
+	METHOD <init> (Lnet/minecraft/class_405;)V
+		ARG 1 sign

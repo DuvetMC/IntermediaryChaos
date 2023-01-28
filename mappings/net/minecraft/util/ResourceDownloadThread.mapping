@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_112 net/minecraft/util/ResourceDownloadThread
+	FIELD field_1255 client Lnet/minecraft/client/Minecraft;
+	FIELD field_599 resourcesDir Ljava/io/File;
+	METHOD <init> (Ljava/io/File;Lnet/minecraft/client/Minecraft;)V
+		ARG 2 client
+	METHOD run run ()V

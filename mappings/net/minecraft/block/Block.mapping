@@ -38,8 +38,10 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_2305 FILLER_BLOCK_72 Lnet/minecraft/class_18;
 	FIELD field_2306 REDSTONE_ORE Lnet/minecraft/class_18;
 	FIELD field_2307 GLOWING_REDSTONE_ORE Lnet/minecraft/class_18;
+	FIELD field_2309 REDSTONE_TORCH Lnet/minecraft/class_18;
 	FIELD field_2310 FILLER_BLOCK_77 Lnet/minecraft/class_18;
 	FIELD field_2333 ICE Lnet/minecraft/class_18;
+	FIELD field_2403 SNOW Lnet/minecraft/class_18;
 	FIELD field_24 id I
 	FIELD field_2516 CACTUS Lnet/minecraft/class_18;
 	FIELD field_2605 CLAY Lnet/minecraft/class_18;
@@ -58,8 +60,8 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_3551 LOCKED_CHEST Lnet/minecraft/class_18;
 	FIELD field_3716 GOLD_RAIL Lnet/minecraft/class_18;
 	FIELD field_3899 TRAPDOOR Lnet/minecraft/class_18;
-	FIELD field_3938 STICKY_PISTON_BASE Lnet/minecraft/class_18;
-	FIELD field_3939 PISTON_BASE Lnet/minecraft/class_18;
+	FIELD field_3938 STICKY_PISTON Lnet/minecraft/class_18;
+	FIELD field_3939 PISTON Lnet/minecraft/class_18;
 	FIELD field_3940 PISTON_HEAD Lnet/minecraft/class_883;
 	FIELD field_3941 MOVING_BLOCK Lnet/minecraft/class_888;
 	FIELD field_405 PLANKS Lnet/minecraft/class_18;
@@ -72,6 +74,7 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_541 BROWN_MUSHROOM Lnet/minecraft/class_28;
 	FIELD field_542 RED_MUSHROOM Lnet/minecraft/class_28;
 	FIELD field_909 STONE_SLAB Lnet/minecraft/class_18;
+	FIELD field_910 SLAB Lnet/minecraft/class_18;
 	FIELD field_911 BRICKS Lnet/minecraft/class_18;
 	FIELD field_913 BOOKSHELF Lnet/minecraft/class_18;
 	FIELD field_914 MOSSY_STONE Lnet/minecraft/class_18;
@@ -148,7 +151,11 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 		COMMENT <br>1: this block will be destroyed if pushed
 		COMMENT <br>2: this block cannot be moved
 	METHOD method_2922 getMiningSpeed ()F
+	METHOD method_394 getDropQuantity (Ljava/util/Random;)I
+		ARG 1 random
 	METHOD method_488 emitsLight (F)Lnet/minecraft/class_18;
+	METHOD method_578 getDropItem (ILjava/util/Random;)I
+		ARG 2 random
 	METHOD method_733 canSurvive (Lnet/minecraft/class_14;III)Z
 		ARG 1 world
 		ARG 2 x

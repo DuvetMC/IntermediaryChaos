@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_475
+	METHOD method_1444 registerRecipes (Lnet/minecraft/class_286;)V

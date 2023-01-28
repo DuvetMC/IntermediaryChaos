@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_26 net/minecraft/client/renderer/ParticleRenderer
+CLASS net/minecraft/class_26 net/minecraft/client/render/ParticleRenderer
 	FIELD field_1141 world Lnet/minecraft/class_14;
 	FIELD field_1142 random Ljava/util/Random;
 	FIELD field_348 textureLoader Lnet/minecraft/class_5;

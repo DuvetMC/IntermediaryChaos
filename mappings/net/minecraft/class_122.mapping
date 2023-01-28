@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_122
-	METHOD method_2138 getOptions ()Lnet/minecraft/class_660;

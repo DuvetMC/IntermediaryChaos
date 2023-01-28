@@ -1,6 +1,14 @@
 CLASS net/minecraft/client/Minecraft net/minecraft/client/MinecraftClient
+	FIELD field_292 debugInfo Ljava/lang/String;
 	FIELD field_301 world Lnet/minecraft/class_14;
 	FIELD field_302 loginState Lnet/minecraft/class_67;
+	FIELD field_316 clientPlayer Lnet/minecraft/class_231;
 	FIELD field_3407 INSTANCE Lnet/minecraft/client/Minecraft;
+	FIELD field_767 options Lnet/minecraft/class_124;
+	METHOD method_1236 setWorld (Lnet/minecraft/class_14;)V
+		ARG 1 world
 	METHOD method_1453 connectToServer (Ljava/lang/String;I)V
+	METHOD method_162 showScreen (Lnet/minecraft/class_49;)V
 	METHOD method_173 tickInput ()V
+	METHOD method_2005 (Lnet/minecraft/class_14;Ljava/lang/String;)V
+		ARG 1 world

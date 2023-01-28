@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_228 net/minecraft/entity/TntEntity
+	FIELD field_1160 fuseLength I

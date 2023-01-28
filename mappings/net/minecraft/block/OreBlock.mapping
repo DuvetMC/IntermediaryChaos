@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_172 net/minecraft/block/OreBlock
+	METHOD <init> (II)V
+		ARG 1 id

@@ -4,8 +4,13 @@ CLASS net/minecraft/class_1 net/minecraft/entity/Entity
 	FIELD field_1036 y D
 	FIELD field_1037 z D
 	FIELD field_1261 ticksOnFire I
+	FIELD field_1691 skinUrl Ljava/lang/String;
 	FIELD field_1 hitbox Lnet/minecraft/class_19;
 	METHOD <init> (Lnet/minecraft/class_14;)V
 		ARG 1 world
 	METHOD method_1073 (Lnet/minecraft/class_3;)V
 		ARG 1 player
+	METHOD method_1195 (Lnet/minecraft/class_461;)V
+		ARG 1 tag
+	METHOD method_1197 (Lnet/minecraft/class_461;)V
+		ARG 1 tag

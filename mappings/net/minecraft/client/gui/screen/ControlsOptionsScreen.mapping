@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_119 net/minecraft/client/gui/screen/ControlsOptionsScreen
+	FIELD field_739 options Lnet/minecraft/class_124;

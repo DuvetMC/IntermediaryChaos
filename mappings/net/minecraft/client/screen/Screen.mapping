@@ -1,13 +1,22 @@
 CLASS net/minecraft/class_49 net/minecraft/client/screen/Screen
+	FIELD field_333 client Lnet/minecraft/client/Minecraft;
 	FIELD field_334 screenWidth I
 	FIELD field_335 screenHeight I
 	FIELD field_336 elements Ljava/util/List;
+	METHOD method_174 init ()V
+	METHOD method_175 keyPressed (CI)V
+		ARG 1 character
+		ARG 2 scanCode
 	METHOD method_176 render (IIF)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 	METHOD method_179 onButtonPressed (Lnet/minecraft/class_47;)V
 		ARG 1 button
+	METHOD method_180 (Lnet/minecraft/client/Minecraft;II)V
+		ARG 1 client
+		ARG 2 screenWidth
+		ARG 3 screenHeight
 	METHOD method_1904 getClipboard ()Ljava/lang/String;
 	METHOD method_263 onClick (III)V
 		ARG 1 x

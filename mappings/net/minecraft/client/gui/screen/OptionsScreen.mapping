@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_120 net/minecraft/client/gui/screen/OptionsScreen
+	FIELD field_3227 DISPLAYED_OPTIONS [Lnet/minecraft/class_660;
+	FIELD field_741 parent Lnet/minecraft/class_49;
+	FIELD field_742 title Ljava/lang/String;
+	FIELD field_743 options Lnet/minecraft/class_124;
+	METHOD <init> (Lnet/minecraft/class_49;Lnet/minecraft/class_124;)V
+		ARG 1 parent
+		ARG 2 options
