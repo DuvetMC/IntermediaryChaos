@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_859 net/minecraft/block/BlockCategoryId
+	FIELD field_3779 IDS [Lnet/minecraft/class_859;
+	FIELD field_3794 color I
+	FIELD field_3795 id I
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 color

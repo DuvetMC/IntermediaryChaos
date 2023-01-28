@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_300 net/minecraft/recipe/ToolRecipes
+	FIELD field_1434 PATTERNS [[Ljava/lang/String;
+	FIELD field_1435 PARAMS [[Ljava/lang/Object;
+	METHOD method_809 registerRecipes (Lnet/minecraft/class_286;)V
+		ARG 1 manager

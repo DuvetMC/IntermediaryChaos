@@ -2,7 +2,10 @@ CLASS net/minecraft/class_286 net/minecraft/recipe/RecipeManager
 	FIELD field_1386 INSTANCE Lnet/minecraft/class_286;
 	FIELD field_1408 recipes Ljava/util/List;
 	METHOD method_2183 registerShapelessRecipe (Lnet/minecraft/class_229;[Ljava/lang/Object;)V
+		ARG 1 result
+		ARG 2 inputs
+	METHOD method_2460 getRecipes ()Ljava/util/List;
 	METHOD method_797 getInstance ()Lnet/minecraft/class_286;
 	METHOD method_798 registerShapedRecipe (Lnet/minecraft/class_229;[Ljava/lang/Object;)V
-		ARG 1 output
+		ARG 1 result
 		ARG 2 recipe

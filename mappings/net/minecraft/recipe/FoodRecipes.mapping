@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_475 net/minecraft/recipe/FoodRecipes
+	METHOD method_1444 registerRecipes (Lnet/minecraft/class_286;)V
+		ARG 1 manager

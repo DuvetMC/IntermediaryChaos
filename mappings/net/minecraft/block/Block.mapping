@@ -33,13 +33,15 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_2257 DEAD_BUSH Lnet/minecraft/class_867;
 	FIELD field_2301 WALL_SIGN Lnet/minecraft/class_18;
 	FIELD field_2302 LEVER Lnet/minecraft/class_18;
-	FIELD field_2303 FILLER_BLOCK_70 Lnet/minecraft/class_18;
+	FIELD field_2303 STONE_PRESSURE_PLATE Lnet/minecraft/class_18;
 	FIELD field_2304 IRON_DOOR Lnet/minecraft/class_18;
-	FIELD field_2305 FILLER_BLOCK_72 Lnet/minecraft/class_18;
+	FIELD field_2305 WOOD_PRESSURE_PLATE Lnet/minecraft/class_18;
 	FIELD field_2306 REDSTONE_ORE Lnet/minecraft/class_18;
 	FIELD field_2307 GLOWING_REDSTONE_ORE Lnet/minecraft/class_18;
+	FIELD field_2308 DISABLED_REDSTONE_TORCH Lnet/minecraft/class_18;
 	FIELD field_2309 REDSTONE_TORCH Lnet/minecraft/class_18;
-	FIELD field_2310 FILLER_BLOCK_77 Lnet/minecraft/class_18;
+	FIELD field_2310 STONE_BLOCK Lnet/minecraft/class_18;
+	FIELD field_2332 SNOW_LAYER Lnet/minecraft/class_18;
 	FIELD field_2333 ICE Lnet/minecraft/class_18;
 	FIELD field_2403 SNOW Lnet/minecraft/class_18;
 	FIELD field_24 id I
@@ -54,6 +56,7 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_2912 GLOWSTONE Lnet/minecraft/class_18;
 	FIELD field_2913 NETHER_PORTAL Lnet/minecraft/class_639;
 	FIELD field_2914 JACK_O_LANTERN Lnet/minecraft/class_18;
+	FIELD field_3105 name Ljava/lang/String;
 	FIELD field_3181 CAKE Lnet/minecraft/class_18;
 	FIELD field_3433 REPEATER Lnet/minecraft/class_18;
 	FIELD field_3434 POWERED_REPEATER Lnet/minecraft/class_18;
@@ -71,6 +74,8 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_521 SPONGE Lnet/minecraft/class_18;
 	FIELD field_522 GLASS Lnet/minecraft/class_18;
 	FIELD field_537 WOOL Lnet/minecraft/class_18;
+	FIELD field_539 DANDELION Lnet/minecraft/class_28;
+	FIELD field_540 ROSE Lnet/minecraft/class_28;
 	FIELD field_541 BROWN_MUSHROOM Lnet/minecraft/class_28;
 	FIELD field_542 RED_MUSHROOM Lnet/minecraft/class_28;
 	FIELD field_909 STONE_SLAB Lnet/minecraft/class_18;
@@ -91,9 +96,10 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_982 GOLD_ORE Lnet/minecraft/class_18;
 	FIELD field_983 IRON_ORE Lnet/minecraft/class_18;
 	FIELD field_984 COAL_ORE Lnet/minecraft/class_18;
+	FIELD field_985 LEAVES Lnet/minecraft/class_147;
 	METHOD <init> (ILnet/minecraft/class_79;)V
 		ARG 1 id
-		ARG 2 entityProperties
+		ARG 2 category
 	METHOD method_1084 onAdded (Lnet/minecraft/class_14;III)V
 		ARG 1 world
 		ARG 2 x
@@ -118,6 +124,7 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 		ARG 3 y
 		ARG 4 z
 		ARG 5 neighborBlockId
+	METHOD method_1433 blockType (Lnet/minecraft/class_245;)Lnet/minecraft/class_18;
 	METHOD method_1728 hasSignal (Lnet/minecraft/class_447;IIII)Z
 		ARG 1 world
 		ARG 2 x
@@ -138,6 +145,8 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 		ARG 4 z
 		ARG 5 placer
 	METHOD method_2135 name (Ljava/lang/String;)Lnet/minecraft/class_18;
+		ARG 1 s
+	METHOD method_2136 getName ()Ljava/lang/String;
 	METHOD method_2237 doBlockEvent (Lnet/minecraft/class_14;IIIII)V
 		ARG 1 world
 		ARG 2 x
@@ -145,6 +154,7 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 		ARG 4 z
 		ARG 5 type
 		ARG 6 data
+	METHOD method_2492 getTranslatedName ()Ljava/lang/String;
 	METHOD method_2920 getPistonMoveBehavior ()I
 		COMMENT Returns this block's behavior when moved by a piston.
 		COMMENT <br>0: this block can be pushed and pulled
@@ -156,6 +166,7 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	METHOD method_488 emitsLight (F)Lnet/minecraft/class_18;
 	METHOD method_578 getDropItem (ILjava/util/Random;)I
 		ARG 2 random
+	METHOD method_732 hardness (F)Lnet/minecraft/class_18;
 	METHOD method_733 canSurvive (Lnet/minecraft/class_14;III)Z
 		ARG 1 world
 		ARG 2 x
