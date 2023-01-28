@@ -11,4 +11,5 @@ CLASS net/minecraft/class_614 net/minecraft/entity/mob/MobCategory
 		ARG 6 passive
 	METHOD method_2198 getType ()Ljava/lang/Class;
 	METHOD method_2199 getCap ()I
+	METHOD method_2200 getValidSpawnableSpace ()Lnet/minecraft/class_79;
 	METHOD method_2201 isPassive ()Z

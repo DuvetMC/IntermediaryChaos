@@ -41,9 +41,9 @@ CLASS net/minecraft/class_461 net/minecraft/util/tag/CompoundTag
 		ARG 1 id
 	METHOD method_1160 getCompoundTag (Ljava/lang/String;)Lnet/minecraft/class_461;
 		ARG 1 id
-	METHOD method_1161 (Ljava/lang/String;)Lnet/minecraft/class_464;
+	METHOD method_1161 getList (Ljava/lang/String;)Lnet/minecraft/class_464;
 		ARG 1 id
-	METHOD method_1162 (Ljava/lang/String;)Z
+	METHOD method_1162 getBoolean (Ljava/lang/String;)Z
 		ARG 1 id
 	METHOD method_1436 hasEntry (Ljava/lang/String;)Z
 		ARG 1 id

@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_514 net/minecraft/unpackaged/NetworkHandler
-	METHOD method_2053 onEntityInteraction (Lnet/minecraft/class_640;)V
-	METHOD method_2064 onHotbarSelect (Lnet/minecraft/class_648;)V

@@ -5,7 +5,7 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_1383 DIAMOND_ORE Lnet/minecraft/class_18;
 	FIELD field_1384 DIAMOND_BLOCK Lnet/minecraft/class_18;
 	FIELD field_1432 CRAFTING_TABLE Lnet/minecraft/class_18;
-	FIELD field_1496 entityProperties Lnet/minecraft/class_79;
+	FIELD field_1496 category Lnet/minecraft/class_79;
 	FIELD field_1570 WHEAT Lnet/minecraft/class_18;
 	FIELD field_1571 FARMLAND Lnet/minecraft/class_18;
 	FIELD field_1751 FURNACE Lnet/minecraft/class_18;
@@ -18,6 +18,7 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_2091 RAIL Lnet/minecraft/class_18;
 	FIELD field_211 GRASS Lnet/minecraft/class_24;
 	FIELD field_213 BEDROCK Lnet/minecraft/class_18;
+	FIELD field_214 SOME_WATER Lnet/minecraft/class_18;
 	FIELD field_2176 MONSTER_SPAWNER Lnet/minecraft/class_18;
 	FIELD field_2200 WOOD_STAIRS Lnet/minecraft/class_18;
 	FIELD field_2201 STONE_STAIRS Lnet/minecraft/class_18;
@@ -33,17 +34,31 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_2257 DEAD_BUSH Lnet/minecraft/class_867;
 	FIELD field_2301 WALL_SIGN Lnet/minecraft/class_18;
 	FIELD field_2302 LEVER Lnet/minecraft/class_18;
+	FIELD field_2303 FILLER_BLOCK_70 Lnet/minecraft/class_18;
 	FIELD field_2304 IRON_DOOR Lnet/minecraft/class_18;
+	FIELD field_2305 FILLER_BLOCK_72 Lnet/minecraft/class_18;
 	FIELD field_2306 REDSTONE_ORE Lnet/minecraft/class_18;
 	FIELD field_2307 GLOWING_REDSTONE_ORE Lnet/minecraft/class_18;
+	FIELD field_2310 FILLER_BLOCK_77 Lnet/minecraft/class_18;
 	FIELD field_2333 ICE Lnet/minecraft/class_18;
 	FIELD field_24 id I
 	FIELD field_2516 CACTUS Lnet/minecraft/class_18;
+	FIELD field_2605 CLAY Lnet/minecraft/class_18;
 	FIELD field_2606 SUGARCANE Lnet/minecraft/class_18;
+	FIELD field_2654 JUKEBOX Lnet/minecraft/class_18;
+	FIELD field_2723 FENCE Lnet/minecraft/class_18;
+	FIELD field_2909 PUMPKIN Lnet/minecraft/class_18;
+	FIELD field_2910 NETHERRACK Lnet/minecraft/class_18;
+	FIELD field_2911 SOULSAND Lnet/minecraft/class_18;
+	FIELD field_2912 GLOWSTONE Lnet/minecraft/class_18;
 	FIELD field_2913 NETHER_PORTAL Lnet/minecraft/class_639;
+	FIELD field_2914 JACK_O_LANTERN Lnet/minecraft/class_18;
 	FIELD field_3181 CAKE Lnet/minecraft/class_18;
 	FIELD field_3433 REPEATER Lnet/minecraft/class_18;
+	FIELD field_3434 POWERED_REPEATER Lnet/minecraft/class_18;
+	FIELD field_3551 LOCKED_CHEST Lnet/minecraft/class_18;
 	FIELD field_3716 GOLD_RAIL Lnet/minecraft/class_18;
+	FIELD field_3899 TRAPDOOR Lnet/minecraft/class_18;
 	FIELD field_3938 STICKY_PISTON_BASE Lnet/minecraft/class_18;
 	FIELD field_3939 PISTON_BASE Lnet/minecraft/class_18;
 	FIELD field_3940 PISTON_HEAD Lnet/minecraft/class_883;
@@ -70,6 +85,7 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_977 DIRT Lnet/minecraft/class_18;
 	FIELD field_978 STONE_BRICKS Lnet/minecraft/class_18;
 	FIELD field_979 SAPLING Lnet/minecraft/class_18;
+	FIELD field_980 OTHER_WATER Lnet/minecraft/class_18;
 	FIELD field_982 GOLD_ORE Lnet/minecraft/class_18;
 	FIELD field_983 IRON_ORE Lnet/minecraft/class_18;
 	FIELD field_984 COAL_ORE Lnet/minecraft/class_18;
@@ -81,6 +97,14 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
+	METHOD method_109 (Lnet/minecraft/class_14;III)Lnet/minecraft/class_19;
+		ARG 1 world
+	METHOD method_1125 (Lnet/minecraft/class_14;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
 	METHOD method_1126 onRemoved (Lnet/minecraft/class_14;III)V
 		ARG 1 world
 		ARG 2 x
@@ -127,6 +151,11 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	METHOD method_2922 getMiningSpeed ()F
 	METHOD method_488 emitsLight (F)Lnet/minecraft/class_18;
 	METHOD method_733 canSurvive (Lnet/minecraft/class_14;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_927 (Lnet/minecraft/class_14;IIII)V
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y

@@ -1,5 +1,6 @@
 CLASS net/minecraft/class_14 net/minecraft/world/World
 	FIELD field_1573 difficulty I
+	FIELD field_1846 lightUpdateQueue Ljava/util/List;
 	FIELD field_1851 skylight I
 	FIELD field_1852 chunkCache Lnet/minecraft/class_379;
 	FIELD field_1871 entities Ljava/util/List;
@@ -13,6 +14,7 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 	FIELD field_2613 lastSaveTime J
 	FIELD field_2805 isGenerating Z
 	FIELD field_2806 dimension Lnet/minecraft/class_634;
+	FIELD field_3305 levelProperties Lnet/minecraft/class_717;
 	FIELD field_953 random Ljava/util/Random;
 	METHOD <init> (Lnet/minecraft/class_746;Ljava/lang/String;JLnet/minecraft/class_634;)V
 		ARG 2 worldName
@@ -21,7 +23,13 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 	METHOD f getPropetiesAt (III)Lnet/minecraft/class_79;
 	METHOD g isFullBlock (III)Z
 	METHOD method_1012 setBlockThenUpdate (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_1042 isInWorld (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_1043 setBlock (IIIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -33,7 +41,11 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 		ARG 1 x
 		ARG 2 z
 	METHOD method_1051 isChunkLoaded (II)Z
+		ARG 1 x
+		ARG 2 z
 	METHOD method_1054 getChunk (II)Lnet/minecraft/class_381;
+		ARG 1 x
+		ARG 2 z
 	METHOD method_1055 getLight (IIIZ)I
 		ARG 1 x
 		ARG 2 y
@@ -41,7 +53,7 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 	METHOD method_1067 entityTick ()V
 	METHOD method_1068 spawnEntity (Lnet/minecraft/class_1;)Z
 	METHOD method_1069 getEntitiesInBox (Lnet/minecraft/class_1;Lnet/minecraft/class_19;)List;
-	METHOD method_1069 (Lnet/minecraft/class_1;Lnet/minecraft/class_19;)Ljava/util/List;
+	METHOD method_1069 getCollidingEntities (Lnet/minecraft/class_1;Lnet/minecraft/class_19;)Ljava/util/List;
 		ARG 1 entity
 		ARG 2 box
 	METHOD method_1070 removeEntity (Lnet/minecraft/class_1;)V
@@ -53,8 +65,15 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 	METHOD method_1092 addBlockEntity (IIILnet/minecraft/class_262;)V
 	METHOD method_1093 spawnExplosion (Lnet/minecraft/class_1;DDDF)Lnet/minecraft/class_478;
 	METHOD method_1095 setMetaThenUpdate (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 data
 	METHOD method_1136 isAboveTopBlock (III)Z
 	METHOD method_1137 updateNeighbors (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_1138 h (IIIII)V
 		ARG 1 x
 		ARG 2 y
@@ -62,6 +81,9 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 		ARG 4 block
 	METHOD method_1139 removeBlockEntity (III)V
 	METHOD method_1140 updateBlock (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_1141 tickRandom_maybe (III)V
 	METHOD method_1189 save (ZLnet/minecraft/class_482;)V
 		ARG 2 listener
@@ -77,16 +99,34 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 		ARG 1 x
 		ARG 2 z
 	METHOD method_1288 setBlockThenUpdate (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_1289 cast (Lnet/minecraft/class_9;Lnet/minecraft/class_9;)Lnet/minecraft/class_2;
 	METHOD method_1291 onUpdateBlock (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_1300 initChunkCache ()Lnet/minecraft/class_379;
+	METHOD method_1312 isBoxLoaded (IIIIII)Z
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ
 	METHOD method_1370 (Lnet/minecraft/class_1;IIIF)Lnet/minecraft/class_331;
 		ARG 1 entity
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 	METHOD method_1584 getChunkByBlockPosition (II)Lnet/minecraft/class_381;
+		ARG 1 x
+		ARG 2 z
 	METHOD method_1587 setMeta (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_1723 hasDirectSignal (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -110,18 +150,37 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 	METHOD method_1860 setLight (Lnet/minecraft/class_377;IIIIII)V
 	METHOD method_1880 quitWorld ()V
 	METHOD method_1888 playSound (Ljava/lang/String;III)V
+	METHOD method_1924 setTime (J)V
+		ARG 1 time
 	METHOD method_1934 addEntity (Lnet/minecraft/class_1;)V
+		ARG 1 entity
 	METHOD method_2058 (Lnet/minecraft/class_1;B)V
 		ARG 1 entity
 	METHOD method_2069 spawnExplosion (Lnet/minecraft/class_1;DDDFZ)Lnet/minecraft/class_478;
 	METHOD method_2091 isAir (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_2164 (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 radius
 	METHOD method_2165 doBlockEvent (IIIII)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 type
 		ARG 5 data
+	METHOD method_2289 setWorldSpawn (Lnet/minecraft/class_712;)V
+		ARG 1 pos
+	METHOD method_2290 getSeed ()J
 	METHOD method_2291 getTime ()J
+	METHOD method_2292 getWorldSpawn ()Lnet/minecraft/class_712;
+	METHOD method_2594 (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_613 playSound (Lnet/minecraft/class_1;Ljava/lang/String;FF)V
 	METHOD method_675 playSound (DDDLjava/lang/String;FF)V
 	METHOD method_741 spawnParticle (Ljava/lang/String;DDDDDD)V

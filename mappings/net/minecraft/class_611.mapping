@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_611
-	METHOD method_1973 getSpawnEntries (Lnet/minecraft/class_614;)Ljava/util/List;

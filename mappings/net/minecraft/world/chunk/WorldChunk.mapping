@@ -1,5 +1,15 @@
 CLASS net/minecraft/class_381 net/minecraft/world/chunk/WorldChunk
-	METHOD method_1689 (Lnet/minecraft/class_1;Lnet/minecraft/class_19;Ljava/util/List;)V
+	FIELD field_1962 entities [Ljava/util/List;
+	METHOD method_1030 getBlock (III)I
+	METHOD method_1396 getEntitiesByClassInBox (Ljava/lang/Class;Lnet/minecraft/class_19;Ljava/util/List;)V
+		ARG 1 clazz
+	METHOD method_1684 setBlock (IIII)Z
+	METHOD method_1685 setBlock (IIIII)Z
+	METHOD method_1689 getOtherEntitiesInBox (Lnet/minecraft/class_1;Lnet/minecraft/class_19;Ljava/util/List;)V
 		ARG 1 entity
 		ARG 2 box
 		ARG 3 list
+	METHOD method_1690 (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

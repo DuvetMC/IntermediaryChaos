@@ -1,6 +1,6 @@
 CLASS net/minecraft/class_469 net/minecraft/util/tag/Tag
 	FIELD field_1923 name Ljava/lang/String;
-	METHOD method_1166 getId ()B
+	METHOD method_1166 getType ()B
 	METHOD method_1167 newTagFromId (B)Lnet/minecraft/class_469;
 	METHOD method_1168 writeToOutput (Lnet/minecraft/class_469;Ljava/io/DataOutput;)V
 	METHOD method_1169 read (Ljava/io/DataInput;)V
