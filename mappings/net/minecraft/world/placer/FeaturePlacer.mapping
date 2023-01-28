@@ -2,3 +2,6 @@ CLASS net/minecraft/class_390 net/minecraft/world/placer/FeaturePlacer
 	METHOD method_1103 placeFeature (Lnet/minecraft/class_14;Ljava/util/Random;III)Z
 		ARG 1 world
 		ARG 2 random
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z

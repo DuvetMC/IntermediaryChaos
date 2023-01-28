@@ -1,10 +1,11 @@
-CLASS net/minecraft/class_47 net/minecraft/client/screen/Button
+CLASS net/minecraft/class_47 net/minecraft/client/gui/screen/Button
 	FIELD field_186 height I
 	FIELD field_187 id I
 	FIELD field_188 width I
 	FIELD field_189 x I
 	FIELD field_190 y I
 	FIELD field_330 text Ljava/lang/String;
+	FIELD field_331 enabled Z
 	METHOD <init> (IIIIILjava/lang/String;)V
 		ARG 1 id
 		ARG 2 x

@@ -1,8 +1,0 @@
-CLASS net/minecraft/class_79 net/minecraft/block/BlockCategory
-	FIELD field_1499 ORE Lnet/minecraft/class_79;
-	FIELD field_2672 burnable Z
-	FIELD field_447 BURNABLE Lnet/minecraft/class_79;
-	FIELD field_448 WATER Lnet/minecraft/class_79;
-	FIELD field_449 LAVA Lnet/minecraft/class_79;
-	METHOD method_1911 isBurnable ()Z
-	METHOD method_1912 burnable ()Lnet/minecraft/class_79;

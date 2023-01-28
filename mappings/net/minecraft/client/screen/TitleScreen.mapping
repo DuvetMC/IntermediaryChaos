@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_311 net/minecraft/client/screen/TitleScreen
-	FIELD field_1551 splashText Ljava/lang/String;
-	FIELD field_2343 random Ljava/util/Random;

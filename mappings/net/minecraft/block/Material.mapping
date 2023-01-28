@@ -1,0 +1,17 @@
+CLASS net/minecraft/class_79 net/minecraft/block/Material
+	FIELD field_1498 GRASS Lnet/minecraft/class_79;
+	FIELD field_1499 ORE Lnet/minecraft/class_79;
+	FIELD field_1507 GLASS Lnet/minecraft/class_79;
+	FIELD field_1508 TNT Lnet/minecraft/class_79;
+	FIELD field_1572 FOLIAGE Lnet/minecraft/class_79;
+	FIELD field_2486 CLAY Lnet/minecraft/class_79;
+	FIELD field_2672 burnable Z
+	FIELD field_3856 color Lnet/minecraft/class_859;
+	FIELD field_3858 DIRT Lnet/minecraft/class_79;
+	FIELD field_447 WOODEN Lnet/minecraft/class_79;
+	FIELD field_448 WATER Lnet/minecraft/class_79;
+	FIELD field_449 LAVA Lnet/minecraft/class_79;
+	METHOD <init> (Lnet/minecraft/class_859;)V
+		ARG 1 color
+	METHOD method_1911 isBurnable ()Z
+	METHOD method_1912 burnable ()Lnet/minecraft/class_79;

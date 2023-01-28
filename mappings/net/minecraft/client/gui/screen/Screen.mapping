@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_49 net/minecraft/client/screen/Screen
+CLASS net/minecraft/class_49 net/minecraft/client/gui/screen/Screen
 	FIELD field_333 client Lnet/minecraft/client/Minecraft;
 	FIELD field_334 screenWidth I
 	FIELD field_335 screenHeight I

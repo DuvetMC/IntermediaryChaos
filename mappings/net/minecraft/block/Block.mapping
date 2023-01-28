@@ -5,7 +5,7 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_1383 DIAMOND_ORE Lnet/minecraft/class_18;
 	FIELD field_1384 DIAMOND_BLOCK Lnet/minecraft/class_18;
 	FIELD field_1432 CRAFTING_TABLE Lnet/minecraft/class_18;
-	FIELD field_1496 category Lnet/minecraft/class_79;
+	FIELD field_1496 material Lnet/minecraft/class_79;
 	FIELD field_1570 WHEAT Lnet/minecraft/class_18;
 	FIELD field_1571 FARMLAND Lnet/minecraft/class_18;
 	FIELD field_1751 FURNACE Lnet/minecraft/class_18;
@@ -99,7 +99,7 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_985 LEAVES Lnet/minecraft/class_147;
 	METHOD <init> (ILnet/minecraft/class_79;)V
 		ARG 1 id
-		ARG 2 category
+		ARG 2 material
 	METHOD method_1084 onAdded (Lnet/minecraft/class_14;III)V
 		ARG 1 world
 		ARG 2 x

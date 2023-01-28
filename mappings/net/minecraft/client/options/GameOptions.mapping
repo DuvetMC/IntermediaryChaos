@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_124 net/minecraft/client/options/Options
+CLASS net/minecraft/class_124 net/minecraft/client/options/GameOptions
 	FIELD field_1182 inventory Lnet/minecraft/class_123;
 	FIELD field_1183 drop Lnet/minecraft/class_123;
 	FIELD field_1634 difficulty I
@@ -30,7 +30,11 @@ CLASS net/minecraft/class_124 net/minecraft/client/options/Options
 	FIELD field_766 optionsFile Ljava/io/File;
 	FIELD field_832 viewBobbing Z
 	FIELD field_833 anaglyph Z
+	FIELD field_835 minecraft Lnet/minecraft/client/Minecraft;
 	FIELD field_904 fpsLimit I
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/io/File;)V
+		ARG 1 minecraft
+		ARG 2 gameDir
 	METHOD method_1951 setFloatOption (Lnet/minecraft/class_660;F)V
 		ARG 1 option
 		ARG 2 value

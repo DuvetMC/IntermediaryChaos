@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_396 net/minecraft/client/world/SelectWorldScreen
+CLASS net/minecraft/class_396 net/minecraft/client/gui/screen/SelectWorldScreen
 	FIELD field_1940 titleText Ljava/lang/String;
 	FIELD field_3420 dateFormat Ljava/text/DateFormat;
 	FIELD field_3424 worldText Ljava/lang/String;

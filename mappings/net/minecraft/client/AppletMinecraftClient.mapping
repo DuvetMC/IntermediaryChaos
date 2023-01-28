@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_450 net/minecraft/client/AppletMinecraftClient
+	FIELD field_2165 applet Lnet/minecraft/client/MinecraftApplet;
+	METHOD <init> (Lnet/minecraft/client/MinecraftApplet;Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+		ARG 1 applet
+		ARG 2 component
+		ARG 3 canvas
+		ARG 4 alwaysNull
+		ARG 5 width
+		ARG 6 height
+		ARG 7 isFullscreen
