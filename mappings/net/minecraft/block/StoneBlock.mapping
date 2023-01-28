@@ -1,4 +1,1 @@
 CLASS net/minecraft/class_23 net/minecraft/block/StoneBlock
-	METHOD a getDroppedItem (ILjava/util/Random;)I
-		ARG 1 meta
-		ARG 2 random

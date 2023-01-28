@@ -1,6 +1,2 @@
 CLASS net/minecraft/class_70 net/minecraft/block/FallingBlock
 	FIELD field_2109 generatingWorld Z
-	METHOD a onNeighborUpdated (Lnet/minecraft/class_14;IIII)V
-	METHOD a randomTick (Lnet/minecraft/class_14;IIILjava/util/Random;)V
-	METHOD d getUpdateRate ()I
-	METHOD e onPlace (Lnet/minecraft/class_14;III)V

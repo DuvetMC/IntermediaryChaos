@@ -29,11 +29,7 @@ CLASS net/minecraft/class_124 net/minecraft/client/options/Options
 	FIELD field_766 optionsFile Ljava/io/File;
 	FIELD field_832 viewBobbing Z
 	FIELD field_833 anaglyph Z
-	FIELD field_835 client Lnet/minecraft/class_4;
 	FIELD field_904 fpsLimit I
-	METHOD <init> (Lnet/minecraft/class_4;Ljava/io/File;)V
-		ARG 1 client
-		ARG 2 optionsFile
 	METHOD method_1951 setFloatOption (Lnet/minecraft/class_660;F)V
 		ARG 1 option
 		ARG 2 value

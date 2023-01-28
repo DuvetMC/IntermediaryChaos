@@ -1,8 +1,0 @@
-CLASS net/minecraft/class_450
-	METHOD <init> (Lnet/minecraft/class_27;Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/class_27;IIZ)V
-		ARG 2 component
-		ARG 3 canvas
-		ARG 4 applet
-		ARG 5 width
-		ARG 6 height
-		ARG 7 fullscreen

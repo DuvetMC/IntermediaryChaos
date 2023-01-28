@@ -1,7 +1,4 @@
 CLASS net/minecraft/class_224
-	FIELD field_1126 client Lnet/minecraft/class_4;
-	METHOD <init> (Lnet/minecraft/class_4;)V
-		ARG 1 client
 	METHOD method_1443 (Lnet/minecraft/class_14;)V
 		ARG 1 world
 	METHOD method_2046 interactWithEntity (Lnet/minecraft/class_3;Lnet/minecraft/class_1;)V

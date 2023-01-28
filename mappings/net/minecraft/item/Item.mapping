@@ -1,5 +1,4 @@
 CLASS net/minecraft/class_255 net/minecraft/item/Item
-	FIELD field_1277 ITEMS [Lex;
 	FIELD field_1277 ITEMS [Lnet/minecraft/class_255;
 	FIELD field_1278 ARROW Lnet/minecraft/class_255;
 	FIELD field_1279 id I
@@ -138,7 +137,5 @@ CLASS net/minecraft/class_255 net/minecraft/item/Item
 	METHOD method_811 setTextureId (I)Lnet/minecraft/class_255;
 		ARG 1 id
 	METHOD method_815 getAttackStrength (Lnet/minecraft/class_1;)I
-	METHOD method_816 postHit (Lnet/minecraft/class_229;Lnet/minecraft/class_209;)V
-	METHOD method_817 postMine (Lnet/minecraft/class_229;IIII)V
 	METHOD method_818 getMaxdurability ()I
 	METHOD method_837 canBreak (Lnet/minecraft/class_18;)Z

@@ -1,5 +1,4 @@
 CLASS net/minecraft/class_49 net/minecraft/client/screen/Screen
-	FIELD field_333 client Lnet/minecraft/class_4;
 	FIELD field_334 screenWidth I
 	FIELD field_335 screenHeight I
 	FIELD field_336 elements Ljava/util/List;
@@ -9,8 +8,6 @@ CLASS net/minecraft/class_49 net/minecraft/client/screen/Screen
 		ARG 3 z
 	METHOD method_179 onButtonPressed (Lnet/minecraft/class_47;)V
 		ARG 1 button
-	METHOD method_180 (Lnet/minecraft/class_4;II)V
-		ARG 1 client
 	METHOD method_1904 getClipboard ()Ljava/lang/String;
 	METHOD method_263 onClick (III)V
 		ARG 1 x

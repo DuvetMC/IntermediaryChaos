@@ -1,6 +1,3 @@
 CLASS net/minecraft/class_446 net/minecraft/world/chunk/ChunkWorld
 	FIELD field_2138 x I
 	FIELD field_2139 z I
-	METHOD b getBlockEntity (III)Lnet/minecraft/class_262;
-	METHOD f getPropetiesAt (III)Lnet/minecraft/class_79;
-	METHOD g isFullBlock (III)Z

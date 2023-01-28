@@ -1,6 +1,6 @@
-CLASS net/minecraft/class_27 net/minecraft/client/MinecraftApplet
-	FIELD field_1063 client Lnet/minecraft/class_4;
-	FIELD field_1065 canvas Ljava/awt/Canvas;
+CLASS net/minecraft/client/MinecraftApplet net/minecraft/client/MinecraftApplet
+	FIELD field_1063 client Lnet/minecraft/client/Minecraft;
 	METHOD destroy destroy ()V
+	METHOD init init ()V
 	METHOD start start ()V
 	METHOD stop stop ()V

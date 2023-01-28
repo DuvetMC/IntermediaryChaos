@@ -1,5 +1,1 @@
 CLASS net/minecraft/class_516 net/minecraft/client/screen/ConnectingToServerScreen
-	METHOD <init> (Lnet/minecraft/class_4;Ljava/lang/String;I)V
-		ARG 1 client
-		ARG 2 address
-		ARG 3 port
