@@ -4,7 +4,10 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/MinecraftClient
 	FIELD field_1471 minecraftDir Ljava/io/File;
 	FIELD field_1941 minecraftDir Ljava/io/File;
 	FIELD field_2186 applet Lnet/minecraft/client/MinecraftApplet;
+	FIELD field_2430 serverIp Ljava/lang/String;
+	FIELD field_2431 serverPort I
 	FIELD field_292 debugInfo Ljava/lang/String;
+	FIELD field_2990 texturePacks Lnet/minecraft/class_644;
 	FIELD field_299 width I
 	FIELD field_300 height I
 	FIELD field_301 world Lnet/minecraft/class_14;
@@ -28,10 +31,12 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/MinecraftClient
 	METHOD method_1208 getMinecraftDir ()Ljava/io/File;
 	METHOD method_1236 setWorld (Lnet/minecraft/class_14;)V
 		ARG 1 world
-	METHOD method_1274 stop ()V
 	METHOD method_1393 handleException (Lnet/minecraft/class_480;)V
 		ARG 1 exception
+	METHOD method_1450 startGame ()V
 	METHOD method_1453 connectToServer (Ljava/lang/String;I)V
+		ARG 1 ip
+		ARG 2 port
 	METHOD method_162 showScreen (Lnet/minecraft/class_49;)V
 	METHOD method_173 tickInput ()V
 	METHOD method_1841 launchMinecraft (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -42,3 +47,4 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/MinecraftClient
 		ARG 1 world
 	METHOD method_2835 crash (Lnet/minecraft/class_480;)V
 		ARG 1 exception
+	METHOD run run ()V

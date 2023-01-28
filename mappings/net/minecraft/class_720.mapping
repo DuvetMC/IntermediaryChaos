@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_720
+	FIELD field_3311 LOGGER Ljava/util/logging/Logger;
+	FIELD field_3312 worldDir Ljava/io/File;
+	FIELD field_3313 playersDir Ljava/io/File;
+	FIELD field_3314 id J
+	FIELD field_3798 dataDir Ljava/io/File;
+	METHOD method_2298 getWorldDirectory ()Ljava/io/File;
+	METHOD method_2299 lock ()V

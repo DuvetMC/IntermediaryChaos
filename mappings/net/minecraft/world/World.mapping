@@ -166,6 +166,7 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 		ARG 3 z
 		ARG 4 type
 		ARG 5 data
+	METHOD method_2168 getChunkCache ()Lnet/minecraft/class_379;
 	METHOD method_2289 setWorldSpawn (Lnet/minecraft/class_712;)V
 		ARG 1 pos
 	METHOD method_2290 getSeed ()J

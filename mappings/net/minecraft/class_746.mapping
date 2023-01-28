@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_746
+	METHOD method_2420 loadDimension (Lnet/minecraft/class_634;)Lnet/minecraft/class_440;
+		ARG 1 dimension
+	METHOD method_2421 checkLock ()V
+	METHOD method_2422 loadWorld ()Lnet/minecraft/class_717;
+	METHOD method_2861 loadData (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 s
