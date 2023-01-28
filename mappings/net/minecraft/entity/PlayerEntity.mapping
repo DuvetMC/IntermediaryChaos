@@ -12,6 +12,10 @@ CLASS net/minecraft/class_3 net/minecraft/entity/PlayerEntity
 	METHOD method_2059 respawn ()V
 	METHOD method_2099 showCraftingScreen (III)V
 	METHOD method_2180 showDispenserScreen (Lnet/minecraft/class_676;)V
+	METHOD method_2318 (III)Lnet/minecraft/class_752;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_582 addItem (Lnet/minecraft/class_229;Z)V
 	METHOD method_760 showInventoryScreen (Lnet/minecraft/class_267;)V
 	METHOD method_999 showFurnaceScreen (Lnet/minecraft/class_365;)V

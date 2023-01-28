@@ -172,6 +172,12 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
+	METHOD method_735 (Lnet/minecraft/class_14;IIILnet/minecraft/class_3;)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 player
 	METHOD method_927 (Lnet/minecraft/class_14;IIII)V
 		ARG 1 world
 		ARG 2 x

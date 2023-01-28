@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_752 net/minecraft/SleepStatus
+	FIELD field_3452 OK Lnet/minecraft/class_752;
+	FIELD field_3455 TOO_FAR_AWAY Lnet/minecraft/class_752;

@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_489 net/minecraft/block/PressurePlateBlock$WeightType
+	FIELD field_2294 Lnet/minecraft/class_489;
+		COMMENT hot morbs in your area
