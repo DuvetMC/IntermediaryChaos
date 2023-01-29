@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_871 net/minecraft/server/world/chunk/ServerChunkCache
+CLASS net/minecraft/class_871 net/minecraft/world/chunk/ChunkCache
 	FIELD field_3863 chunksToUnload Ljava/util/Set;
 	FIELD field_3864 empty Lnet/minecraft/class_381;
 	FIELD field_3865 generator Lnet/minecraft/class_379;
