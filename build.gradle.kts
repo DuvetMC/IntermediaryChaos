@@ -1,3 +1,4 @@
+import net.fabricmc.stitch.commands.tinyv2.*
 import java.net.URL
 
 buildscript {
@@ -33,6 +34,14 @@ enum class EnvType {
 val minecraftVersion = "b1.7.3"
 val officialVersion = "b1.7.3"
 val env = EnvType.CLIENT
+
+version = if (System.getenv("BUILD_NUMBER") != null) {
+    "$minecraftVersion.b${System.getenv("BUILD_NUMBER")}-${env.toString().toLowerCase()}"
+} else {
+    "$minecraftVersion-${env.toString().toLowerCase()}"
+}
+
+group = "org.duvetmc"
 
 repositories {
     mavenCentral()
@@ -283,20 +292,20 @@ tasks {
             val invertedIntermediaries = file("$temp/inverted-intermediaries.tiny")
             val unordered = file("$temp/unordered.tiny")
 
-            net.fabricmc.stitch.commands.tinyv2.CommandReorderTinyV2().run(arrayOf(
+            CommandReorderTinyV2().run(arrayOf(
                 intermediaries.absolutePath,
                 invertedIntermediaries.absolutePath,
                 "intermediary",
                 "official",
             ))
 
-            net.fabricmc.stitch.commands.tinyv2.CommandMergeTinyV2().run(arrayOf(
+            CommandMergeTinyV2().run(arrayOf(
                 invertedIntermediaries.absolutePath,
                 named.absolutePath,
                 unordered.absolutePath,
             ))
 
-            net.fabricmc.stitch.commands.tinyv2.CommandReorderTinyV2().run(arrayOf(
+            CommandReorderTinyV2().run(arrayOf(
                 unordered.absolutePath,
                 outputFile.absolutePath,
                 "official",
@@ -315,4 +324,77 @@ tasks {
             rename { "mappings/mappings.tiny" }
         }
     }
+    
+    val genLoomIntermediaryJar by registering(Jar::class) {
+        // Loom needs Intermediary to be in a jar using TinyV2, but Stitch pretty much can only
+        // generate TinyV1 intermediaries. So we have to convert it to TinyV2.
+
+        group = mappingsGroup
+        dependsOn(genV2Intermediary)
+
+        archiveClassifier.set("intermediary-v2")
+        from(genV2Intermediary.get().outputs.files.singleFile) {
+            rename { "mappings/mappings.tiny" }
+        }
+    }
+    
+    val genMappedJar by registering {
+        group = mappingsGroup
+        dependsOn(genMappings, genIntermediaryJar)
+
+        val outputFile = file("$mcJarsDir/$minecraftVersion-named.jar")
+        outputs.file(outputFile)
+
+        onlyIf { !outputFile.exists() }
+
+        doLast {
+            val mappings = file("$mappingsDir/$minecraftVersion-named.tiny")
+            val inputJar = file("$mcJarsDir/$minecraftVersion-intermediary.jar")
+
+            cuchaz.enigma.command.DeobfuscateCommand.run(
+                inputJar.toPath(),
+                outputFile.toPath(),
+                mappings.toPath(),
+            )
+        }
+    }
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("mappings") {
+            artifactId = "mappings"
+
+            artifact(tasks["genMappingsJar"])
+            artifact(tasks["combinedMappingsJar"])
+        }
+
+        create<MavenPublication>("intermediary") {
+            artifactId = "intermediary"
+            version = "$minecraftVersion-${env.toString().toLowerCase()}"
+
+            artifact(tasks["genLoomIntermediaryJar"]) {
+                classifier = "v2" // remove redundant "intermediary" part
+            }
+        }
+    }
+
+    repositories {
+        mavenLocal()
+
+        val url = System.getenv("MAVEN_URL")
+        if (url != null) {
+            maven(url = url) {
+                if (url.startsWith("file://")) return@maven // no credentials for local repos
+                credentials {
+                    username = System.getenv("MAVEN_USERNAME") ?: System.getenv("MAVEN_USER")
+                    password = System.getenv("MAVEN_PASSWORD") ?: System.getenv("MAVEN_PASS")
+                }
+            }
+        }
+    }
+}
+
+tasks.withType<PublishToMavenRepository> {
+    onlyIf { System.getProperty("intermediary.publish") == "true" || "intermediary" !in it.name }
 }
