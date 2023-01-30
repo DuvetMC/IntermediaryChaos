@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_96 net/minecraft/unpackaged/OsType
+CLASS net/minecraft/class_96 net/minecraft/OsType
 	FIELD field_1136 LINUX Lnet/minecraft/class_96;
 	FIELD field_1137 SOLARIS Lnet/minecraft/class_96;
 	FIELD field_1138 WINDOWS Lnet/minecraft/class_96;

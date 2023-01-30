@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_506 net/minecraft/unpackaged/Packet
+CLASS net/minecraft/class_506 net/minecraft/network/packet/Packet
 	FIELD field_2529 idToType Ljava/util/Map;
 	FIELD field_2530 typeToId Ljava/util/Map;
 	FIELD field_3665 s2c Ljava/util/Set;

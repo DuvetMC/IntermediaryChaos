@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_640 net/minecraft/network/packet/EntityInteractionC2SPacket
+CLASS net/minecraft/class_640 net/minecraft/network/packet/EntityInteractionPacket
 	FIELD field_2939 player I
 	FIELD field_2940 entity I
 	FIELD field_3000 interaction I
