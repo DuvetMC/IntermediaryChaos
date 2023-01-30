@@ -9,7 +9,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("org.quiltmc:enigma-cli:1.5.0")
+        classpath("org.quiltmc:enigma-cli:1.5.1")
         classpath("net.fabricmc:stitch:0.6.2")
         classpath("de.undercouch:gradle-download-task:4.1.2")
         classpath("org.quiltmc.unpick:unpick:3.0.2")
@@ -55,8 +55,8 @@ repositories {
 val enigmaConfig by configurations.creating
 
 dependencies {
-    enigmaConfig("org.quiltmc:enigma-swing:1.5.1+local")
-    enigmaConfig("org.quiltmc:enigma-server:1.5.1+local")
+    enigmaConfig("org.quiltmc:enigma-swing:1.5.1")
+    enigmaConfig("org.quiltmc:enigma-server:1.5.1")
     enigmaConfig("org.quiltmc:quilt-enigma-plugin:1.2.1")
     enigmaConfig("net.fabricmc:name-proposal:0.1.4")
     listOf(
