@@ -315,7 +315,7 @@ tasks {
         }
     }
 
-    val combinedMappingsJar by registering(Jar::class) {
+    val genCombinedMappingsJar by registering(Jar::class) {
         group = mappingsGroup
         dependsOn(genCombinedMappings)
 
@@ -358,6 +358,46 @@ tasks {
             )
         }
     }
+
+    val genFakeNamedJar by registering(Jar::class) {
+        group = mappingsGroup
+        dependsOn(genV2Intermediary)
+
+        archiveClassifier.set("fake-in-order-to-satisfy-loom")
+        val inputFile = file("$mappingsDir/intermediary-as-named.tiny")
+        from(inputFile) {
+            rename { "mappings/mappings.tiny" }
+        }
+
+        doFirst { 
+            val mappings = genV2Intermediary.get().outputs.files.singleFile
+            inputFile.parentFile.mkdirs()
+            inputFile.writeText(buildString {
+                for (line in mappings.readLines()) {
+                    if (isEmpty()) {
+                        appendLine("tiny\t2\t0\tintermediary\tnamed")
+                    } else {
+                        appendLine(line)
+                    }
+                }
+            })
+        }
+    }
+
+    assemble {
+        dependsOn(
+            genIntermediaryJar,
+            genMappingsJar,
+            genCombinedMappingsJar,
+            genLoomIntermediaryJar,
+            genMappedJar,
+            genFakeNamedJar,
+        )
+    }
+    
+    jar {
+        enabled = false
+    }
 }
 
 publishing {
@@ -366,7 +406,7 @@ publishing {
             artifactId = "mappings"
 
             artifact(tasks["genMappingsJar"])
-            artifact(tasks["combinedMappingsJar"])
+            artifact(tasks["genCombinedMappingsJar"])
         }
 
         create<MavenPublication>("intermediary") {
