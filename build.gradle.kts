@@ -49,7 +49,6 @@ repositories {
     maven("https://maven.quiltmc.org/repository/release/")
     maven("https://maven.quiltmc.org/repository/snapshot/")
     maven("https://libraries.minecraft.net/")
-    maven("https://maven.concern.i.ng/releases/")
 }
 
 val enigmaConfig by configurations.creating
