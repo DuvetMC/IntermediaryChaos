@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_1 net/minecraft/entity/Entity
-	FIELD field_1031 entity Lnet/minecraft/class_14;
+	FIELD field_1031 world Lnet/minecraft/class_14;
 	FIELD field_1035 x D
 	FIELD field_1036 y D
 	FIELD field_1037 z D

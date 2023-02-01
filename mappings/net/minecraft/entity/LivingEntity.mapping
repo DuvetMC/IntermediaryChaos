@@ -1,1 +1,3 @@
 CLASS net/minecraft/class_209 net/minecraft/entity/LivingEntity
+	FIELD field_1458 sprite Ljava/lang/String;
+		COMMENT sprite cranberry
