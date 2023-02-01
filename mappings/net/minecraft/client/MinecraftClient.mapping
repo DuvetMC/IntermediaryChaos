@@ -1,8 +1,6 @@
 CLASS net/minecraft/client/Minecraft net/minecraft/client/MinecraftClient
 	FIELD field_1243 isApplet Z
 	FIELD field_1244 soundManager Lnet/minecraft/class_249;
-	FIELD field_1471 minecraftDir Ljava/io/File;
-	FIELD field_1941 minecraftDir Ljava/io/File;
 	FIELD field_2186 applet Lnet/minecraft/client/MinecraftApplet;
 	FIELD field_2430 serverIp Ljava/lang/String;
 	FIELD field_2431 serverPort I
