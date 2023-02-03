@@ -2,6 +2,30 @@ CLASS net/minecraft/class_229 net/minecraft/item/ItemStack
 	FIELD field_1164 amount I
 	FIELD field_1166 item I
 	FIELD field_1466 durability I
+	METHOD <init> (III)V
+		ARG 1 item
+		ARG 2 amount
+		ARG 3 durability
+	METHOD <init> (Lnet/minecraft/class_18;)V
+		ARG 1 block
+	METHOD <init> (Lnet/minecraft/class_18;I)V
+		ARG 1 block
+		ARG 2 amount
+	METHOD <init> (Lnet/minecraft/class_18;II)V
+		ARG 1 block
+		ARG 2 amount
+		ARG 3 meta
+	METHOD <init> (Lnet/minecraft/class_255;)V
+		ARG 1 item
+	METHOD <init> (Lnet/minecraft/class_255;I)V
+		ARG 1 item
+		ARG 2 amount
+	METHOD <init> (Lnet/minecraft/class_255;II)V
+		ARG 1 item
+		ARG 2 amount
+		ARG 3 durability
+	METHOD <init> (Lnet/minecraft/class_461;)V
+		ARG 1 tag
 	METHOD method_1193 writeData (Lnet/minecraft/class_461;)Lnet/minecraft/class_461;
 	METHOD method_1642 getAttackStrength (Lnet/minecraft/class_1;)I
 	METHOD method_1649 readData (Lnet/minecraft/class_461;)V
@@ -18,4 +42,6 @@ CLASS net/minecraft/class_229 net/minecraft/item/ItemStack
 	METHOD method_2869 copyStack (Lnet/minecraft/class_229;)Lnet/minecraft/class_229;
 		ARG 0 stack
 	METHOD method_684 getItem ()Lnet/minecraft/class_255;
+	METHOD method_763 takeItems (I)Lnet/minecraft/class_229;
+		ARG 1 count
 	METHOD method_819 getMaxDurability ()I

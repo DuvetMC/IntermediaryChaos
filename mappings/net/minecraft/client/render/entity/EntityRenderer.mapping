@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_214 net/minecraft/client/render/entity/EntityRenderer
+	FIELD field_1087 entityRendererManager Lnet/minecraft/class_274;
+	METHOD method_629 setManager (Lnet/minecraft/class_274;)V
+		ARG 1 manager
+	METHOD method_767 (Lnet/minecraft/class_1;DDDFF)V
+		ARG 1 livingEntity

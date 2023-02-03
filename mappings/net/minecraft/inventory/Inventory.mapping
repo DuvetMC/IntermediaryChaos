@@ -1,6 +1,13 @@
 CLASS net/minecraft/class_267 net/minecraft/inventory/Inventory
 	METHOD method_2117 (Lnet/minecraft/class_3;)Z
 		ARG 1 playerEntity
-	METHOD method_750 (ILnet/minecraft/class_229;)V
+	METHOD method_747 getSlotCount ()I
+	METHOD method_748 getItem (I)Lnet/minecraft/class_229;
+		ARG 1 slot
+	METHOD method_750 putItem (ILnet/minecraft/class_229;)V
+		ARG 1 slot
 		ARG 2 stack
 	METHOD method_751 getId ()Ljava/lang/String;
+	METHOD method_802 takeItems (II)Lnet/minecraft/class_229;
+		ARG 1 slot
+		ARG 2 count

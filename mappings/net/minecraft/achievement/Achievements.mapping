@@ -1,0 +1,22 @@
+CLASS net/minecraft/class_755 net/minecraft/achievement/Achievements
+	FIELD field_3462 achievements Ljava/util/List;
+	FIELD field_3463 TAKING_INVENTORY Lnet/minecraft/class_817;
+	FIELD field_3464 GETTING_WOOD Lnet/minecraft/class_817;
+	FIELD field_3465 BENCHMARKING Lnet/minecraft/class_817;
+	FIELD field_3608 minX I
+	FIELD field_3609 minY I
+	FIELD field_3610 maxX I
+	FIELD field_3611 maxY I
+	FIELD field_3612 TIME_TO_MINE Lnet/minecraft/class_817;
+	FIELD field_3613 HOT_TOPIC Lnet/minecraft/class_817;
+	FIELD field_3614 ACQUIRE_HARDWARE Lnet/minecraft/class_817;
+	FIELD field_3615 TIME_TO_FARM Lnet/minecraft/class_817;
+	FIELD field_3616 BAKE_BREAD Lnet/minecraft/class_817;
+	FIELD field_3617 THE_LIE Lnet/minecraft/class_817;
+	FIELD field_3618 GETTING_AN_UPGRADE Lnet/minecraft/class_817;
+	FIELD field_3619 DELICIOUS_FISH Lnet/minecraft/class_817;
+	FIELD field_3620 ON_A_RAIL Lnet/minecraft/class_817;
+	FIELD field_3621 TIME_TO_STRIKE Lnet/minecraft/class_817;
+	FIELD field_3622 MONSTER_HUNTER Lnet/minecraft/class_817;
+	FIELD field_3623 COW_TIPPER Lnet/minecraft/class_817;
+	FIELD field_3624 WHEN_PIGS_FLY Lnet/minecraft/class_817;

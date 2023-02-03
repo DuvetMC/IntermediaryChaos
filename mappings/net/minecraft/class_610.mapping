@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_610
+	METHOD method_2191 green ()I
+	METHOD method_2192 greener ()I
+	METHOD method_2886 greenest ()I

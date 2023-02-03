@@ -1,3 +1,4 @@
-CLASS net/minecraft/class_674
+CLASS net/minecraft/class_674 net/minecraft/util/AcceptableCharacterGenerator
 	FIELD field_3121 ACCEPTABLE_CHARACTERS Ljava/lang/String;
+	FIELD field_3315 UNACCEPTABLE_CHARACTERS [C
 	METHOD method_2139 generateAcceptableCharacters ()Ljava/lang/String;

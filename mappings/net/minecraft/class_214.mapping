@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_214
-	METHOD method_767 (Lnet/minecraft/class_1;DDDFF)V
-		ARG 1 livingEntity

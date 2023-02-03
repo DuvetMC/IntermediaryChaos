@@ -127,6 +127,7 @@ CLASS net/minecraft/class_255 net/minecraft/item/Item
 	METHOD method_2176 setMaxDurability (I)Lnet/minecraft/class_255;
 	METHOD method_2178 getCraftingRemainder ()Lnet/minecraft/class_255;
 	METHOD method_2179 hasCraftingRemainder ()Z
+	METHOD method_2451 getName ()Ljava/lang/String;
 	METHOD method_2598 (Lnet/minecraft/class_229;)I
 		ARG 1 stack
 	METHOD method_681 breakMultiplier (Lnet/minecraft/class_229;Lnet/minecraft/class_18;)F

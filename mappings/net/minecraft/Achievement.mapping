@@ -1,0 +1,27 @@
+CLASS net/minecraft/class_817 net/minecraft/Achievement
+	FIELD field_3688 x I
+	FIELD field_3689 y I
+	FIELD field_3690 prerequisite Lnet/minecraft/class_817;
+	FIELD field_3691 icon Lnet/minecraft/class_229;
+	FIELD field_3692 description Ljava/lang/String;
+	METHOD <init> (ILjava/lang/String;IILnet/minecraft/class_18;Lnet/minecraft/class_817;)V
+		ARG 1 id
+		ARG 2 translationKey
+		ARG 3 x
+		ARG 4 y
+		ARG 5 icon
+		ARG 6 prerequisite
+	METHOD <init> (ILjava/lang/String;IILnet/minecraft/class_229;Lnet/minecraft/class_817;)V
+		ARG 1 id
+		ARG 2 translationKey
+		ARG 3 x
+		ARG 4 y
+		ARG 5 icon
+		ARG 6 prerequisite
+	METHOD <init> (ILjava/lang/String;IILnet/minecraft/class_255;Lnet/minecraft/class_817;)V
+		ARG 1 id
+		ARG 2 translationKey
+		ARG 3 x
+		ARG 4 y
+		ARG 5 icon
+		ARG 6 prerequisite

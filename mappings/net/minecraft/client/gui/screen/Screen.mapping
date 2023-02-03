@@ -3,6 +3,7 @@ CLASS net/minecraft/class_49 net/minecraft/client/gui/screen/Screen
 	FIELD field_334 screenWidth I
 	FIELD field_335 screenHeight I
 	FIELD field_336 elements Ljava/util/List;
+	FIELD field_746 textRenderer Lnet/minecraft/class_33;
 	METHOD method_174 init ()V
 	METHOD method_175 keyPressed (CI)V
 		ARG 1 character

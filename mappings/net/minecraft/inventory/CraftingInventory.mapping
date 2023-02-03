@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_292 net/minecraft/inventory/CraftingInventory
+	FIELD field_1397 slots [Lnet/minecraft/class_229;
+	FIELD field_1451 width I
+	METHOD <init> (Lnet/minecraft/class_655;II)V
+		ARG 2 w
+		ARG 3 h
