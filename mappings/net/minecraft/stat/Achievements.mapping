@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_755 net/minecraft/achievement/Achievements
+CLASS net/minecraft/class_755 net/minecraft/stat/Achievements
 	FIELD field_3462 achievements Ljava/util/List;
 	FIELD field_3463 TAKING_INVENTORY Lnet/minecraft/class_817;
 	FIELD field_3464 GETTING_WOOD Lnet/minecraft/class_817;

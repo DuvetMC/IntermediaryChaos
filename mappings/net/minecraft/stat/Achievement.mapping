@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_817 net/minecraft/Achievement
+CLASS net/minecraft/class_817 net/minecraft/stat/Achievement
 	FIELD field_3688 x I
 	FIELD field_3689 y I
 	FIELD field_3690 prerequisite Lnet/minecraft/class_817;
