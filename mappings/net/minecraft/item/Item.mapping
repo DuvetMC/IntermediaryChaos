@@ -130,6 +130,8 @@ CLASS net/minecraft/class_255 net/minecraft/item/Item
 	METHOD method_2451 getName ()Ljava/lang/String;
 	METHOD method_2598 (Lnet/minecraft/class_229;)I
 		ARG 1 stack
+	METHOD method_2599 durabilityBarColor (I)I
+		ARG 1 durability
 	METHOD method_681 breakMultiplier (Lnet/minecraft/class_229;Lnet/minecraft/class_18;)F
 	METHOD method_682 use (Lnet/minecraft/class_229;Lnet/minecraft/class_14;Lnet/minecraft/class_3;)Lnet/minecraft/class_229;
 	METHOD method_683 useOnBlock (Lnet/minecraft/class_229;Lnet/minecraft/class_3;Lnet/minecraft/class_14;IIII)Z
