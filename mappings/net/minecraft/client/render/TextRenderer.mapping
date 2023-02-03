@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_33
+CLASS net/minecraft/class_33 net/minecraft/client/render/TextRenderer
 	METHOD method_559 drawStringWithBackground (Ljava/lang/String;III)V
 		ARG 1 s
 		ARG 2 x

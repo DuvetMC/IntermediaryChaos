@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_5 net/minecraft/client/render/TextureManager
+	FIELD field_2974 packs Lnet/minecraft/class_644;
+	FIELD field_770 gameOptions Lnet/minecraft/class_124;
+	METHOD <init> (Lnet/minecraft/class_644;Lnet/minecraft/class_124;)V
+		ARG 1 packs
+		ARG 2 gameOptions
+	METHOD method_1655 glLoadImage (Ljava/awt/image/BufferedImage;)I
+	METHOD method_966 (I)V
+		ARG 1 texture

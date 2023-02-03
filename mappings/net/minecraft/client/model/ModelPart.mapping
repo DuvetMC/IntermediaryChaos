@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_7 net/minecraft/client/model/ModelPart
+	FIELD field_1122 vertices [Lnet/minecraft/class_10;
+	FIELD field_1123 textureQuads [Lnet/minecraft/class_8;
+	FIELD field_1472 pitch F
+	FIELD field_1473 yaw F
+	FIELD field_1474 roll F
+	FIELD field_1475 pivotX F
+	FIELD field_1476 pivotY F
+	FIELD field_1477 pivotZ F

@@ -4,19 +4,21 @@ CLASS net/minecraft/class_3 net/minecraft/entity/PlayerEntity
 	FIELD field_1812 name Ljava/lang/String;
 	FIELD field_2814 dimension I
 	FIELD field_3044 shitHandler Lnet/minecraft/class_655;
+	FIELD field_3320 spawn Lnet/minecraft/class_712;
 	METHOD method_1255 showSignScreen (Lnet/minecraft/class_405;)V
 		ARG 1 sign
 	METHOD method_1608 getScore ()I
 	METHOD method_1801 getHeldItem ()Lnet/minecraft/class_229;
 	METHOD method_2039 attackEntity (Lnet/minecraft/class_1;)V
+		ARG 1 target
 	METHOD method_2059 respawn ()V
 	METHOD method_2099 showCraftingScreen (III)V
 	METHOD method_2180 showDispenserScreen (Lnet/minecraft/class_676;)V
-	METHOD method_2318 (III)Lnet/minecraft/class_752;
+	METHOD method_2318 canSleep (III)Lnet/minecraft/class_752;
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD method_582 addItem (Lnet/minecraft/class_229;Z)V
+	METHOD method_582 dropNewItem (Lnet/minecraft/class_229;Z)V
 	METHOD method_760 showInventoryScreen (Lnet/minecraft/class_267;)V
 	METHOD method_999 showFurnaceScreen (Lnet/minecraft/class_365;)V
 		ARG 1 furnace

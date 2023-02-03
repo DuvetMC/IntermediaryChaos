@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_113 net/minecraft/network/packet/TimerHackThread
+	METHOD run run ()V

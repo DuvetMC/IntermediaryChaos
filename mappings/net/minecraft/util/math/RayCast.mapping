@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_2 net/minecraft/RayCast
+CLASS net/minecraft/class_2 net/minecraft/util/math/RayCast
 	FIELD field_377 x I
 	FIELD field_3 y I
 	FIELD field_5 z I
