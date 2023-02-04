@@ -1,11 +1,8 @@
 CLASS net/minecraft/class_124 net/minecraft/client/options/GameOptions
-	FIELD field_1182 inventory Lnet/minecraft/class_123;
-	FIELD field_1183 drop Lnet/minecraft/class_123;
 	FIELD field_1634 difficulty I
 	FIELD field_1635 DIFFICULTY_TRANSLATIONS [Ljava/lang/String;
 	FIELD field_2035 fancyGraphics Z
 	FIELD field_2766 mouseSensitivity F
-	FIELD field_2767 sneak Lnet/minecraft/class_123;
 	FIELD field_2975 skin Ljava/lang/String;
 	FIELD field_3007 mostRecentServer Ljava/lang/String;
 	FIELD field_3342 debugMode Z
@@ -18,14 +15,6 @@ CLASS net/minecraft/class_124 net/minecraft/client/options/GameOptions
 	FIELD field_750 soundVolume F
 	FIELD field_751 invertY Z
 	FIELD field_753 renderDistance I
-	FIELD field_754 forward Lnet/minecraft/class_123;
-	FIELD field_755 left Lnet/minecraft/class_123;
-	FIELD field_756 back Lnet/minecraft/class_123;
-	FIELD field_757 right Lnet/minecraft/class_123;
-	FIELD field_758 jump Lnet/minecraft/class_123;
-	FIELD field_760 chat Lnet/minecraft/class_123;
-	FIELD field_761 toggleFog Lnet/minecraft/class_123;
-	FIELD field_764 keybinds [Lnet/minecraft/class_123;
 	FIELD field_765 RENDER_DISTANCE_TRANSLATIONS [Ljava/lang/String;
 	FIELD field_766 optionsFile Ljava/io/File;
 	FIELD field_832 viewBobbing Z

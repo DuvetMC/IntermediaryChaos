@@ -16,9 +16,6 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 	FIELD field_2806 dimension Lnet/minecraft/class_634;
 	FIELD field_3305 levelProperties Lnet/minecraft/class_717;
 	FIELD field_953 random Ljava/util/Random;
-	METHOD <init> (Lnet/minecraft/class_746;Ljava/lang/String;JLnet/minecraft/class_634;)V
-		ARG 2 worldName
-		ARG 3 seed
 	METHOD method_1012 setBlockThenUpdate (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -85,10 +82,6 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 		ARG 2 listener
 	METHOD method_1225 getEntityCount (Ljava/lang/Class;)I
 	METHOD method_1227 getLight (III)I
-	METHOD method_1229 isAboveTopBlockAndInWorld (III)Z
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
 	METHOD method_1269 getTopBlock (II)I
 		ARG 1 x
 		ARG 2 z
@@ -141,7 +134,6 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 		ARG 3 z
 	METHOD method_1742 locateNearestPlayer (DDDD)Lnet/minecraft/class_3;
 	METHOD method_1743 locateNearestPlayer (Lnet/minecraft/class_1;D)Lnet/minecraft/class_3;
-	METHOD method_1860 setLight (Lnet/minecraft/class_377;IIIIII)V
 	METHOD method_1880 quitWorld ()V
 	METHOD method_1888 playSound (Ljava/lang/String;III)V
 	METHOD method_1924 setTime (J)V
@@ -152,9 +144,6 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 		ARG 1 entity
 	METHOD method_2069 spawnExplosion (Lnet/minecraft/class_1;DDDFZ)Lnet/minecraft/class_478;
 	METHOD method_2091 isAir (III)Z
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
 	METHOD method_2164 (IIII)Z
 		ARG 1 x
 		ARG 2 y
