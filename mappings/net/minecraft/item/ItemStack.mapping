@@ -24,8 +24,6 @@ CLASS net/minecraft/class_229 net/minecraft/item/ItemStack
 		ARG 1 item
 		ARG 2 amount
 		ARG 3 durability
-	METHOD <init> (Lnet/minecraft/class_461;)V
-		ARG 1 tag
 	METHOD method_1193 writeData (Lnet/minecraft/class_461;)Lnet/minecraft/class_461;
 	METHOD method_1642 getAttackStrength (Lnet/minecraft/class_1;)I
 	METHOD method_1649 readData (Lnet/minecraft/class_461;)V

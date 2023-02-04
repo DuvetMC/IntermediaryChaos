@@ -3,7 +3,6 @@ CLASS net/minecraft/class_871 net/minecraft/world/chunk/ChunkCache
 	FIELD field_3864 empty Lnet/minecraft/class_381;
 	FIELD field_3865 generator Lnet/minecraft/class_379;
 	FIELD field_3866 storage Lnet/minecraft/class_440;
-	FIELD field_3867 chunkMap Ljava/util/Map;
 	FIELD field_3868 chunks Ljava/util/List;
 	FIELD field_3869 world Lnet/minecraft/class_14;
 	METHOD <init> (Lnet/minecraft/class_14;Lnet/minecraft/class_440;Lnet/minecraft/class_379;)V

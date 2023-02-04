@@ -1,2 +1,1 @@
 CLASS net/minecraft/class_509 net/minecraft/network/ClientNetworkHandler
-	FIELD field_2382 client Lnet/minecraft/class_4;
