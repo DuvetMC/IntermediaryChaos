@@ -1,13 +1,32 @@
 CLASS net/minecraft/class_79 net/minecraft/block/Material
+	FIELD field_1497 GROUND Lnet/minecraft/class_79;
 	FIELD field_1498 GRASS Lnet/minecraft/class_79;
 	FIELD field_1499 ORE Lnet/minecraft/class_79;
+	FIELD field_1500 PROCESSED_ORE Lnet/minecraft/class_79;
+	FIELD field_1501 PLANT Lnet/minecraft/class_79;
+	FIELD field_1502 SPONGE Lnet/minecraft/class_79;
+	FIELD field_1503 WOOL Lnet/minecraft/class_79;
+	FIELD field_1504 FIRE Lnet/minecraft/class_79;
+	FIELD field_1505 SAND Lnet/minecraft/class_79;
+	FIELD field_1506 NON_FULL_BLOCK Lnet/minecraft/class_79;
 	FIELD field_1507 GLASS Lnet/minecraft/class_79;
 	FIELD field_1508 TNT Lnet/minecraft/class_79;
 	FIELD field_1572 FOLIAGE Lnet/minecraft/class_79;
+	FIELD field_2340 ICE Lnet/minecraft/class_79;
+	FIELD field_2341 SNOW_LAYER Lnet/minecraft/class_79;
+	FIELD field_2485 SNOW Lnet/minecraft/class_79;
 	FIELD field_2486 CLAY Lnet/minecraft/class_79;
+	FIELD field_2600 CACTUS Lnet/minecraft/class_79;
 	FIELD field_2672 burnable Z
+	FIELD field_2858 CUCURBITACAE Lnet/minecraft/class_79;
+		COMMENT Pumpkins and melons
+	FIELD field_2859 PORTAL Lnet/minecraft/class_79;
+	FIELD field_3161 CAKE Lnet/minecraft/class_79;
 	FIELD field_3856 color Lnet/minecraft/class_859;
 	FIELD field_3858 DIRT Lnet/minecraft/class_79;
+	FIELD field_3924 WEB Lnet/minecraft/class_79;
+	FIELD field_3925 PISTON Lnet/minecraft/class_79;
+	FIELD field_4434 BURNABLE_PLANT Lnet/minecraft/class_79;
 	FIELD field_447 WOODEN Lnet/minecraft/class_79;
 	FIELD field_448 WATER Lnet/minecraft/class_79;
 	FIELD field_449 LAVA Lnet/minecraft/class_79;
@@ -15,3 +34,4 @@ CLASS net/minecraft/class_79 net/minecraft/block/Material
 		ARG 1 color
 	METHOD method_1911 isBurnable ()Z
 	METHOD method_1912 burnable ()Lnet/minecraft/class_79;
+	METHOD method_2899 nonFullBlock ()Lnet/minecraft/class_79;

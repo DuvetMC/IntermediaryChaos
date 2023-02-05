@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_708 net/minecraft/block/DispenserBlock
+	FIELD field_3902 random Ljava/util/Random;

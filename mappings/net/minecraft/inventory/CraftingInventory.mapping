@@ -4,3 +4,6 @@ CLASS net/minecraft/class_292 net/minecraft/inventory/CraftingInventory
 	METHOD <init> (Lnet/minecraft/class_655;II)V
 		ARG 2 w
 		ARG 3 h
+	METHOD method_2210 getItemInGrid (II)Lnet/minecraft/class_229;
+		ARG 1 x
+		ARG 2 y

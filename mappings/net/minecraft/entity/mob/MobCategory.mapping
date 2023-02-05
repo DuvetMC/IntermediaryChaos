@@ -4,10 +4,12 @@ CLASS net/minecraft/class_614 net/minecraft/entity/mob/MobCategory
 	FIELD field_2855 type Ljava/lang/Class;
 	FIELD field_2856 cap I
 	FIELD field_3158 WATER Lnet/minecraft/class_614;
+	FIELD field_3159 spawnableSpace Lnet/minecraft/class_79;
 	FIELD field_3160 passive Z
 	METHOD <init> (Ljava/lang/String;ILjava/lang/Class;ILnet/minecraft/class_79;Z)V
 		ARG 3 baseClass
 		ARG 4 cap
+		ARG 5 material
 		ARG 6 passive
 	METHOD method_2198 getType ()Ljava/lang/Class;
 	METHOD method_2199 getCap ()I

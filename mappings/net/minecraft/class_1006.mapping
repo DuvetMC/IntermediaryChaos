@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_1006
+	FIELD field_4311 world Lnet/minecraft/class_14;
+	FIELD field_4312 random Ljava/util/Random;
+	METHOD method_3196 decorate (Lnet/minecraft/class_14;Ljava/util/Random;II)V
+		ARG 1 world
+		ARG 2 random

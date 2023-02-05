@@ -1,16 +1,33 @@
 CLASS net/minecraft/class_1 net/minecraft/entity/Entity
+	FIELD field_1013 onGround Z
+	FIELD field_1021 fallDistance F
 	FIELD field_1031 world Lnet/minecraft/class_14;
 	FIELD field_1035 x D
 	FIELD field_1036 y D
 	FIELD field_1037 z D
+	FIELD field_1038 dx D
+	FIELD field_1039 dy D
+	FIELD field_1040 dz D
+	FIELD field_1168 random Ljava/util/Random;
 	FIELD field_1261 ticksOnFire I
+	FIELD field_1347 air I
 	FIELD field_1691 skinUrl Ljava/lang/String;
 	FIELD field_1 hitbox Lnet/minecraft/class_19;
+	FIELD field_3170 dataManager Lnet/minecraft/class_701;
 	METHOD <init> (Lnet/minecraft/class_14;)V
 		ARG 1 world
 	METHOD method_1073 (Lnet/minecraft/class_3;)V
 		ARG 1 player
-	METHOD method_1195 (Lnet/minecraft/class_461;)V
+	METHOD method_1195 writeExtra (Lnet/minecraft/class_461;)V
 		ARG 1 tag
-	METHOD method_1197 (Lnet/minecraft/class_461;)V
+	METHOD method_1196 doublesToList ([D)Lnet/minecraft/class_464;
+	METHOD method_1197 readExtra (Lnet/minecraft/class_461;)V
 		ARG 1 tag
+	METHOD method_1198 write (Lnet/minecraft/class_461;)V
+		ARG 1 tag
+	METHOD method_1199 read (Lnet/minecraft/class_461;)V
+		ARG 1 tag
+	METHOD method_1378 (Lnet/minecraft/class_3;)Z
+		ARG 1 entity
+	METHOD method_1567 floatsToList ([F)Lnet/minecraft/class_464;
+	METHOD method_2215 getDataManager ()Lnet/minecraft/class_701;

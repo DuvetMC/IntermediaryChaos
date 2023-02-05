@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_47 net/minecraft/client/gui/screen/Button
+CLASS net/minecraft/class_47 net/minecraft/client/gui/Button
 	FIELD field_186 height I
 	FIELD field_187 id I
 	FIELD field_188 width I

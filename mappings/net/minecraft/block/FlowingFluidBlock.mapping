@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_264
+CLASS net/minecraft/class_264 net/minecraft/block/FlowingFluidBlock
 	METHOD method_1282 (Lnet/minecraft/class_14;III)Z
 		ARG 1 world
 		ARG 2 x

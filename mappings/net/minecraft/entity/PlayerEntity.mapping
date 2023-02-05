@@ -4,7 +4,14 @@ CLASS net/minecraft/class_3 net/minecraft/entity/PlayerEntity
 	FIELD field_1812 name Ljava/lang/String;
 	FIELD field_2814 dimension I
 	FIELD field_3044 shitHandler Lnet/minecraft/class_655;
+	FIELD field_3319 sleeping Z
 	FIELD field_3320 spawn Lnet/minecraft/class_712;
+	FIELD field_3321 sleepTimer I
+	FIELD field_3475 spawnpoint Lnet/minecraft/class_712;
+	FIELD field_4353 xp I
+	FIELD field_4354 level I
+	FIELD field_4355 totalXp I
+	FIELD field_4360 foodHandler Lnet/minecraft/class_965;
 	METHOD method_1255 showSignScreen (Lnet/minecraft/class_405;)V
 		ARG 1 sign
 	METHOD method_1608 getScore ()I
@@ -18,6 +25,11 @@ CLASS net/minecraft/class_3 net/minecraft/entity/PlayerEntity
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD method_3208 getFoodHandler ()Lnet/minecraft/class_965;
+	METHOD method_3212 (Lnet/minecraft/class_229;I)V
+		ARG 1 stack
+	METHOD method_3348 canEat (Z)Z
+		ARG 1 overrideHandler
 	METHOD method_582 dropNewItem (Lnet/minecraft/class_229;Z)V
 	METHOD method_760 showInventoryScreen (Lnet/minecraft/class_267;)V
 	METHOD method_999 showFurnaceScreen (Lnet/minecraft/class_365;)V

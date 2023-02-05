@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_1020 net/minecraft/block/StemBlock
+	FIELD field_4480 associatedBlock Lnet/minecraft/class_18;
+	METHOD <init> (ILnet/minecraft/class_18;)V
+		ARG 2 associatedBlock

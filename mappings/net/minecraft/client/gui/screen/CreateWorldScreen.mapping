@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_719 net/minecraft/client/gui/screen/CreateWorldScreen
+	FIELD field_4291 gameModeButton Lnet/minecraft/class_47;
+	FIELD field_4292 moreWorldOptionsButton Lnet/minecraft/class_47;
+	FIELD field_4293 mapFeaturesButton Lnet/minecraft/class_47;
+	FIELD field_4294 mapTypeButton Lnet/minecraft/class_47;

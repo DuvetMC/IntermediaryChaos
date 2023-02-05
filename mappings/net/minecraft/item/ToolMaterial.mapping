@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_678 net/minecraft/Material
+CLASS net/minecraft/class_678 net/minecraft/item/ToolMaterial
 	FIELD field_3126 WOOD Lnet/minecraft/class_678;
 	FIELD field_3127 STONE Lnet/minecraft/class_678;
 	FIELD field_3128 IRON Lnet/minecraft/class_678;

@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_913 net/minecraft/potion/PotionEffect
+	METHOD method_2942 getPotionId ()I

@@ -1,10 +1,29 @@
 CLASS net/minecraft/class_182 net/minecraft/util/MathHelper
-	FIELD field_918 THE_DEADLY_SINS [F
+	FIELD field_918 SIN_CACHE [F
 	METHOD method_1004 sqrt (D)F
+		ARG 0 d
 	METHOD method_1327 maxAbs (DD)D
+		ARG 0 d0
+		ARG 2 d1
+	METHOD method_2424 isNullOrEmpty (Ljava/lang/String;)Z
+		ARG 0 s
+	METHOD method_2990 abs (I)I
+		ARG 0 i
+	METHOD method_2991 (Ljava/util/Random;II)I
+		ARG 0 random
+		ARG 1 a
+		ARG 2 b
+	METHOD method_2992 floorLong (D)J
+		ARG 0 d
 	METHOD method_422 sin (F)F
-	METHOD method_688 ceil (D)I
+		ARG 0 f
 	METHOD method_423 cos (F)F
+		ARG 0 f
 	METHOD method_424 sqrt (F)F
-	METHOD method_689 ceil (F)I
+		ARG 0 f
+	METHOD method_688 floor (D)I
+		ARG 0 d
+	METHOD method_689 floor (F)I
+		ARG 0 f
 	METHOD method_814 abs (F)F
+		ARG 0 f

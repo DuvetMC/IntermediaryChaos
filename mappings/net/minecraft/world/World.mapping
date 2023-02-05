@@ -165,6 +165,8 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD method_2789 (Lnet/minecraft/class_3;IIIII)V
+		ARG 1 player
 	METHOD method_613 playSound (Lnet/minecraft/class_1;Ljava/lang/String;FF)V
 	METHOD method_675 playSound (DDDLjava/lang/String;FF)V
 	METHOD method_741 spawnParticle (Ljava/lang/String;DDDDDD)V

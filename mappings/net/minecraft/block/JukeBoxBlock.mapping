@@ -1,1 +1,11 @@
 CLASS net/minecraft/class_574 net/minecraft/block/JukeBoxBlock
+	METHOD method_1889 (Lnet/minecraft/class_14;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_2795 (Lnet/minecraft/class_14;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

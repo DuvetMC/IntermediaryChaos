@@ -1,0 +1,27 @@
+CLASS net/minecraft/class_701 net/minecraft/data/DataManager
+	FIELD field_3178 TYPES Ljava/util/HashMap;
+	FIELD field_3179 data Ljava/util/Map;
+	METHOD method_2228 getByte (I)B
+		ARG 1 id
+	METHOD method_2229 initValue (ILjava/lang/Object;)V
+		ARG 1 id
+		ARG 2 value
+	METHOD method_2230 readData (Ljava/io/DataInputStream;)Ljava/util/List;
+		ARG 0 is
+	METHOD method_2231 writeData (Ljava/io/DataOutputStream;)V
+		ARG 1 out
+	METHOD method_2232 writeObject (Ljava/io/DataOutputStream;Lnet/minecraft/class_690;)V
+		ARG 0 os
+		ARG 1 obj
+	METHOD method_2233 copy (Ljava/util/List;)V
+		ARG 1 data
+	METHOD method_2234 writeData (Ljava/util/List;Ljava/io/DataOutputStream;)V
+		ARG 0 data
+		ARG 1 out
+	METHOD method_2235 put (ILjava/lang/Object;)V
+		ARG 1 id
+		ARG 2 value
+	METHOD method_2490 getInt (I)I
+		ARG 1 id
+	METHOD method_2491 getString (I)Ljava/lang/String;
+		ARG 1 id

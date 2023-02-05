@@ -1,1 +1,27 @@
 CLASS net/minecraft/class_257 net/minecraft/item/FoodItem
+	FIELD field_1281 hunger I
+	FIELD field_3568 edibleByWolves Z
+	FIELD field_3998 potionLikelihood F
+	FIELD field_3999 alwaysEdible Z
+	FIELD field_4000 potionId I
+	FIELD field_4001 potionLength I
+	FIELD field_4002 potionStrength I
+	FIELD field_4003 saturation F
+	METHOD <init> (IIFZ)V
+		ARG 1 id
+		ARG 2 hunger
+		ARG 3 saturation
+		ARG 4 edibleByWolves
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 hunger
+		ARG 3 edibleByWolves
+	METHOD method_2504 getHunger ()I
+	METHOD method_2505 isEdibleByWolves ()Z
+	METHOD method_2951 setPotionEffect (IIIF)Lnet/minecraft/class_257;
+		ARG 1 id
+		ARG 2 length
+		ARG 3 strength
+		ARG 4 likelihood
+	METHOD method_2952 getSaturation ()F
+	METHOD method_2953 setAlwaysEdible ()Lnet/minecraft/class_257;

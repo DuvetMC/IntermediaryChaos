@@ -1,4 +1,8 @@
 CLASS net/minecraft/class_18 net/minecraft/block/Block
+	FIELD field_1231 GRASS_TYPE Lnet/minecraft/class_245;
+	FIELD field_1232 STONE_TYPE Lnet/minecraft/class_245;
+	FIELD field_1234 WOOD_TYPE Lnet/minecraft/class_245;
+	FIELD field_1235 GRAVEL_TYPE Lnet/minecraft/class_245;
 	FIELD field_1262 FIRE Lnet/minecraft/class_252;
 	FIELD field_1326 CHEST Lnet/minecraft/class_18;
 	FIELD field_1382 REDSTONE_DUST Lnet/minecraft/class_18;
@@ -8,6 +12,9 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_1496 material Lnet/minecraft/class_79;
 	FIELD field_1570 WHEAT Lnet/minecraft/class_18;
 	FIELD field_1571 FARMLAND Lnet/minecraft/class_18;
+	FIELD field_1637 GLASS_TYPE Lnet/minecraft/class_245;
+	FIELD field_1638 WOOL_TYPE Lnet/minecraft/class_245;
+	FIELD field_1639 SAND_TYPE Lnet/minecraft/class_245;
 	FIELD field_1751 FURNACE Lnet/minecraft/class_18;
 	FIELD field_1908 LIT_FURNACE Lnet/minecraft/class_18;
 	FIELD field_1994 SIGN Lnet/minecraft/class_18;
@@ -17,8 +24,8 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_2091 RAIL Lnet/minecraft/class_18;
 	FIELD field_211 GRASS Lnet/minecraft/class_24;
 	FIELD field_213 BEDROCK Lnet/minecraft/class_18;
-	FIELD field_214 WATER Lnet/minecraft/class_18;
-	FIELD field_216 LAVA Lnet/minecraft/class_18;
+	FIELD field_214 FLOWING_WATER Lnet/minecraft/class_18;
+	FIELD field_216 FLOWING_LAVA Lnet/minecraft/class_18;
 	FIELD field_2176 MONSTER_SPAWNER Lnet/minecraft/class_18;
 	FIELD field_2200 WOOD_STAIRS Lnet/minecraft/class_18;
 	FIELD field_2201 STONE_STAIRS Lnet/minecraft/class_18;
@@ -63,7 +70,8 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_3434 POWERED_REPEATER Lnet/minecraft/class_18;
 	FIELD field_3551 LOCKED_CHEST Lnet/minecraft/class_18;
 	FIELD field_3716 GOLD_RAIL Lnet/minecraft/class_18;
-	FIELD field_3899 TRAPDOOR Lnet/minecraft/class_18;
+	FIELD field_3899 WOOD_TRAPDOOR Lnet/minecraft/class_18;
+	FIELD field_3900 BREAKABLE_BY_HAND [Z
 	FIELD field_3938 STICKY_PISTON Lnet/minecraft/class_18;
 	FIELD field_3939 PISTON Lnet/minecraft/class_18;
 	FIELD field_3940 PISTON_HEAD Lnet/minecraft/class_883;
@@ -72,6 +80,19 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_407 SAND Lnet/minecraft/class_18;
 	FIELD field_408 GRAVEL Lnet/minecraft/class_18;
 	FIELD field_412 LOG Lnet/minecraft/class_18;
+	FIELD field_4168 STONE_MONSTER_EGG Lnet/minecraft/class_18;
+	FIELD field_4169 STONE_BRICKS Lnet/minecraft/class_18;
+	FIELD field_4170 BROWN_MUSHROOM_BLOCK Lnet/minecraft/class_18;
+	FIELD field_4171 RED_MUSHROOM_BLOCK Lnet/minecraft/class_18;
+	FIELD field_4172 IRON_BARS Lnet/minecraft/class_18;
+	FIELD field_4173 GLASS_PANE Lnet/minecraft/class_18;
+	FIELD field_4174 MELON Lnet/minecraft/class_18;
+	FIELD field_4175 PUMPKIN_STEM Lnet/minecraft/class_18;
+	FIELD field_4176 WATERMELON_STEM Lnet/minecraft/class_18;
+	FIELD field_4177 VINE Lnet/minecraft/class_18;
+	FIELD field_4178 FENCE_GATE Lnet/minecraft/class_18;
+	FIELD field_4179 BRICK_STAIRS Lnet/minecraft/class_18;
+	FIELD field_4180 STONE_BRICK_STAIRS Lnet/minecraft/class_18;
 	FIELD field_521 SPONGE Lnet/minecraft/class_18;
 	FIELD field_522 GLASS Lnet/minecraft/class_18;
 	FIELD field_537 WOOL Lnet/minecraft/class_18;
@@ -93,7 +114,8 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_977 DIRT Lnet/minecraft/class_18;
 	FIELD field_978 STONE_BRICKS Lnet/minecraft/class_18;
 	FIELD field_979 SAPLING Lnet/minecraft/class_18;
-	FIELD field_980 OTHER_WATER Lnet/minecraft/class_18;
+	FIELD field_980 STILL_WATER Lnet/minecraft/class_18;
+	FIELD field_981 STILL_LAVA Lnet/minecraft/class_18;
 	FIELD field_982 GOLD_ORE Lnet/minecraft/class_18;
 	FIELD field_983 IRON_ORE Lnet/minecraft/class_18;
 	FIELD field_984 COAL_ORE Lnet/minecraft/class_18;

@@ -1,3 +1,15 @@
 CLASS net/minecraft/class_209 net/minecraft/entity/LivingEntity
 	FIELD field_1458 sprite Ljava/lang/String;
 		COMMENT sprite cranberry
+	FIELD field_4459 activeEffects Ljava/util/HashMap;
+	METHOD method_2483 isWild ()Z
+	METHOD method_3273 givePotionEffect (Lnet/minecraft/class_913;)V
+		ARG 1 effect
+	METHOD method_3275 hasPotionEffect (Lnet/minecraft/class_1008;)Z
+		ARG 1 potion
+	METHOD method_3276 getMovementModifier ()F
+	METHOD method_3281 getPotionEffect (Lnet/minecraft/class_1008;)Lnet/minecraft/class_913;
+		ARG 1 potion
+	METHOD method_953 getAmbientSound ()Ljava/lang/String;
+	METHOD method_954 getHurtSound ()Ljava/lang/String;
+	METHOD method_955 getDeathSound ()Ljava/lang/String;
