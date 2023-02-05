@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_728
+	FIELD field_3336 x I
+	FIELD field_3337 y I
+	FIELD field_3338 z I

@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_962 net/minecraft/entity/death/DeathReason
+CLASS net/minecraft/class_962 net/minecraft/entity/damage/DamageSource
 	FIELD field_4123 IN_FIRE Lnet/minecraft/class_962;
 	FIELD field_4124 ON_FIRE Lnet/minecraft/class_962;
 	FIELD field_4125 LAVA Lnet/minecraft/class_962;
@@ -14,17 +14,18 @@ CLASS net/minecraft/class_962 net/minecraft/entity/death/DeathReason
 	FIELD field_4135 name Ljava/lang/String;
 	METHOD <init> (Ljava/lang/String;)V
 		ARG 1 name
-	METHOD method_3047 getKiller ()Lnet/minecraft/class_1;
-	METHOD method_3048 killedByFireball (Lnet/minecraft/class_601;Lnet/minecraft/class_1;)Lnet/minecraft/class_962;
+	METHOD method_3047 getAttacker ()Lnet/minecraft/class_1;
+	METHOD method_3048 fromFireball (Lnet/minecraft/class_601;Lnet/minecraft/class_1;)Lnet/minecraft/class_962;
 		ARG 0 fireball
 		ARG 1 shooter
-	METHOD method_3049 killedByArrow (Lnet/minecraft/class_268;Lnet/minecraft/class_1;)Lnet/minecraft/class_962;
+	METHOD method_3049 fromArrow (Lnet/minecraft/class_268;Lnet/minecraft/class_1;)Lnet/minecraft/class_962;
 		ARG 0 arrow
 		ARG 1 shooter
-	METHOD method_3050 killedByThrownObject (Lnet/minecraft/class_1;Lnet/minecraft/class_1;)Lnet/minecraft/class_962;
+	METHOD method_3050 fromThrownObject (Lnet/minecraft/class_1;Lnet/minecraft/class_1;)Lnet/minecraft/class_962;
 		ARG 0 thrownObject
 		ARG 1 shooter
-	METHOD method_3051 killedByPlayer (Lnet/minecraft/class_3;)Lnet/minecraft/class_962;
+	METHOD method_3051 fromPlayer (Lnet/minecraft/class_3;)Lnet/minecraft/class_962;
 		ARG 0 player
-	METHOD method_3052 killedByMob (Lnet/minecraft/class_209;)Lnet/minecraft/class_962;
+	METHOD method_3052 fromMob (Lnet/minecraft/class_209;)Lnet/minecraft/class_962;
 		ARG 0 entity
+	METHOD method_3056 getInflicter ()Lnet/minecraft/class_1;

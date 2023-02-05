@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_520 net/minecraft/network/NetworkReadThread
+	FIELD field_2427 handler Lnet/minecraft/class_512;
+	METHOD <init> (Lnet/minecraft/class_512;Ljava/lang/String;)V
+		ARG 1 handler
+		ARG 2 name
+	METHOD run run ()V

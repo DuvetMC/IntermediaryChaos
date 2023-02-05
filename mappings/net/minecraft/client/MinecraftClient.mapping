@@ -11,6 +11,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/MinecraftClient
 	FIELD field_301 world Lnet/minecraft/class_14;
 	FIELD field_302 loginState Lnet/minecraft/class_67;
 	FIELD field_303 rootUrl Ljava/lang/String;
+	FIELD field_306 textRenderer Lnet/minecraft/class_33;
 	FIELD field_310 running Z
 	FIELD field_311 fullscreen Z
 	FIELD field_316 clientPlayer Lnet/minecraft/class_231;

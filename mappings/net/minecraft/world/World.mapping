@@ -62,6 +62,7 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 		ARG 2 y
 		ARG 3 z
 		ARG 4 data
+	METHOD method_1135 isDay ()Z
 	METHOD method_1136 isAboveTopBlock (III)Z
 	METHOD method_1137 updateNeighbors (IIII)V
 		ARG 1 x
@@ -165,6 +166,7 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 	METHOD method_2290 getSeed ()J
 	METHOD method_2291 getTime ()J
 	METHOD method_2292 getWorldSpawn ()Lnet/minecraft/class_712;
+	METHOD method_2293 getProperties ()Lnet/minecraft/class_717;
 	METHOD method_2594 (III)Z
 		ARG 1 x
 		ARG 2 y

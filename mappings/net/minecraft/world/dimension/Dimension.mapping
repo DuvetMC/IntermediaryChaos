@@ -1,5 +1,6 @@
 CLASS net/minecraft/class_634 net/minecraft/world/dimension/Dimension
 	FIELD field_2917 world Lnet/minecraft/class_14;
+	FIELD field_2919 preventSleeping Z
 	FIELD field_2920 brightnessTable [F
 	FIELD field_2921 id I
 	METHOD method_2008 initBiomeSource ()V

@@ -1,1 +1,11 @@
 CLASS net/minecraft/class_509 net/minecraft/network/ClientNetworkHandler
+	FIELD field_2381 socketHandler Lnet/minecraft/class_512;
+	FIELD field_2382 client Lnet/minecraft/client/Minecraft;
+	FIELD field_2383 world Lnet/minecraft/class_507;
+	FIELD field_2438 random Ljava/util/Random;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 client
+		ARG 2 ip
+		ARG 3 port
+	METHOD method_2070 getEntityById (I)Lnet/minecraft/class_1;
+		ARG 1 id

@@ -21,10 +21,15 @@ CLASS net/minecraft/class_3 net/minecraft/entity/PlayerEntity
 	METHOD method_2059 respawn ()V
 	METHOD method_2099 showCraftingScreen (III)V
 	METHOD method_2180 showDispenserScreen (Lnet/minecraft/class_676;)V
-	METHOD method_2318 canSleep (III)Lnet/minecraft/class_752;
+	METHOD method_2315 canWakeUp ()Z
+	METHOD method_2316 getSleepTimer ()I
+	METHOD method_2318 trySleep (III)Lnet/minecraft/class_752;
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD method_2453 getSpawnpoint ()Lnet/minecraft/class_712;
+	METHOD method_2454 setSpawnpoint (Lnet/minecraft/class_712;)V
+		ARG 1 pos
 	METHOD method_3208 getFoodHandler ()Lnet/minecraft/class_965;
 	METHOD method_3212 (Lnet/minecraft/class_229;I)V
 		ARG 1 stack

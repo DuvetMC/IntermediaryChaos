@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_929
+	FIELD field_4029 foodLevel I
+	FIELD field_4030 saturationLevel F

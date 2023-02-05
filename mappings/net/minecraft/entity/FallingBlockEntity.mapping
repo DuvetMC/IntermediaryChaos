@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_433 net/minecraft/entity/FallingBlockEntity
+	FIELD field_2094 tile I

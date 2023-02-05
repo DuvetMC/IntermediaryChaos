@@ -2,6 +2,7 @@ CLASS net/minecraft/class_209 net/minecraft/entity/LivingEntity
 	FIELD field_1458 sprite Ljava/lang/String;
 		COMMENT sprite cranberry
 	FIELD field_4459 activeEffects Ljava/util/HashMap;
+	METHOD method_2340 isSleeping ()Z
 	METHOD method_2483 isWild ()Z
 	METHOD method_3273 givePotionEffect (Lnet/minecraft/class_913;)V
 		ARG 1 effect

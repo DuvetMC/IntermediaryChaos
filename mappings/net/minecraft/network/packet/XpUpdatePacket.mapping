@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_948 net/minecraft/network/packet/XpUpdatePacket
+	FIELD field_4085 xp I
+	FIELD field_4086 totalXp I
+	FIELD field_4087 level I
