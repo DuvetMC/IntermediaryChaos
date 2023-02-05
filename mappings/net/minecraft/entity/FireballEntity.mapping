@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_601 net/minecraft/entity/FireballEntity
+	FIELD field_2791 x I
+	FIELD field_2792 y I
+	FIELD field_2793 z I
+	FIELD field_2795 inGround Z

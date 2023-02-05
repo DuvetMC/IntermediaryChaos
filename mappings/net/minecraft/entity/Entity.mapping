@@ -31,3 +31,15 @@ CLASS net/minecraft/class_1 net/minecraft/entity/Entity
 		ARG 1 entity
 	METHOD method_1567 floatsToList ([F)Lnet/minecraft/class_464;
 	METHOD method_2215 getDataManager ()Lnet/minecraft/class_701;
+	METHOD method_2218 dropItem (IIF)Lnet/minecraft/class_227;
+		ARG 1 id
+		ARG 2 count
+		ARG 3 yOffset
+	METHOD method_501 (Lnet/minecraft/class_962;I)Z
+		ARG 1 reason
+	METHOD method_950 dropItem (II)Lnet/minecraft/class_227;
+		ARG 1 id
+		ARG 2 count
+	METHOD method_951 dropItem (Lnet/minecraft/class_229;F)Lnet/minecraft/class_227;
+		ARG 1 stack
+		ARG 2 yOffset

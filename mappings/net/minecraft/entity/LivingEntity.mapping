@@ -10,6 +10,8 @@ CLASS net/minecraft/class_209 net/minecraft/entity/LivingEntity
 	METHOD method_3276 getMovementModifier ()F
 	METHOD method_3281 getPotionEffect (Lnet/minecraft/class_1008;)Lnet/minecraft/class_913;
 		ARG 1 potion
+	METHOD method_516 onDeath (Lnet/minecraft/class_962;)V
+		ARG 1 deathReason
 	METHOD method_953 getAmbientSound ()Ljava/lang/String;
 	METHOD method_954 getHurtSound ()Ljava/lang/String;
 	METHOD method_955 getDeathSound ()Ljava/lang/String;

@@ -1,0 +1,30 @@
+CLASS net/minecraft/class_962 net/minecraft/entity/death/DeathReason
+	FIELD field_4123 IN_FIRE Lnet/minecraft/class_962;
+	FIELD field_4124 ON_FIRE Lnet/minecraft/class_962;
+	FIELD field_4125 LAVA Lnet/minecraft/class_962;
+	FIELD field_4126 SUFFOCATION Lnet/minecraft/class_962;
+	FIELD field_4127 DROWNING Lnet/minecraft/class_962;
+	FIELD field_4128 STARVATION Lnet/minecraft/class_962;
+	FIELD field_4129 CACTUS Lnet/minecraft/class_962;
+	FIELD field_4130 FALL Lnet/minecraft/class_962;
+	FIELD field_4131 VOID Lnet/minecraft/class_962;
+	FIELD field_4132 GENERIC Lnet/minecraft/class_962;
+	FIELD field_4133 EXPLOSION Lnet/minecraft/class_962;
+	FIELD field_4134 MAGIC Lnet/minecraft/class_962;
+	FIELD field_4135 name Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD method_3047 getKiller ()Lnet/minecraft/class_1;
+	METHOD method_3048 killedByFireball (Lnet/minecraft/class_601;Lnet/minecraft/class_1;)Lnet/minecraft/class_962;
+		ARG 0 fireball
+		ARG 1 shooter
+	METHOD method_3049 killedByArrow (Lnet/minecraft/class_268;Lnet/minecraft/class_1;)Lnet/minecraft/class_962;
+		ARG 0 arrow
+		ARG 1 shooter
+	METHOD method_3050 killedByThrownObject (Lnet/minecraft/class_1;Lnet/minecraft/class_1;)Lnet/minecraft/class_962;
+		ARG 0 thrownObject
+		ARG 1 shooter
+	METHOD method_3051 killedByPlayer (Lnet/minecraft/class_3;)Lnet/minecraft/class_962;
+		ARG 0 player
+	METHOD method_3052 killedByMob (Lnet/minecraft/class_209;)Lnet/minecraft/class_962;
+		ARG 0 entity

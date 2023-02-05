@@ -5,9 +5,23 @@ CLASS net/minecraft/class_611 net/minecraft/world/biome/Biome
 	FIELD field_2835 DESERT Lnet/minecraft/class_611;
 	FIELD field_2836 PLAINS Lnet/minecraft/class_611;
 	FIELD field_2839 NETHER Lnet/minecraft/class_611;
+	FIELD field_2842 surfaceBlock B
+	FIELD field_2843 subsurfaceBlock B
 	FIELD field_2845 monsterSpawns Ljava/util/List;
 	FIELD field_2846 passiveSpawns Ljava/util/List;
+	FIELD field_2847 BIOMES [Lnet/minecraft/class_611;
 	FIELD field_3154 waterSpawns Ljava/util/List;
 	FIELD field_3853 END Lnet/minecraft/class_611;
+	FIELD field_4418 OCEAN Lnet/minecraft/class_611;
+	FIELD field_4419 EXTREME_HILLS Lnet/minecraft/class_611;
+	FIELD field_4420 RIVER Lnet/minecraft/class_611;
+	FIELD field_4425 featurePlacerManager Lnet/minecraft/class_1006;
+	FIELD field_4426 id I
+	METHOD <init> (I)V
+		ARG 1 id
 	METHOD method_1973 getSpawnEntries (Lnet/minecraft/class_614;)Ljava/util/List;
+		ARG 1 category
 	METHOD method_1974 setName (Ljava/lang/String;)Lnet/minecraft/class_611;
+	METHOD method_2195 (Ljava/util/Random;)Lnet/minecraft/class_390;
+		ARG 1 random
+	METHOD method_3238 genFeaturePlacerManager ()Lnet/minecraft/class_1006;

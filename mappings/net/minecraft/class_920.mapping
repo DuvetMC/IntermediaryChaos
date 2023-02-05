@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_920
+	FIELD field_4006 entityClass Ljava/lang/Class;
+	METHOD <init> (Ljava/lang/Class;III)V
+		ARG 1 entityClass

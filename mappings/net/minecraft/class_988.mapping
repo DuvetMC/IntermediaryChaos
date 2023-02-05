@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_988
+	FIELD field_4225 random Ljava/util/Random;

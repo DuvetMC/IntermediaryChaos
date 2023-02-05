@@ -110,6 +110,10 @@ CLASS net/minecraft/class_14 net/minecraft/world/World
 	METHOD method_1584 getChunkByBlockPosition (II)Lnet/minecraft/class_381;
 		ARG 1 x
 		ARG 2 z
+	METHOD method_1586 (Lnet/minecraft/class_377;IIII)V
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD method_1587 setMeta (IIII)Z
 		ARG 1 x
 		ARG 2 y
