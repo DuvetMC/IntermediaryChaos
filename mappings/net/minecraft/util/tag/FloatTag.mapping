@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_472 net/minecraft/util/tag/FloatTag
-	FIELD field_1915 value F
-	METHOD <init> (F)V
-		ARG 1 value

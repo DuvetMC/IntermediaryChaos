@@ -1,8 +1,0 @@
-CLASS net/minecraft/class_535 net/minecraft/client/MinecraftWindowListener
-	FIELD field_2483 client Lnet/minecraft/client/Minecraft;
-	FIELD field_2484 mainThread Ljava/lang/Thread;
-	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/Thread;)V
-		ARG 1 client
-		ARG 2 thread
-	METHOD windowClosing windowClosing (Ljava/awt/event/WindowEvent;)V
-		ARG 1 event

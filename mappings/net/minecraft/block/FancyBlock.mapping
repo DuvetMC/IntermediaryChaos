@@ -1,6 +1,0 @@
-CLASS net/minecraft/class_69 net/minecraft/block/FancyBlock
-	COMMENT nice
-	FIELD field_523 isFancy Z
-	METHOD <init> (IILnet/minecraft/class_79;Z)V
-		ARG 3 entityProperties
-		ARG 4 isFancy

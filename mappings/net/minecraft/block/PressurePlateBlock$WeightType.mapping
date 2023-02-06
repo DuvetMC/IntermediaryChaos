@@ -1,6 +1,0 @@
-CLASS net/minecraft/class_489 net/minecraft/block/PressurePlateBlock$WeightType
-	COMMENT Gaslight, Gatekeep, Girlboss
-	FIELD field_2293 EVERYTHING Lnet/minecraft/class_489;
-	FIELD field_2294 MOBS Lnet/minecraft/class_489;
-		COMMENT hot morbs in your area
-	FIELD field_2295 PLAYERS Lnet/minecraft/class_489;

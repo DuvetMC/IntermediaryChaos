@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_566 net/minecraft/world/placer/ClayFeaturePlacer
-	FIELD field_2602 clayBlock I
-	FIELD field_2603 size I
-	METHOD <init> (I)V
-		ARG 1 size

@@ -1,6 +1,0 @@
-CLASS net/minecraft/class_429 net/minecraft/util/OperatingSystem ACC:PUBLIC
-	FIELD field_2081 TRANS_FOX Lnet/minecraft/class_429;
-	FIELD field_2082 SOLARIS Lnet/minecraft/class_429;
-	FIELD field_2083 BINBOWS Lnet/minecraft/class_429;
-	FIELD field_2084 MACOS Lnet/minecraft/class_429;
-	FIELD field_2085 OTHER Lnet/minecraft/class_429;

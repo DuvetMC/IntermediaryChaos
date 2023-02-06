@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_291 net/minecraft/inventory/CraftingResult
-	FIELD field_1396 slots [Lnet/minecraft/class_229;

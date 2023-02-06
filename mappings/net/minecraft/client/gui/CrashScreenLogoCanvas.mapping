@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_453 net/minecraft/client/gui/CrashScreenLogoCanvas
-	FIELD field_2170 minecraftLogo Ljava/awt/image/BufferedImage;
-	METHOD paint paint (Ljava/awt/Graphics;)V

@@ -1,7 +1,0 @@
-CLASS net/minecraft/class_668 net/minecraft/inventory/VariableSlotsInventory
-	FIELD field_3091 id Ljava/lang/String;
-	FIELD field_3092 slotCount I
-	FIELD field_3093 slots [Lnet/minecraft/class_229;
-	METHOD <init> (Ljava/lang/String;I)V
-		ARG 1 id
-		ARG 2 slots

@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_299 net/minecraft/recipe/BlockRecipes
-	FIELD field_1433 PARAMS [[Ljava/lang/Object;
-	METHOD method_808 registerRecipes (Lnet/minecraft/class_286;)V
-		ARG 1 manager

@@ -1,8 +1,0 @@
-CLASS net/minecraft/class_330 net/minecraft/util/Vec3i
-	FIELD field_1552 x I
-	FIELD field_1553 y I
-	FIELD field_1554 z I
-	FIELD field_1555 packed I
-	METHOD method_859 add (Lnet/minecraft/class_330;)F
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 other

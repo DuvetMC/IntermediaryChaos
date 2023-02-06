@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_465 net/minecraft/util/tag/DoubleTag
-	FIELD field_1920 value D
-	METHOD <init> (D)V
-		ARG 1 value

@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_499 net/minecraft/entity/SnowballEntity
-	METHOD <init> (Lnet/minecraft/class_14;Lnet/minecraft/class_209;)V
-		ARG 1 world
-		ARG 2 entity

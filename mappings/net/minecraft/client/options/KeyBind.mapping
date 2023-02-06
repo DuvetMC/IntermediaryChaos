@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_123 net/minecraft/client/options/KeyBind
-	FIELD field_747 name Ljava/lang/String;
-	FIELD field_748 keyCode I

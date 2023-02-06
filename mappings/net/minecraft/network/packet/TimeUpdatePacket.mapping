@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_587 net/minecraft/network/packet/TimeUpdatePacket
-	FIELD field_2700 time J

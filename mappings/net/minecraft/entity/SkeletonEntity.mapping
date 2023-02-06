@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_316 net/minecraft/entity/SkeletonEntity
-	FIELD field_2809 defaultStack Lnet/minecraft/class_229;

@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_356 net/minecraft/client/render/entity/PlayerRenderer
-	FIELD field_1730 armorType [Ljava/lang/String;

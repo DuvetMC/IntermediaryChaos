@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_368 net/minecraft/client/gui/screen/FurnaceScreen
-	METHOD <init> (Lnet/minecraft/class_210;Lnet/minecraft/class_365;)V
-		ARG 1 playerInventory

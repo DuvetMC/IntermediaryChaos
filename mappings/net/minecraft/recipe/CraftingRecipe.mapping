@@ -1,7 +1,0 @@
-CLASS net/minecraft/class_679 net/minecraft/recipe/CraftingRecipe
-	METHOD method_1554 canCraft (Lnet/minecraft/class_292;)Z
-		ARG 1 inventory
-	METHOD method_1555 getResult (Lnet/minecraft/class_292;)Lnet/minecraft/class_229;
-		ARG 1 inventory
-	METHOD method_2428 getResult ()Lnet/minecraft/class_229;
-	METHOD method_807 getInputCount ()I

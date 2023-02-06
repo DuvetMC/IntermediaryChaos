@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_466 net/minecraft/util/tag/ShortTag
-	FIELD field_1921 value S
-	METHOD <init> (S)V
-		ARG 1 value

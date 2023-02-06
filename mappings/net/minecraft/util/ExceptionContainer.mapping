@@ -1,6 +1,0 @@
-CLASS net/minecraft/class_480 net/minecraft/util/ExceptionContainer
-	FIELD field_2239 message Ljava/lang/String;
-	FIELD field_2240 throwable Ljava/lang/Throwable;
-	METHOD <init> (Ljava/lang/String;Ljava/lang/Throwable;)V
-		ARG 1 message
-		ARG 2 throwable

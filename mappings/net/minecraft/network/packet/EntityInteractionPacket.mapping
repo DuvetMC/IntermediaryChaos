@@ -1,8 +1,0 @@
-CLASS net/minecraft/class_640 net/minecraft/network/packet/EntityInteractionPacket
-	FIELD field_2939 player I
-	FIELD field_2940 entity I
-	FIELD field_3000 interaction I
-	METHOD <init> (III)V
-		ARG 1 player
-		ARG 2 entity
-		ARG 3 interaction

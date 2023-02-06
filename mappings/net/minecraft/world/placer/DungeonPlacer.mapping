@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_457 net/minecraft/world/placer/DungeonPlacer
-	METHOD method_1563 pickLoot (Ljava/util/Random;)Lnet/minecraft/class_229;
-		ARG 1 random
-	METHOD method_1564 pickMob (Ljava/util/Random;)Ljava/lang/String;
-		ARG 1 random

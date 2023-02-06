@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_481 net/minecraft/recipe/MiscSimilarRecipes
-	METHOD method_1660 registerRecipes (Lnet/minecraft/class_286;)V
-		ARG 1 manager

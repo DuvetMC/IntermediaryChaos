@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_268 net/minecraft/entity/ArrowEntity
-	FIELD field_3884 isOwnedByPlayer Z

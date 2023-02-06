@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_452 net/minecraft/client/CrashReport
-	METHOD <init> (Lnet/minecraft/class_480;)V
-		ARG 1 exception

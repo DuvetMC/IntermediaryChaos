@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_463 net/minecraft/util/tag/ByteTag
-	FIELD field_1917 value B
-	METHOD <init> (B)V
-		ARG 1 value

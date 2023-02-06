@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_446 net/minecraft/world/chunk/ChunkWorld
-	FIELD field_2138 x I
-	FIELD field_2139 z I

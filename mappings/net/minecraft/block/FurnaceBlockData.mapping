@@ -1,6 +1,0 @@
-CLASS net/minecraft/class_365 net/minecraft/block/FurnaceBlockData
-	FIELD field_1746 items [Lnet/minecraft/class_229;
-	FIELD field_1747 burnTime I
-	FIELD field_1749 cookTime I
-	METHOD method_1178 getFuelBurnTime (Lnet/minecraft/class_229;)I
-		ARG 1 stack

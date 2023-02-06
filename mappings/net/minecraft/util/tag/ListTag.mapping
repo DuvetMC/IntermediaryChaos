@@ -1,8 +1,0 @@
-CLASS net/minecraft/class_464 net/minecraft/util/tag/ListTag
-	FIELD field_1918 list Ljava/util/List;
-	FIELD field_1919 type B
-	METHOD method_1163 get (I)Lnet/minecraft/class_469;
-		ARG 1 index
-	METHOD method_1164 addValue (Lnet/minecraft/class_469;)V
-		ARG 1 tag
-	METHOD method_1165 getSize ()I

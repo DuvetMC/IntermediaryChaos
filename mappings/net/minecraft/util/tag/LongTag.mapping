@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_468 net/minecraft/util/tag/LongTag
-	FIELD field_1914 value J
-	METHOD <init> (J)V
-		ARG 1 value

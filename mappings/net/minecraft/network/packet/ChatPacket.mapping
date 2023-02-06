@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_560 net/minecraft/network/packet/ChatPacket
-	FIELD field_2587 message Ljava/lang/String;
-	METHOD <init> (Ljava/lang/String;)V
-		ARG 1 message
