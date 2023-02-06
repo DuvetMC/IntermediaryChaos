@@ -2,3 +2,4 @@ CLASS net/minecraft/class_609 net/minecraft/client/world/color/GrassColors
 	FIELD field_2825 colorMap [I
 	METHOD method_1966 getColor (DD)I
 	METHOD method_2811 setColorMap ([I)V
+		ARG 0 colorMap

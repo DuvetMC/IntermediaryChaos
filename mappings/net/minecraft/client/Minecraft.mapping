@@ -19,6 +19,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD field_296 crosshairTarget Lnet/minecraft/class_2;
 	FIELD field_299 width I
 	FIELD field_300 height I
+	FIELD field_301 world Lnet/minecraft/class_14;
 	FIELD field_302 session Lnet/minecraft/class_67;
 	FIELD field_306 textRenderer Lnet/minecraft/class_33;
 	FIELD field_310 running Z
@@ -27,6 +28,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD field_315 worldRenderer Lnet/minecraft/class_16;
 	FIELD field_318 particleManager Lnet/minecraft/class_26;
 	FIELD field_320 canvas Ljava/awt/Canvas;
+	FIELD field_323 textureManager Lnet/minecraft/class_5;
 	FIELD field_3406 worldStorageSource Lnet/minecraft/class_735;
 	FIELD field_3407 INSTANCE Lnet/minecraft/client/Minecraft;
 	FIELD field_3408 camera Lnet/minecraft/class_209;
@@ -41,6 +43,12 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD field_607 gameRenderer Lnet/minecraft/class_97;
 	FIELD field_767 options Lnet/minecraft/class_124;
 	FIELD field_907 attackCooldown I
+	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+		ARG 2 canvas
+		ARG 3 applet
+		ARG 4 width
+		ARG 5 height
+		ARG 6 fullscreen
 	METHOD main main ([Ljava/lang/String;)V
 	METHOD method_1274 scheduleStop ()V
 	METHOD method_1275 getChunkDebugInfo ()Ljava/lang/String;
@@ -50,6 +58,8 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD method_1403 logGlError (Ljava/lang/String;)V
 	METHOD method_1450 init ()V
 	METHOD method_1453 setServerAddressAndPort (Ljava/lang/String;I)V
+		ARG 1 address
+		ARG 2 port
 	METHOD method_1454 isIntegratedServerRunning ()Z
 	METHOD method_1456 renderLoadingScreen ()V
 	METHOD method_1457 getOs ()Lnet/minecraft/class_96;
