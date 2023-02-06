@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_453 net/minecraft/class_453
+CLASS net/minecraft/class_453
 	METHOD paint paint (Ljava/awt/Graphics;)V

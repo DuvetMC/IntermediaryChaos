@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_741 net/minecraft/class_741
+CLASS net/minecraft/class_741
 	METHOD accept accept (Ljava/io/File;Ljava/lang/String;)Z

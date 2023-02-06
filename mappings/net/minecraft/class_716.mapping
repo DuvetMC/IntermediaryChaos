@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_716 net/minecraft/class_716
+CLASS net/minecraft/class_716
 	METHOD compareTo compareTo (Ljava/lang/Object;)I

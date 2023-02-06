@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_425 net/minecraft/class_425
+CLASS net/minecraft/class_425
 	METHOD run run ()V

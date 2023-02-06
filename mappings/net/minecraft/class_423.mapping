@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_423 net/minecraft/class_423
+CLASS net/minecraft/class_423
 	METHOD keyPressed keyPressed (Ljava/awt/event/KeyEvent;)V
 	METHOD keyReleased keyReleased (Ljava/awt/event/KeyEvent;)V
 	METHOD keyTyped keyTyped (Ljava/awt/event/KeyEvent;)V

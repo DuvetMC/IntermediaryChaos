@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_248 net/minecraft/class_248
+CLASS net/minecraft/class_248
 	METHOD method_1891 getRandom ()Lnet/minecraft/class_247;
 	METHOD method_645 load (Ljava/lang/String;Ljava/io/File;)Lnet/minecraft/class_247;
 	METHOD method_974 getRandom (Ljava/lang/String;)Lnet/minecraft/class_247;

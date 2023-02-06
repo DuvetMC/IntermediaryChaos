@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_113 net/minecraft/class_113
+CLASS net/minecraft/class_113
 	METHOD run run ()V
