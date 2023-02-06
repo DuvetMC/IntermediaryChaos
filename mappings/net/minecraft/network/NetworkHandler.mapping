@@ -47,7 +47,7 @@ CLASS net/minecraft/class_514 net/minecraft/network/NetworkHandler
 		ARG 1 pak
 	METHOD method_1940 handle (Lnet/minecraft/class_595;)V
 		ARG 1 pak
-	METHOD method_1941 handke (Lnet/minecraft/class_596;)V
+	METHOD method_1941 handle (Lnet/minecraft/class_596;)V
 		ARG 1 pak
 	METHOD method_1942 handle (Lnet/minecraft/class_597;)V
 		ARG 1 pak

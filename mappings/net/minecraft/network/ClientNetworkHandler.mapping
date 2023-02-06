@@ -3,6 +3,7 @@ CLASS net/minecraft/class_509 net/minecraft/network/ClientNetworkHandler
 	FIELD field_2382 client Lnet/minecraft/client/Minecraft;
 	FIELD field_2383 world Lnet/minecraft/class_507;
 	FIELD field_2438 random Ljava/util/Random;
+	FIELD field_4470 keybinds Ljava/util/Map;
 	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
 		ARG 1 client
 		ARG 2 ip

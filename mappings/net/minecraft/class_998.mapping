@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_998
+	FIELD field_4270 id Ljava/lang/String;
+	FIELD field_4271 isAdding Z
