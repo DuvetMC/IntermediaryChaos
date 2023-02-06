@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_669 net/minecraft/locale/LanguageManager
+	FIELD field_3095 INSTANCE Lnet/minecraft/class_669;
+	FIELD field_3096 translations Ljava/util/Properties;
+	METHOD method_2120 getInstance ()Lnet/minecraft/class_669;
+	METHOD method_2121 translate (Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_2122 translate (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+	METHOD method_2123 translateName (Ljava/lang/String;)Ljava/lang/String;

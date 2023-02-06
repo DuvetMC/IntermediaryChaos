@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_996 net/minecraft/client/render/entity/SilverfishRenderer
+	METHOD method_3165 getYawWhileDead (Lnet/minecraft/class_979;)F
+	METHOD method_3166 render (Lnet/minecraft/class_979;DDDFF)V

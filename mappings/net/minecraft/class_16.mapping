@@ -1,9 +1,0 @@
-CLASS net/minecraft/class_16
-	FIELD field_250 world Lnet/minecraft/class_14;
-	METHOD method_132 (IIIIII)V
-		ARG 1 x1
-		ARG 2 y1
-		ARG 3 z1
-		ARG 4 x2
-		ARG 5 y2
-		ARG 6 z2

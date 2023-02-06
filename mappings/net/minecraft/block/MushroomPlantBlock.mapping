@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_149 net/minecraft/block/MushroomPlantBlock
+	METHOD method_2926 grow (Lnet/minecraft/class_14;IIILjava/util/Random;)Z

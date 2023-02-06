@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_726 net/minecraft/util/math/Facings
+	FIELD field_3329 TO_DIR [I
+	FIELD field_3330 OPPOSITE [I
+	FIELD field_3331 BED_FACINGS [[I
+	FIELD field_4405 X_OFFSET [I
+	FIELD field_4406 Z_OFFSET [I
+	FIELD field_4407 FROM_DIR [I
+	FIELD field_4408 CLOCKWISE [I
+	FIELD field_4409 ANTICLOCKWISE [I

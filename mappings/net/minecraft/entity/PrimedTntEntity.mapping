@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_228 net/minecraft/entity/PrimedTntEntity
+	FIELD field_1160 fuseTimer I
+	METHOD method_1526 explode ()V

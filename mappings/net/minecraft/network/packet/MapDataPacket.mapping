@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_854 net/minecraft/network/packet/MapDataPacket
+	FIELD field_3768 id S
+	FIELD field_3769 metadata S
+	FIELD field_3770 data [B

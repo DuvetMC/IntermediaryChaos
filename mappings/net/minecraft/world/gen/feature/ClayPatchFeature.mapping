@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_566 net/minecraft/world/gen/feature/ClayPatchFeature
+	FIELD field_2602 clayId I
+	FIELD field_2603 size I
+	METHOD <init> <init> (I)V

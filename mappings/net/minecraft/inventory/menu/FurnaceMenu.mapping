@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_653 net/minecraft/inventory/menu/FurnaceMenu
+	FIELD field_3024 furnace Lnet/minecraft/class_365;
+	FIELD field_3025 cookTime I
+	FIELD field_3026 fuelTime I
+	FIELD field_3027 totalFuelTime I
+	METHOD <init> <init> (Lnet/minecraft/class_210;Lnet/minecraft/class_365;)V

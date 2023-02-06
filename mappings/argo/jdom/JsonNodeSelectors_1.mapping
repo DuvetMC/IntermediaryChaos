@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_802 argo/jdom/JsonNodeSelectors_1
+	METHOD toString toString ()Ljava/lang/String;

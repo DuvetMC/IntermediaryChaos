@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_418 net/minecraft/world/gen/feature/PlantFeature
+	FIELD field_2038 flowerId I
+	METHOD <init> <init> (I)V

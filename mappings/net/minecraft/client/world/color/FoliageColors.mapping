@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_610 net/minecraft/client/world/color/FoliageColors
+	FIELD field_2826 colors [I
+	METHOD method_1967 get (DD)I
+	METHOD method_2191 getSpruceColor ()I
+	METHOD method_2192 getBirchColor ()I
+	METHOD method_2825 set ([I)V
+	METHOD method_2886 getDefaultColor ()I

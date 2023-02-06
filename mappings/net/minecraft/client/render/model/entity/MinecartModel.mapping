@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_437 net/minecraft/client/render/model/entity/MinecartModel
+	FIELD field_2101 parts [Lnet/minecraft/class_7;

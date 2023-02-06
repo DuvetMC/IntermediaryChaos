@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_908 net/minecraft/world/biome/layer/RiverMixLayer
+	FIELD field_3978 biomeLayer Lnet/minecraft/class_1000;
+	FIELD field_3979 riverLayer Lnet/minecraft/class_1000;
+	METHOD <init> <init> (JLnet/minecraft/class_1000;Lnet/minecraft/class_1000;)V

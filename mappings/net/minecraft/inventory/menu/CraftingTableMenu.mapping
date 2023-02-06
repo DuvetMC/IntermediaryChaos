@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_662 net/minecraft/inventory/menu/CraftingTableMenu
+	FIELD field_3071 craftingTable Lnet/minecraft/class_292;
+	FIELD field_3072 resultInventory Lnet/minecraft/class_267;
+	FIELD field_3073 world Lnet/minecraft/class_14;
+	FIELD field_3074 x I
+	FIELD field_3075 y I
+	FIELD field_3076 z I
+	METHOD <init> <init> (Lnet/minecraft/class_210;Lnet/minecraft/class_14;III)V

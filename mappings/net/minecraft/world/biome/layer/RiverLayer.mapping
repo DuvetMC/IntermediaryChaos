@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_909 net/minecraft/world/biome/layer/RiverLayer
+	METHOD <init> <init> (JLnet/minecraft/class_1000;)V
+	METHOD method_2938 pick (II)I
+	METHOD method_2939 pick (IIII)I

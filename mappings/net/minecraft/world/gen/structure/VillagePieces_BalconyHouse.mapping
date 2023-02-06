@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_934 net/minecraft/world/gen/structure/VillagePieces_BalconyHouse
+	FIELD field_4043 hasRooftopTerrace Z

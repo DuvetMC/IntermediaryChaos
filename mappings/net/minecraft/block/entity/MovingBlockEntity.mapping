@@ -1,19 +1,20 @@
 CLASS net/minecraft/class_887 net/minecraft/block/entity/MovingBlockEntity
 	FIELD field_3930 movedBlockId I
-	FIELD field_3931 movedBlockData I
+	FIELD field_3931 movedMetadata I
 	FIELD field_3932 facing I
 	FIELD field_3933 extending Z
 	FIELD field_3934 source Z
 	FIELD field_3935 progress F
 	FIELD field_3936 lastProgress F
-	METHOD <init> (IIIZZ)V
-		ARG 1 movedBlockId
-		ARG 2 movedBlockData
-		ARG 3 facing
-		ARG 4 extending
-		ARG 5 source
-	METHOD method_2905 getMovedBlock ()I
+	FIELD field_3937 movedEntities Ljava/util/List;
+	METHOD <init> <init> (IIIZZ)V
+	METHOD method_2905 getMovedBlockId ()I
+	METHOD method_2906 getProgress (F)F
+	METHOD method_2907 moveEntities (FF)V
 	METHOD method_2908 isExtending ()Z
+	METHOD method_2909 getRenderOffsetX (F)F
+	METHOD method_2910 getRenderOffsetY (F)F
 	METHOD method_2911 getFacing ()I
+	METHOD method_2912 getRenderOffsetZ (F)F
 	METHOD method_2913 isSource ()Z
 	METHOD method_2914 finish ()V

@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_852 argo/format/CompactJsonFormatter_FormattedText
+	FIELD field_3762 text Ljava/lang/String;
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD toString toString ()Ljava/lang/String;

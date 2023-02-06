@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_685 net/minecraft/client/gui/screen/inventory/menu/DispenserScreen
+	METHOD <init> <init> (Lnet/minecraft/class_210;Lnet/minecraft/class_676;)V

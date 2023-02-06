@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_966 net/minecraft/world/gen/structure/MineshaftPieces_Corridor
+	FIELD field_4156 hasRails Z
+	FIELD field_4157 hasCobwebs Z
+	FIELD field_4158 hasSpiderSpawner Z
+	FIELD field_4159 sections I
+	METHOD <init> <init> (ILjava/util/Random;Lnet/minecraft/class_976;I)V
+	METHOD method_3078 findSize (Ljava/util/List;Ljava/util/Random;IIII)Lnet/minecraft/class_976;

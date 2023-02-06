@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1017 net/minecraft/world/gen/structure/StrongholdPieces_Library
+	FIELD field_4466 LOOT_ENTRIES [Lnet/minecraft/class_942;
+	FIELD field_4467 isTall Z
+	METHOD <init> <init> (ILjava/util/Random;Lnet/minecraft/class_976;I)V
+	METHOD method_3326 of (Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_1017;

@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_919 net/minecraft/world/gen/feature/SwampTreeFeature
+	METHOD method_2958 placeVine (Lnet/minecraft/class_14;IIII)V

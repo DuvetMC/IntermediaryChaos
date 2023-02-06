@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_408 net/minecraft/block/LadderBlock
+	METHOD <init> <init> (II)V

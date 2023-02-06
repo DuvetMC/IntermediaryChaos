@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_1031 net/minecraft/block/StonebrickBlock
+	METHOD <init> <init> (I)V

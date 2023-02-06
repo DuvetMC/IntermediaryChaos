@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_400 net/minecraft/entity/Entities
+	FIELD field_1966 ID_TO_TYPE Ljava/util/Map;
+	FIELD field_1967 TYPE_TO_ID Ljava/util/Map;
+	FIELD field_2704 RAW_ID_TO_TYPE Ljava/util/Map;
+	FIELD field_2705 TYPE_TO_RAW_ID Ljava/util/Map;
+	METHOD method_1232 create (Lnet/minecraft/class_461;Lnet/minecraft/class_14;)Lnet/minecraft/class_1;
+	METHOD method_1234 getId (Lnet/minecraft/class_1;)Ljava/lang/String;
+	METHOD method_1401 createSilently (Ljava/lang/String;Lnet/minecraft/class_14;)Lnet/minecraft/class_1;
+	METHOD method_1927 create (ILnet/minecraft/class_14;)Lnet/minecraft/class_1;
+	METHOD method_1928 getRawId (Lnet/minecraft/class_1;)I

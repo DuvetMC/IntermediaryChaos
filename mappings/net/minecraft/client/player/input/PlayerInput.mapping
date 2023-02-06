@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_73 net/minecraft/client/player/input/PlayerInput
+	FIELD field_2768 sneaking Z
+	FIELD field_418 movementSideways F
+	FIELD field_419 movementForward F
+	FIELD field_421 jumping Z

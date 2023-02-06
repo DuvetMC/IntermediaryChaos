@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_282 net/minecraft/client/entity/particle/FlameParticle
+	FIELD field_1380 baseScale F

@@ -1,2 +1,18 @@
 CLASS net/minecraft/class_844 net/minecraft/stat/Stat
-	METHOD method_2735 build ()Lnet/minecraft/class_844;
+	FIELD field_3728 formatter Lnet/minecraft/class_846;
+	FIELD field_3729 NUMBER_FORMAT Ljava/text/NumberFormat;
+	FIELD field_3730 DECIMAL_FORMAT Ljava/text/DecimalFormat;
+	FIELD field_3731 id I
+	FIELD field_3732 name Ljava/lang/String;
+	FIELD field_3733 local Z
+	FIELD field_3734 uuid Ljava/lang/String;
+	FIELD field_3735 NUMBER_FORMATTER Lnet/minecraft/class_846;
+	FIELD field_3736 TIME_FORMATTER Lnet/minecraft/class_846;
+	FIELD field_3737 DISTANCE_FORMATTER Lnet/minecraft/class_846;
+	METHOD <init> <init> (ILjava/lang/String;)V
+	METHOD <init> <init> (ILjava/lang/String;Lnet/minecraft/class_846;)V
+	METHOD method_2733 format (I)Ljava/lang/String;
+	METHOD method_2734 isAchievement ()Z
+	METHOD method_2735 register ()Lnet/minecraft/class_844;
+	METHOD method_2736 setLocal ()Lnet/minecraft/class_844;
+	METHOD toString toString ()Ljava/lang/String;

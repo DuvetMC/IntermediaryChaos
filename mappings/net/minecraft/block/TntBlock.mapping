@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_173 net/minecraft/block/TntBlock
+	METHOD <init> <init> (II)V

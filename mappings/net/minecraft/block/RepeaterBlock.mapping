@@ -1,1 +1,6 @@
 CLASS net/minecraft/class_745 net/minecraft/block/RepeaterBlock
+	FIELD field_3441 RANDOM_DISPLAY [D
+	FIELD field_3442 DELAY_SETTINGS [I
+	FIELD field_3443 powered Z
+	METHOD <init> <init> (IZ)V
+	METHOD method_2417 shouldBePowered (Lnet/minecraft/class_14;IIII)Z

@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_878
-	FIELD field_3889 x I
-	FIELD field_3890 y I
-	FIELD field_3891 z I
-	FIELD field_3895 entityId I

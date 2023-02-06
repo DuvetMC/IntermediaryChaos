@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_401 net/minecraft/client/render/DownloadedSkinParser
+	FIELD field_1972 data [I
+	FIELD field_1973 width I
+	FIELD field_1974 height I
+	METHOD method_1241 setTransperant (IIII)V
+	METHOD method_1243 setOpaque (IIII)V
+	METHOD method_1406 hasTransperancy (IIII)Z

@@ -1,1 +1,3 @@
 CLASS net/minecraft/class_565 net/minecraft/client/render/entity/SlimeRenderer
+	FIELD field_2618 model Lnet/minecraft/class_129;
+	METHOD method_1875 scale (Lnet/minecraft/class_570;F)V

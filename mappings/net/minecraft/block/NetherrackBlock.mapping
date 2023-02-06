@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_638 net/minecraft/block/NetherrackBlock
+	METHOD <init> <init> (II)V

@@ -1,7 +1,16 @@
 CLASS net/minecraft/class_214 net/minecraft/client/render/entity/EntityRenderer
-	FIELD field_1087 entityRendererManager Lnet/minecraft/class_274;
-	METHOD method_1479 hitboxRenderer (Lnet/minecraft/class_19;DDD)V
-	METHOD method_629 setManager (Lnet/minecraft/class_274;)V
-		ARG 1 manager
-	METHOD method_767 (Lnet/minecraft/class_1;DDDFF)V
-		ARG 1 livingEntity
+	FIELD field_1087 dispatcher Lnet/minecraft/class_274;
+	FIELD field_1169 shadowSize F
+	FIELD field_1515 shadowDarkness F
+	FIELD field_2214 blockRenderer Lnet/minecraft/class_215;
+	METHOD method_1477 getWorld ()Lnet/minecraft/class_14;
+	METHOD method_1478 drawBox (Lnet/minecraft/class_19;)V
+	METHOD method_1479 renderAreaEffectCloud (Lnet/minecraft/class_19;DDD)V
+	METHOD method_1480 renderOnFire (Lnet/minecraft/class_1;DDDF)V
+	METHOD method_1481 renderShadowOnBlock (Lnet/minecraft/class_18;DDDIIIFFDDD)V
+	METHOD method_1482 postRender (Lnet/minecraft/class_1;DDDFF)V
+	METHOD method_1852 getFontRenderer ()Lnet/minecraft/class_33;
+	METHOD method_628 renderShadow (Lnet/minecraft/class_1;DDDFF)V
+	METHOD method_629 setEntityRenderDispatcher (Lnet/minecraft/class_274;)V
+	METHOD method_766 bindTexture (Ljava/lang/String;)V
+	METHOD method_767 render (Lnet/minecraft/class_1;DDDFF)V

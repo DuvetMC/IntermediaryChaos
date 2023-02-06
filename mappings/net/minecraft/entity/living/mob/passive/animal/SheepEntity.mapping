@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_319 net/minecraft/entity/living/mob/passive/animal/SheepEntity
+	FIELD field_3136 DYE_COLORS [[F
+	METHOD method_2150 generateBasicRandomColor (Ljava/util/Random;)I
+	METHOD method_2151 setSheared (Z)V
+	METHOD method_2152 setColor (I)V
+	METHOD method_2153 isSheared ()Z
+	METHOD method_2154 getColorId ()I

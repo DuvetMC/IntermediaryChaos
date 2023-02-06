@@ -1,0 +1,14 @@
+CLASS net/minecraft/class_845 argo/saj/JsonListener
+	METHOD method_2741 startField (Ljava/lang/String;)V
+	METHOD method_2742 startDocument ()V
+	METHOD method_2743 numberValue (Ljava/lang/String;)V
+	METHOD method_2744 endDocument ()V
+	METHOD method_2745 stringValue (Ljava/lang/String;)V
+	METHOD method_2746 startArray ()V
+	METHOD method_2747 endArray ()V
+	METHOD method_2748 startObject ()V
+	METHOD method_2749 endObject ()V
+	METHOD method_2750 endField ()V
+	METHOD method_2751 trueValue ()V
+	METHOD method_2752 falseValue ()V
+	METHOD method_2753 nullValue ()V

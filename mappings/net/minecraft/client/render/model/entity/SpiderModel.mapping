@@ -1,0 +1,12 @@
+CLASS net/minecraft/class_323 net/minecraft/client/render/model/entity/SpiderModel
+	FIELD field_1527 head Lnet/minecraft/class_7;
+	FIELD field_1528 neck Lnet/minecraft/class_7;
+	FIELD field_1529 body Lnet/minecraft/class_7;
+	FIELD field_1530 backRightLeg Lnet/minecraft/class_7;
+	FIELD field_1531 backLeftLeg Lnet/minecraft/class_7;
+	FIELD field_1532 backMiddleRightLeg Lnet/minecraft/class_7;
+	FIELD field_1533 backMiddleLeftLeg Lnet/minecraft/class_7;
+	FIELD field_1534 frontMiddleRightLeg Lnet/minecraft/class_7;
+	FIELD field_1535 frontMiddleLeftLeg Lnet/minecraft/class_7;
+	FIELD field_1536 frontRightLeg Lnet/minecraft/class_7;
+	FIELD field_1537 frontLeftLeg Lnet/minecraft/class_7;

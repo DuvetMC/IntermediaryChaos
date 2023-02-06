@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_923 net/minecraft/util/WeightedPicker_Entry
+	FIELD field_4016 weight I
+	METHOD <init> <init> (I)V

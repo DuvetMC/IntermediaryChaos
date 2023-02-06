@@ -1,1 +1,4 @@
 CLASS net/minecraft/class_1021 net/minecraft/block/VineBlock
+	METHOD <init> <init> (I)V
+	METHOD method_3288 canGrowOn (I)Z
+	METHOD method_3289 hasConnections (Lnet/minecraft/class_14;III)Z

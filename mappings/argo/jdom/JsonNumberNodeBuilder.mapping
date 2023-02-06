@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_818 argo/jdom/JsonNumberNodeBuilder
+	FIELD field_3696 value Lnet/minecraft/class_794;
+	METHOD <init> <init> (Ljava/lang/String;)V

@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_2 net/minecraft/util/HitResult
+	FIELD field_1 face I
+	FIELD field_377 x I
+	FIELD field_3 y I
+	FIELD field_5 z I
+	FIELD field_816 type Lnet/minecraft/class_687;
+	FIELD field_817 pos Lnet/minecraft/class_9;
+	FIELD field_818 entity Lnet/minecraft/class_1;
+	METHOD <init> <init> (IIIILnet/minecraft/class_9;)V
+	METHOD <init> <init> (Lnet/minecraft/class_1;)V

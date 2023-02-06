@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_904 net/minecraft/client/render/block/entity/ChestRenderer
+	FIELD field_3970 singleChestModel Lnet/minecraft/class_1033;
+	FIELD field_3971 doubleChestModel Lnet/minecraft/class_1033;
+	METHOD method_2937 render (Lnet/minecraft/class_383;DDDF)V

@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_67 net/minecraft/client/Session
+	FIELD field_2241 id Ljava/lang/String;
+	FIELD field_345 username Ljava/lang/String;
+	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;)V

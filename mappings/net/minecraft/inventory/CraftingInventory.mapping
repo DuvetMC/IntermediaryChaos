@@ -1,9 +1,6 @@
 CLASS net/minecraft/class_292 net/minecraft/inventory/CraftingInventory
-	FIELD field_1397 slots [Lnet/minecraft/class_229;
+	FIELD field_1397 stacks [Lnet/minecraft/class_229;
+	FIELD field_1398 menu Lnet/minecraft/class_655;
 	FIELD field_1451 width I
-	METHOD <init> (Lnet/minecraft/class_655;II)V
-		ARG 2 w
-		ARG 3 h
-	METHOD method_2210 getItemInGrid (II)Lnet/minecraft/class_229;
-		ARG 1 x
-		ARG 2 y
+	METHOD <init> <init> (Lnet/minecraft/class_655;II)V
+	METHOD method_2210 getStack (II)Lnet/minecraft/class_229;

@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_40 net/minecraft/client/render/world/ChunkRenderReloaderComparator
+	FIELD field_229 camera Lnet/minecraft/class_209;
+	METHOD <init> <init> (Lnet/minecraft/class_209;)V
+	METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
+	METHOD method_1488 compare (Lnet/minecraft/class_12;Lnet/minecraft/class_12;)I

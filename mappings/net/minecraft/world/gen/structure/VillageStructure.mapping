@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_916 net/minecraft/world/gen/structure/VillageStructure
+	FIELD field_4004 VALID_BIOMES Ljava/util/List;

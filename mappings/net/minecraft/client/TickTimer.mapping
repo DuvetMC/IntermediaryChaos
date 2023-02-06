@@ -1,0 +1,13 @@
+CLASS net/minecraft/class_6 net/minecraft/client/TickTimer
+	FIELD field_16 ticksThisFrame I
+	FIELD field_202 tps F
+	FIELD field_204 tickDelta F
+	FIELD field_205 tpsScale F
+	FIELD field_206 partialTick F
+	FIELD field_3876 lastCorrectionTime J
+	FIELD field_516 timeSec D
+	FIELD field_517 lastTickTime J
+	FIELD field_518 cumTickTime J
+	FIELD field_519 tickTimeCorrection D
+	METHOD <init> <init> (F)V
+	METHOD method_656 advance ()V

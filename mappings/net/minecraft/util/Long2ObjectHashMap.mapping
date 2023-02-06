@@ -1,0 +1,20 @@
+CLASS net/minecraft/class_932 net/minecraft/util/Long2ObjectHashMap
+	FIELD field_4035 nodes [Lnet/minecraft/class_964;
+	FIELD field_4036 size I
+	FIELD field_4037 threshold I
+	FIELD field_4038 loadFactor F
+	FIELD field_4039 modCount I
+	METHOD method_2968 getSize ()I
+	METHOD method_2969 hash (I)I
+	METHOD method_2970 index (II)I
+	METHOD method_2971 insertNode (IJLjava/lang/Object;I)V
+	METHOD method_2972 get (J)Ljava/lang/Object;
+	METHOD method_2973 put (JLjava/lang/Object;)V
+	METHOD method_2974 addAll ([Lnet/minecraft/class_964;)V
+	METHOD method_2975 resize (I)V
+	METHOD method_2976 contains (J)Z
+	METHOD method_2977 getNode (J)Lnet/minecraft/class_964;
+	METHOD method_2978 remove (J)Ljava/lang/Object;
+	METHOD method_2979 removeNode (J)Lnet/minecraft/class_964;
+	METHOD method_2980 getKey (J)I
+	METHOD method_2981 hash (J)I

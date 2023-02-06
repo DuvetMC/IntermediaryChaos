@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_518 net/minecraft/client/gui/screen/ConnectScreen_1
+	FIELD field_2417 name Ljava/lang/String;
+	FIELD field_2418 port I
+	FIELD field_2419 connectScreen Lnet/minecraft/class_516;
+	METHOD run run ()V

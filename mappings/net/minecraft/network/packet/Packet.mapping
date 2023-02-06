@@ -1,31 +1,21 @@
 CLASS net/minecraft/class_506 net/minecraft/network/packet/Packet
-	FIELD field_2530 typeToId Ljava/util/Map;
-	FIELD field_3665 s2c Ljava/util/Set;
-	FIELD field_3666 c2s Ljava/util/Set;
+	FIELD field_2529 ID_TO_TYPE Lnet/minecraft/class_505;
+	FIELD field_2530 TYPE_TO_ID Ljava/util/Map;
+	FIELD field_2599 hasBlockData Z
+		COMMENT True if this packet contains block (entity) data.
+		COMMENT <br>
+		COMMENT Note: this field is unused since 1.4.3.
+	FIELD field_3081 creationTime J
+	FIELD field_3665 S2C Ljava/util/Set;
+	FIELD field_3666 C2S Ljava/util/Set;
 	METHOD method_1767 getId ()I
 	METHOD method_1768 create (I)Lnet/minecraft/class_506;
-		ARG 0 id
 	METHOD method_1769 serialize (Lnet/minecraft/class_506;Ljava/io/DataOutputStream;)V
-		ARG 0 packet
-		ARG 1 output
 	METHOD method_1770 handle (Lnet/minecraft/class_514;)V
-		ARG 1 handler
-	METHOD method_1771 decode (Ljava/io/DataInputStream;)V
-		ARG 1 input
-	METHOD method_1772 encode (Ljava/io/DataOutputStream;)V
-		ARG 1 output
+	METHOD method_1771 read (Ljava/io/DataInputStream;)V
+	METHOD method_1772 write (Ljava/io/DataOutputStream;)V
 	METHOD method_1773 deserialize (Ljava/io/DataInputStream;Z)Lnet/minecraft/class_506;
-		ARG 0 input
-		ARG 1 c2s
 	METHOD method_1848 register (IZZLjava/lang/Class;)V
-		ARG 0 id
-		ARG 1 s2c
-		ARG 2 c2s
-		ARG 3 type
-	METHOD method_1910 size ()I
+	METHOD method_1910 getSize ()I
 	METHOD method_2640 readString (Ljava/io/DataInputStream;I)Ljava/lang/String;
-		ARG 0 input
-		ARG 1 maxLength
 	METHOD method_2641 writeString (Ljava/lang/String;Ljava/io/DataOutputStream;)V
-		ARG 0 s
-		ARG 1 output

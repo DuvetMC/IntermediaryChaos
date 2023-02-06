@@ -1,0 +1,53 @@
+CLASS net/minecraft/class_737 net/minecraft/world/chunk/storage/RegionFile
+	FIELD field_3390 BLOCK_BUFFER [B
+		COMMENT Unused buffer to store a single 4KB block of memory.
+	FIELD field_3391 file Ljava/io/File;
+	FIELD field_3392 randomAccessFile Ljava/io/RandomAccessFile;
+	FIELD field_3393 chunkBlockInfo [I
+		COMMENT Contains the 4KB block offset and number of blocks that each chunk occupies. If
+		COMMENT a chunk does not store any data, then the array entry contains zero. The format
+		COMMENT of a non-zero entry in the array is as follows:
+		COMMENT <ul>
+		COMMENT     <li>bits[0:7] , the number of blocks that the chunk data occupies</li>
+		COMMENT     <li>bits[8:31], the block offset of the first byte in the chunk data</li>
+		COMMENT </ul>
+		COMMENT The above is specified in lsb first. This array is also written to the region
+		COMMENT file starting at byte 0.
+		COMMENT <br><br>
+		COMMENT Note: A block in this context should be understood as 4096 continous bytes in
+		COMMENT the region file.
+	FIELD field_3394 chunkSaveTimes [I
+		COMMENT Contains the times for the latest modification to each chunk. This array
+		COMMENT is also written to the region file starting at byte 4096 (block offset 1).
+	FIELD field_3395 blockEmptyFlags Ljava/util/ArrayList;
+		COMMENT A list containing flags for each of the 4KB blocks in the file indicating whether
+		COMMENT it should be considered empty or occupied. In particular, if a value at index
+		COMMENT {@code blockOffset} is {@code true} then it is empty, and otherwise occupied.
+	FIELD field_3396 bytesWritten I
+		COMMENT The total number of bytes written to the region file, since this {@code RegionFile}
+		COMMENT object was instantiated. Note that this is always a multiple of 4096 (the size
+		COMMENT of a single 4KB block).
+	FIELD field_3397 lastModifiedTime J
+	METHOD <init> <init> (Ljava/io/File;)V
+	METHOD method_2355 getChunkInputStream (II)Ljava/io/DataInputStream;
+	METHOD method_2356 writeChunkBlockInfo (III)V
+		COMMENT Writes the given chunk block info to the region file. See {@link #chunkBlockInfo}
+		COMMENT for information about the format of the block info.
+	METHOD method_2357 writeChunkData (II[BI)V
+		COMMENT Writes the chunk data at the given coordinates to the region file. Any
+		COMMENT previous chunk data at the same coordinates will be discarded.
+	METHOD method_2358 writeChunkData (I[BI)V
+		COMMENT Writes the given chunk data to the specified block offset.
+	METHOD method_2362 close ()V
+		COMMENT Flushes and closes the region file
+	METHOD method_2363 getChunkOutputStream (II)Ljava/io/DataOutputStream;
+	METHOD method_2364 writeChunkSaveTime (III)V
+		COMMENT Writes the given chunk data save time to the region file.
+	METHOD method_2367 hasChunkData (II)Z
+		COMMENT @return True, if this region file contains chunk data for the specified
+		COMMENT         coordinates, false otherwise.
+	METHOD method_2368 isOutsideRegion (II)Z
+	METHOD method_2369 getChunkBlockInfo (II)I
+		COMMENT @return The chunk block info for the chunk at the specified location. See
+		COMMENT         {@link #chunkBlockInfo} for information about the format of the
+		COMMENT         block info.

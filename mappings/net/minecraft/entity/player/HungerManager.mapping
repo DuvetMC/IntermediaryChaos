@@ -1,0 +1,18 @@
+CLASS net/minecraft/class_965 net/minecraft/entity/player/HungerManager
+	FIELD field_4149 foodLevel I
+	FIELD field_4150 saturationLevel F
+	FIELD field_4151 exhaustion F
+	FIELD field_4152 starvationTimer I
+	FIELD field_4153 lastFoodLevel I
+	METHOD method_3062 getFoodLevel ()I
+	METHOD method_3063 addExhaustion (F)V
+	METHOD method_3064 setFoodLevel (I)V
+	METHOD method_3065 add (IF)V
+	METHOD method_3066 add (Lnet/minecraft/class_257;)V
+	METHOD method_3067 tick (Lnet/minecraft/class_3;)V
+	METHOD method_3068 readNbt (Lnet/minecraft/class_461;)V
+	METHOD method_3069 getLastFoodLevel ()I
+	METHOD method_3070 setSaturationLevel (F)V
+	METHOD method_3071 writeNbt (Lnet/minecraft/class_461;)V
+	METHOD method_3072 needsFood ()Z
+	METHOD method_3073 getSaturationLevel ()F

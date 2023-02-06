@@ -1,0 +1,20 @@
+CLASS net/minecraft/class_505 net/minecraft/util/Int2ObjectHashMap
+	FIELD field_2367 nodes [Lnet/minecraft/class_517;
+	FIELD field_2368 size I
+	FIELD field_2369 threshold I
+	FIELD field_2370 loadFactor F
+	FIELD field_2371 modCount I
+	FIELD field_4414 ids Ljava/util/Set;
+	METHOD method_1758 clear ()V
+	METHOD method_1759 get (I)Ljava/lang/Object;
+	METHOD method_1760 index (II)I
+	METHOD method_1761 insertNode (IILjava/lang/Object;I)V
+	METHOD method_1762 put (ILjava/lang/Object;)V
+	METHOD method_1763 addAll ([Lnet/minecraft/class_517;)V
+	METHOD method_1764 syntheticGetHash (I)I
+	METHOD method_1765 hash (I)I
+	METHOD method_1766 resize (I)V
+	METHOD method_1824 remove (I)Ljava/lang/Object;
+	METHOD method_1825 removeNode (I)Lnet/minecraft/class_517;
+	METHOD method_3236 contains (I)Z
+	METHOD method_3237 getNode (I)Lnet/minecraft/class_517;

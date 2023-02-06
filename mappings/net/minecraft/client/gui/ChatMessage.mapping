@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_404 net/minecraft/client/gui/ChatMessage
+	FIELD field_1982 text Ljava/lang/String;
+	FIELD field_1983 timeOfCreation I

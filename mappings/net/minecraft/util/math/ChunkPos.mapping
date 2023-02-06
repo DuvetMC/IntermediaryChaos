@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_495 net/minecraft/util/math/ChunkPos
+	FIELD field_2328 x I
+	FIELD field_2329 z I
+	METHOD <init> <init> (II)V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD method_2423 toLong (II)J

@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_548 net/minecraft/network/packet/PlayerMovePacket
+	FIELD field_2521 x D
+	FIELD field_2522 minY D
+	FIELD field_2523 y D
+	FIELD field_2524 yaw F
+	FIELD field_2525 pitch F
+	FIELD field_2526 onGround Z
+	FIELD field_2527 hasPos Z
+	FIELD field_2528 hasAngles Z
+	FIELD field_2670 z D
+	METHOD <init> <init> (Z)V

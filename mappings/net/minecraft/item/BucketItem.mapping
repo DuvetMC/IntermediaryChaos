@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_417 net/minecraft/item/BucketItem
+	FIELD field_2030 liquid I

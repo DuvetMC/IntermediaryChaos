@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_897 net/minecraft/world/biome/BiomeCache_Entry
+	FIELD field_3957 temperature [F
+	FIELD field_3958 downfall [F
+	FIELD field_3959 biomes [Lnet/minecraft/class_611;
+	FIELD field_3960 chunkX I
+	FIELD field_3961 chunkZ I
+	FIELD field_3962 timeOfCreation J
+	FIELD field_3963 cache Lnet/minecraft/class_972;
+	METHOD <init> <init> (Lnet/minecraft/class_972;II)V
+	METHOD method_2931 getBiome (II)Lnet/minecraft/class_611;

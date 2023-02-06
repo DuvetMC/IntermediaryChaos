@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_786 argo/format/CompactJsonFormatter
+	METHOD method_2580 format (Lnet/minecraft/class_794;Ljava/io/Writer;)V
+	METHOD method_2581 format (Lnet/minecraft/class_829;Ljava/io/Writer;)V

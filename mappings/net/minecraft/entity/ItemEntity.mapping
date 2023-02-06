@@ -1,7 +1,7 @@
 CLASS net/minecraft/class_227 net/minecraft/entity/ItemEntity
-	FIELD field_1156 stack Lnet/minecraft/class_229;
+	FIELD field_1156 getItemStack Lnet/minecraft/class_229;
 	FIELD field_1157 pickupCooldown I
 	FIELD field_1159 age I
+	FIELD field_1336 hoverHeight F
 	FIELD field_1337 health I
-	METHOD <init> (Lnet/minecraft/class_14;DDDLnet/minecraft/class_229;)V
-		ARG 1 world
+	METHOD <init> <init> (Lnet/minecraft/class_14;DDDLnet/minecraft/class_229;)V

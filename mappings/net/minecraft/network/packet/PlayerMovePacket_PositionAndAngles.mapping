@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_508 net/minecraft/network/packet/PlayerMovePacket_PositionAndAngles
+	METHOD <init> <init> (DDDDFFZ)V

@@ -1,0 +1,12 @@
+CLASS net/minecraft/class_478 net/minecraft/world/explosion/Explosion
+	FIELD field_2901 createFire Z
+	FIELD field_2902 random Ljava/util/Random;
+	FIELD field_3008 x D
+	FIELD field_3009 y D
+	FIELD field_3010 z D
+	FIELD field_3011 source Lnet/minecraft/class_1;
+	FIELD field_3012 power F
+	FIELD field_3014 world Lnet/minecraft/class_14;
+	METHOD <init> <init> (Lnet/minecraft/class_14;Lnet/minecraft/class_1;DDDF)V
+	METHOD method_2071 damageEntities ()V
+	METHOD method_2072 damageBlocks (Z)V

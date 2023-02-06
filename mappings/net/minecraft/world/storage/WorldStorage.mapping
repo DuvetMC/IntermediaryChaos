@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_746 net/minecraft/world/storage/WorldStorage
+	METHOD method_2418 saveData (Lnet/minecraft/class_717;)V
+	METHOD method_2420 getChunkStorage (Lnet/minecraft/class_634;)Lnet/minecraft/class_440;
+	METHOD method_2421 checkSessionLock ()V
+	METHOD method_2422 loadData ()Lnet/minecraft/class_717;
+	METHOD method_2861 getDataFile (Ljava/lang/String;)Ljava/io/File;

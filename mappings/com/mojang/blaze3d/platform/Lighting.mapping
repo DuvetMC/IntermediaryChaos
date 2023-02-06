@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_216 com/mojang/blaze3d/platform/Lighting
+	FIELD field_1101 BUFFER Ljava/nio/FloatBuffer;
+	METHOD method_1023 getBuffer (DDDD)Ljava/nio/FloatBuffer;
+	METHOD method_549 turnOff ()V
+	METHOD method_550 getBuffer (FFFF)Ljava/nio/FloatBuffer;
+	METHOD method_551 turnOn ()V

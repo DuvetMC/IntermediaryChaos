@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_114 net/minecraft/client/render/LoadingScreenRenderer
+	FIELD field_2164 updated Z
+	FIELD field_601 task Ljava/lang/String;
+	FIELD field_602 client Lnet/minecraft/client/Minecraft;
+	FIELD field_603 title Ljava/lang/String;
+	FIELD field_937 systemTime J
+	METHOD method_585 setTitle (Ljava/lang/String;)V

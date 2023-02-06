@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_699 net/minecraft/crafting/recipe/ShapelessRecipe
+	FIELD field_3174 result Lnet/minecraft/class_229;
+	FIELD field_3175 inputs Ljava/util/List;
+	METHOD <init> <init> (Lnet/minecraft/class_229;Ljava/util/List;)V

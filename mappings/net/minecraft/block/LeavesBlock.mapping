@@ -1,4 +1,6 @@
 CLASS net/minecraft/class_147 net/minecraft/block/LeavesBlock
-	FIELD field_2036 baseTextureId I
-	METHOD method_1292 updateTextureId (Z)V
-	METHOD method_2051 decay (Lnet/minecraft/class_14;III)V
+	FIELD field_2036 spriteIndex I
+	FIELD field_3120 decayRegion [I
+	METHOD <init> <init> (II)V
+	METHOD method_1292 setFancyGraphics (Z)V
+	METHOD method_2051 breakLeaves (Lnet/minecraft/class_14;III)V

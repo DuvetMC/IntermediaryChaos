@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_489 net/minecraft/block/PressurePlateBlock_ActivationRule
+	FIELD field_2293 EVERYTHING Lnet/minecraft/class_489;
+	FIELD field_2294 MOBS Lnet/minecraft/class_489;
+	FIELD field_2295 PLAYERS Lnet/minecraft/class_489;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lnet/minecraft/class_489;
+	METHOD values values ()[Lnet/minecraft/class_489;

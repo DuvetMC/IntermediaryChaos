@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1013 net/minecraft/world/gen/structure/StrongholdPieces_RoomCrossing
+	FIELD field_4429 type I
+	FIELD field_4430 LOOT_ENTRIES [Lnet/minecraft/class_942;
+	METHOD <init> <init> (ILjava/util/Random;Lnet/minecraft/class_976;I)V
+	METHOD method_3325 of (Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_1013;

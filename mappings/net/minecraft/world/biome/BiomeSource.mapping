@@ -1,0 +1,16 @@
+CLASS net/minecraft/class_983 net/minecraft/world/biome/BiomeSource
+	FIELD field_4209 biomes Lnet/minecraft/class_1000;
+	FIELD field_4211 biomesIndex Lnet/minecraft/class_1000;
+	FIELD field_4213 cache Lnet/minecraft/class_972;
+	FIELD field_4214 biomesForSpawnpoint Ljava/util/List;
+	METHOD <init> <init> (Lnet/minecraft/class_14;)V
+	METHOD method_2020 getBiome (II)Lnet/minecraft/class_611;
+	METHOD method_2024 getBiomes ([Lnet/minecraft/class_611;IIII)[Lnet/minecraft/class_611;
+	METHOD method_3125 getBiomesForSpawnpoint ()Ljava/util/List;
+	METHOD method_3126 areBiomesValid (IIILjava/util/List;)Z
+	METHOD method_3127 getBiomePos (IIILjava/util/List;Ljava/util/Random;)Lnet/minecraft/class_386;
+	METHOD method_3128 getDownfall ([FIIII)[F
+	METHOD method_3129 getBiomes ([Lnet/minecraft/class_611;IIIIZ)[Lnet/minecraft/class_611;
+	METHOD method_3130 cleanCache ()V
+	METHOD method_3131 getTemperature ([FIIII)[F
+	METHOD method_3132 getBiomesForGeneration ([Lnet/minecraft/class_611;IIII)[Lnet/minecraft/class_611;

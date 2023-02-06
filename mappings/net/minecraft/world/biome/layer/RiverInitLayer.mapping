@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_953 net/minecraft/world/biome/layer/RiverInitLayer
+	METHOD <init> <init> (JLnet/minecraft/class_1000;)V

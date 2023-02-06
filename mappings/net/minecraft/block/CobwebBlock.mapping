@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_833 net/minecraft/block/CobwebBlock
+	METHOD <init> <init> (II)V

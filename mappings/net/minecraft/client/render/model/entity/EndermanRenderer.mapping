@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_988 net/minecraft/client/render/model/entity/EndermanRenderer
+	FIELD field_4224 model Lnet/minecraft/class_992;
+	FIELD field_4225 random Ljava/util/Random;
+	METHOD method_3144 render (Lnet/minecraft/class_951;DDDFF)V
+	METHOD method_3145 renderDecoration (Lnet/minecraft/class_951;F)V

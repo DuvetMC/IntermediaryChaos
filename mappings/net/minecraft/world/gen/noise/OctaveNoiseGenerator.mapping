@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_57 net/minecraft/world/gen/noise/OctaveNoiseGenerator
+	FIELD field_239 samplers [Lnet/minecraft/class_56;
+	FIELD field_240 samplerCount I
+	METHOD <init> <init> (Ljava/util/Random;I)V
+	METHOD method_1247 getNoise ([DIIIIIIDDD)[D
+	METHOD method_1996 getNoise ([DIIIIDDD)[D

@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_606 net/minecraft/world/biome/SingleBiomeSource
+	FIELD field_2816 biome Lnet/minecraft/class_611;
+	FIELD field_2818 downfall F

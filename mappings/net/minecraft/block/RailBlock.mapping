@@ -1,1 +1,9 @@
 CLASS net/minecraft/class_430 net/minecraft/block/RailBlock
+	FIELD field_3701 alwaysStraight Z
+	METHOD <init> <init> (IIZ)V
+	METHOD method_1475 updateShape (Lnet/minecraft/class_14;IIIZ)V
+	METHOD method_2684 isPoweredByConnectedRails (Lnet/minecraft/class_14;IIIIZI)Z
+	METHOD method_2685 isPoweredByRail (Lnet/minecraft/class_14;IIIZII)Z
+	METHOD method_2687 isRail (I)Z
+	METHOD method_2688 isAlwaysStraight ()Z
+	METHOD method_2689 isRail (Lnet/minecraft/class_14;III)Z

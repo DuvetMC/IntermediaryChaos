@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_281 net/minecraft/client/entity/particle/SmokeParticle
+	FIELD field_1709 baseScale F
+	METHOD <init> <init> (Lnet/minecraft/class_14;DDDDDDF)V

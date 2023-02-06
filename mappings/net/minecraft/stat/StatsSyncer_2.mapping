@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_841 net/minecraft/stat/StatsSyncer_2
+	METHOD run run ()V

@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_812 net/minecraft/client/entity/particle/SnowShovelParticle
+	FIELD field_3679 baseScale F
+	METHOD <init> <init> (Lnet/minecraft/class_14;DDDDDD)V
+	METHOD <init> <init> (Lnet/minecraft/class_14;DDDDDDF)V

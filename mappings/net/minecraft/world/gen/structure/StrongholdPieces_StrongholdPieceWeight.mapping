@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_891 net/minecraft/world/gen/structure/StrongholdPieces_StrongholdPieceWeight
+	FIELD field_3948 type Ljava/lang/Class;
+	FIELD field_3949 weight I
+	FIELD field_3950 amountGenerated I
+	FIELD field_3951 maxAmount I
+	METHOD <init> <init> (Ljava/lang/Class;II)V
+	METHOD method_2924 isValid ()Z
+	METHOD method_2925 isValid (I)Z

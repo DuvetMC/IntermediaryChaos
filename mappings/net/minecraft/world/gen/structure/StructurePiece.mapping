@@ -1,0 +1,26 @@
+CLASS net/minecraft/class_946 net/minecraft/world/gen/structure/StructurePiece
+	FIELD field_4074 box Lnet/minecraft/class_976;
+	FIELD field_4075 facing I
+	FIELD field_4076 generationDepth I
+	METHOD <init> <init> (I)V
+	METHOD method_2999 transformY (I)I
+	METHOD method_3000 transformX (II)I
+	METHOD method_3001 addChildren (Lnet/minecraft/class_946;Ljava/util/List;Ljava/util/Random;)V
+	METHOD method_3002 getIntersectingPiece (Ljava/util/List;Lnet/minecraft/class_976;)Lnet/minecraft/class_946;
+	METHOD method_3004 setBlockWithMetadata (Lnet/minecraft/class_14;IIIIILnet/minecraft/class_976;)V
+	METHOD method_3005 getBlock (Lnet/minecraft/class_14;IIILnet/minecraft/class_976;)I
+	METHOD method_3006 postProcess (Lnet/minecraft/class_14;Ljava/util/Random;Lnet/minecraft/class_976;)Z
+	METHOD method_3007 bordersOnLiquids (Lnet/minecraft/class_14;Lnet/minecraft/class_976;)Z
+	METHOD method_3008 fillWithOutline (Lnet/minecraft/class_14;Lnet/minecraft/class_976;IIIIIIIIZ)V
+	METHOD method_3009 placeUpperHemisphere (Lnet/minecraft/class_14;Lnet/minecraft/class_976;IIIIIIIZ)V
+	METHOD method_3010 fill (Lnet/minecraft/class_14;Lnet/minecraft/class_976;IIIIIIZLjava/util/Random;Lnet/minecraft/class_993;)V
+	METHOD method_3011 setBlockWithThreshold (Lnet/minecraft/class_14;Lnet/minecraft/class_976;Ljava/util/Random;FIIIII)V
+	METHOD method_3012 fillRandomlyWithOutline (Lnet/minecraft/class_14;Lnet/minecraft/class_976;Ljava/util/Random;FIIIIIIIIZ)V
+	METHOD method_3013 placeWoodenDoor (Lnet/minecraft/class_14;Lnet/minecraft/class_976;Ljava/util/Random;IIII)V
+	METHOD method_3015 getBoundingBox ()Lnet/minecraft/class_976;
+	METHOD method_3016 transformZ (II)I
+	METHOD method_3017 fillColumnDown (Lnet/minecraft/class_14;IIIIILnet/minecraft/class_976;)V
+	METHOD method_3018 fillAirColumnUp (Lnet/minecraft/class_14;IIILnet/minecraft/class_976;)V
+	METHOD method_3019 getGenerationDepth ()I
+		COMMENT Returns the distance between this piece and the structure start, traced along the structure piece tree.
+	METHOD method_3020 postProcessBlockMetadata (II)I

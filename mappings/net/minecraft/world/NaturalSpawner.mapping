@@ -1,16 +1,4 @@
 CLASS net/minecraft/class_398 net/minecraft/world/NaturalSpawner
-	FIELD field_2319 mobSpawningChunks Ljava/util/Set;
-	METHOD method_1216 tickMobSpawning (Lnet/minecraft/class_14;ZZ)I
-		ARG 0 world
-		ARG 1 monsters
-		ARG 2 animals
-	METHOD method_1330 pickRandomPosition (Lnet/minecraft/class_14;II)Lnet/minecraft/class_386;
-		ARG 0 world
-		ARG 1 x
-		ARG 2 z
-	METHOD method_2146 (Lnet/minecraft/class_614;Lnet/minecraft/class_14;III)Z
-		ARG 0 category
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+	METHOD method_1330 getRandomPosInChunk (Lnet/minecraft/class_14;II)Lnet/minecraft/class_386;
+	METHOD method_2146 isValidSpawnPos (Lnet/minecraft/class_614;Lnet/minecraft/class_14;III)Z
+	METHOD method_3152 populateChunk (Lnet/minecraft/class_14;Lnet/minecraft/class_611;IIIILjava/util/Random;)V

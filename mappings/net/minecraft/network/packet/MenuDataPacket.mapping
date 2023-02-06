@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_561 net/minecraft/network/packet/MenuDataPacket
+	FIELD field_2588 menuId I
+	FIELD field_2589 dataId I
+	FIELD field_2590 value I

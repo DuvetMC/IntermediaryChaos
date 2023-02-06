@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_612 net/minecraft/client/render/entity/ProjectileRenderer
+	FIELD field_3029 metadata I

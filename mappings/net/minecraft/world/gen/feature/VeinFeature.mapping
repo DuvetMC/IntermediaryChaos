@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_391 net/minecraft/world/gen/feature/VeinFeature
+	FIELD field_1897 blockId I
+	FIELD field_2089 size I
+	METHOD <init> <init> (II)V

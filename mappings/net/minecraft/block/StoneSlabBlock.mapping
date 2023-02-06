@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_176 net/minecraft/block/StoneSlabBlock
+	FIELD field_3444 VARIANTS [Ljava/lang/String;
+	METHOD <init> <init> (IZ)V

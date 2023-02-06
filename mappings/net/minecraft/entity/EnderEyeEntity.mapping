@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_499 net/minecraft/entity/EnderEyeEntity
+	FIELD field_2352 lifespan I
+	METHOD <init> <init> (Lnet/minecraft/class_14;DDD)V

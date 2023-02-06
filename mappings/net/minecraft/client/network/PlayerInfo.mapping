@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_123 net/minecraft/client/network/PlayerInfo
+	FIELD field_747 name Ljava/lang/String;
+	FIELD field_748 ping I
+	METHOD <init> <init> (Ljava/lang/String;)V

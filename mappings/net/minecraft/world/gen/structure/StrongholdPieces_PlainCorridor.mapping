@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_956 net/minecraft/world/gen/structure/StrongholdPieces_PlainCorridor
+	FIELD field_4099 steps I
+	METHOD <init> <init> (ILjava/util/Random;Lnet/minecraft/class_976;I)V
+	METHOD method_3039 findSize (Ljava/util/List;Ljava/util/Random;IIII)Lnet/minecraft/class_976;

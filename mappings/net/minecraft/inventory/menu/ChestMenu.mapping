@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_654 net/minecraft/inventory/menu/ChestMenu
+	FIELD field_3028 chest Lnet/minecraft/class_267;
+	FIELD field_3580 rows I
+	METHOD <init> <init> (Lnet/minecraft/class_267;Lnet/minecraft/class_267;)V

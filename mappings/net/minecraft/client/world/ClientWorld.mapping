@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_507 net/minecraft/client/world/ClientWorld
+	FIELD field_2372 networkHandler Lnet/minecraft/class_509;
+	FIELD field_2373 chunkCache Lnet/minecraft/class_515;
+	FIELD field_2495 entitiesByNetworkId Lnet/minecraft/class_505;
+	FIELD field_2619 pendingEntities Ljava/util/Set;
+	FIELD field_2620 forcedEntities Ljava/util/Set;
+	METHOD method_1775 updateChunk (IIZ)V
+	METHOD method_1826 addEntity (ILnet/minecraft/class_1;)V
+	METHOD method_1828 removeEntity (I)Lnet/minecraft/class_1;
+	METHOD method_1849 setBlockWithMetadataFromPacket (IIIII)Z
+	METHOD method_1850 regionChanged (IIIIII)V

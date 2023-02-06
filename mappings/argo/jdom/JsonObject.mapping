@@ -1,6 +1,6 @@
 CLASS net/minecraft/class_805 argo/jdom/JsonObject
-	FIELD field_3667 entries Ljava/util/Map;
-	METHOD <init> (Ljava/util/Map;)V
-		ARG 1 entries
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
+	FIELD field_3667 fields Ljava/util/Map;
+	METHOD <init> <init> (Ljava/util/Map;)V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

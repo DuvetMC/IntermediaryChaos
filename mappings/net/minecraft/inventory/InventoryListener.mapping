@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_661 net/minecraft/inventory/InventoryListener
+	METHOD method_2108 onInventoryChanged (Lnet/minecraft/class_668;)V

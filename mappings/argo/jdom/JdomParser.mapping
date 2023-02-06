@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_796 argo/jdom/JdomParser
+	METHOD method_2613 parse (Ljava/io/Reader;)Lnet/minecraft/class_829;
+	METHOD method_2614 parse (Ljava/lang/String;)Lnet/minecraft/class_829;

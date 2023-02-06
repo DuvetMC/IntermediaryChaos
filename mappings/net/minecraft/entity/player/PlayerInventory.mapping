@@ -1,0 +1,32 @@
+CLASS net/minecraft/class_210 net/minecraft/entity/player/PlayerInventory
+	FIELD field_1066 inventorySlots [Lnet/minecraft/class_229;
+	FIELD field_1069 selectedSlot I
+	FIELD field_1726 armorSlots [Lnet/minecraft/class_229;
+	FIELD field_1727 player Lnet/minecraft/class_3;
+	FIELD field_2703 cursorStack Lnet/minecraft/class_229;
+	FIELD field_2741 dirty Z
+	METHOD <init> <init> (Lnet/minecraft/class_3;)V
+	METHOD method_1078 insertStack (Lnet/minecraft/class_229;)Z
+	METHOD method_1079 getEmptySlot ()I
+	METHOD method_1629 writeNbt (Lnet/minecraft/class_464;)Lnet/minecraft/class_464;
+	METHOD method_1630 getMiningSpeed (Lnet/minecraft/class_18;)F
+	METHOD method_1631 scrollInHotbar (I)V
+	METHOD method_1632 putStackInInventory (Lnet/minecraft/class_229;)I
+		COMMENT Puts Items where the will fit in the inventory
+		COMMENT
+		COMMENT @return Whatever is left of the stack, 0 If the whole stack fit.
+	METHOD method_1633 readNbt (Lnet/minecraft/class_464;)V
+	METHOD method_1634 canToolBreak (Lnet/minecraft/class_18;)Z
+	METHOD method_1635 consumeOne (I)Z
+	METHOD method_1636 getArmor (I)Lnet/minecraft/class_229;
+	METHOD method_1637 damageArmor (I)V
+	METHOD method_1638 tickItems ()V
+	METHOD method_1639 indexOfItemStack (Lnet/minecraft/class_229;)I
+	METHOD method_1640 dropAll ()V
+	METHOD method_2110 setCursorStack (Lnet/minecraft/class_229;)V
+	METHOD method_2111 getCursorStack ()Lnet/minecraft/class_229;
+	METHOD method_2816 contains (Lnet/minecraft/class_229;)Z
+	METHOD method_3222 contains (I)Z
+	METHOD method_527 getMainHandStack ()Lnet/minecraft/class_229;
+	METHOD method_528 indexOfItem (I)I
+	METHOD method_984 getArmorProtectionValue ()I

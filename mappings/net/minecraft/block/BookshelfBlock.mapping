@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_175 net/minecraft/block/BookshelfBlock
+	METHOD <init> <init> (II)V

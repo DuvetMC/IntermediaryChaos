@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_981 net/minecraft/entity/player/PlayerAbilities
+	FIELD field_4202 invulnerable Z
+	FIELD field_4203 flying Z
+	FIELD field_4204 canFly Z
+	FIELD field_4205 creativeMode Z

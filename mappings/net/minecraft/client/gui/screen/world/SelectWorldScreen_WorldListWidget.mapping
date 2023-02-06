@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_732 net/minecraft/client/gui/screen/world/SelectWorldScreen_WorldListWidget
+	FIELD field_3367 parent Lnet/minecraft/class_396;

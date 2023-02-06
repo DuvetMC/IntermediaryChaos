@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_861 net/minecraft/network/packet/WorldEventPacket
+	FIELD field_3799 event I
+	FIELD field_3800 data I
+	FIELD field_3801 x I
+	FIELD field_3802 y I
+	FIELD field_3803 z I

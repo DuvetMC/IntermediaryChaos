@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_637 net/minecraft/entity/living/mob/hostile/ZombiePigmanEntity
+	FIELD field_2932 angerValue I
+	FIELD field_2933 angerSoundDelay I
+	METHOD method_2026 getAngryTo (Lnet/minecraft/class_1;)V

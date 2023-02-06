@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_705 net/minecraft/network/packet/BlockEventPacket
+	FIELD field_3190 x I
+	FIELD field_3191 y I
+	FIELD field_3192 z I
+	FIELD field_3193 type I
+	FIELD field_3194 data I

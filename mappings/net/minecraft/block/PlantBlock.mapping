@@ -1,1 +1,4 @@
 CLASS net/minecraft/class_28 net/minecraft/block/PlantBlock
+	METHOD <init> <init> (II)V
+	METHOD method_1112 canSurviveOrBreak (Lnet/minecraft/class_14;III)V
+	METHOD method_879 canPlantOn (I)Z

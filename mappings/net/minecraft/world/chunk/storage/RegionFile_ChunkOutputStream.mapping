@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_724 net/minecraft/world/chunk/storage/RegionFile_ChunkOutputStream
+	FIELD field_3326 regionFile Lnet/minecraft/class_737;
+	FIELD field_3327 chunkX I
+	FIELD field_3328 chunkZ I
+	METHOD <init> <init> (Lnet/minecraft/class_737;II)V
+	METHOD close close ()V

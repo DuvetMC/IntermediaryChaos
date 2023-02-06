@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_483 net/minecraft/client/render/Culler
+	METHOD method_1062 set (DDD)V
+	METHOD method_906 isVisible (Lnet/minecraft/class_19;)Z

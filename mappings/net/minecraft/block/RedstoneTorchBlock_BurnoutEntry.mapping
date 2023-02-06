@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_493 net/minecraft/block/RedstoneTorchBlock_BurnoutEntry
+	FIELD field_2313 x I
+	FIELD field_2314 y I
+	FIELD field_2315 z I
+	FIELD field_2316 time J
+	METHOD <init> <init> (IIIJ)V

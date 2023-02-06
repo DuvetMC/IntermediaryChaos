@@ -1,0 +1,13 @@
+CLASS net/minecraft/class_268 net/minecraft/entity/projectile/ArrowEntity
+	FIELD field_1338 blockX I
+	FIELD field_1339 blockY I
+	FIELD field_1340 blockZ I
+	FIELD field_1341 block I
+	FIELD field_1342 inGround Z
+	FIELD field_1343 shooter Lnet/minecraft/class_1;
+	FIELD field_1344 shake I
+	FIELD field_1513 ticksInAir I
+	FIELD field_1590 lifeTicks I
+	FIELD field_3885 blockData I
+	METHOD <init> <init> (Lnet/minecraft/class_14;DDD)V
+	METHOD <init> <init> (Lnet/minecraft/class_14;Lnet/minecraft/class_209;F)V

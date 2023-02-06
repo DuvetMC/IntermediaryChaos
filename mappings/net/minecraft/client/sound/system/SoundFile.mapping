@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_247 net/minecraft/client/sound/system/SoundFile
+	FIELD field_1245 path Ljava/lang/String;
+	FIELD field_1246 url Ljava/net/URL;
+	METHOD <init> <init> (Ljava/lang/String;Ljava/net/URL;)V

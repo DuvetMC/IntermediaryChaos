@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_955 net/minecraft/world/gen/structure/MineshaftPieces_Crossing
+	FIELD field_4097 direction I
+	FIELD field_4098 hasTwoFloors Z
+	METHOD <init> <init> (ILjava/util/Random;Lnet/minecraft/class_976;I)V
+	METHOD method_3030 findSize (Ljava/util/List;Ljava/util/Random;IIII)Lnet/minecraft/class_976;

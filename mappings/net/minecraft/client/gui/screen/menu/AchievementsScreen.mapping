@@ -1,0 +1,19 @@
+CLASS net/minecraft/class_849 net/minecraft/client/gui/screen/menu/AchievementsScreen
+	FIELD field_3746 iconWidth I
+	FIELD field_3747 iconHeight I
+	FIELD field_3748 prevMouseX I
+	FIELD field_3749 prevMouseY I
+	FIELD field_3750 mouseX D
+	FIELD field_3751 mouseY D
+	FIELD field_3752 scaledMouseDx D
+	FIELD field_3753 scaledMouseDy D
+	FIELD field_3754 scrollX D
+	FIELD field_3755 scrollY D
+	FIELD field_3756 MIN_COLUMN I
+	FIELD field_3757 MIN_ROW I
+	FIELD field_3758 MAX_COLUMN I
+	FIELD field_3759 MAX_ROW I
+	FIELD field_3760 scroll I
+	FIELD field_3761 statHandler Lnet/minecraft/class_770;
+	METHOD method_2769 renderIcons (IIF)V
+	METHOD method_2770 setTitle ()V

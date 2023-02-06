@@ -1,42 +1,12 @@
 CLASS net/minecraft/class_885 net/minecraft/block/PistonBaseBlock
 	FIELD field_3922 sticky Z
-	FIELD field_3946 deaf Z
-		COMMENT When set to {@code true} this piston block will not react to neighbor changed updates.
-		COMMENT This is done while a piston is pushing blocks, so as to prevent other pistons from
-		COMMENT moving some of the blocks and invalidating the push.
-	METHOD <init> (IIZ)V
-		ARG 3 sticky
+	METHOD <init> <init> (IIZ)V
 	METHOD method_2887 canMoveBlock (ILnet/minecraft/class_14;IIIZ)Z
-		ARG 0 blockId
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 allowDestroy
+	METHOD method_2888 getFacingForPlacement (Lnet/minecraft/class_14;IIILnet/minecraft/class_3;)I
 	METHOD method_2889 getFacing (I)I
-		ARG 0 blockData
 	METHOD method_2890 getExtended (I)Z
-		ARG 0 blockData
 	METHOD method_2891 shouldBeExtended (Lnet/minecraft/class_14;IIII)Z
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 facing
+	METHOD method_2892 getTopSprite ()I
 	METHOD method_2893 updateExtended (Lnet/minecraft/class_14;III)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD method_2894 canPush (Lnet/minecraft/class_14;IIII)Z
-		ARG 0 world
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-		ARG 4 facing
+	METHOD method_2894 canExtend (Lnet/minecraft/class_14;IIII)Z
 	METHOD method_2895 push (Lnet/minecraft/class_14;IIII)Z
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 facing

@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_692 net/minecraft/block/NoteBlock
+	METHOD <init> <init> (I)V

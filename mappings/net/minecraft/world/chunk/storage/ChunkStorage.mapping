@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_440 net/minecraft/world/chunk/storage/ChunkStorage
+	METHOD method_1349 loadChunk (Lnet/minecraft/class_14;II)Lnet/minecraft/class_381;
+	METHOD method_1350 saveChunk (Lnet/minecraft/class_14;Lnet/minecraft/class_381;)V
+	METHOD method_1472 tick ()V
+	METHOD method_1473 save ()V
+	METHOD method_1474 saveEntities (Lnet/minecraft/class_14;Lnet/minecraft/class_381;)V

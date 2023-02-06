@@ -1,0 +1,15 @@
+CLASS net/minecraft/class_182 net/minecraft/util/math/MathHelper
+	FIELD field_918 SINE_TABLE [F
+		COMMENT A table of sine values in the range [0, 2pi) with steps of 2pi / 65536.
+	METHOD method_1004 sqrt (D)F
+	METHOD method_1327 absMax (DD)D
+	METHOD method_1328 floorDiv (II)I
+	METHOD method_2424 isEmpty (Ljava/lang/String;)Z
+	METHOD method_2991 nextInt (Ljava/util/Random;II)I
+	METHOD method_2992 lfloor (D)J
+	METHOD method_422 sin (F)F
+	METHOD method_423 cos (F)F
+	METHOD method_424 sqrt (F)F
+	METHOD method_688 floor (D)I
+	METHOD method_689 floor (F)I
+	METHOD method_814 abs (F)F

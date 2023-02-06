@@ -6,3 +6,5 @@ CLASS net/minecraft/class_776 argo/jdom/JsonNodeType
 	FIELD field_3575 TRUE Lnet/minecraft/class_776;
 	FIELD field_3576 FALSE Lnet/minecraft/class_776;
 	FIELD field_3577 NULL Lnet/minecraft/class_776;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lnet/minecraft/class_776;
+	METHOD values values ()[Lnet/minecraft/class_776;

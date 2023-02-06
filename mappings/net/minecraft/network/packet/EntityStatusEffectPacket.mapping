@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_997 net/minecraft/network/packet/EntityStatusEffectPacket
+	FIELD field_4266 id I
+	FIELD field_4267 effect B
+	FIELD field_4268 amplifier B
+	FIELD field_4269 duration S

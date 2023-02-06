@@ -1,0 +1,14 @@
+CLASS net/minecraft/class_701 net/minecraft/entity/DataTracker
+	FIELD field_3178 DATA_TYPES Ljava/util/HashMap;
+	FIELD field_3179 entries Ljava/util/Map;
+	FIELD field_3180 dirty Z
+	METHOD method_2228 getByte (I)B
+	METHOD method_2229 put (ILjava/lang/Object;)V
+	METHOD method_2230 readEntries (Ljava/io/DataInputStream;)Ljava/util/List;
+	METHOD method_2231 serialize (Ljava/io/DataOutputStream;)V
+	METHOD method_2232 writeEntry (Ljava/io/DataOutputStream;Lnet/minecraft/class_690;)V
+	METHOD method_2233 update (Ljava/util/List;)V
+	METHOD method_2234 writeEntries (Ljava/util/List;Ljava/io/DataOutputStream;)V
+	METHOD method_2235 update (ILjava/lang/Object;)V
+	METHOD method_2490 getInt (I)I
+	METHOD method_2491 getString (I)Ljava/lang/String;

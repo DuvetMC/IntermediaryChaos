@@ -1,1 +1,5 @@
 CLASS net/minecraft/class_583 net/minecraft/network/packet/LoginPacket
+	FIELD field_2694 id I
+	FIELD field_4477 difficulty B
+	FIELD field_4478 worldHeight B
+	FIELD field_4522 maxPlayerCount B

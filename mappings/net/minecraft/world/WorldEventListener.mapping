@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_476 net/minecraft/world/WorldEventListener
+	METHOD method_1025 onRegionChanged (IIIIII)V
+	METHOD method_1484 onEntityAdded (Lnet/minecraft/class_1;)V
+	METHOD method_1485 onEntityRemoved (Lnet/minecraft/class_1;)V
+	METHOD method_1898 onRecordRemoved (Ljava/lang/String;III)V
+	METHOD method_2847 doEvent (Lnet/minecraft/class_3;IIIII)V
+	METHOD method_606 onBlockChanged (III)V
+	METHOD method_608 playSound (Ljava/lang/String;DDDFF)V
+	METHOD method_738 addParticle (Ljava/lang/String;DDDDDD)V

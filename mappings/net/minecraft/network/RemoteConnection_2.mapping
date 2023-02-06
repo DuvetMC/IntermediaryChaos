@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_881 net/minecraft/network/RemoteConnection_2
+	METHOD run run ()V

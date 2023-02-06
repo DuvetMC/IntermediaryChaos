@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_936 net/minecraft/world/WorldSettings
+	FIELD field_4044 seed J
+	FIELD field_4046 allowStructures Z
+	METHOD method_2986 getSeed ()J
+	METHOD method_2988 allowStructures ()Z

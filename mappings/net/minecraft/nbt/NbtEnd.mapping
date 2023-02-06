@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_471 net/minecraft/nbt/NbtEnd
+	METHOD toString toString ()Ljava/lang/String;

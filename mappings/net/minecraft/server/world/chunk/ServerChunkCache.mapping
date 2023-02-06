@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_871 net/minecraft/server/world/chunk/ServerChunkCache
+	FIELD field_3863 chunksToUnload Ljava/util/Set;
+	FIELD field_3864 empty Lnet/minecraft/class_381;
+	FIELD field_3865 generator Lnet/minecraft/class_379;
+	FIELD field_3866 storage Lnet/minecraft/class_440;
+	FIELD field_3867 chunkMap Lnet/minecraft/class_932;
+	FIELD field_3868 chunks Ljava/util/List;
+	METHOD method_2838 saveEntities (Lnet/minecraft/class_381;)V
+	METHOD method_2839 saveChunk (Lnet/minecraft/class_381;)V
+	METHOD method_2840 loadChunkFromStorage (II)Lnet/minecraft/class_381;
+	METHOD method_3339 scheduleUnload (II)V

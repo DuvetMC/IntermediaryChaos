@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_494 net/minecraft/client/entity/particle/RedstoneParticle
+	FIELD field_2318 baseScale F
+	METHOD <init> <init> (Lnet/minecraft/class_14;DDDFFF)V
+	METHOD <init> <init> (Lnet/minecraft/class_14;DDDFFFF)V

@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_545 net/minecraft/network/packet/EntityMovePacket
+	FIELD field_2510 id I
+	FIELD field_2511 dx B
+	FIELD field_2512 dy B
+	FIELD field_2513 dz B
+	FIELD field_2514 yaw B
+	FIELD field_2515 pitch B
+	FIELD field_2630 hasAngles Z

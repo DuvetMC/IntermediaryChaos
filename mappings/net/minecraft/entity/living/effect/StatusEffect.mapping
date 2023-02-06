@@ -1,0 +1,29 @@
+CLASS net/minecraft/class_1008 net/minecraft/entity/living/effect/StatusEffect
+	FIELD field_4372 id I
+	FIELD field_4373 name Ljava/lang/String;
+	FIELD field_4374 BY_ID [Lnet/minecraft/class_1008;
+	FIELD field_4375 UNKNOWN Lnet/minecraft/class_1008;
+	FIELD field_4376 SPEED Lnet/minecraft/class_1008;
+	FIELD field_4377 SLOWNESS Lnet/minecraft/class_1008;
+	FIELD field_4378 HASTE Lnet/minecraft/class_1008;
+	FIELD field_4379 MINING_FAIGUE Lnet/minecraft/class_1008;
+	FIELD field_4380 STRENGTH Lnet/minecraft/class_1008;
+	FIELD field_4381 INSTANT_HEALTH Lnet/minecraft/class_1008;
+	FIELD field_4382 INSTANT_DAMAGE Lnet/minecraft/class_1008;
+	FIELD field_4383 JUMP_BOOST Lnet/minecraft/class_1008;
+	FIELD field_4384 NAUSEA Lnet/minecraft/class_1008;
+	FIELD field_4385 REGENERATION Lnet/minecraft/class_1008;
+	FIELD field_4386 RESISTANCE Lnet/minecraft/class_1008;
+	FIELD field_4387 FIRE_RESISTANCE Lnet/minecraft/class_1008;
+	FIELD field_4388 WATER_BREATHING Lnet/minecraft/class_1008;
+	FIELD field_4389 INVISIBILITY Lnet/minecraft/class_1008;
+	FIELD field_4390 BLINDNESS Lnet/minecraft/class_1008;
+	FIELD field_4391 NIGHTVISION Lnet/minecraft/class_1008;
+	FIELD field_4392 HUNGER Lnet/minecraft/class_1008;
+	FIELD field_4393 WEAKNESS Lnet/minecraft/class_1008;
+	FIELD field_4394 POISON Lnet/minecraft/class_1008;
+	FIELD field_4397 ABSORPTION Lnet/minecraft/class_1008;
+	METHOD method_3219 shouldApply (II)Z
+		COMMENT Returns whether this status effect should apply its effect with the given duration left over.
+	METHOD method_3220 setName (Ljava/lang/String;)Lnet/minecraft/class_1008;
+	METHOD method_3221 apply (Lnet/minecraft/class_209;I)V

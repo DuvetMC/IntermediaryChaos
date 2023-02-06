@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_310 net/minecraft/client/input/MouseInput
+	FIELD field_1484 dx I
+	FIELD field_1485 dy I
+	METHOD method_1625 lock ()V
+	METHOD method_1626 unlock ()V
+	METHOD method_834 tick ()V

@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_456 net/minecraft/block/MobSpawnerBlock
+	METHOD <init> <init> (II)V

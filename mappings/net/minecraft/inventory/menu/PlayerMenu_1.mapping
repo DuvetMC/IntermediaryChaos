@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_364 net/minecraft/inventory/menu/PlayerMenu_1
+	FIELD field_1740 parentCurrentInt I
+	FIELD field_2237 parent Lnet/minecraft/class_673;

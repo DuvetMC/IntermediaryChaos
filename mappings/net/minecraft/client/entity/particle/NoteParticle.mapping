@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_711 net/minecraft/client/entity/particle/NoteParticle
+	FIELD field_3211 baseScale F
+	METHOD <init> <init> (Lnet/minecraft/class_14;DDDDDDF)V

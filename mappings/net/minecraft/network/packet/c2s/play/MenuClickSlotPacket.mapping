@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_670 net/minecraft/network/packet/c2s/play/MenuClickSlotPacket
+	FIELD field_3097 menuId I
+	FIELD field_3098 slotId I
+	FIELD field_3099 clickData I
+	FIELD field_3100 actionId S
+	FIELD field_3101 stack Lnet/minecraft/class_229;

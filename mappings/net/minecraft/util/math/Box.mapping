@@ -1,0 +1,38 @@
+CLASS net/minecraft/class_19 net/minecraft/util/math/Box
+	FIELD field_34 minX D
+	FIELD field_35 maxX D
+	FIELD field_36 minY D
+	FIELD field_37 maxY D
+	FIELD field_38 minZ D
+	FIELD field_39 maxZ D
+	METHOD <init> <init> (DDDDDD)V
+	METHOD method_1057 move (DDD)Lnet/minecraft/class_19;
+	METHOD method_1099 intersects (Lnet/minecraft/class_19;)Z
+	METHOD method_1416 of (DDDDDD)Lnet/minecraft/class_19;
+	METHOD method_1417 getAverageSideLength ()D
+	METHOD method_1419 set (Lnet/minecraft/class_19;)V
+	METHOD method_1420 set (DDDDDD)Lnet/minecraft/class_19;
+	METHOD method_1960 contains (Lnet/minecraft/class_9;)Z
+	METHOD method_2787 contract (DDD)Lnet/minecraft/class_19;
+		COMMENT Create a new {@code Box} that is contracted by the given amounts. The minimum and maximum
+		COMMENT values are increased and decreased respectively by the amounts given. This means the
+		COMMENT new {@code Box} will be smaller by twice the amounts given on each axis.
+	METHOD method_438 containsYZ (Lnet/minecraft/class_9;)Z
+	METHOD method_439 containsXZ (Lnet/minecraft/class_9;)Z
+	METHOD method_440 containsXY (Lnet/minecraft/class_9;)Z
+	METHOD method_518 copy ()Lnet/minecraft/class_19;
+	METHOD method_519 grow (DDD)Lnet/minecraft/class_19;
+		COMMENT Create a new {@code Box} that grows by the given amounts. Positive amounts lead to
+		COMMENT increases in the maximum values, while negative amounts lead to decreases in the
+		COMMENT minimum values. This ensures the new {@code Box} is always bigger (unless the amounts
+		COMMENT given are all {@code 0}).
+	METHOD method_521 intersectX (Lnet/minecraft/class_19;D)D
+	METHOD method_522 expand (DDD)Lnet/minecraft/class_19;
+		COMMENT Create a new {@code Box} that is expanded by the given amounts. The minimum and maximum
+		COMMENT values are decreased and increased respectively by the amounts given. This means the
+		COMMENT new {@code Box} will be bigger by twice the amounts given on each axis.
+	METHOD method_523 intersectY (Lnet/minecraft/class_19;D)D
+	METHOD method_524 setMoved (DDD)Lnet/minecraft/class_19;
+	METHOD method_525 intersectZ (Lnet/minecraft/class_19;D)D
+	METHOD method_618 clip (Lnet/minecraft/class_9;Lnet/minecraft/class_9;)Lnet/minecraft/class_2;
+	METHOD toString toString ()Ljava/lang/String;

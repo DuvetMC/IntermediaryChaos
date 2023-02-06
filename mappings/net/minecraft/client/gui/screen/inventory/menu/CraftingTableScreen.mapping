@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_294 net/minecraft/client/gui/screen/inventory/menu/CraftingTableScreen
+	METHOD <init> <init> (Lnet/minecraft/class_210;Lnet/minecraft/class_14;III)V

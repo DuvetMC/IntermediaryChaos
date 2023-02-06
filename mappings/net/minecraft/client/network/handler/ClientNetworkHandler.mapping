@@ -1,0 +1,16 @@
+CLASS net/minecraft/class_509 net/minecraft/client/network/handler/ClientNetworkHandler
+	FIELD field_2380 disconnected Z
+	FIELD field_2382 client Lnet/minecraft/client/Minecraft;
+	FIELD field_2383 world Lnet/minecraft/class_507;
+	FIELD field_2438 random Ljava/util/Random;
+	FIELD field_2439 started Z
+	FIELD field_3859 savedDataStorage Lnet/minecraft/class_862;
+	FIELD field_4468 onlinePlayers Ljava/util/List;
+	FIELD field_4469 maxPlayerCount I
+	FIELD field_4470 onlinePlayersByName Ljava/util/Map;
+	METHOD <init> <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+	METHOD method_1776 tick ()V
+	METHOD method_1777 sendPacket (Lnet/minecraft/class_506;)V
+	METHOD method_1853 disconnect ()V
+	METHOD method_2070 getEntity (I)Lnet/minecraft/class_1;
+	METHOD method_2866 sendPacketAndDisconnect (Lnet/minecraft/class_506;)V

@@ -1,0 +1,67 @@
+CLASS net/minecraft/class_533 net/minecraft/world/gen/feature/LargeOakTreeFeature
+	FIELD field_2467 MINOR_AXES [B
+		COMMENT Given a branch's major axis {@code a} this array stores that branch's minor
+		COMMENT axes at indices {@code a} and {@code a + 3}.
+		COMMENT
+		COMMENT <p>
+		COMMENT A branch's major axis is the axis along which it has the greatest length.
+		COMMENT
+		COMMENT <p>
+		COMMENT The axes are as follows:
+		COMMENT <br> 0: x
+		COMMENT <br> 1: y
+		COMMENT <br> 2: z
+	FIELD field_2468 random Ljava/util/Random;
+	FIELD field_2469 world Lnet/minecraft/class_14;
+	FIELD field_2470 origin [I
+		COMMENT The position of the base of the tree.
+	FIELD field_2471 height I
+		COMMENT Total height of the tree, including the canopy.
+	FIELD field_2472 trunkHeight I
+		COMMENT Height of just the trunk of the tree.
+	FIELD field_2473 trunkScale D
+		COMMENT The portion of the total height of the tree that is taken up by the trunk.
+	FIELD field_2475 branchSlope D
+	FIELD field_2476 branchLengthScale D
+	FIELD field_2477 branchDensity D
+	FIELD field_2478 trunkWidth I
+		COMMENT The width of the trunk, can be 1 or 2.
+	FIELD field_2479 maxTrunkHeight I
+	FIELD field_2480 foliageClusterHeight I
+	FIELD field_2481 branches [[I
+		COMMENT Base and tip coordinates for each branch in the tree. The base of a branch is
+		COMMENT placed at some height on the trunk, so the base x- and z-coordinates match
+		COMMENT those of the trunk, and do not need to be stored. The remaining coordinates
+		COMMENT are stored in int arrays of length 4:
+		COMMENT
+		COMMENT <br> {
+		COMMENT <br> &nbsp; tip x-coordinate,
+		COMMENT <br> &nbsp; tip y-coordinate,
+		COMMENT <br> &nbsp; tip z-coordinate,
+		COMMENT <br> &nbsp; base y-coordinate
+		COMMENT <br> }
+	METHOD method_1812 makeBranches ()V
+		COMMENT Compile an array of branches to place for this tree.
+	METHOD method_1813 getTreeShape (I)F
+		COMMENT Returns the shape of the tree at the given height. The shape controls the
+		COMMENT size of branches at that height.
+	METHOD method_1814 placeFoliageCluster (III)V
+		COMMENT Place a foliage cluster above the given coordinates.
+	METHOD method_1815 placeCluster (IIIFBI)V
+		COMMENT Place a cluster layer centered at the given coordinates, perpendicular to the
+		COMMENT given major axis.
+	METHOD method_1816 tryBranch ([I[I)I
+		COMMENT Check if a branch can be placed between the two given positions.
+		COMMENT
+		COMMENT @return -1 if the branch can be placed, or the maximum possible length of the
+		COMMENT         branch along its major axis.
+	METHOD method_1817 placeBranch ([I[II)V
+	METHOD method_1818 placeFoliage ()V
+	METHOD method_1819 getClusterShape (I)F
+		COMMENT Returns the shape of the cluster at the given layer. The shape controls the
+		COMMENT size and roundness of the layer.
+	METHOD method_1820 placeTrunk ()V
+	METHOD method_1821 shouldPlaceBranch (I)Z
+		COMMENT Check if branches should be placed at the given height above the base of the tree.
+	METHOD method_1822 placeBranches ()V
+	METHOD method_1823 canPlace ()Z

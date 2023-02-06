@@ -1,0 +1,27 @@
+CLASS net/minecraft/class_375 net/minecraft/world/gen/chunk/OverworldChunkGenerator
+	FIELD field_1802 minLimitPerlinNoise Lnet/minecraft/class_57;
+	FIELD field_1803 maxLimitPerlinNoise Lnet/minecraft/class_57;
+	FIELD field_1804 mainPerlinNoise Lnet/minecraft/class_57;
+	FIELD field_1845 world Lnet/minecraft/class_14;
+	FIELD field_1886 random Ljava/util/Random;
+	FIELD field_1887 forestNoise Lnet/minecraft/class_57;
+	FIELD field_1947 surfaceNoise Lnet/minecraft/class_57;
+	FIELD field_1984 heightmap [D
+	FIELD field_1985 minLimitNoiseBuffer [D
+	FIELD field_1986 maxLimitNoiseBuffer [D
+	FIELD field_2019 scaleNoise Lnet/minecraft/class_57;
+	FIELD field_2020 depthNoise Lnet/minecraft/class_57;
+	FIELD field_2021 depthNoiseBuffer [D
+	FIELD field_2022 mainNoiseBuffer [D
+	FIELD field_2729 cave Lnet/minecraft/class_586;
+	FIELD field_2935 biomes [Lnet/minecraft/class_611;
+	FIELD field_3988 structures Z
+	FIELD field_3989 depthBuffer [D
+	FIELD field_3990 stronghold Lnet/minecraft/class_1001;
+	FIELD field_3991 village Lnet/minecraft/class_916;
+	FIELD field_3992 mineshaft Lnet/minecraft/class_914;
+	FIELD field_3993 ravine Lnet/minecraft/class_586;
+	METHOD <init> <init> (Lnet/minecraft/class_14;JZ)V
+	METHOD method_1666 generate (II[B)V
+	METHOD method_1668 populateHeightmap ([DIIIIII)[D
+	METHOD method_1669 generateBiomes (II[B[Lnet/minecraft/class_611;)V

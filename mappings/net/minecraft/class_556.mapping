@@ -1,10 +1,1 @@
-CLASS net/minecraft/class_556
-	FIELD field_2553 x I
-	FIELD field_2554 y I
-	FIELD field_2555 z I
-	FIELD field_2556 dx B
-	FIELD field_2557 dy B
-	FIELD field_2558 dz B
-	FIELD field_2559 itemId I
-	FIELD field_2560 itemAmount I
-	FIELD field_3166 itemDurability I
+CLASS net/minecraft/class_556 net/minecraft/class_556

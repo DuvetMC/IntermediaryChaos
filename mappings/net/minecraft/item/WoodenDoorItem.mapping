@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_491 net/minecraft/item/WoodenDoorItem
+	FIELD field_2311 material Lnet/minecraft/class_79;
+	METHOD method_3218 place (Lnet/minecraft/class_14;IIIILnet/minecraft/class_18;)V

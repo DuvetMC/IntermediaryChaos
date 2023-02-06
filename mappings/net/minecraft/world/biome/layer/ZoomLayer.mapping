@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_999 net/minecraft/world/biome/layer/ZoomLayer
+	METHOD <init> <init> (JLnet/minecraft/class_1000;)V
+	METHOD method_3168 pick (II)I
+	METHOD method_3169 zoom (JLnet/minecraft/class_1000;I)Lnet/minecraft/class_1000;
+	METHOD method_3170 pick (IIII)I

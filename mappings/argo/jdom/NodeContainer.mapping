@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_827 argo/jdom/NodeContainer
+	METHOD method_2698 addNode (Lnet/minecraft/class_807;)V
+	METHOD method_2699 addField (Lnet/minecraft/class_825;)V

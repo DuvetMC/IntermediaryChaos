@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_373 net/minecraft/world/chunk/ChunkNibbleStorage
+	FIELD field_1791 data [B
+	FIELD field_4199 zBitOffset I
+	FIELD field_4200 yBitOffset I
+	METHOD <init> <init> (II)V
+	METHOD <init> <init> ([BI)V
+	METHOD method_1005 get (III)I
+	METHOD method_1006 set (IIII)V

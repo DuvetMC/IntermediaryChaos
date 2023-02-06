@@ -1,0 +1,14 @@
+CLASS net/minecraft/class_765 net/minecraft/client/gui/ToastGui
+	FIELD field_3552 client Lnet/minecraft/client/Minecraft;
+	FIELD field_3553 width I
+	FIELD field_3554 height I
+	FIELD field_3555 description Ljava/lang/String;
+	FIELD field_3556 title Ljava/lang/String;
+	FIELD field_3557 startTime J
+	FIELD field_3738 achievement Lnet/minecraft/class_817;
+	FIELD field_3739 itemRenderer Lnet/minecraft/class_273;
+	FIELD field_3740 tutorial Z
+	METHOD method_2494 tick ()V
+	METHOD method_2495 render ()V
+	METHOD method_2739 set (Lnet/minecraft/class_817;)V
+	METHOD method_2740 setTutorial (Lnet/minecraft/class_817;)V

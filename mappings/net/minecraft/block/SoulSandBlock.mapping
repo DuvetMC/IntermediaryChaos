@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_619 net/minecraft/block/SoulSandBlock
+	METHOD <init> <init> (II)V

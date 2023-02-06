@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_354 net/minecraft/crafting/ArmorRecipes
+	FIELD field_1669 patterns [[Ljava/lang/String;
+	FIELD field_1670 recipes [[Ljava/lang/Object;
+	METHOD method_949 register (Lnet/minecraft/class_286;)V

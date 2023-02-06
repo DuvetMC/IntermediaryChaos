@@ -1,13 +1,12 @@
 CLASS net/minecraft/class_255 net/minecraft/item/Item
-	FIELD field_1277 ITEMS [Lnet/minecraft/class_255;
+	FIELD field_1277 BY_ID [Lnet/minecraft/class_255;
 	FIELD field_1278 ARROW Lnet/minecraft/class_255;
-	FIELD field_1279 id I
-	FIELD field_1280 textureId I
+	FIELD field_1279 rawId I
 	FIELD field_1350 random Ljava/util/Random;
 	FIELD field_1351 maxStackSize I
 	FIELD field_1388 WOODEN_SHOVEL Lnet/minecraft/class_255;
 	FIELD field_1389 COAL Lnet/minecraft/class_255;
-	FIELD field_1390 DIAMOND Lnet/minecraft/class_255;
+	FIELD field_1390 EMERALD Lnet/minecraft/class_255;
 	FIELD field_1413 BOW Lnet/minecraft/class_255;
 	FIELD field_1414 IRON_PICKAXE Lnet/minecraft/class_255;
 	FIELD field_1415 IRON_AXE Lnet/minecraft/class_255;
@@ -36,13 +35,13 @@ CLASS net/minecraft/class_255 net/minecraft/item/Item
 	FIELD field_1443 FEATHER Lnet/minecraft/class_255;
 	FIELD field_1444 GUNPOWDER Lnet/minecraft/class_255;
 	FIELD field_1445 IRON_SHOVEL Lnet/minecraft/class_255;
-	FIELD field_1465 maxDurability I
+	FIELD field_1465 maxDamage I
 	FIELD field_1494 PORKCHOP Lnet/minecraft/class_255;
 	FIELD field_1592 WOODEN_HOE Lnet/minecraft/class_255;
 	FIELD field_1593 STONE_HOE Lnet/minecraft/class_255;
 	FIELD field_1594 IRON_HOE Lnet/minecraft/class_255;
 	FIELD field_1595 DIAMOND_HOE Lnet/minecraft/class_255;
-	FIELD field_1596 GOLD_HOE Lnet/minecraft/class_255;
+	FIELD field_1596 GOLDEN_HOE Lnet/minecraft/class_255;
 	FIELD field_1597 WHEAT_SEEDS Lnet/minecraft/class_255;
 	FIELD field_1598 WHEAT Lnet/minecraft/class_255;
 	FIELD field_1599 BREAD Lnet/minecraft/class_255;
@@ -62,10 +61,10 @@ CLASS net/minecraft/class_255 net/minecraft/item/Item
 	FIELD field_1684 DIAMOND_CHESTPLATE Lnet/minecraft/class_255;
 	FIELD field_1685 DIAMOND_LEGGINGS Lnet/minecraft/class_255;
 	FIELD field_1686 DIAMOND_BOOTS Lnet/minecraft/class_255;
-	FIELD field_1687 GOLD_HELMET Lnet/minecraft/class_255;
-	FIELD field_1688 GOLD_CHESTPLATE Lnet/minecraft/class_255;
-	FIELD field_1689 GOLD_LEGGINGS Lnet/minecraft/class_255;
-	FIELD field_1690 GOLD_BOOTS Lnet/minecraft/class_255;
+	FIELD field_1687 GOLDEN_HELMET Lnet/minecraft/class_255;
+	FIELD field_1688 GOLDEN_CHESTPLATE Lnet/minecraft/class_255;
+	FIELD field_1689 GOLDEN_LEGGINGS Lnet/minecraft/class_255;
+	FIELD field_1690 GOLDEN_BOOTS Lnet/minecraft/class_255;
 	FIELD field_1754 FLINT Lnet/minecraft/class_255;
 	FIELD field_1755 GOLDEN_APPLE Lnet/minecraft/class_255;
 	FIELD field_1756 FLINT_AND_STEEL Lnet/minecraft/class_255;
@@ -84,82 +83,73 @@ CLASS net/minecraft/class_255 net/minecraft/item/Item
 	FIELD field_2366 SNOWBALL Lnet/minecraft/class_255;
 	FIELD field_2459 BOAT Lnet/minecraft/class_255;
 	FIELD field_2550 LEATHER Lnet/minecraft/class_255;
-	FIELD field_2551 MILK Lnet/minecraft/class_255;
+	FIELD field_2551 MILK_BUCKET Lnet/minecraft/class_255;
 	FIELD field_2593 BRICK Lnet/minecraft/class_255;
 	FIELD field_2594 CLAY Lnet/minecraft/class_255;
-	FIELD field_2595 SUGAR_CANE Lnet/minecraft/class_255;
+	FIELD field_2595 REEDS Lnet/minecraft/class_255;
 	FIELD field_2596 PAPER Lnet/minecraft/class_255;
 	FIELD field_2597 BOOK Lnet/minecraft/class_255;
-	FIELD field_2598 SLIME_BALL Lnet/minecraft/class_255;
+	FIELD field_2598 SLIMEBALL Lnet/minecraft/class_255;
 	FIELD field_2632 CHEST_MINECART Lnet/minecraft/class_255;
 	FIELD field_2633 FURNACE_MINECART Lnet/minecraft/class_255;
 	FIELD field_2634 EGG Lnet/minecraft/class_255;
 	FIELD field_2635 RECORD_13 Lnet/minecraft/class_255;
 	FIELD field_2636 RECORD_CAT Lnet/minecraft/class_255;
+	FIELD field_2667 handheld Z
 	FIELD field_2740 COMPASS Lnet/minecraft/class_255;
 	FIELD field_2760 FISHING_ROD Lnet/minecraft/class_255;
 	FIELD field_2810 CLOCK Lnet/minecraft/class_255;
 	FIELD field_2811 GLOWSTONE_DUST Lnet/minecraft/class_255;
-	FIELD field_2812 RAW_FISH Lnet/minecraft/class_255;
+	FIELD field_2812 FISH Lnet/minecraft/class_255;
 	FIELD field_2813 COOKED_FISH Lnet/minecraft/class_255;
-	FIELD field_3039 translationKey Ljava/lang/String;
-	FIELD field_3142 craftingRemainder Lnet/minecraft/class_255;
+	FIELD field_3039 id Ljava/lang/String;
+	FIELD field_3142 recipeRemainder Lnet/minecraft/class_255;
+		COMMENT The item that remains after this item is used up during crafting, smelting or brewing.
 	FIELD field_3143 DYE Lnet/minecraft/class_255;
 	FIELD field_3144 BONE Lnet/minecraft/class_255;
 	FIELD field_3145 SUGAR Lnet/minecraft/class_255;
 	FIELD field_3146 CAKE Lnet/minecraft/class_255;
+	FIELD field_3147 stackable Z
 	FIELD field_3317 BED Lnet/minecraft/class_255;
 	FIELD field_3318 REPEATER Lnet/minecraft/class_255;
 	FIELD field_3474 COOKIE Lnet/minecraft/class_255;
-	FIELD field_3804 MAP Lnet/minecraft/class_880;
+	FIELD field_3804 FILLED_MAP Lnet/minecraft/class_880;
 	FIELD field_3919 SHEARS Lnet/minecraft/class_882;
-	FIELD field_4342 MELON_SLICE Lnet/minecraft/class_255;
+	FIELD field_4342 MELON Lnet/minecraft/class_255;
 	FIELD field_4343 PUMPKIN_SEEDS Lnet/minecraft/class_255;
-	FIELD field_4344 WATERMELON_SEEDS Lnet/minecraft/class_255;
-	FIELD field_4345 RAW_BEEF Lnet/minecraft/class_255;
-	FIELD field_4346 STEAK Lnet/minecraft/class_255;
-	FIELD field_4347 RAW_CHICKEN Lnet/minecraft/class_255;
+	FIELD field_4344 MELON_SEEDS Lnet/minecraft/class_255;
+	FIELD field_4345 BEEF Lnet/minecraft/class_255;
+	FIELD field_4346 COOKED_BEEF Lnet/minecraft/class_255;
+	FIELD field_4347 CHICKEN Lnet/minecraft/class_255;
 	FIELD field_4348 COOKED_CHICKEN Lnet/minecraft/class_255;
-	FIELD field_4349 ROOTEN_FLESH Lnet/minecraft/class_255;
+	FIELD field_4349 ROTTEN_FLESH Lnet/minecraft/class_255;
 	FIELD field_4350 ENDER_PEARL Lnet/minecraft/class_255;
-	METHOD <init> (I)V
-		ARG 1 id
-	METHOD method_2094 getTranslationKey ()Ljava/lang/String;
-	METHOD method_2095 setTextureAtlasPosition (II)Lnet/minecraft/class_255;
-		ARG 1 u
-		ARG 2 v
-	METHOD method_2096 setTranslationKey (Ljava/lang/String;)Lnet/minecraft/class_255;
-		ARG 1 translationKey
-	METHOD method_2172 setCraftingRemainder (Lnet/minecraft/class_255;)Lnet/minecraft/class_255;
-		ARG 1 remainder
+	METHOD <init> <init> (I)V
+	METHOD method_1873 isHandheld ()Z
+	METHOD method_1907 setHandheld ()Lnet/minecraft/class_255;
+	METHOD method_1963 shouldRotate ()Z
+	METHOD method_2096 setId (Ljava/lang/String;)Lnet/minecraft/class_255;
+	METHOD method_2171 getBlockMetadata (I)I
+	METHOD method_2172 setRecipeRemainder (Lnet/minecraft/class_255;)Lnet/minecraft/class_255;
+	METHOD method_2173 setStackable (Z)Lnet/minecraft/class_255;
+	METHOD method_2174 getTranslationKey (Lnet/minecraft/class_229;)Ljava/lang/String;
 	METHOD method_2175 setMaxStackSize (I)Lnet/minecraft/class_255;
-		ARG 1 maxStackSize
-	METHOD method_2176 setMaxDurability (I)Lnet/minecraft/class_255;
-	METHOD method_2178 getCraftingRemainder ()Lnet/minecraft/class_255;
-	METHOD method_2179 hasCraftingRemainder ()Z
-	METHOD method_2451 getName ()Ljava/lang/String;
-	METHOD method_2598 (Lnet/minecraft/class_229;)I
-		ARG 1 stack
-	METHOD method_2599 durabilityBarColor (I)I
-		ARG 1 durability
-	METHOD method_3200 getItemAction (Lnet/minecraft/class_229;)Lnet/minecraft/class_1009;
-		ARG 1 stack
-	METHOD method_681 breakMultiplier (Lnet/minecraft/class_229;Lnet/minecraft/class_18;)F
-	METHOD method_682 use (Lnet/minecraft/class_229;Lnet/minecraft/class_14;Lnet/minecraft/class_3;)Lnet/minecraft/class_229;
-		ARG 1 stack
-		ARG 2 world
-		ARG 3 entity
-	METHOD method_683 useOnBlock (Lnet/minecraft/class_229;Lnet/minecraft/class_3;Lnet/minecraft/class_14;IIII)Z
-		ARG 1 stack
-		ARG 2 player
-		ARG 3 world
-		ARG 4 x
-		ARG 5 y
-		ARG 6 z
-	METHOD method_762 getStackSize ()I
-	METHOD method_811 setTextureId (I)Lnet/minecraft/class_255;
-		ARG 1 id
-	METHOD method_815 getAttackStrength (Lnet/minecraft/class_1;)I
-	METHOD method_818 getMaxDurability ()I
-	METHOD method_837 canBreak (Lnet/minecraft/class_18;)Z
-		ARG 1 block
+	METHOD method_2176 setMaxDamage (I)Lnet/minecraft/class_255;
+	METHOD method_2177 isStackable ()Z
+	METHOD method_2178 getRecipeRemainder ()Lnet/minecraft/class_255;
+	METHOD method_2179 hasRecipeRemainder ()Z
+	METHOD method_2450 isDamageable ()Z
+	METHOD method_2451 getDisplayName ()Ljava/lang/String;
+	METHOD method_2598 getSprite (Lnet/minecraft/class_229;)I
+	METHOD method_2797 tick (Lnet/minecraft/class_229;Lnet/minecraft/class_14;Lnet/minecraft/class_1;IZ)V
+	METHOD method_2798 onResult (Lnet/minecraft/class_229;Lnet/minecraft/class_14;Lnet/minecraft/class_3;)V
+	METHOD method_3199 stopUsing (Lnet/minecraft/class_229;Lnet/minecraft/class_14;Lnet/minecraft/class_3;I)V
+	METHOD method_3200 getUseAction (Lnet/minecraft/class_229;)Lnet/minecraft/class_1009;
+	METHOD method_3201 getUseDuration (Lnet/minecraft/class_229;)I
+	METHOD method_680 getSprite (I)I
+	METHOD method_681 getMiningSpeed (Lnet/minecraft/class_229;Lnet/minecraft/class_18;)F
+	METHOD method_682 startUsing (Lnet/minecraft/class_229;Lnet/minecraft/class_14;Lnet/minecraft/class_3;)Lnet/minecraft/class_229;
+	METHOD method_762 getMaxStackSize ()I
+	METHOD method_816 attackEntity (Lnet/minecraft/class_229;Lnet/minecraft/class_209;Lnet/minecraft/class_209;)Z
+	METHOD method_818 getMaxDamage ()I
+	METHOD method_837 canEffectivelyMine (Lnet/minecraft/class_18;)Z

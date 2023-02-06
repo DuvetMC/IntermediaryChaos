@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_1014 net/minecraft/world/biome/IntArrays
+	FIELD field_4435 num I
+	FIELD field_4436 tcache Ljava/util/List;
+	FIELD field_4437 tallocated Ljava/util/List;
+	FIELD field_4438 cache Ljava/util/List;
+	FIELD field_4439 allocated Ljava/util/List;
+	METHOD method_3250 next ()V
+	METHOD method_3251 get (I)[I

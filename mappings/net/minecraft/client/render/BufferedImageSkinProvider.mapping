@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_484 net/minecraft/client/render/BufferedImageSkinProvider
+	METHOD method_1242 process (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;

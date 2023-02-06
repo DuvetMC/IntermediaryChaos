@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_119 net/minecraft/client/gui/screen/options/ControlsOptionsScreen
+	FIELD field_737 parent Lnet/minecraft/class_49;
+	FIELD field_738 title Ljava/lang/String;
+	FIELD field_739 options Lnet/minecraft/class_124;
+	METHOD <init> <init> (Lnet/minecraft/class_49;Lnet/minecraft/class_124;)V

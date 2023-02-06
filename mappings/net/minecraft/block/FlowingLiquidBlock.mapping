@@ -1,0 +1,18 @@
+CLASS net/minecraft/class_264 net/minecraft/block/FlowingLiquidBlock
+	FIELD field_1319 adjacentSources I
+		COMMENT A counter that stores the amount of adjacent source liquids along the X and Z axes.
+	FIELD field_2028 spreadDirections [Z
+		COMMENT Whether this liquid should flow in each direction.
+		COMMENT <br>
+		COMMENT @see net.minecraft.util.math.Facings
+	FIELD field_2029 distanceToGap [I
+		COMMENT The distance to the nearest gap to flow into for each horizontal direction.
+		COMMENT <br>
+		COMMENT @see net.minecraft.util.math.Facings
+	METHOD method_1278 getDistanceToGap (Lnet/minecraft/class_14;IIIII)I
+	METHOD method_1279 convertToSource (Lnet/minecraft/class_14;III)V
+	METHOD method_1280 decreaseLevel (Lnet/minecraft/class_14;IIII)I
+	METHOD method_1281 blocksSpreading (Lnet/minecraft/class_14;III)Z
+	METHOD method_1282 canSpreadTo (Lnet/minecraft/class_14;III)Z
+	METHOD method_1339 spreadTo (Lnet/minecraft/class_14;IIII)V
+	METHOD method_1459 getSpreadDirections (Lnet/minecraft/class_14;III)[Z

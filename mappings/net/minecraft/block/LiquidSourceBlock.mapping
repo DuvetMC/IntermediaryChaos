@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_37 net/minecraft/block/LiquidSourceBlock
+	METHOD method_1439 convertToFlowing (Lnet/minecraft/class_14;III)V
+	METHOD method_1917 isFlammable (Lnet/minecraft/class_14;III)Z

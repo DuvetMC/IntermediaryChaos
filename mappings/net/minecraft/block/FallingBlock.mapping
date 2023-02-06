@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_70 net/minecraft/block/FallingBlock
-	FIELD field_2109 generatingWorld Z
-	METHOD <init> (II)V
-		ARG 1 id
+	FIELD field_2109 fallImmediately Z
+	METHOD <init> <init> (II)V
+	METHOD method_1602 canFallThrough (Lnet/minecraft/class_14;III)Z
+	METHOD method_1603 tryFall (Lnet/minecraft/class_14;III)V

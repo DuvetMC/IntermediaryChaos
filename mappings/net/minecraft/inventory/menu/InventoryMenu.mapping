@@ -1,0 +1,31 @@
+CLASS net/minecraft/class_655 net/minecraft/inventory/menu/InventoryMenu
+	FIELD field_3030 nextActionNetworkId S
+	FIELD field_3031 restrictedPlayers Ljava/util/Set;
+	FIELD field_3032 stacks Ljava/util/List;
+	FIELD field_3033 slots Ljava/util/List;
+	FIELD field_3034 networkId I
+	FIELD field_3035 listeners Ljava/util/List;
+	METHOD method_2076 updateListeners ()V
+	METHOD method_2077 getSlot (I)Lnet/minecraft/class_230;
+	METHOD method_2078 setData (II)V
+	METHOD method_2079 onClickSlot (IIZLnet/minecraft/class_3;)Lnet/minecraft/class_229;
+		COMMENT Handle an interaction with an inventory slot.
+		COMMENT
+		COMMENT <p>
+		COMMENT The following action types are in use:
+		COMMENT <br>0: pickup      - move a stack between the inventory and the cursor
+		COMMENT <br>1: quick move  - move a stack between the inventory and the hotbar
+		COMMENT <br>2: swap        - swap an inventory stack and a hotbar stack
+		COMMENT <br>3: clone       - use the pick item key on an inventory slot
+		COMMENT <br>4: throw       - use the drop item key on an inventory slot
+		COMMENT <br>5: quick craft - click-and-drag a stack over an inventory slot
+		COMMENT <br>6: pickup all  - double click with a stack on an inventory slot
+	METHOD method_2080 setStack (ILnet/minecraft/class_229;)V
+	METHOD method_2082 close (Lnet/minecraft/class_3;)V
+	METHOD method_2083 getNextActionNetworkId (Lnet/minecraft/class_210;)S
+	METHOD method_2084 onContentChanged (Lnet/minecraft/class_267;)V
+	METHOD method_2086 setStacks ([Lnet/minecraft/class_229;)V
+	METHOD method_2087 isValid (Lnet/minecraft/class_3;)Z
+	METHOD method_2569 quickMoveStack (I)Lnet/minecraft/class_229;
+	METHOD method_2785 moveStack (Lnet/minecraft/class_229;IIZ)Z
+	METHOD method_3333 quickMoveStack (IIZLnet/minecraft/class_3;)V

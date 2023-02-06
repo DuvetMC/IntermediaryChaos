@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_729 net/minecraft/world/chunk/storage/AnvilChunkStorage
+	FIELD field_3350 dir Ljava/io/File;
+	METHOD <init> <init> (Ljava/io/File;)V

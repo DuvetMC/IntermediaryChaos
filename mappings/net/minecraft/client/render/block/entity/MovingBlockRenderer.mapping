@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_884 net/minecraft/client/render/block/entity/MovingBlockRenderer
+	FIELD field_3921 blockRenderer Lnet/minecraft/class_215;
+	METHOD method_2883 render (Lnet/minecraft/class_887;DDDF)V

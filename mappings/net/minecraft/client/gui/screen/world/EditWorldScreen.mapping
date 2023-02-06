@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_727 net/minecraft/client/gui/screen/world/EditWorldScreen
+	FIELD field_3332 parent Lnet/minecraft/class_49;
+	FIELD field_3333 searchField Lnet/minecraft/class_740;
+	FIELD field_3334 worldName Ljava/lang/String;
+	METHOD <init> <init> (Lnet/minecraft/class_49;Ljava/lang/String;)V

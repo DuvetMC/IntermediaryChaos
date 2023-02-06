@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_23 net/minecraft/block/StoneBlock
+	METHOD <init> <init> (II)V

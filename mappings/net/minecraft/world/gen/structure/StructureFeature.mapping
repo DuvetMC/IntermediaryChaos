@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_1032 net/minecraft/world/gen/structure/StructureFeature
+	METHOD method_3304 isFeatureChunk (II)Z
+	METHOD method_3305 place (Lnet/minecraft/class_14;Ljava/util/Random;II)Z
+	METHOD method_3306 createStart (II)Lnet/minecraft/class_970;

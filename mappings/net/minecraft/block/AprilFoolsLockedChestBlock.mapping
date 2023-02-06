@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_759 net/minecraft/block/AprilFoolsLockedChestBlock
+	METHOD <init> <init> (I)V

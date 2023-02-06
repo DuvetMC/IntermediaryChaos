@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_943 net/minecraft/world/gen/structure/StrongholdPieces_SpiralStaircase
+	FIELD field_4056 isSource Z
+	METHOD <init> <init> (ILjava/util/Random;II)V
+	METHOD <init> <init> (ILjava/util/Random;Lnet/minecraft/class_976;I)V
+	METHOD method_3316 of (Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_943;

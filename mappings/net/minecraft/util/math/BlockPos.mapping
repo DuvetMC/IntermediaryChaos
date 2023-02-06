@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_712 net/minecraft/util/math/BlockPos
+	FIELD field_3223 x I
+	FIELD field_3224 y I
+	FIELD field_3225 z I
+	METHOD <init> <init> (III)V
+	METHOD <init> <init> (Lnet/minecraft/class_712;)V
+	METHOD compareTo compareTo (Ljava/lang/Object;)I
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD method_2251 compareTo (Lnet/minecraft/class_712;)I

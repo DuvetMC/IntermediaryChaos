@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_522 net/minecraft/network/packet/DisconnectPacket
+	FIELD field_2429 reason Ljava/lang/String;
+	METHOD <init> <init> (Ljava/lang/String;)V

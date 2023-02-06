@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_474 com/mojang/blaze3d/platform/MemoryTracker
+	FIELD field_2199 LISTS Ljava/util/List;
+	METHOD method_1427 releaseLists ()V
+	METHOD method_1428 getLists (I)I
+	METHOD method_1430 createByteBuffer (I)Ljava/nio/ByteBuffer;
+	METHOD method_1431 createIntBuffer (I)Ljava/nio/IntBuffer;
+	METHOD method_1432 createFloatBuffer (I)Ljava/nio/FloatBuffer;
+	METHOD method_2796 releaseList (I)V

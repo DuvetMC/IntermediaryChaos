@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_1024 net/minecraft/world/gen/structure/StrongholdPieces_Prison
+	METHOD <init> <init> (ILjava/util/Random;Lnet/minecraft/class_976;I)V
+	METHOD method_3329 of (Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_1024;

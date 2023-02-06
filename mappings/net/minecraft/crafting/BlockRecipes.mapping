@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_481 net/minecraft/crafting/BlockRecipes
+	METHOD method_1660 register (Lnet/minecraft/class_286;)V

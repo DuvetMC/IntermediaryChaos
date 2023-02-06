@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_676
-	FIELD field_3124 slots [Lnet/minecraft/class_229;
-	FIELD field_3125 random Ljava/util/Random;

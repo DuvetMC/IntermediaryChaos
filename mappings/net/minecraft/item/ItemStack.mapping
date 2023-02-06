@@ -1,47 +1,41 @@
 CLASS net/minecraft/class_229 net/minecraft/item/ItemStack
-	FIELD field_1164 amount I
-	FIELD field_1166 item I
-	FIELD field_1466 durability I
-	METHOD <init> (III)V
-		ARG 1 item
-		ARG 2 amount
-		ARG 3 durability
-	METHOD <init> (Lnet/minecraft/class_18;)V
-		ARG 1 block
-	METHOD <init> (Lnet/minecraft/class_18;I)V
-		ARG 1 block
-		ARG 2 amount
-	METHOD <init> (Lnet/minecraft/class_18;II)V
-		ARG 1 block
-		ARG 2 amount
-		ARG 3 meta
-	METHOD <init> (Lnet/minecraft/class_255;)V
-		ARG 1 item
-	METHOD <init> (Lnet/minecraft/class_255;I)V
-		ARG 1 item
-		ARG 2 amount
-	METHOD <init> (Lnet/minecraft/class_255;II)V
-		ARG 1 item
-		ARG 2 amount
-		ARG 3 durability
-	METHOD <init> (Lnet/minecraft/class_461;)V
-		ARG 1 tag
-	METHOD method_1193 writeData (Lnet/minecraft/class_461;)Lnet/minecraft/class_461;
-	METHOD method_1642 getAttackStrength (Lnet/minecraft/class_1;)I
-	METHOD method_1649 readData (Lnet/minecraft/class_461;)V
-	METHOD method_1650 canBreak (Lnet/minecraft/class_18;)Z
-	METHOD method_1652 getMaxStack ()I
+	FIELD field_1164 size I
+	FIELD field_1166 itemId I
+	FIELD field_1167 popAnimationTime I
+	FIELD field_1466 metadata I
+	METHOD <init> <init> (III)V
+	METHOD <init> <init> (Lnet/minecraft/class_18;)V
+	METHOD <init> <init> (Lnet/minecraft/class_18;I)V
+	METHOD <init> <init> (Lnet/minecraft/class_18;II)V
+	METHOD <init> <init> (Lnet/minecraft/class_255;)V
+	METHOD <init> <init> (Lnet/minecraft/class_255;I)V
+	METHOD <init> <init> (Lnet/minecraft/class_255;II)V
+	METHOD method_1193 writeNbt (Lnet/minecraft/class_461;)Lnet/minecraft/class_461;
+	METHOD method_1643 startUsing (Lnet/minecraft/class_14;Lnet/minecraft/class_3;)Lnet/minecraft/class_229;
+	METHOD method_1646 getMiningSpeed (Lnet/minecraft/class_18;)F
+	METHOD method_1647 attackEntity (Lnet/minecraft/class_209;Lnet/minecraft/class_3;)V
+	METHOD method_1649 readNbt (Lnet/minecraft/class_461;)V
+	METHOD method_1650 canEffectivelyMine (Lnet/minecraft/class_18;)Z
+	METHOD method_1652 getMaxSize ()I
 	METHOD method_1938 copy ()Lnet/minecraft/class_229;
-	METHOD method_2112 isEqual (Lnet/minecraft/class_229;)Z
-		ARG 1 stack
-	METHOD method_2113 areStacksEqual (Lnet/minecraft/class_229;Lnet/minecraft/class_229;)Z
-		ARG 0 a
-		ARG 1 b
-	METHOD method_2184 isItemEqualTo (Lnet/minecraft/class_229;)Z
-		ARG 1 other
-	METHOD method_2869 copyStack (Lnet/minecraft/class_229;)Lnet/minecraft/class_229;
-		ARG 0 stack
+	METHOD method_2112 matches (Lnet/minecraft/class_229;)Z
+	METHOD method_2113 matches (Lnet/minecraft/class_229;Lnet/minecraft/class_229;)Z
+	METHOD method_2184 matchesItem (Lnet/minecraft/class_229;)Z
+	METHOD method_2185 isStackable ()Z
+	METHOD method_2186 isDamageable ()Z
+	METHOD method_2187 isItemStackable ()Z
+	METHOD method_2188 isDamaged ()Z
+	METHOD method_2189 getDamage ()I
+	METHOD method_2190 getMetadata ()I
+	METHOD method_2818 tick (Lnet/minecraft/class_14;Lnet/minecraft/class_1;IZ)V
+	METHOD method_2819 setDamage (I)V
+	METHOD method_2869 copyOf (Lnet/minecraft/class_229;)Lnet/minecraft/class_229;
+	METHOD method_3223 stopUsing (Lnet/minecraft/class_14;Lnet/minecraft/class_3;I)V
+	METHOD method_3224 fromNbt (Lnet/minecraft/class_461;)Lnet/minecraft/class_229;
+	METHOD method_3225 finishUsing (Lnet/minecraft/class_14;Lnet/minecraft/class_3;)Lnet/minecraft/class_229;
+	METHOD method_3226 getUseDuration ()I
+	METHOD method_3227 getUseAction ()Lnet/minecraft/class_1009;
 	METHOD method_684 getItem ()Lnet/minecraft/class_255;
-	METHOD method_763 takeItems (I)Lnet/minecraft/class_229;
-		ARG 1 count
-	METHOD method_819 getMaxDurability ()I
+	METHOD method_763 split (I)Lnet/minecraft/class_229;
+	METHOD method_819 getMaxDamage ()I
+	METHOD toString toString ()Ljava/lang/String;

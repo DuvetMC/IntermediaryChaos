@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_695 net/minecraft/block/SandstoneBlock
+	METHOD <init> <init> (I)V

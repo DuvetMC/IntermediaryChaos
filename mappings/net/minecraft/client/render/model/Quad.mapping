@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_8 net/minecraft/client/render/model/Quad
+	FIELD field_2238 vertexCount I
+	FIELD field_2651 flipNormal Z
+	FIELD field_375 vertices [Lnet/minecraft/class_10;
+	METHOD <init> <init> ([Lnet/minecraft/class_10;)V
+	METHOD <init> <init> ([Lnet/minecraft/class_10;IIIIFF)V
+	METHOD method_1600 flip ()V
+	METHOD method_1601 buildQuadBuffer (Lnet/minecraft/class_17;F)V

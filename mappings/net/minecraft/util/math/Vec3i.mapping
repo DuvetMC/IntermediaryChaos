@@ -2,7 +2,6 @@ CLASS net/minecraft/class_386 net/minecraft/util/math/Vec3i
 	FIELD field_1888 x I
 	FIELD field_1889 y I
 	FIELD field_1890 z I
-	METHOD <init> (III)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
+	METHOD <init> <init> (III)V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I

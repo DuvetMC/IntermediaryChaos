@@ -1,1 +1,3 @@
 CLASS net/minecraft/class_272 net/minecraft/client/render/entity/TntRenderer
+	FIELD field_1352 tntBlockRenderer Lnet/minecraft/class_215;
+	METHOD method_1460 render (Lnet/minecraft/class_228;DDDFF)V

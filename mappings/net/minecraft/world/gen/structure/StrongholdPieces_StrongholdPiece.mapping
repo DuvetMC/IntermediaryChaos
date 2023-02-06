@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_935 net/minecraft/world/gen/structure/StrongholdPieces_StrongholdPiece
+	METHOD method_2982 generatePieceForward (Lnet/minecraft/class_991;Ljava/util/List;Ljava/util/Random;II)Lnet/minecraft/class_946;
+	METHOD method_2983 generateEntrance (Lnet/minecraft/class_14;Ljava/util/Random;Lnet/minecraft/class_976;Lnet/minecraft/class_963;III)V
+	METHOD method_2984 generatePieceLeft (Lnet/minecraft/class_991;Ljava/util/List;Ljava/util/Random;II)Lnet/minecraft/class_946;
+	METHOD method_2985 generatePieceRight (Lnet/minecraft/class_991;Ljava/util/List;Ljava/util/Random;II)Lnet/minecraft/class_946;
+	METHOD method_3314 pickEntranceType (Ljava/util/Random;)Lnet/minecraft/class_963;
+	METHOD method_3315 isValidStructureBox (Lnet/minecraft/class_976;)Z

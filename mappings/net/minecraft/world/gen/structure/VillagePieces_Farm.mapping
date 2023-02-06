@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_975 net/minecraft/world/gen/structure/VillagePieces_Farm
+	FIELD field_4189 cropAId I

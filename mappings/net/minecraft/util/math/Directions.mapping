@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_890 net/minecraft/util/math/Directions
 	FIELD field_3942 OPPOSITE [I
-	FIELD field_3943 OFFSET_X [I
-	FIELD field_3944 OFFSET_Y [I
-	FIELD field_3945 OFFSET_Z [I
+	FIELD field_3943 X_OFFSET [I
+	FIELD field_3944 Y_OFFSET [I
+	FIELD field_3945 Z_OFFSET [I

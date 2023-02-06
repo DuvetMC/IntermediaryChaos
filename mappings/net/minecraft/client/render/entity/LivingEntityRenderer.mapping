@@ -1,1 +1,14 @@
 CLASS net/minecraft/class_275 net/minecraft/client/render/entity/LivingEntityRenderer
+	FIELD field_1467 handModel Lnet/minecraft/class_129;
+	FIELD field_1696 bodyModel Lnet/minecraft/class_129;
+	METHOD <init> <init> (Lnet/minecraft/class_129;F)V
+	METHOD method_1811 renderDecoration (Lnet/minecraft/class_209;F)V
+	METHOD method_1890 getEntityAge (Lnet/minecraft/class_209;F)F
+	METHOD method_1909 getHandSwingProgress (Lnet/minecraft/class_209;F)F
+	METHOD method_2181 applyRotation (Lnet/minecraft/class_209;FFF)V
+	METHOD method_2325 applyTranslation (Lnet/minecraft/class_209;DDD)V
+	METHOD method_898 scale (Lnet/minecraft/class_209;F)V
+	METHOD method_899 getCreeperFuseTime (Lnet/minecraft/class_209;FF)I
+	METHOD method_958 getYawWhileDead (Lnet/minecraft/class_209;)F
+	METHOD method_960 setModel (Lnet/minecraft/class_129;)V
+	METHOD method_986 render (Lnet/minecraft/class_209;DDDFF)V

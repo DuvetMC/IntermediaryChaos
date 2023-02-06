@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_944 net/minecraft/world/gen/structure/MineshaftPieces
+	FIELD field_4058 LOOT_ENTRIES [Lnet/minecraft/class_942;
+	METHOD method_2993 getLootChestContent ()[Lnet/minecraft/class_942;
+	METHOD method_2994 syntheticAddPiece (Lnet/minecraft/class_946;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_946;
+	METHOD method_2995 createPiece (Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_946;
+	METHOD method_2996 generateNextPiece (Lnet/minecraft/class_946;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_946;

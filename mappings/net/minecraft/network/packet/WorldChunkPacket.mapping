@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_501 net/minecraft/network/packet/WorldChunkPacket
+	FIELD field_2354 chunkX I
+	FIELD field_2355 chunkZ I
+	FIELD field_2357 sectionsWithData I
+	FIELD field_2358 sectionsWithBlockIdsUpper I
+	FIELD field_2360 rawChunkData [B
+	FIELD field_2361 compressedSize I

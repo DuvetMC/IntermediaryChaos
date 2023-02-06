@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_402 net/minecraft/client/texture/PlayerSkinTexture
+	FIELD field_1975 image Ljava/awt/image/BufferedImage;

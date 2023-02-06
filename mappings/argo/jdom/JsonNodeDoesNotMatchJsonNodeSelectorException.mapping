@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_773 argo/jdom/JsonNodeDoesNotMatchJsonNodeSelectorException
+	METHOD <init> <init> (Ljava/lang/String;)V

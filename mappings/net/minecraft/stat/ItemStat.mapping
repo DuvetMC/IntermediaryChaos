@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_764 net/minecraft/stat/ItemStat
+	FIELD field_3550 itemId I
+	METHOD <init> <init> (ILjava/lang/String;I)V
+	METHOD method_2489 getItemId ()I

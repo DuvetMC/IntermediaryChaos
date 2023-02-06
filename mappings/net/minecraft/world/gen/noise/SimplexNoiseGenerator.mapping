@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_56 net/minecraft/world/gen/noise/SimplexNoiseGenerator
+	FIELD field_1792 x D
+	FIELD field_1793 y D
+	FIELD field_1794 z D
+	FIELD field_194 permutations [I
+	METHOD <init> <init> (Ljava/util/Random;)V
+	METHOD method_121 lerp (DDD)D
+	METHOD method_122 gradient (IDDD)D
+	METHOD method_1446 getNoise ([DDDDIIIDDDD)V
+	METHOD method_2028 gradient (IDD)D

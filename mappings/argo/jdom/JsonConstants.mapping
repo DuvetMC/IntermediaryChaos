@@ -3,5 +3,4 @@ CLASS net/minecraft/class_842 argo/jdom/JsonConstants
 	FIELD field_3723 TRUE Lnet/minecraft/class_842;
 	FIELD field_3724 FALSE Lnet/minecraft/class_842;
 	FIELD field_3725 jsonNodeType Lnet/minecraft/class_776;
-	METHOD <init> (Lnet/minecraft/class_776;)V
-		ARG 1 jsonNodeType
+	METHOD <init> <init> (Lnet/minecraft/class_776;)V

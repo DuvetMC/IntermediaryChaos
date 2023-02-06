@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_576 net/minecraft/client/render/model/entity/ChickenModel
+	FIELD field_2642 head Lnet/minecraft/class_7;
+	FIELD field_2643 body Lnet/minecraft/class_7;
+	FIELD field_2644 rightLeg Lnet/minecraft/class_7;
+	FIELD field_2645 leftLeg Lnet/minecraft/class_7;
+	FIELD field_2646 rightWing Lnet/minecraft/class_7;
+	FIELD field_2647 leftWing Lnet/minecraft/class_7;
+	FIELD field_2648 beak Lnet/minecraft/class_7;
+	FIELD field_2649 waddle Lnet/minecraft/class_7;

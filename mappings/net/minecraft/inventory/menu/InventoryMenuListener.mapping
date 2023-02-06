@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_656 net/minecraft/inventory/menu/InventoryMenuListener
+	METHOD method_2089 onDataChanged (Lnet/minecraft/class_655;II)V
+	METHOD method_2090 onSlotChanged (Lnet/minecraft/class_655;ILnet/minecraft/class_229;)V

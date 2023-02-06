@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_658 net/minecraft/network/packet/SelectSlotPacket
+	FIELD field_3053 slot I
+	METHOD <init> <init> (I)V

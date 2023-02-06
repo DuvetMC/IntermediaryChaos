@@ -1,0 +1,12 @@
+CLASS net/minecraft/class_447 net/minecraft/world/IWorld
+	METHOD method_1011 getBlock (III)I
+	METHOD method_1052 getBlockMetadata (III)I
+	METHOD method_1097 getBlockEntity (III)Lnet/minecraft/class_262;
+	METHOD method_2091 isAir (III)Z
+	METHOD method_2864 getBrightness (IIII)F
+	METHOD method_2865 isOpaqueCube (III)Z
+	METHOD method_2949 getHeight ()I
+	METHOD method_2950 getLightColor (IIII)I
+	METHOD method_471 isRedstoneConductor (III)Z
+	METHOD method_475 getBrightness (III)F
+	METHOD method_478 getMaterial (III)Lnet/minecraft/class_79;

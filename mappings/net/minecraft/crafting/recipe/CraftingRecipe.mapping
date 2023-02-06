@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_679 net/minecraft/crafting/recipe/CraftingRecipe
+	METHOD method_1554 matches (Lnet/minecraft/class_292;)Z
+	METHOD method_1555 getResult (Lnet/minecraft/class_292;)Lnet/minecraft/class_229;
+	METHOD method_2428 getOutput ()Lnet/minecraft/class_229;
+	METHOD method_807 getInputCount ()I

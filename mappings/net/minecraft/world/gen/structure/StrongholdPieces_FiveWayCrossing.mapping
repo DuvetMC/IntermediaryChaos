@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_905 net/minecraft/world/gen/structure/StrongholdPieces_FiveWayCrossing
+	FIELD field_3973 leftLow Z
+	FIELD field_3974 leftHigh Z
+	FIELD field_3975 rightLow Z
+	FIELD field_3976 rightHigh Z
+	METHOD <init> <init> (ILjava/util/Random;Lnet/minecraft/class_976;I)V
+	METHOD method_3309 of (Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_905;

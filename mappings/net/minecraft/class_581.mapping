@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_581 net/minecraft/class_581
+	METHOD read read ()I
+	METHOD read read ([BII)I

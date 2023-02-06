@@ -1,11 +1,8 @@
 CLASS net/minecraft/class_794 argo/jdom/JsonNode
 	METHOD method_2604 getType ()Lnet/minecraft/class_776;
 	METHOD method_2605 wrapExceptionsFor (Lnet/minecraft/class_800;Lnet/minecraft/class_794;[Ljava/lang/Object;)Ljava/lang/Object;
-		ARG 1 value
-		ARG 2 node
-		ARG 3 pathElements
+	METHOD method_2606 getStringValue ([Ljava/lang/Object;)Ljava/lang/String;
 	METHOD method_2607 getText ()Ljava/lang/String;
 	METHOD method_2608 getArrayNode ([Ljava/lang/Object;)Ljava/util/List;
-		ARG 1 pathElements
 	METHOD method_2609 getFields ()Ljava/util/Map;
 	METHOD method_2610 getElements ()Ljava/util/List;

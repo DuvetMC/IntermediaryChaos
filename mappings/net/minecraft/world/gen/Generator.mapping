@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_586 net/minecraft/world/gen/Generator
+	FIELD field_2698 range I
+	FIELD field_2699 random Ljava/util/Random;
+	FIELD field_4307 world Lnet/minecraft/class_14;
+	METHOD method_1925 place (Lnet/minecraft/class_14;IIII[B)V
+	METHOD method_1926 place (Lnet/minecraft/class_379;Lnet/minecraft/class_14;II[B)V

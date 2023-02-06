@@ -1,1 +1,3 @@
 CLASS net/minecraft/class_702 net/minecraft/block/CakeBlock
+	METHOD <init> <init> (II)V
+	METHOD method_2236 tryEatCake (Lnet/minecraft/class_14;IIILnet/minecraft/class_3;)V

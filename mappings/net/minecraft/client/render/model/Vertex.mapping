@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_10 net/minecraft/client/render/model/Vertex
+	FIELD field_1482 u F
+	FIELD field_1483 v F
+	FIELD field_376 pos Lnet/minecraft/class_9;
+	METHOD <init> <init> (FFFFF)V
+	METHOD <init> <init> (Lnet/minecraft/class_10;FF)V
+	METHOD <init> <init> (Lnet/minecraft/class_9;FF)V
+	METHOD method_195 withTextureCoords (FF)Lnet/minecraft/class_10;

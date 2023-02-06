@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_846 net/minecraft/stat/StatFormatter
+	METHOD method_2754 format (I)Ljava/lang/String;

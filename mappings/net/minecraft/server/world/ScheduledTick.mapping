@@ -1,0 +1,14 @@
+CLASS net/minecraft/class_393 net/minecraft/server/world/ScheduledTick
+	FIELD field_1898 x I
+	FIELD field_1899 y I
+	FIELD field_1900 z I
+	FIELD field_1901 blockId I
+	FIELD field_1902 time J
+	FIELD field_2087 idCounter J
+	FIELD field_2088 id J
+	METHOD <init> <init> (IIII)V
+	METHOD compareTo compareTo (Ljava/lang/Object;)I
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD method_1311 setTime (J)Lnet/minecraft/class_393;
+	METHOD method_1524 compareTo (Lnet/minecraft/class_393;)I

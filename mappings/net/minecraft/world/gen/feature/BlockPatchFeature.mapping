@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_933 net/minecraft/world/gen/feature/BlockPatchFeature
+	FIELD field_4040 blockId I
+	FIELD field_4041 size I
+	METHOD <init> <init> (II)V

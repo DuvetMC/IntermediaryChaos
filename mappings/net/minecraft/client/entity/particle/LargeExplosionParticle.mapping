@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_950 net/minecraft/client/entity/particle/LargeExplosionParticle
+	FIELD field_4088 scaleFactor F
+	FIELD field_4089 age I
+	FIELD field_4090 maxAge I
+	FIELD field_4091 textureManager Lnet/minecraft/class_5;

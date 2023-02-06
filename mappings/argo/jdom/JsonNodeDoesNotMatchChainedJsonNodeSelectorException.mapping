@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_815 argo/jdom/JsonNodeDoesNotMatchChainedJsonNodeSelectorException
+	FIELD field_3684 failedNode Lnet/minecraft/class_851;
+	FIELD field_3685 failPath Ljava/util/List;
+	METHOD <init> <init> (Lnet/minecraft/class_851;Ljava/util/List;)V
+	METHOD method_2665 getShortFormFailPath (Ljava/util/List;)Ljava/lang/String;
+	METHOD method_2666 createChainedJsonNodeDoesNotMatchJsonNodeSelectorException (Lnet/minecraft/class_815;Lnet/minecraft/class_800;)Lnet/minecraft/class_773;
+	METHOD method_2667 createJsonNodeDoesNotMatchJsonNodeSelectorException (Lnet/minecraft/class_851;)Lnet/minecraft/class_773;
+	METHOD method_2668 createUnchainedJsonNodeDoesNotMatchJsonNodeSelectorException (Lnet/minecraft/class_815;Lnet/minecraft/class_800;)Lnet/minecraft/class_773;
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_1012 net/minecraft/world/biome/layer/VoronoiZoomLayer
+	METHOD <init> <init> (JLnet/minecraft/class_1000;)V

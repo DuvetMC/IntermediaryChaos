@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_969 net/minecraft/client/gui/screen/inventory/menu/CreativeInventoryScreen_CreativePlayerMenu
+	FIELD field_4167 tabs Ljava/util/List;
+	METHOD method_3089 scrollItems (F)V

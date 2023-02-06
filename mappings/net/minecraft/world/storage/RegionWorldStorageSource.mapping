@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_742 net/minecraft/world/storage/RegionWorldStorageSource
+	FIELD field_3431 dir Ljava/io/File;
+	METHOD <init> <init> (Ljava/io/File;)V
+	METHOD method_2403 deleteFilesAndDirs ([Ljava/io/File;)V

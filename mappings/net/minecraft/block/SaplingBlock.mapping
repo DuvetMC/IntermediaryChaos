@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_148 net/minecraft/block/SaplingBlock
+	METHOD method_2182 grow (Lnet/minecraft/class_14;IIILjava/util/Random;)V

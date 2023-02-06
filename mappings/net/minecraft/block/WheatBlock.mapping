@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_334 net/minecraft/block/WheatBlock
+	METHOD method_1708 getMoisture (Lnet/minecraft/class_14;III)F
+	METHOD method_2212 grow (Lnet/minecraft/class_14;III)V

@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_940 net/minecraft/client/entity/particle/EmitterParticle
+	FIELD field_4048 target Lnet/minecraft/class_1;
+	FIELD field_4049 age I
+	FIELD field_4050 maxAge I
+	METHOD <init> <init> (Lnet/minecraft/class_14;Lnet/minecraft/class_1;)V

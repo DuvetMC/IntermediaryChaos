@@ -1,27 +1,9 @@
 CLASS net/minecraft/class_490 net/minecraft/block/RedstoneWireBlock
-	FIELD field_2297 shouldSignal Z
+	FIELD field_2297 emitsRedstonePower Z
 	FIELD field_3169 neighborsToUpdate Ljava/util/Set;
-	METHOD method_1720 getBestNeighborWireSignal (Lnet/minecraft/class_14;IIII)I
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 signal
-	METHOD method_1721 updateSignal (Lnet/minecraft/class_14;IIIIII)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 _x
-		ARG 6 _y
-		ARG 7 _z
-	METHOD method_1722 updateNeighborsAroundWire (Lnet/minecraft/class_14;III)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD method_2214 update (Lnet/minecraft/class_14;III)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+	METHOD <init> <init> (II)V
+	METHOD method_1720 increaseWirePower (Lnet/minecraft/class_14;IIII)I
+	METHOD method_1721 updatePower (Lnet/minecraft/class_14;IIIIII)V
+	METHOD method_1722 updateNeighborsOfWire (Lnet/minecraft/class_14;III)V
+	METHOD method_1740 shouldConnectTo (Lnet/minecraft/class_447;IIII)Z
+	METHOD method_2214 updatePower (Lnet/minecraft/class_14;III)V

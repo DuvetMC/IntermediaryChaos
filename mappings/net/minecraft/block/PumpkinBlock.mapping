@@ -1,2 +1,3 @@
 CLASS net/minecraft/class_603 net/minecraft/block/PumpkinBlock
 	FIELD field_2803 lit Z
+	METHOD <init> <init> (IIZ)V

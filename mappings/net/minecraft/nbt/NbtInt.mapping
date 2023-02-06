@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_462 net/minecraft/nbt/NbtInt
+	FIELD field_1916 value I
+	METHOD toString toString ()Ljava/lang/String;

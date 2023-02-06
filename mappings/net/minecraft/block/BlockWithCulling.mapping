@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_69 net/minecraft/block/BlockWithCulling
+	FIELD field_523 fancyGraphics Z
+	METHOD <init> <init> (IILnet/minecraft/class_79;Z)V

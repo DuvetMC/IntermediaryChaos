@@ -1,1 +1,3 @@
 CLASS net/minecraft/class_288 net/minecraft/item/AxeItem
+	FIELD field_1387 EFFECTIVE_BLOCKS [Lnet/minecraft/class_18;
+		COMMENT The items that are broken more efficiently with an axe

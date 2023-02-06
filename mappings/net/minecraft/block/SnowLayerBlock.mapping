@@ -1,1 +1,3 @@
 CLASS net/minecraft/class_496 net/minecraft/block/SnowLayerBlock
+	METHOD <init> <init> (II)V
+	METHOD method_1746 tryBreak (Lnet/minecraft/class_14;III)Z

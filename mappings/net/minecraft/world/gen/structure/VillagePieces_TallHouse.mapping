@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_915 net/minecraft/world/gen/structure/VillagePieces_TallHouse
+	FIELD field_3995 isTall Z
+	FIELD field_3996 tablePlacement I

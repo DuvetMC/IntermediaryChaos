@@ -1,1 +1,4 @@
 CLASS net/minecraft/class_485 net/minecraft/block/ButtonBlock
+	METHOD <init> <init> (II)V
+	METHOD method_1710 canSurviveOrBreak (Lnet/minecraft/class_14;III)Z
+	METHOD method_2353 getPlacementDirection (Lnet/minecraft/class_14;III)I

@@ -1,9 +1,4 @@
 CLASS net/minecraft/class_33 net/minecraft/client/render/TextRenderer
-	METHOD method_188 calculateStringLength (Ljava/lang/String;)I
-		ARG 1 s
-	METHOD method_559 drawStringWithBackground (Ljava/lang/String;III)V
-		ARG 1 s
-		ARG 2 x
-		ARG 3 y
-		ARG 4 color
-	METHOD method_597 drawString (Ljava/lang/String;III)V
+	FIELD field_343 specialCharacterWidth [I
+	METHOD method_188 getStringWidth (Ljava/lang/String;)I
+	METHOD method_597 drawWithoutShadow (Ljava/lang/String;III)V

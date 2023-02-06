@@ -1,25 +1,25 @@
 CLASS net/minecraft/class_49 net/minecraft/client/gui/screen/Screen
+	FIELD field_2758 lastClickedButton Lnet/minecraft/class_47;
 	FIELD field_333 client Lnet/minecraft/client/Minecraft;
-	FIELD field_334 screenWidth I
-	FIELD field_335 screenHeight I
-	FIELD field_336 elements Ljava/util/List;
+	FIELD field_334 titleWidth I
+	FIELD field_335 height I
+	FIELD field_336 buttons Ljava/util/List;
+	FIELD field_551 passEvents Z
 	FIELD field_746 textRenderer Lnet/minecraft/class_33;
+	METHOD method_1204 confirmResult (ZI)V
+	METHOD method_1527 mouseReleased (III)V
+	METHOD method_1528 handleInputs ()V
+	METHOD method_1529 renderBackground ()V
 	METHOD method_174 init ()V
 	METHOD method_175 keyPressed (CI)V
-		ARG 1 character
-		ARG 2 scanCode
+	METHOD method_1754 renderBackground (I)V
 	METHOD method_176 render (IIF)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD method_179 onButtonPressed (Lnet/minecraft/class_47;)V
-		ARG 1 button
-	METHOD method_180 (Lnet/minecraft/client/Minecraft;II)V
-		ARG 1 client
-		ARG 2 screenWidth
-		ARG 3 screenHeight
+	METHOD method_179 buttonClicked (Lnet/minecraft/class_47;)V
+	METHOD method_180 init (Lnet/minecraft/client/Minecraft;II)V
+	METHOD method_182 removed ()V
+	METHOD method_184 tick ()V
+	METHOD method_185 handleMouse ()V
 	METHOD method_1904 getClipboard ()Ljava/lang/String;
-	METHOD method_263 onClick (III)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 button
+	METHOD method_263 mouseClicked (III)V
+	METHOD method_270 handleKeyboard ()V
+	METHOD method_913 drawBackgroundTexture (I)V

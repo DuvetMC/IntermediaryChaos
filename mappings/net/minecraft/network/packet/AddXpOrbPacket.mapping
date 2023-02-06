@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_1034 net/minecraft/network/packet/AddXpOrbPacket
+	FIELD field_4510 id I
+	FIELD field_4511 x I
+	FIELD field_4512 y I
+	FIELD field_4513 z I
+	FIELD field_4514 xp I
+	METHOD <init> <init> (Lnet/minecraft/class_922;)V

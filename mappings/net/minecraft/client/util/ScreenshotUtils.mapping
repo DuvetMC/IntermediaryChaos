@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_607 net/minecraft/client/util/ScreenshotUtils
+	FIELD field_2819 DATE_FORMAT Ljava/text/DateFormat;
+	FIELD field_2822 buffer [I
+	METHOD method_1965 saveScreenshot (Ljava/io/File;II)Ljava/lang/String;
+	METHOD method_3217 saveScreenshot (Ljava/io/File;Ljava/lang/String;II)Ljava/lang/String;

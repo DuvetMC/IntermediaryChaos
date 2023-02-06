@@ -1,31 +1,30 @@
 CLASS net/minecraft/class_962 net/minecraft/entity/damage/DamageSource
-	FIELD field_4123 IN_FIRE Lnet/minecraft/class_962;
+	FIELD field_4123 FIRE Lnet/minecraft/class_962;
 	FIELD field_4124 ON_FIRE Lnet/minecraft/class_962;
 	FIELD field_4125 LAVA Lnet/minecraft/class_962;
-	FIELD field_4126 SUFFOCATION Lnet/minecraft/class_962;
-	FIELD field_4127 DROWNING Lnet/minecraft/class_962;
-	FIELD field_4128 STARVATION Lnet/minecraft/class_962;
+	FIELD field_4126 IN_WALL Lnet/minecraft/class_962;
+	FIELD field_4127 DROWN Lnet/minecraft/class_962;
+	FIELD field_4128 STARVE Lnet/minecraft/class_962;
 	FIELD field_4129 CACTUS Lnet/minecraft/class_962;
 	FIELD field_4130 FALL Lnet/minecraft/class_962;
-	FIELD field_4131 VOID Lnet/minecraft/class_962;
+	FIELD field_4131 OUT_OF_WORLD Lnet/minecraft/class_962;
 	FIELD field_4132 GENERIC Lnet/minecraft/class_962;
-	FIELD field_4133 EXPLOSION Lnet/minecraft/class_962;
+	FIELD field_4133 EXPLOSION_SCALED Lnet/minecraft/class_962;
 	FIELD field_4134 MAGIC Lnet/minecraft/class_962;
 	FIELD field_4135 name Ljava/lang/String;
-	METHOD <init> (Ljava/lang/String;)V
-		ARG 1 name
+	FIELD field_4136 bypassesArmor Z
+	FIELD field_4137 outOfWorld Z
+	FIELD field_4138 exhaustion F
+	METHOD <init> <init> (Ljava/lang/String;)V
 	METHOD method_3047 getAttacker ()Lnet/minecraft/class_1;
-	METHOD method_3048 fromFireball (Lnet/minecraft/class_601;Lnet/minecraft/class_1;)Lnet/minecraft/class_962;
-		ARG 0 fireball
-		ARG 1 shooter
-	METHOD method_3049 fromArrow (Lnet/minecraft/class_268;Lnet/minecraft/class_1;)Lnet/minecraft/class_962;
-		ARG 0 arrow
-		ARG 1 shooter
-	METHOD method_3050 fromThrownObject (Lnet/minecraft/class_1;Lnet/minecraft/class_1;)Lnet/minecraft/class_962;
-		ARG 0 thrownObject
-		ARG 1 shooter
-	METHOD method_3051 fromPlayer (Lnet/minecraft/class_3;)Lnet/minecraft/class_962;
-		ARG 0 player
-	METHOD method_3052 fromMob (Lnet/minecraft/class_209;)Lnet/minecraft/class_962;
-		ARG 0 entity
-	METHOD method_3056 getInflicter ()Lnet/minecraft/class_1;
+	METHOD method_3048 fire (Lnet/minecraft/class_601;Lnet/minecraft/class_1;)Lnet/minecraft/class_962;
+	METHOD method_3049 arrow (Lnet/minecraft/class_268;Lnet/minecraft/class_1;)Lnet/minecraft/class_962;
+	METHOD method_3050 thrownProjectile (Lnet/minecraft/class_1;Lnet/minecraft/class_1;)Lnet/minecraft/class_962;
+	METHOD method_3051 player (Lnet/minecraft/class_3;)Lnet/minecraft/class_962;
+	METHOD method_3052 mob (Lnet/minecraft/class_209;)Lnet/minecraft/class_962;
+	METHOD method_3053 bypassesArmor ()Z
+	METHOD method_3054 getExhaustion ()F
+	METHOD method_3055 isOutOfWorld ()Z
+	METHOD method_3056 getSource ()Lnet/minecraft/class_1;
+	METHOD method_3057 setBypassesArmor ()Lnet/minecraft/class_962;
+	METHOD method_3058 setOutOfWorld ()Lnet/minecraft/class_962;

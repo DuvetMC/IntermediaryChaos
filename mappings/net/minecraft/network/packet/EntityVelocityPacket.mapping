@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_643 net/minecraft/network/packet/EntityVelocityPacket
+	FIELD field_2963 id I
+	FIELD field_2964 velocityX I
+	FIELD field_2965 velocityY I
+	FIELD field_2966 velocityZ I
+	METHOD <init> <init> (IDDD)V
+	METHOD <init> <init> (Lnet/minecraft/class_1;)V

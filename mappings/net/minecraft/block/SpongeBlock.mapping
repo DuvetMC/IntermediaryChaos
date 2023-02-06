@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_91 net/minecraft/block/SpongeBlock
+	METHOD <init> <init> (I)V

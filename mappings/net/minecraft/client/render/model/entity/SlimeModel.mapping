@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_567 net/minecraft/client/render/model/entity/SlimeModel
+	FIELD field_2604 body Lnet/minecraft/class_7;
+	FIELD field_2621 rightEye Lnet/minecraft/class_7;
+	FIELD field_2622 leftEye Lnet/minecraft/class_7;
+	FIELD field_2623 mouth Lnet/minecraft/class_7;
+	METHOD <init> <init> (I)V

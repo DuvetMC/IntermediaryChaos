@@ -1,1 +1,11 @@
 CLASS net/minecraft/class_38 net/minecraft/block/LiquidBlock
+	METHOD method_1283 getHeightLoss (I)F
+	METHOD method_1284 getLevel (Lnet/minecraft/class_14;III)I
+		COMMENT Returns the level of this fluid. The first 3 bits encode the distance to a source
+		COMMENT fluid, while the 4th bit encodes whether this fluid is falling.
+	METHOD method_1285 getDistanceToSource (Lnet/minecraft/class_447;III)I
+		COMMENT Returns the distance to a source fluid. A falling fluid acts as a source.
+	METHOD method_1294 getFlow (Lnet/minecraft/class_447;III)Lnet/minecraft/class_9;
+	METHOD method_1310 checkSpreadCollisions (Lnet/minecraft/class_14;III)V
+	METHOD method_1340 playFizzSound (Lnet/minecraft/class_14;III)V
+	METHOD method_1552 getFlowAngle (Lnet/minecraft/class_447;IIILnet/minecraft/class_79;)D

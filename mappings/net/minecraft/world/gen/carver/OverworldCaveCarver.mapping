@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_591 net/minecraft/world/gen/carver/OverworldCaveCarver
+	METHOD method_1929 place (JII[BDDD)V
+	METHOD method_1930 placeBranch (JII[BDDDFFFIID)V

@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_623 net/minecraft/client/render/entity/GhastRenderer
+	METHOD method_1987 scale (Lnet/minecraft/class_599;F)V

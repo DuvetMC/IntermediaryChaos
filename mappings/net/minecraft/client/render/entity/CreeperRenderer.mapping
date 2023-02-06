@@ -1,1 +1,4 @@
 CLASS net/minecraft/class_342 net/minecraft/client/render/entity/CreeperRenderer
+	FIELD field_3678 model Lnet/minecraft/class_129;
+	METHOD method_1704 scale (Lnet/minecraft/class_317;F)V
+	METHOD method_1705 getCreeperFuseTime (Lnet/minecraft/class_317;FF)I

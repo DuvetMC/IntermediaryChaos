@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_907 net/minecraft/world/gen/structure/MineshaftStart
+	METHOD <init> <init> (Lnet/minecraft/class_14;Ljava/util/Random;II)V

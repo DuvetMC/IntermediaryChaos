@@ -1,7 +1,5 @@
 CLASS net/minecraft/class_488 net/minecraft/block/RedstoneTorchBlock
-	FIELD field_2291 powered Z
-	METHOD method_1719 (Lnet/minecraft/class_14;III)Z
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+	FIELD field_2291 lit Z
+	METHOD <init> <init> (IIZ)V
+	METHOD method_1718 hasBurnedOut (Lnet/minecraft/class_14;IIIZ)Z
+	METHOD method_1719 shouldUnpower (Lnet/minecraft/class_14;III)Z

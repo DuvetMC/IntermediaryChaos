@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_910 net/minecraft/block/PaneBlock
+	FIELD field_3980 topSprite I
+	METHOD method_2940 shouldConnectTo (I)Z
+	METHOD method_2941 getTopSprite ()I

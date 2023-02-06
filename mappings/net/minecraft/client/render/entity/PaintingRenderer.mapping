@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_372 net/minecraft/client/render/entity/PaintingRenderer
+	METHOD method_1557 render (Lnet/minecraft/class_370;DDDFF)V
+	METHOD method_1558 transformRenderPosition (Lnet/minecraft/class_370;FF)V
+	METHOD method_1559 renderPainting (Lnet/minecraft/class_370;IIII)V

@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_459 net/minecraft/client/render/entity/PigRenderer
+	METHOD <init> <init> (Lnet/minecraft/class_129;Lnet/minecraft/class_129;F)V

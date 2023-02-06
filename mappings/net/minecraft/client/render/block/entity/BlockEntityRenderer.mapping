@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_413 net/minecraft/client/render/block/entity/BlockEntityRenderer
+	FIELD field_2002 dispatcher Lnet/minecraft/class_414;
+	METHOD method_1258 getTextRenderer ()Lnet/minecraft/class_33;
+	METHOD method_1259 bindTexture (Ljava/lang/String;)V
+	METHOD method_1260 render (Lnet/minecraft/class_262;DDDF)V
+	METHOD method_1261 init (Lnet/minecraft/class_414;)V
+	METHOD method_2885 setWorld (Lnet/minecraft/class_14;)V

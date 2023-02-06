@@ -1,1 +1,3 @@
 CLASS net/minecraft/class_528 net/minecraft/client/render/entity/BoatRenderer
+	FIELD field_2454 model Lnet/minecraft/class_129;
+	METHOD method_1810 render (Lnet/minecraft/class_530;DDDFF)V

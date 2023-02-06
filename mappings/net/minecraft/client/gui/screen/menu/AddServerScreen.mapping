@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_1002 net/minecraft/client/gui/screen/menu/AddServerScreen
+	FIELD field_4303 parent Lnet/minecraft/class_49;
+	FIELD field_4304 addressField Lnet/minecraft/class_740;
+	FIELD field_4305 serverNameField Lnet/minecraft/class_740;
+	FIELD field_4306 server Lnet/minecraft/class_967;
+	METHOD <init> <init> (Lnet/minecraft/class_49;Lnet/minecraft/class_967;)V

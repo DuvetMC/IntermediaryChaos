@@ -1,0 +1,19 @@
+CLASS net/minecraft/class_868 net/minecraft/world/gen/chunk/TheEndChunkGenerator
+	FIELD field_3829 scaleNoiseGenerator Lnet/minecraft/class_57;
+	FIELD field_3830 depthNoiseGenerator Lnet/minecraft/class_57;
+	FIELD field_3832 mainNoiseBuffer [D
+	FIELD field_3833 minLimitNoiseBuffer [D
+	FIELD field_3834 maxLimitNoiseBuffer [D
+	FIELD field_3835 scaleNoiseBuffer [D
+	FIELD field_3836 depthNoiseBuffer [D
+	FIELD field_3838 random Ljava/util/Random;
+	FIELD field_3839 minLimitPerlinNoise Lnet/minecraft/class_57;
+	FIELD field_3840 maxLimitPerlinNoise Lnet/minecraft/class_57;
+	FIELD field_3841 mainPerlinNoise Lnet/minecraft/class_57;
+	FIELD field_3844 world Lnet/minecraft/class_14;
+	FIELD field_3845 heightMap [D
+	FIELD field_3850 biomes [Lnet/minecraft/class_611;
+	METHOD <init> <init> (Lnet/minecraft/class_14;J)V
+	METHOD method_2822 generateSurfaces (II[B[Lnet/minecraft/class_611;)V
+	METHOD method_2823 generate (II[B[Lnet/minecraft/class_611;)V
+	METHOD method_2824 populateHeightMap ([DIIIIII)[D

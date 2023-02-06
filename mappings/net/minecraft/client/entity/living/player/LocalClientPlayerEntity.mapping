@@ -1,0 +1,14 @@
+CLASS net/minecraft/class_549 net/minecraft/client/entity/living/player/LocalClientPlayerEntity
+	FIELD field_2536 networkHandler Lnet/minecraft/class_509;
+	FIELD field_2537 lastX D
+	FIELD field_2538 lastMinY D
+	FIELD field_2539 lastY D
+	FIELD field_2540 lastYaw F
+	FIELD field_2541 lastPitch F
+	FIELD field_2687 lastZ D
+	FIELD field_2904 wasOnGround Z
+	FIELD field_3021 wasSneaking Z
+	FIELD field_3171 healthInitialized Z
+	FIELD field_3952 wasSprinting Z
+	METHOD m_4724297 sendChat (Ljava/lang/String;)V
+	METHOD method_1918 updateMovement ()V

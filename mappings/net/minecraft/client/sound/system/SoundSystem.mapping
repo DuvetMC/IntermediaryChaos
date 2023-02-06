@@ -1,0 +1,19 @@
+CLASS net/minecraft/class_249 net/minecraft/client/sound/system/SoundSystem
+	FIELD field_1251 sounds Lnet/minecraft/class_248;
+	FIELD field_1252 music Lnet/minecraft/class_248;
+	FIELD field_1253 nextSoundEventIndex I
+	FIELD field_1299 options Lnet/minecraft/class_124;
+	FIELD field_2324 random Ljava/util/Random;
+	FIELD field_2325 musicCooldown I
+	FIELD field_2666 records Lnet/minecraft/class_248;
+	METHOD method_1678 play (Ljava/lang/String;FF)V
+	METHOD method_1679 tickListener (Lnet/minecraft/class_209;F)V
+	METHOD method_1680 close ()V
+	METHOD method_1681 loadMusic (Ljava/lang/String;Ljava/io/File;)V
+	METHOD method_1901 playRecord (Ljava/lang/String;FFFFF)V
+	METHOD method_1902 loadRecord (Ljava/lang/String;Ljava/io/File;)V
+	METHOD method_1903 tickMusic ()V
+	METHOD method_649 loadSound (Ljava/lang/String;Ljava/io/File;)V
+	METHOD method_687 volumeChanged ()V
+	METHOD method_977 play (Ljava/lang/String;FFFFF)V
+	METHOD method_980 start ()V

@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_446 net/minecraft/world/WorldRegion
+	FIELD field_2138 chunkX I
+	FIELD field_2139 chunkZ I
+	FIELD field_2140 chunks [[Lnet/minecraft/class_381;
+	FIELD field_2141 world Lnet/minecraft/class_14;
+	METHOD <init> <init> (Lnet/minecraft/class_14;IIIIII)V
+	METHOD method_1577 getLightLevel (III)I
+	METHOD method_2964 getBlockLightLevel (Lnet/minecraft/class_377;III)I

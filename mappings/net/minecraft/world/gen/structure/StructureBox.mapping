@@ -1,0 +1,21 @@
+CLASS net/minecraft/class_976 net/minecraft/world/gen/structure/StructureBox
+	FIELD field_4190 minX I
+	FIELD field_4191 minY I
+	FIELD field_4192 minZ I
+	FIELD field_4193 maxX I
+	FIELD field_4194 maxY I
+	FIELD field_4195 maxZ I
+	METHOD <init> <init> (IIII)V
+	METHOD <init> <init> (IIIIII)V
+	METHOD <init> <init> (Lnet/minecraft/class_976;)V
+	METHOD method_3113 infinite ()Lnet/minecraft/class_976;
+	METHOD method_3114 move (III)V
+	METHOD method_3115 intersects (IIII)Z
+	METHOD method_3116 orient (IIIIIIIIII)Lnet/minecraft/class_976;
+	METHOD method_3117 intersects (Lnet/minecraft/class_976;)Z
+	METHOD method_3118 getSpanX ()I
+	METHOD method_3119 contains (III)Z
+	METHOD method_3120 union (Lnet/minecraft/class_976;)V
+	METHOD method_3121 getSpanY ()I
+	METHOD method_3122 getSpanZ ()I
+	METHOD toString toString ()Ljava/lang/String;

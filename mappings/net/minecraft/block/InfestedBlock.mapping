@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_1030 net/minecraft/block/InfestedBlock
+	METHOD <init> <init> (I)V
+	METHOD method_3302 canBeInfested (I)Z
+	METHOD method_3303 getVariant (I)I

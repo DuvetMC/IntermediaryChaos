@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_920 net/minecraft/world/biome/Biome_SpawnEntry
+	FIELD field_4006 type Ljava/lang/Class;
+	FIELD field_4007 minGroupSize I
+	FIELD field_4008 maxGroupSize I
+	METHOD <init> <init> (Ljava/lang/Class;III)V

@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_432 net/minecraft/item/MinecartItem
+	FIELD field_2641 variant I

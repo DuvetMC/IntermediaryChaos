@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_503 net/minecraft/client/gui/screen/DownloadingTerrainScreen
+	FIELD field_2365 networkHandler Lnet/minecraft/class_509;
+	FIELD field_2581 ticks I
+	METHOD <init> <init> (Lnet/minecraft/class_509;)V

@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_448 net/minecraft/nbt/NbtIo
+	METHOD method_1380 write (Lnet/minecraft/class_461;Ljava/io/OutputStream;)V
+	METHOD method_1382 read (Ljava/io/InputStream;)Lnet/minecraft/class_461;
+	METHOD method_1448 write (Lnet/minecraft/class_461;Ljava/io/DataOutput;)V
+	METHOD method_1449 read (Ljava/io/DataInput;)Lnet/minecraft/class_461;
+	METHOD method_2955 read (Ljava/io/File;)Lnet/minecraft/class_461;
+	METHOD method_2956 writeSafe (Lnet/minecraft/class_461;Ljava/io/File;)V
+	METHOD method_2957 write (Lnet/minecraft/class_461;Ljava/io/File;)V

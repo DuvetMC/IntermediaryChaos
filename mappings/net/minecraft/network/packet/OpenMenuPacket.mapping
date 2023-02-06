@@ -1,0 +1,18 @@
+CLASS net/minecraft/class_663 net/minecraft/network/packet/OpenMenuPacket
+	FIELD field_3077 menuId I
+	FIELD field_3078 menuType I
+		COMMENT The type of inventory menu. The possible values are:
+		COMMENT <br>0: container (e.g. chest)
+		COMMENT <br>1: crafting table
+		COMMENT <br>2: furnace
+		COMMENT <br>3: dispenser
+		COMMENT <br>4: enchanting table
+		COMMENT <br>5: brewing stand
+		COMMENT <br>6: trader (i.e. villager)
+		COMMENT <br>7: beacon
+		COMMENT <br>8: anvil
+		COMMENT <br>9: hopper
+		COMMENT <br>10: dropper
+		COMMENT <br>11: horse with chest
+	FIELD field_3079 displayName Ljava/lang/String;
+	FIELD field_3080 size I

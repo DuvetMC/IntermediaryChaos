@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_993 net/minecraft/world/gen/structure/StructurePiece_BlockPicker
+	FIELD field_4232 blockId I
+	FIELD field_4233 metadata I
+	METHOD method_3148 getBlockId ()I
+	METHOD method_3149 pick (Ljava/util/Random;IIIZ)V
+	METHOD method_3150 getMetadata ()I

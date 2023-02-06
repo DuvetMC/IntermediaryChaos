@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_326 net/minecraft/client/render/model/entity/CreeperModel
+	FIELD field_1538 head Lnet/minecraft/class_7;
+	FIELD field_1539 largeHead Lnet/minecraft/class_7;
+		COMMENT Has the shape of the head, but it is .5 larger in size than a normal head. It has texture coordinates pointing to an empty place in the texture atlas.
+		COMMENT This field is initialised but never rendered.
+	FIELD field_1540 body Lnet/minecraft/class_7;
+	FIELD field_1541 rightBackLeg Lnet/minecraft/class_7;
+	FIELD field_1542 leftBackleg Lnet/minecraft/class_7;
+	FIELD field_1543 rightFrontLeg Lnet/minecraft/class_7;
+	FIELD field_1544 leftFrontLeg Lnet/minecraft/class_7;
+	METHOD <init> <init> (F)V

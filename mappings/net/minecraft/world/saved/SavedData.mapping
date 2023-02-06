@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_863 net/minecraft/world/saved/SavedData
+	FIELD field_3813 id Ljava/lang/String;
+	FIELD field_3814 dirty Z
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD method_2805 markDirty ()V
+	METHOD method_2806 readNbt (Lnet/minecraft/class_461;)V
+	METHOD method_2807 setDirty (Z)V
+	METHOD method_2808 isDirty ()Z
+	METHOD method_2809 writeNbt (Lnet/minecraft/class_461;)V

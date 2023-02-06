@@ -1,0 +1,14 @@
+CLASS net/minecraft/class_131 net/minecraft/client/render/model/entity/HumanoidModel
+	FIELD field_2759 sneaking Z
+	FIELD field_3036 deadmau5Ears Lnet/minecraft/class_7;
+	FIELD field_3037 cape Lnet/minecraft/class_7;
+	FIELD field_785 head Lnet/minecraft/class_7;
+	FIELD field_786 hat Lnet/minecraft/class_7;
+	FIELD field_787 body Lnet/minecraft/class_7;
+	FIELD field_788 rightArm Lnet/minecraft/class_7;
+	FIELD field_789 leftArm Lnet/minecraft/class_7;
+	FIELD field_790 rightLeg Lnet/minecraft/class_7;
+	FIELD field_791 leftLeg Lnet/minecraft/class_7;
+	METHOD <init> <init> (F)V
+	METHOD method_2092 renderDeadmau5Ears (F)V
+	METHOD method_2093 renderCape (F)V

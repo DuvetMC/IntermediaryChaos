@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_482 net/minecraft/util/ProgressListener
+	METHOD method_1203 setTask (Ljava/lang/String;)V
+	METHOD method_1329 updateProgress (Ljava/lang/String;)V
+	METHOD method_293 progressStagePercentage (I)V

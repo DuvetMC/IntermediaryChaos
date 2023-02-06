@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_121 net/minecraft/client/gui/GuiElement
+	FIELD field_744 drawOffset F
+	METHOD method_1869 fill (IIIII)V
+	METHOD method_2729 drawHorizontalLine (IIII)V
+	METHOD method_2730 drawVerticalLine (IIII)V
+	METHOD method_346 fillGradient (IIIIII)V
+	METHOD method_347 drawCenteredString (Lnet/minecraft/class_33;Ljava/lang/String;III)V
+	METHOD method_348 drawTexture (IIIIII)V
+	METHOD method_828 drawString (Lnet/minecraft/class_33;Ljava/lang/String;III)V

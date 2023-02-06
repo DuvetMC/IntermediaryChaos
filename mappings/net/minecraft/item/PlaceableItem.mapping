@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_564 net/minecraft/item/PlaceableItem
+	FIELD field_2601 block I

@@ -1,2 +1,3 @@
 CLASS net/minecraft/class_688 net/minecraft/item/DyeItem
-	FIELD field_3155 DYES [Ljava/lang/String;
+	FIELD field_3155 TRANSLATION_KEYS [Ljava/lang/String;
+	FIELD field_3923 COLORS [I

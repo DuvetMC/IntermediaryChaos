@@ -1,0 +1,25 @@
+CLASS net/minecraft/class_25 net/minecraft/client/entity/particle/Particle
+	FIELD field_1143 age I
+	FIELD field_1144 miscTexColumn I
+	FIELD field_1145 maxAge I
+	FIELD field_1146 scale F
+	FIELD field_1147 gravity F
+	FIELD field_1148 red F
+	FIELD field_1149 green F
+	FIELD field_1150 blue F
+	FIELD field_1868 currentX D
+		COMMENT Linear interpolation between the previous and current X position of the particle
+		COMMENT currently being rendered.
+	FIELD field_1869 currentY D
+		COMMENT Linear interpolation between the previous and current Y position of the particle
+		COMMENT currently being rendered.
+	FIELD field_1870 currentZ D
+		COMMENT Linear interpolation between the previous and current Z position of the particle
+		COMMENT currently being rendered.
+	FIELD field_25 randomUOffset F
+	FIELD field_26 randomVOffset F
+	METHOD <init> <init> (Lnet/minecraft/class_14;DDDDDD)V
+	METHOD method_1663 multiplyVelocity (F)Lnet/minecraft/class_25;
+	METHOD method_573 getTextureType ()I
+	METHOD method_575 render (Lnet/minecraft/class_17;FFFFFF)V
+	METHOD method_576 multiplyScale (F)Lnet/minecraft/class_25;

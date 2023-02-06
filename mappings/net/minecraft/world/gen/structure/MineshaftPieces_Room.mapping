@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_986 net/minecraft/world/gen/structure/MineshaftPieces_Room
+	METHOD <init> <init> (ILjava/util/Random;II)V

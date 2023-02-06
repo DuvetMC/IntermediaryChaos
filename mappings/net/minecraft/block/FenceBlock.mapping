@@ -1,1 +1,3 @@
 CLASS net/minecraft/class_590 net/minecraft/block/FenceBlock
+	METHOD <init> <init> (II)V
+	METHOD method_3234 shouldConnectTo (Lnet/minecraft/class_447;III)Z

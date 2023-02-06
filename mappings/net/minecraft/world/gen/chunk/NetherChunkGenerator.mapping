@@ -1,0 +1,24 @@
+CLASS net/minecraft/class_625 net/minecraft/world/gen/chunk/NetherChunkGenerator
+	FIELD field_2881 scaleNoise Lnet/minecraft/class_57;
+	FIELD field_2882 depthNoise Lnet/minecraft/class_57;
+	FIELD field_2883 mainNoiseBuffer [D
+	FIELD field_2884 minLimitNoiseBuffer [D
+	FIELD field_2885 maxLimitNoiseBuffer [D
+	FIELD field_2886 scaleNoiseBuffer [D
+	FIELD field_2887 depthNoiseBuffer [D
+	FIELD field_2888 random Ljava/util/Random;
+	FIELD field_2889 minLimitPerlinNoise Lnet/minecraft/class_57;
+	FIELD field_2890 maxLimitPerlinNoise Lnet/minecraft/class_57;
+	FIELD field_2891 mainPerlinNoise Lnet/minecraft/class_57;
+	FIELD field_2892 soulSandGravelNoise Lnet/minecraft/class_57;
+	FIELD field_2893 lavaLakeNoise Lnet/minecraft/class_57;
+	FIELD field_2894 world Lnet/minecraft/class_14;
+	FIELD field_2895 heightMap [D
+	FIELD field_2896 soulSandNoiseBuffer [D
+	FIELD field_2897 gravelNoiseBuffer [D
+	FIELD field_2898 lavaLakeNoiseBuffer [D
+	FIELD field_2899 cave Lnet/minecraft/class_586;
+	METHOD <init> <init> (Lnet/minecraft/class_14;J)V
+	METHOD method_1988 generate (II[B)V
+	METHOD method_1989 populateHeightMap ([DIIIIII)[D
+	METHOD method_1990 generateSurfaces (II[B)V

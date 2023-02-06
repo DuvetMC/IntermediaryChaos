@@ -1,1 +1,5 @@
 CLASS net/minecraft/class_261 net/minecraft/block/ChestBlock
+	FIELD field_1903 random Ljava/util/Random;
+	METHOD <init> <init> (I)V
+	METHOD method_3142 updateState (Lnet/minecraft/class_14;III)V
+	METHOD method_723 isDoubleChest (Lnet/minecraft/class_14;III)Z
