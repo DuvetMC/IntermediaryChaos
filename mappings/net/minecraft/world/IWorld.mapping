@@ -8,6 +8,8 @@ CLASS net/minecraft/class_452 net/minecraft/world/IWorld
 		ARG 2 y
 		ARG 3 z
 	METHOD method_1097 getBlockEntity (III)Lnet/minecraft/class_257;
+		ARG 1 x
+		ARG 2 y
 		ARG 3 z
 	METHOD method_2091 isAir (III)Z
 		ARG 1 x
@@ -37,4 +39,6 @@ CLASS net/minecraft/class_452 net/minecraft/world/IWorld
 		ARG 2 y
 		ARG 3 z
 	METHOD method_478 getMaterial (III)Lnet/minecraft/class_87;
+		ARG 1 x
+		ARG 2 y
 		ARG 3 z

@@ -2,19 +2,23 @@ CLASS net/minecraft/class_148 net/minecraft/client/options/GameOptions
 	FIELD field_1182 inventoryKey Lnet/minecraft/class_1021;
 	FIELD field_1183 dropKey Lnet/minecraft/class_1021;
 	FIELD field_1634 defaultDifficulty I
-	FIELD field_1635 GUI_SETTINGS [Ljava/lang/String;
+	FIELD field_1635 DIFFICULTIES [Ljava/lang/String;
 	FIELD field_2035 fancyGraphics Z
 	FIELD field_2766 mouseSensitivity F
 	FIELD field_2767 sneakKey Lnet/minecraft/class_1021;
+	FIELD field_2975 skin Ljava/lang/String;
 	FIELD field_3007 lastServer Ljava/lang/String;
 	FIELD field_3342 debugEnabled Z
 	FIELD field_3343 discreteScroll Z
 	FIELD field_3344 smoothCamera Z
 	FIELD field_3345 debugCamera Z
 	FIELD field_3346 totalDiscreteScroll F
+	FIELD field_3348 ambientOcclusion Z
 	FIELD field_3349 hudEnabled Z
 	FIELD field_3510 guiScale I
+	FIELD field_3511 GUI_SCALES [Ljava/lang/String;
 	FIELD field_3668 advancedOpengl Z
+	FIELD field_3909 FRAMERATE_LIMITS [Ljava/lang/String;
 	FIELD field_4078 fov F
 	FIELD field_4079 gamma F
 	FIELD field_4080 attackKey Lnet/minecraft/class_1021;
@@ -32,11 +36,17 @@ CLASS net/minecraft/class_148 net/minecraft/client/options/GameOptions
 	FIELD field_758 jumpKey Lnet/minecraft/class_1021;
 	FIELD field_760 chatKey Lnet/minecraft/class_1021;
 	FIELD field_764 ingameKeys [Lnet/minecraft/class_1021;
+	FIELD field_765 RENDER_DISTANCES [Ljava/lang/String;
 	FIELD field_766 file Ljava/io/File;
 	FIELD field_832 viewBobbing Z
 	FIELD field_833 anaglyph Z
 	FIELD field_835 client Lnet/minecraft/client/Minecraft;
+	FIELD field_904 framerateLimit I
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/io/File;)V
+		ARG 1 client
+		ARG 2 mcDir
 	METHOD method_1951 setValue (Lnet/minecraft/class_653;F)V
+		ARG 1 option
 		ARG 2 value
 	METHOD method_1952 parseFloat (Ljava/lang/String;)F
 		ARG 1 value
@@ -49,4 +59,5 @@ CLASS net/minecraft/class_148 net/minecraft/client/options/GameOptions
 	METHOD method_355 getValueAsString (Lnet/minecraft/class_653;)Ljava/lang/String;
 		ARG 1 option
 	METHOD method_356 setValue (Lnet/minecraft/class_653;I)V
+		ARG 1 option
 		ARG 2 value

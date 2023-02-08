@@ -47,6 +47,7 @@ CLASS net/minecraft/class_49 net/minecraft/client/render/world/WorldRenderer
 		ARG 1 cameraX
 		ARG 2 cameraY
 		ARG 3 cameraZ
+	METHOD method_1061 refresh ()V
 	METHOD method_1272 renderClouds (F)V
 		ARG 1 tickDelta
 	METHOD method_132 stageChunkSectionRerender (IIIIII)V

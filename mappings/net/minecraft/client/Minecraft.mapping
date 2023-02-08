@@ -19,12 +19,15 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD field_296 crosshairTarget Lnet/minecraft/class_73;
 	FIELD field_299 width I
 	FIELD field_300 height I
+	FIELD field_301 world Lnet/minecraft/class_191;
 	FIELD field_302 session Lnet/minecraft/class_63;
+	FIELD field_303 host Ljava/lang/String;
 	FIELD field_306 textRenderer Lnet/minecraft/class_62;
 	FIELD field_310 running Z
 	FIELD field_311 fullscreen Z
 	FIELD field_314 timer Lnet/minecraft/class_33;
 	FIELD field_315 worldRenderer Lnet/minecraft/class_49;
+	FIELD field_316 player Lnet/minecraft/class_228;
 	FIELD field_318 particleManager Lnet/minecraft/class_64;
 	FIELD field_320 canvas Ljava/awt/Canvas;
 	FIELD field_3406 worldStorageSource Lnet/minecraft/class_728;
@@ -41,6 +44,13 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD field_607 gameRenderer Lnet/minecraft/class_101;
 	FIELD field_767 options Lnet/minecraft/class_148;
 	FIELD field_907 attackCooldown I
+	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+		ARG 1 component
+		ARG 2 canvas
+		ARG 3 applet
+		ARG 4 width
+		ARG 5 height
+		ARG 6 fullscreen
 	METHOD main main ([Ljava/lang/String;)V
 		ARG 0 args
 	METHOD method_1100 setWorld (Lnet/minecraft/class_191;Ljava/lang/String;Lnet/minecraft/class_203;)V
@@ -50,6 +60,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD method_1276 getEntityDebugInfo ()Ljava/lang/String;
 	METHOD method_1277 getParticleDebugInfo ()Ljava/lang/String;
 	METHOD method_1393 printCrashReport (Lnet/minecraft/class_473;)V
+		ARG 1 report
 	METHOD method_1394 renderProfilerChart (J)V
 		ARG 1 tickTime
 	METHOD method_1403 logGlError (Ljava/lang/String;)V
@@ -73,6 +84,13 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 		ARG 4 v
 		ARG 5 width
 		ARG 6 height
+	METHOD method_1841 startMinecraft (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 username
+		ARG 1 id
+		ARG 2 server
+	METHOD method_1842 startMinecraft (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 username
+		ARG 1 id
 	METHOD method_1947 forceReload ()V
 	METHOD method_2007 tryTakeScreenshot ()V
 	METHOD method_2132 getNetworkHandler ()Lnet/minecraft/class_502;
@@ -80,11 +98,13 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD method_2370 isIllegalChatMessage (Ljava/lang/String;)Z
 		ARG 1 message
 	METHOD method_2372 getWorldStorageSource ()Lnet/minecraft/class_728;
+	METHOD method_2373 isHudDisabled ()Z
 	METHOD method_2374 isFancyGraphicsEnabled ()Z
 	METHOD method_2375 isAmbientOcclusionEnabled ()Z
-	METHOD method_2376 isHudDisabled ()Z
+	METHOD method_2376 isDebugEnabled ()Z
 	METHOD method_243 openGameMenuScreen ()V
 	METHOD method_2835 crashAndPrintReport (Lnet/minecraft/class_473;)V
+		ARG 1 report
 	METHOD method_2836 cleanHeap ()V
 	METHOD method_3343 doPick ()V
 	METHOD method_779 onResolutionChanged (II)V

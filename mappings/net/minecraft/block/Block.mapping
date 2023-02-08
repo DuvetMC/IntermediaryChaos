@@ -26,6 +26,7 @@ CLASS net/minecraft/class_35 net/minecraft/block/Block
 	FIELD field_1996 LADDER Lnet/minecraft/class_35;
 	FIELD field_208 BY_ID [Lnet/minecraft/class_35;
 	FIELD field_2091 RAIL Lnet/minecraft/class_35;
+	FIELD field_209 IS_TICKS_RANDOMLY [Z
 	FIELD field_211 GRASS Lnet/minecraft/class_40;
 	FIELD field_213 BEDROCK Lnet/minecraft/class_35;
 	FIELD field_214 FLOWING_WATER Lnet/minecraft/class_35;
@@ -70,6 +71,7 @@ CLASS net/minecraft/class_35 net/minecraft/block/Block
 	FIELD field_2606 REEDS Lnet/minecraft/class_35;
 	FIELD field_2654 JUKEBOX Lnet/minecraft/class_35;
 	FIELD field_2723 FENCE Lnet/minecraft/class_35;
+	FIELD field_2749 IS_BLOCK_ENTITY [Z
 	FIELD field_2909 PUMPKIN Lnet/minecraft/class_35;
 	FIELD field_2910 NETHERRACK Lnet/minecraft/class_35;
 	FIELD field_2911 SOUL_SAND Lnet/minecraft/class_35;
@@ -142,6 +144,7 @@ CLASS net/minecraft/class_35 net/minecraft/block/Block
 	METHOD <init> <init> (IILnet/minecraft/class_87;)V
 		ARG 3 material
 	METHOD <init> <init> (ILnet/minecraft/class_87;)V
+		ARG 1 id
 		ARG 2 material
 	METHOD method_101 shouldRenderFace (Lnet/minecraft/class_452;IIII)Z
 		ARG 5 face

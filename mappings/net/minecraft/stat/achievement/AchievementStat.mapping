@@ -7,10 +7,25 @@ CLASS net/minecraft/class_810 net/minecraft/stat/achievement/AchievementStat
 	FIELD field_3693 achievementFormatter Lnet/minecraft/class_786;
 	FIELD field_3694 challenge Z
 	METHOD <init> <init> (ILjava/lang/String;IILnet/minecraft/class_226;Lnet/minecraft/class_810;)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 column
+		ARG 4 row
+		ARG 5 iconStack
 		ARG 6 parent
 	METHOD <init> <init> (ILjava/lang/String;IILnet/minecraft/class_238;Lnet/minecraft/class_810;)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 column
+		ARG 4 row
+		ARG 5 item
 		ARG 6 parent
 	METHOD <init> <init> (ILjava/lang/String;IILnet/minecraft/class_35;Lnet/minecraft/class_810;)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 column
+		ARG 4 row
+		ARG 5 block
 		ARG 6 parent
 	METHOD method_2669 setLocalOnly ()Lnet/minecraft/class_810;
 	METHOD method_2670 setFormatter (Lnet/minecraft/class_786;)Lnet/minecraft/class_810;
