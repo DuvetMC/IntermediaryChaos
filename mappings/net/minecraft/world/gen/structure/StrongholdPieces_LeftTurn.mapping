@@ -1,3 +1,6 @@
-CLASS net/minecraft/class_968 net/minecraft/world/gen/structure/StrongholdPieces_LeftTurn
-	METHOD <init> <init> (ILjava/util/Random;Lnet/minecraft/class_976;I)V
-	METHOD method_3319 of (Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_968;
+CLASS net/minecraft/class_961 net/minecraft/world/gen/structure/StrongholdPieces_LeftTurn
+	COMMENT @nest net/minecraft/world/gen/structure/StrongholdPieces$LeftTurn
+	METHOD <init> <init> (ILjava/util/Random;Lnet/minecraft/class_969;I)V
+		ARG 4 facing
+	METHOD method_3319 of (Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_961;
+		ARG 6 generationDepth

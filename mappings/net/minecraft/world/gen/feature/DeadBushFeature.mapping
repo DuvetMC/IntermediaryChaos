@@ -1,3 +1,4 @@
-CLASS net/minecraft/class_870 net/minecraft/world/gen/feature/DeadBushFeature
+CLASS net/minecraft/class_863 net/minecraft/world/gen/feature/DeadBushFeature
 	FIELD field_3855 deadBushId I
 	METHOD <init> <init> (I)V
+		ARG 1 deadBushId

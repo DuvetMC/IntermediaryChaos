@@ -1,5 +1,5 @@
-CLASS net/minecraft/class_668 net/minecraft/inventory/SimpleInventory
+CLASS net/minecraft/class_661 net/minecraft/inventory/SimpleInventory
 	FIELD field_3091 name Ljava/lang/String;
 	FIELD field_3092 size I
-	FIELD field_3093 stacks [Lnet/minecraft/class_229;
+	FIELD field_3093 stacks [Lnet/minecraft/class_226;
 	FIELD field_3094 listeners Ljava/util/List;

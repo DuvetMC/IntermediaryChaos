@@ -1,7 +1,9 @@
-CLASS net/minecraft/class_856 net/minecraft/world/map/SavedMapData_Decoration
+CLASS net/minecraft/class_849 net/minecraft/world/map/SavedMapData_Decoration
+	COMMENT @nest net/minecraft/world/map/SavedMapData$Decoration
 	FIELD field_3773 type B
 	FIELD field_3774 x B
 	FIELD field_3775 z B
 	FIELD field_3776 rotation B
-	FIELD field_3777 mapData Lnet/minecraft/class_865;
-	METHOD <init> <init> (Lnet/minecraft/class_865;BBBB)V
+	FIELD field_3777 mapData Lnet/minecraft/class_858;
+	METHOD <init> <init> (Lnet/minecraft/class_858;BBBB)V
+		ARG 5 rotation

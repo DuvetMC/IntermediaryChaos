@@ -1,3 +1,5 @@
-CLASS net/minecraft/class_923 net/minecraft/util/WeightedPicker_Entry
+CLASS net/minecraft/class_916 net/minecraft/util/WeightedPicker_Entry
+	COMMENT @nest net/minecraft/util/WeightedPicker$Entry
 	FIELD field_4016 weight I
 	METHOD <init> <init> (I)V
+		ARG 1 weight

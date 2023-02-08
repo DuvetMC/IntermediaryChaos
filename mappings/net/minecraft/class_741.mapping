@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_741
-	METHOD accept accept (Ljava/io/File;Ljava/lang/String;)Z

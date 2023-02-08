@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_659 net/minecraft/network/packet/MenuSlotUpdatePacket
+CLASS net/minecraft/class_652 net/minecraft/network/packet/MenuSlotUpdatePacket
 	FIELD field_3054 menuId I
 	FIELD field_3055 slotId I
-	FIELD field_3056 stack Lnet/minecraft/class_229;
+	FIELD field_3056 stack Lnet/minecraft/class_226;

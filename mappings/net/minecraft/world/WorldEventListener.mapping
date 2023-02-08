@@ -1,9 +1,38 @@
-CLASS net/minecraft/class_476 net/minecraft/world/WorldEventListener
+CLASS net/minecraft/class_469 net/minecraft/world/WorldEventListener
 	METHOD method_1025 onRegionChanged (IIIIII)V
-	METHOD method_1484 onEntityAdded (Lnet/minecraft/class_1;)V
-	METHOD method_1485 onEntityRemoved (Lnet/minecraft/class_1;)V
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ
+	METHOD method_1484 onEntityAdded (Lnet/minecraft/class_198;)V
+		ARG 1 entity
+	METHOD method_1485 onEntityRemoved (Lnet/minecraft/class_198;)V
+		ARG 1 entity
 	METHOD method_1898 onRecordRemoved (Ljava/lang/String;III)V
-	METHOD method_2847 doEvent (Lnet/minecraft/class_3;IIIII)V
+		ARG 1 record
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_2847 doEvent (Lnet/minecraft/class_203;IIIII)V
+		ARG 6 data
 	METHOD method_606 onBlockChanged (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_608 playSound (Ljava/lang/String;DDDFF)V
+		ARG 1 name
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 pitch
+		ARG 9 volume
 	METHOD method_738 addParticle (Ljava/lang/String;DDDDDD)V
+		ARG 1 type
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 velocityX
+		ARG 10 velocityY
+		ARG 12 velocityZ

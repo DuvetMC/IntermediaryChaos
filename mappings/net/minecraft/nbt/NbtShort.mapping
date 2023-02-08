@@ -1,3 +1,3 @@
-CLASS net/minecraft/class_466 net/minecraft/nbt/NbtShort
+CLASS net/minecraft/class_395 net/minecraft/nbt/NbtShort
 	FIELD field_1921 value S
 	METHOD toString toString ()Ljava/lang/String;

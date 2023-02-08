@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_703 net/minecraft/network/packet/EntityDataPacket
+CLASS net/minecraft/class_696 net/minecraft/network/packet/EntityDataPacket
 	FIELD field_3182 id I
 	FIELD field_3183 dataEntries Ljava/util/List;
 	METHOD method_2239 getDataEntries ()Ljava/util/List;

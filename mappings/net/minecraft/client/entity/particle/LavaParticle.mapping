@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_283 net/minecraft/client/entity/particle/LavaParticle
+CLASS net/minecraft/class_278 net/minecraft/client/entity/particle/LavaParticle
 	FIELD field_1381 baseScale F

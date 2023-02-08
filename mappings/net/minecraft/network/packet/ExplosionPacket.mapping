@@ -1,5 +1,6 @@
-CLASS net/minecraft/class_651 net/minecraft/network/packet/ExplosionPacket
+CLASS net/minecraft/class_644 net/minecraft/network/packet/ExplosionPacket
 	FIELD field_3015 x D
 	FIELD field_3016 y D
 	FIELD field_3017 z D
 	FIELD field_3018 power F
+	FIELD field_3019 damagedBlocks Ljava/util/Set;

@@ -1,7 +1,7 @@
-CLASS net/minecraft/class_616 net/minecraft/entity/FishingBobberEntity
+CLASS net/minecraft/class_609 net/minecraft/entity/FishingBobberEntity
 	FIELD field_2862 shake I
-	FIELD field_2863 player Lnet/minecraft/class_3;
-	FIELD field_2864 caughtEntity Lnet/minecraft/class_1;
+	FIELD field_2863 player Lnet/minecraft/class_203;
+	FIELD field_2864 caughtEntity Lnet/minecraft/class_198;
 	FIELD field_2865 posX I
 	FIELD field_2866 posY I
 	FIELD field_2867 posZ I
@@ -19,6 +19,12 @@ CLASS net/minecraft/class_616 net/minecraft/entity/FishingBobberEntity
 	FIELD field_2982 clientVelocityX D
 	FIELD field_2983 clientVelocityY D
 	FIELD field_2984 clientVelocityZ D
-	METHOD <init> <init> (Lnet/minecraft/class_14;Lnet/minecraft/class_3;)V
+	METHOD <init> <init> (Lnet/minecraft/class_191;Lnet/minecraft/class_203;)V
+		ARG 2 player
 	METHOD method_1982 setVelocity (DDDFF)V
+		ARG 1 velocityX
+		ARG 3 velocityY
+		ARG 5 velocityZ
+		ARG 7 scale
+		ARG 8 min
 	METHOD method_1983 retract ()I

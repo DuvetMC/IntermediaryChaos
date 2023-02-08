@@ -1,7 +1,8 @@
-CLASS net/minecraft/class_987 net/minecraft/client/gui/screen/inventory/menu/CreativeInventoryScreen
-	FIELD field_4220 inventory Lnet/minecraft/class_668;
+CLASS net/minecraft/class_980 net/minecraft/client/gui/screen/inventory/menu/CreativeInventoryScreen
+	FIELD field_4220 inventory Lnet/minecraft/class_661;
 	FIELD field_4221 scrollPosition F
 	FIELD field_4222 hasScrollBar Z
 	FIELD field_4223 isMouseButtonDown Z
-	METHOD <init> <init> (Lnet/minecraft/class_3;)V
-	METHOD method_3143 getInventory ()Lnet/minecraft/class_668;
+	METHOD <init> <init> (Lnet/minecraft/class_203;)V
+		ARG 1 player
+	METHOD method_3143 getInventory ()Lnet/minecraft/class_661;

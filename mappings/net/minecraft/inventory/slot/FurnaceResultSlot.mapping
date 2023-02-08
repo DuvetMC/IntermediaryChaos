@@ -1,3 +1,4 @@
-CLASS net/minecraft/class_843 net/minecraft/inventory/slot/FurnaceResultSlot
-	FIELD field_3727 player Lnet/minecraft/class_3;
-	METHOD <init> <init> (Lnet/minecraft/class_3;Lnet/minecraft/class_267;III)V
+CLASS net/minecraft/class_836 net/minecraft/inventory/slot/FurnaceResultSlot
+	FIELD field_3727 player Lnet/minecraft/class_203;
+	METHOD <init> <init> (Lnet/minecraft/class_203;Lnet/minecraft/class_262;III)V
+		ARG 5 y

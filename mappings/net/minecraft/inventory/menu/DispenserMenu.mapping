@@ -1,3 +1,4 @@
-CLASS net/minecraft/class_697 net/minecraft/inventory/menu/DispenserMenu
-	FIELD field_3168 dispenser Lnet/minecraft/class_676;
-	METHOD <init> <init> (Lnet/minecraft/class_267;Lnet/minecraft/class_676;)V
+CLASS net/minecraft/class_690 net/minecraft/inventory/menu/DispenserMenu
+	FIELD field_3168 dispenser Lnet/minecraft/class_669;
+	METHOD <init> <init> (Lnet/minecraft/class_262;Lnet/minecraft/class_669;)V
+		ARG 2 dispenser

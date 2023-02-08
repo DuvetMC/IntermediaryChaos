@@ -1,7 +1,8 @@
-CLASS net/minecraft/class_788 net/minecraft/network/packet/AddGlobalEntityPacket
+CLASS net/minecraft/class_781 net/minecraft/network/packet/AddGlobalEntityPacket
 	FIELD field_3625 id I
 	FIELD field_3626 x I
 	FIELD field_3627 y I
 	FIELD field_3628 z I
 	FIELD field_3629 type I
-	METHOD <init> <init> (Lnet/minecraft/class_1;)V
+	METHOD <init> <init> (Lnet/minecraft/class_198;)V
+		ARG 1 entity

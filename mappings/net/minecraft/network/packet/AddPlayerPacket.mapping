@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_537 net/minecraft/network/packet/AddPlayerPacket
+CLASS net/minecraft/class_530 net/minecraft/network/packet/AddPlayerPacket
 	FIELD field_2487 id I
 	FIELD field_2488 name Ljava/lang/String;
 	FIELD field_2489 x I
@@ -7,4 +7,5 @@ CLASS net/minecraft/class_537 net/minecraft/network/packet/AddPlayerPacket
 	FIELD field_2492 yaw B
 	FIELD field_2493 pitch B
 	FIELD field_2494 heldItemId I
-	METHOD <init> <init> (Lnet/minecraft/class_3;)V
+	METHOD <init> <init> (Lnet/minecraft/class_203;)V
+		ARG 1 player

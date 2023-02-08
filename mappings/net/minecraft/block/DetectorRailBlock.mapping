@@ -1,3 +1,6 @@
-CLASS net/minecraft/class_823 net/minecraft/block/DetectorRailBlock
+CLASS net/minecraft/class_816 net/minecraft/block/DetectorRailBlock
 	METHOD <init> <init> (II)V
-	METHOD method_2690 updatePowered (Lnet/minecraft/class_14;IIII)V
+		ARG 1 id
+		ARG 2 sprite
+	METHOD method_2690 updatePowered (Lnet/minecraft/class_191;IIII)V
+		ARG 5 metadata

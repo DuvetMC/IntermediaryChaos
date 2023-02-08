@@ -1,6 +1,10 @@
-CLASS net/minecraft/class_883 net/minecraft/block/PistonHeadBlock
+CLASS net/minecraft/class_876 net/minecraft/block/PistonHeadBlock
 	FIELD field_3920 pistonHeadSprite I
 	METHOD <init> <init> (II)V
+		ARG 1 id
+		ARG 2 sprite
 	METHOD method_2880 clearSprite ()V
 	METHOD method_2881 setSprite (I)V
+		ARG 1 sprite
 	METHOD method_2882 getFacing (I)I
+		ARG 0 metadata

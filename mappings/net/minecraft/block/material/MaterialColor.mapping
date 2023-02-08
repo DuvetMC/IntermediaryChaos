@@ -1,19 +1,21 @@
-CLASS net/minecraft/class_859 net/minecraft/block/material/MaterialColor
-	FIELD field_3779 COLORS [Lnet/minecraft/class_859;
-	FIELD field_3780 AIR Lnet/minecraft/class_859;
-	FIELD field_3781 GRASS Lnet/minecraft/class_859;
-	FIELD field_3782 SAND Lnet/minecraft/class_859;
-	FIELD field_3783 WEB Lnet/minecraft/class_859;
-	FIELD field_3784 LAVA Lnet/minecraft/class_859;
-	FIELD field_3785 ICE Lnet/minecraft/class_859;
-	FIELD field_3786 IRON Lnet/minecraft/class_859;
-	FIELD field_3787 FOLIAGE Lnet/minecraft/class_859;
-	FIELD field_3788 WHITE Lnet/minecraft/class_859;
-	FIELD field_3789 CLAY Lnet/minecraft/class_859;
-	FIELD field_3790 DIRT Lnet/minecraft/class_859;
-	FIELD field_3791 STONE Lnet/minecraft/class_859;
-	FIELD field_3792 WATER Lnet/minecraft/class_859;
-	FIELD field_3793 WOOD Lnet/minecraft/class_859;
+CLASS net/minecraft/class_852 net/minecraft/block/material/MaterialColor
+	FIELD field_3779 COLORS [Lnet/minecraft/class_852;
+	FIELD field_3780 AIR Lnet/minecraft/class_852;
+	FIELD field_3781 GRASS Lnet/minecraft/class_852;
+	FIELD field_3782 SAND Lnet/minecraft/class_852;
+	FIELD field_3783 WEB Lnet/minecraft/class_852;
+	FIELD field_3784 LAVA Lnet/minecraft/class_852;
+	FIELD field_3785 ICE Lnet/minecraft/class_852;
+	FIELD field_3786 IRON Lnet/minecraft/class_852;
+	FIELD field_3787 FOLIAGE Lnet/minecraft/class_852;
+	FIELD field_3788 WHITE Lnet/minecraft/class_852;
+	FIELD field_3789 CLAY Lnet/minecraft/class_852;
+	FIELD field_3790 DIRT Lnet/minecraft/class_852;
+	FIELD field_3791 STONE Lnet/minecraft/class_852;
+	FIELD field_3792 WATER Lnet/minecraft/class_852;
+	FIELD field_3793 WOOD Lnet/minecraft/class_852;
 	FIELD field_3794 color I
 	FIELD field_3795 id I
 	METHOD <init> <init> (II)V
+		ARG 1 id
+		ARG 2 color

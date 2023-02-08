@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_806 argo/format/CompactJsonFormatter_1
-	COMMENT @nest CompactJsonFormatter$1
+CLASS net/minecraft/class_799 argo/format/CompactJsonFormatter_1
+	COMMENT @nest argo/format/CompactJsonFormatter$1

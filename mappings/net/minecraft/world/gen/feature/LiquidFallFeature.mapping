@@ -1,3 +1,4 @@
-CLASS net/minecraft/class_419 net/minecraft/world/gen/feature/LiquidFallFeature
+CLASS net/minecraft/class_425 net/minecraft/world/gen/feature/LiquidFallFeature
 	FIELD field_2039 liquidId I
 	METHOD <init> <init> (I)V
+		ARG 1 liquidId

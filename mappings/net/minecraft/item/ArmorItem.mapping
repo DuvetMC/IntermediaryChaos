@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_361 net/minecraft/item/ArmorItem
+CLASS net/minecraft/class_356 net/minecraft/item/ArmorItem
 	FIELD field_1720 slot I
 	FIELD field_1721 protection I
 	FIELD field_1722 materialId I

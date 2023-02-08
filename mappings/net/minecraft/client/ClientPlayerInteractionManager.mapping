@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_519 net/minecraft/client/ClientPlayerInteractionManager
+CLASS net/minecraft/class_512 net/minecraft/client/ClientPlayerInteractionManager
 	FIELD field_2420 targetBlockX I
 	FIELD field_2421 targetBlockY I
 	FIELD field_2422 targetBlockZ I
@@ -6,20 +6,27 @@ CLASS net/minecraft/class_519 net/minecraft/client/ClientPlayerInteractionManage
 	FIELD field_2425 miningSoundTimer F
 	FIELD field_2426 miningCooldown I
 	FIELD field_2451 isMiningBlock Z
-	FIELD field_2452 networkHandler Lnet/minecraft/class_509;
+	FIELD field_2452 networkHandler Lnet/minecraft/class_502;
 	FIELD field_2517 selectedHotbarSlot I
+	METHOD m_0633361 interactEntity (Lnet/minecraft/class_203;Lnet/minecraft/class_198;)V
 	METHOD m_0727320 hasXpBar ()Z
-	METHOD m_1245679 dropStackFromCreativeMenu (Lnet/minecraft/class_229;)V
+	METHOD m_1245679 dropStackFromCreativeMenu (Lnet/minecraft/class_226;)V
+		ARG 1 stack
 	METHOD m_1369666 hasStatusBars ()Z
-	METHOD m_1695697 setFacingSouth (Lnet/minecraft/class_3;)V
-	METHOD m_2023994 attackEntity (Lnet/minecraft/class_3;Lnet/minecraft/class_1;)V
-	METHOD m_3895470 clickSlot (IIIZLnet/minecraft/class_3;)Lnet/minecraft/class_229;
+	METHOD m_1695697 setFacingSouth (Lnet/minecraft/class_203;)V
+		ARG 1 player
+	METHOD m_2023994 attackEntity (Lnet/minecraft/class_203;Lnet/minecraft/class_198;)V
+		ARG 2 target
+	METHOD m_3498730 createPlayerEntity (Lnet/minecraft/class_191;)Lnet/minecraft/class_203;
+	METHOD m_3895470 clickSlot (IIIZLnet/minecraft/class_203;)Lnet/minecraft/class_226;
 	METHOD m_5321564 hasCreativeInventory ()Z
 	METHOD m_5359442 hasAttackCooldown ()Z
 	METHOD m_6233066 hasExtendedReach ()Z
 	METHOD m_7317969 getReach ()F
 	METHOD m_7891441 tick ()V
-	METHOD m_7984375 addStackToCreativeMenu (Lnet/minecraft/class_229;I)V
-	METHOD m_8788234 stopUsingHand (Lnet/minecraft/class_3;)V
+	METHOD m_7984375 addStackToCreativeMenu (Lnet/minecraft/class_226;I)V
+		ARG 2 slotId
+	METHOD m_8788234 stopUsingHand (Lnet/minecraft/class_203;)V
+		ARG 1 player
 	METHOD m_9883642 stopMiningBlock ()V
 	METHOD method_1840 updateSelectedHotbarSlot ()V

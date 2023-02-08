@@ -1,6 +1,8 @@
-CLASS net/minecraft/class_683 net/minecraft/smelting/SmeltingManager
-	FIELD field_3138 INSTANCE Lnet/minecraft/class_683;
+CLASS net/minecraft/class_676 net/minecraft/smelting/SmeltingManager
+	FIELD field_3138 INSTANCE Lnet/minecraft/class_676;
 	FIELD field_3139 recipes Ljava/util/Map;
-	METHOD method_2161 getInstance ()Lnet/minecraft/class_683;
-	METHOD method_2162 getResult (I)Lnet/minecraft/class_229;
+	METHOD method_2161 getInstance ()Lnet/minecraft/class_676;
+	METHOD method_2162 getResult (I)Lnet/minecraft/class_226;
+		ARG 1 input
+	METHOD method_2163 register (ILnet/minecraft/class_226;)V
 	METHOD method_2431 getRecipes ()Ljava/util/Map;

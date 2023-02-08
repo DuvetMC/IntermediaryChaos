@@ -1,7 +1,13 @@
-CLASS net/minecraft/class_971 net/minecraft/util/WeightedPicker
+CLASS net/minecraft/class_964 net/minecraft/util/WeightedPicker
 	METHOD method_3100 getTotalWeight (Ljava/util/Collection;)I
-	METHOD method_3101 pick (Ljava/util/Random;Ljava/util/Collection;)Lnet/minecraft/class_923;
-	METHOD method_3102 pick (Ljava/util/Random;Ljava/util/Collection;I)Lnet/minecraft/class_923;
-	METHOD method_3103 pick (Ljava/util/Random;[Lnet/minecraft/class_923;)Lnet/minecraft/class_923;
-	METHOD method_3104 pick (Ljava/util/Random;[Lnet/minecraft/class_923;I)Lnet/minecraft/class_923;
-	METHOD method_3105 getTotalWeight ([Lnet/minecraft/class_923;)I
+		ARG 0 entries
+	METHOD method_3101 pick (Ljava/util/Random;Ljava/util/Collection;)Lnet/minecraft/class_916;
+		ARG 1 entries
+	METHOD method_3102 pick (Ljava/util/Random;Ljava/util/Collection;I)Lnet/minecraft/class_916;
+		ARG 2 totalWeight
+	METHOD method_3103 pick (Ljava/util/Random;[Lnet/minecraft/class_916;)Lnet/minecraft/class_916;
+		ARG 1 entries
+	METHOD method_3104 pick (Ljava/util/Random;[Lnet/minecraft/class_916;I)Lnet/minecraft/class_916;
+		ARG 2 totalWeight
+	METHOD method_3105 getTotalWeight ([Lnet/minecraft/class_916;)I
+		ARG 0 entries

@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_737 net/minecraft/world/chunk/storage/RegionFile
+CLASS net/minecraft/class_730 net/minecraft/world/chunk/storage/RegionFile
 	FIELD field_3390 BLOCK_BUFFER [B
 		COMMENT Unused buffer to store a single 4KB block of memory.
 	FIELD field_3391 file Ljava/io/File;
@@ -29,25 +29,67 @@ CLASS net/minecraft/class_737 net/minecraft/world/chunk/storage/RegionFile
 		COMMENT of a single 4KB block).
 	FIELD field_3397 lastModifiedTime J
 	METHOD <init> <init> (Ljava/io/File;)V
+		ARG 1 file
 	METHOD method_2355 getChunkInputStream (II)Ljava/io/DataInputStream;
+		ARG 1 chunkX
+		ARG 2 chunkZ
 	METHOD method_2356 writeChunkBlockInfo (III)V
 		COMMENT Writes the given chunk block info to the region file. See {@link #chunkBlockInfo}
 		COMMENT for information about the format of the block info.
+		ARG 1 chunkX
+			COMMENT the x-coordinate of the chunk inside the region
+		ARG 2 chunkZ
+			COMMENT the z-coordinate of the chunk inside the region
+		ARG 3 blockInfo
+			COMMENT the block info for the specified chunk
 	METHOD method_2357 writeChunkData (II[BI)V
 		COMMENT Writes the chunk data at the given coordinates to the region file. Any
 		COMMENT previous chunk data at the same coordinates will be discarded.
+		ARG 1 chunkX
+			COMMENT the relative x-coordinate of the chunk inside the region
+		ARG 2 chunkZ
+			COMMENT the relative z-coordinate of the chunk inside the region
+		ARG 3 data
+			COMMENT the chunk data
+		ARG 4 size
+			COMMENT the number of bytes in {@code data} that should be written
 	METHOD method_2358 writeChunkData (I[BI)V
 		COMMENT Writes the given chunk data to the specified block offset.
+		ARG 1 blockOffset
+			COMMENT the offset of the first 4KB block where the chunk data
+			COMMENT                    should be written.
+		ARG 2 data
+			COMMENT the chunk data
+		ARG 3 size
+			COMMENT the number of bytes that should be written
 	METHOD method_2362 close ()V
 		COMMENT Flushes and closes the region file
 	METHOD method_2363 getChunkOutputStream (II)Ljava/io/DataOutputStream;
+		ARG 1 chunkX
+		ARG 2 chunkZ
 	METHOD method_2364 writeChunkSaveTime (III)V
 		COMMENT Writes the given chunk data save time to the region file.
+		ARG 1 chunkX
+			COMMENT the relative x-coordinate of the chunk inside the region
+		ARG 2 chunkZ
+			COMMENT the relative z-coordinate of the chunk inside the region
+		ARG 3 timeSeconds
+			COMMENT the time in seconds since midnight, January 1, 1970 UTC
 	METHOD method_2367 hasChunkData (II)Z
 		COMMENT @return True, if this region file contains chunk data for the specified
 		COMMENT         coordinates, false otherwise.
+		ARG 1 chunkX
+			COMMENT the relative x-coordinate of the chunk inside the region
+		ARG 2 chunkZ
+			COMMENT the relative z-coordinate of the chunk inside the region
 	METHOD method_2368 isOutsideRegion (II)Z
+		ARG 1 chunkX
+		ARG 2 chunkZ
 	METHOD method_2369 getChunkBlockInfo (II)I
 		COMMENT @return The chunk block info for the chunk at the specified location. See
 		COMMENT         {@link #chunkBlockInfo} for information about the format of the
 		COMMENT         block info.
+		ARG 1 chunkX
+			COMMENT the relative x-coordinate of the chunk inside the region
+		ARG 2 chunkZ
+			COMMENT the relative z-coordinate of the chunk inside the region

@@ -1,2 +1,3 @@
-CLASS net/minecraft/class_1003 net/minecraft/world/gen/structure/VillageStructure_Start
+CLASS net/minecraft/class_996 net/minecraft/world/gen/structure/VillageStructure_Start
+	COMMENT @nest net/minecraft/world/gen/structure/VillageStructure$Start
 	FIELD field_4308 valid Z

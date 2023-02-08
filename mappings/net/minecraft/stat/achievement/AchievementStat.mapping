@@ -1,17 +1,21 @@
-CLASS net/minecraft/class_817 net/minecraft/stat/achievement/AchievementStat
+CLASS net/minecraft/class_810 net/minecraft/stat/achievement/AchievementStat
 	FIELD field_3688 column I
 	FIELD field_3689 row I
-	FIELD field_3690 parent Lnet/minecraft/class_817;
-	FIELD field_3691 icon Lnet/minecraft/class_229;
+	FIELD field_3690 parent Lnet/minecraft/class_810;
+	FIELD field_3691 icon Lnet/minecraft/class_226;
 	FIELD field_3692 description Ljava/lang/String;
-	FIELD field_3693 achievementFormatter Lnet/minecraft/class_793;
+	FIELD field_3693 achievementFormatter Lnet/minecraft/class_786;
 	FIELD field_3694 challenge Z
-	METHOD <init> <init> (ILjava/lang/String;IILnet/minecraft/class_18;Lnet/minecraft/class_817;)V
-	METHOD <init> <init> (ILjava/lang/String;IILnet/minecraft/class_229;Lnet/minecraft/class_817;)V
-	METHOD <init> <init> (ILjava/lang/String;IILnet/minecraft/class_255;Lnet/minecraft/class_817;)V
-	METHOD method_2669 setLocalOnly ()Lnet/minecraft/class_817;
-	METHOD method_2670 setFormatter (Lnet/minecraft/class_793;)Lnet/minecraft/class_817;
-	METHOD method_2671 setChallenge ()Lnet/minecraft/class_817;
-	METHOD method_2672 addStat ()Lnet/minecraft/class_817;
+	METHOD <init> <init> (ILjava/lang/String;IILnet/minecraft/class_226;Lnet/minecraft/class_810;)V
+		ARG 6 parent
+	METHOD <init> <init> (ILjava/lang/String;IILnet/minecraft/class_238;Lnet/minecraft/class_810;)V
+		ARG 6 parent
+	METHOD <init> <init> (ILjava/lang/String;IILnet/minecraft/class_35;Lnet/minecraft/class_810;)V
+		ARG 6 parent
+	METHOD method_2669 setLocalOnly ()Lnet/minecraft/class_810;
+	METHOD method_2670 setFormatter (Lnet/minecraft/class_786;)Lnet/minecraft/class_810;
+		ARG 1 formatter
+	METHOD method_2671 setChallenge ()Lnet/minecraft/class_810;
+	METHOD method_2672 addStat ()Lnet/minecraft/class_810;
 	METHOD method_2673 getDescription ()Ljava/lang/String;
 	METHOD method_2674 isChallenge ()Z

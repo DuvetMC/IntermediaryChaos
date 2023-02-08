@@ -1,14 +1,20 @@
-CLASS net/minecraft/class_338 net/minecraft/entity/living/mob/PathAwareEntity
+CLASS net/minecraft/class_333 net/minecraft/entity/living/mob/PathAwareEntity
 	FIELD field_1580 wasAttacking Z
-	FIELD field_1581 target Lnet/minecraft/class_1;
-	FIELD field_1582 path Lnet/minecraft/class_331;
+	FIELD field_1581 target Lnet/minecraft/class_198;
+	FIELD field_1582 path Lnet/minecraft/class_326;
 	FIELD field_4364 fastMovementCooldown I
 	METHOD method_2461 hasPath ()Z
-	METHOD method_2462 getTarget ()Lnet/minecraft/class_1;
-	METHOD method_2463 setPath (Lnet/minecraft/class_331;)V
-	METHOD method_2464 setTarget (Lnet/minecraft/class_1;)V
+	METHOD method_2462 getTarget ()Lnet/minecraft/class_198;
+	METHOD method_2463 setPath (Lnet/minecraft/class_326;)V
+		ARG 1 path
+	METHOD method_2464 setTarget (Lnet/minecraft/class_198;)V
+		ARG 1 target
 	METHOD method_2465 wasAttacking ()Z
 	METHOD method_2884 setNewWanderingPath ()V
 	METHOD method_889 getPathfindingFavor (III)F
-	METHOD method_890 attack (Lnet/minecraft/class_1;F)V
-	METHOD method_891 findClosestAttackablePlayer ()Lnet/minecraft/class_1;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_890 attack (Lnet/minecraft/class_198;F)V
+		ARG 2 power
+	METHOD method_891 findClosestAttackablePlayer ()Lnet/minecraft/class_198;

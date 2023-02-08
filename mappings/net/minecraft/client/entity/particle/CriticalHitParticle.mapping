@@ -1,3 +1,4 @@
-CLASS net/minecraft/class_985 net/minecraft/client/entity/particle/CriticalHitParticle
+CLASS net/minecraft/class_978 net/minecraft/client/entity/particle/CriticalHitParticle
 	FIELD field_4217 baseScale F
-	METHOD <init> <init> (Lnet/minecraft/class_14;DDDDDDF)V
+	METHOD <init> <init> (Lnet/minecraft/class_191;DDDDDDF)V
+		ARG 14 scaleFactor

@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_548 net/minecraft/network/packet/PlayerMovePacket
+CLASS net/minecraft/class_541 net/minecraft/network/packet/PlayerMovePacket
 	FIELD field_2521 x D
 	FIELD field_2522 minY D
 	FIELD field_2523 y D
@@ -9,3 +9,4 @@ CLASS net/minecraft/class_548 net/minecraft/network/packet/PlayerMovePacket
 	FIELD field_2528 hasAngles Z
 	FIELD field_2670 z D
 	METHOD <init> <init> (Z)V
+		ARG 1 onGround

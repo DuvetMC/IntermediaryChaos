@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_578 net/minecraft/entity/living/mob/passive/animal/ChickenEntity
+CLASS net/minecraft/class_571 net/minecraft/entity/living/mob/passive/animal/ChickenEntity
 	FIELD field_2656 flapSpeed F
 	FIELD field_2657 flapProgress F
 	FIELD field_2658 eggLayTime I

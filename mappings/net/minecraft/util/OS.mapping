@@ -1,8 +1,8 @@
-CLASS net/minecraft/class_96 net/minecraft/util/OS
-	FIELD field_1136 LINUX Lnet/minecraft/class_96;
-	FIELD field_1137 SOLARIS Lnet/minecraft/class_96;
-	FIELD field_1138 WINDOWS Lnet/minecraft/class_96;
-	FIELD field_1139 MACOS Lnet/minecraft/class_96;
-	FIELD field_1140 UNKNOWN Lnet/minecraft/class_96;
-	METHOD valueOf valueOf (Ljava/lang/String;)Lnet/minecraft/class_96;
-	METHOD values values ()[Lnet/minecraft/class_96;
+CLASS net/minecraft/class_218 net/minecraft/util/OS
+	FIELD field_1136 LINUX Lnet/minecraft/class_218;
+	FIELD field_1137 SOLARIS Lnet/minecraft/class_218;
+	FIELD field_1138 WINDOWS Lnet/minecraft/class_218;
+	FIELD field_1139 MACOS Lnet/minecraft/class_218;
+	FIELD field_1140 UNKNOWN Lnet/minecraft/class_218;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lnet/minecraft/class_218;
+	METHOD values values ()[Lnet/minecraft/class_218;

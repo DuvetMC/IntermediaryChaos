@@ -1,2 +1,3 @@
-CLASS net/minecraft/class_793 net/minecraft/stat/achievement/AchievementStatFormatter
+CLASS net/minecraft/class_786 net/minecraft/stat/achievement/AchievementStatFormatter
 	METHOD method_2603 format (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 value

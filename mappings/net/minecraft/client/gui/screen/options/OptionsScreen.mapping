@@ -1,6 +1,7 @@
-CLASS net/minecraft/class_120 net/minecraft/client/gui/screen/options/OptionsScreen
-	FIELD field_3227 RENDER_OPTIONS [Lnet/minecraft/class_660;
-	FIELD field_741 parent Lnet/minecraft/class_49;
+CLASS net/minecraft/class_144 net/minecraft/client/gui/screen/options/OptionsScreen
+	FIELD field_3227 RENDER_OPTIONS [Lnet/minecraft/class_653;
+	FIELD field_741 parent Lnet/minecraft/class_59;
 	FIELD field_742 title Ljava/lang/String;
-	FIELD field_743 options Lnet/minecraft/class_124;
-	METHOD <init> <init> (Lnet/minecraft/class_49;Lnet/minecraft/class_124;)V
+	FIELD field_743 options Lnet/minecraft/class_148;
+	METHOD <init> <init> (Lnet/minecraft/class_59;Lnet/minecraft/class_148;)V
+		ARG 2 options

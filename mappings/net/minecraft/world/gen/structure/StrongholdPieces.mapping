@@ -1,12 +1,16 @@
-CLASS net/minecraft/class_1010 net/minecraft/world/gen/structure/StrongholdPieces
+CLASS net/minecraft/class_1003 net/minecraft/world/gen/structure/StrongholdPieces
 	FIELD field_4410 totalWeight I
-	FIELD field_4411 PIECE_WEIGHTS [Lnet/minecraft/class_891;
+	FIELD field_4411 PIECE_WEIGHTS [Lnet/minecraft/class_884;
 	FIELD field_4412 currentWeights Ljava/util/List;
-	FIELD field_4413 STONE_BRICK_PICKER Lnet/minecraft/class_902;
+	FIELD field_4413 STONE_BRICK_PICKER Lnet/minecraft/class_895;
 	METHOD method_3228 resetWeights ()V
-	METHOD method_3229 selectNextPiece (Lnet/minecraft/class_991;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_946;
-	METHOD method_3230 getStoneBrickRandomizer ()Lnet/minecraft/class_902;
-	METHOD method_3231 generateNextPiece (Lnet/minecraft/class_991;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_935;
+	METHOD method_3229 selectNextPiece (Lnet/minecraft/class_984;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_939;
+		ARG 7 type
+	METHOD method_3230 getStoneBrickRandomizer ()Lnet/minecraft/class_895;
+	METHOD method_3231 generateNextPiece (Lnet/minecraft/class_984;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_928;
+		ARG 7 generationDepth
 	METHOD method_3232 findTotalWeight ()Z
 		COMMENT Returns whether any more pieces can be generated.
-	METHOD method_3233 tryGenerateNextPiece (Lnet/minecraft/class_991;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_946;
+	METHOD method_3233 tryGenerateNextPiece (Lnet/minecraft/class_984;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_939;
+		ARG 7 generationDepth
+	METHOD method_3324 createPiece (Lnet/minecraft/class_884;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_928;

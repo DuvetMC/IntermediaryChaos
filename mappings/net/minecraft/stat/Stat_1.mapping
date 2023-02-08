@@ -1,1 +1,2 @@
-CLASS net/minecraft/class_778 net/minecraft/stat/Stat_1
+CLASS net/minecraft/class_771 net/minecraft/stat/Stat_1
+	COMMENT @nest net/minecraft/stat/Stat$1

@@ -1,25 +1,41 @@
-CLASS net/minecraft/class_49 net/minecraft/client/gui/screen/Screen
-	FIELD field_2758 lastClickedButton Lnet/minecraft/class_47;
+CLASS net/minecraft/class_59 net/minecraft/client/gui/screen/Screen
+	FIELD field_2758 lastClickedButton Lnet/minecraft/class_57;
 	FIELD field_333 client Lnet/minecraft/client/Minecraft;
 	FIELD field_334 titleWidth I
 	FIELD field_335 height I
 	FIELD field_336 buttons Ljava/util/List;
 	FIELD field_551 passEvents Z
-	FIELD field_746 textRenderer Lnet/minecraft/class_33;
+	FIELD field_746 textRenderer Lnet/minecraft/class_62;
 	METHOD method_1204 confirmResult (ZI)V
+		ARG 1 result
+		ARG 2 id
 	METHOD method_1527 mouseReleased (III)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 mouseButton
 	METHOD method_1528 handleInputs ()V
 	METHOD method_1529 renderBackground ()V
 	METHOD method_174 init ()V
 	METHOD method_175 keyPressed (CI)V
+		ARG 1 chr
+		ARG 2 key
 	METHOD method_1754 renderBackground (I)V
+		ARG 1 offset
 	METHOD method_176 render (IIF)V
-	METHOD method_179 buttonClicked (Lnet/minecraft/class_47;)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 tickDelta
+	METHOD method_179 buttonClicked (Lnet/minecraft/class_57;)V
+		ARG 1 buttonWidget
 	METHOD method_180 init (Lnet/minecraft/client/Minecraft;II)V
 	METHOD method_182 removed ()V
 	METHOD method_184 tick ()V
 	METHOD method_185 handleMouse ()V
 	METHOD method_1904 getClipboard ()Ljava/lang/String;
 	METHOD method_263 mouseClicked (III)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 mouseButton
 	METHOD method_270 handleKeyboard ()V
 	METHOD method_913 drawBackgroundTexture (I)V
+		ARG 1 offset

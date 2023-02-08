@@ -1,1 +1,2 @@
-CLASS net/minecraft/class_357 net/minecraft/client/render/entity/SheepRenderer
+CLASS net/minecraft/class_352 net/minecraft/client/render/entity/SheepRenderer
+	METHOD method_1664 bindDecorationTexture (Lnet/minecraft/class_314;IF)Z

@@ -1,3 +1,3 @@
-CLASS net/minecraft/class_575 net/minecraft/client/render/entity/ChickenRenderer
-	METHOD method_1892 render (Lnet/minecraft/class_578;DDDFF)V
-	METHOD method_1893 getEntityAge (Lnet/minecraft/class_578;F)F
+CLASS net/minecraft/class_568 net/minecraft/client/render/entity/ChickenRenderer
+	METHOD method_1892 render (Lnet/minecraft/class_571;DDDFF)V
+	METHOD method_1893 getEntityAge (Lnet/minecraft/class_571;F)F

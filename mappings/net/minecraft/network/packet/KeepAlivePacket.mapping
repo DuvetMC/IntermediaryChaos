@@ -1,3 +1,4 @@
-CLASS net/minecraft/class_1016 net/minecraft/network/packet/KeepAlivePacket
+CLASS net/minecraft/class_1009 net/minecraft/network/packet/KeepAlivePacket
 	FIELD field_4463 timeMillis I
 	METHOD <init> <init> (I)V
+		ARG 1 timeMillis

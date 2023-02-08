@@ -1,6 +1,10 @@
-CLASS net/minecraft/class_775 argo/jdom/JsonNodeDoesNotMatchPathElementsException
-	FIELD field_3570 JSON_FORMATTER Lnet/minecraft/class_810;
-	METHOD <init> <init> (Lnet/minecraft/class_815;[Ljava/lang/Object;Lnet/minecraft/class_829;)V
-	METHOD method_2524 jsonNodeDoesNotMatchPathElementsException (Lnet/minecraft/class_815;[Ljava/lang/Object;Lnet/minecraft/class_829;)Lnet/minecraft/class_775;
+CLASS net/minecraft/class_768 argo/jdom/JsonNodeDoesNotMatchPathElementsException
+	FIELD field_3570 JSON_FORMATTER Lnet/minecraft/class_803;
+	METHOD <init> <init> (Lnet/minecraft/class_808;[Ljava/lang/Object;Lnet/minecraft/class_822;)V
+		ARG 3 rootNode
+	METHOD method_2524 jsonNodeDoesNotMatchPathElementsException (Lnet/minecraft/class_808;[Ljava/lang/Object;Lnet/minecraft/class_822;)Lnet/minecraft/class_768;
+		ARG 2 rootNode
 	METHOD method_2525 commaSeparate ([Ljava/lang/Object;)Ljava/lang/String;
-	METHOD method_2526 formatMessage (Lnet/minecraft/class_815;[Ljava/lang/Object;Lnet/minecraft/class_829;)Ljava/lang/String;
+		ARG 0 pathElements
+	METHOD method_2526 formatMessage (Lnet/minecraft/class_808;[Ljava/lang/Object;Lnet/minecraft/class_822;)Ljava/lang/String;
+		ARG 2 rootNode

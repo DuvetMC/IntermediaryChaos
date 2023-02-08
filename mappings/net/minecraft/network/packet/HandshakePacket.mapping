@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_511 net/minecraft/network/packet/HandshakePacket
+CLASS net/minecraft/class_504 net/minecraft/network/packet/HandshakePacket
 	FIELD field_2387 protocol Ljava/lang/String;

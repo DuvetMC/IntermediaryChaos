@@ -1,2 +1,4 @@
-CLASS net/minecraft/class_23 net/minecraft/block/StoneBlock
+CLASS net/minecraft/class_37 net/minecraft/block/StoneBlock
 	METHOD <init> <init> (II)V
+		ARG 1 id
+		ARG 2 sprite

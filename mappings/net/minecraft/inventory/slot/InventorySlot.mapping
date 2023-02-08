@@ -1,18 +1,22 @@
-CLASS net/minecraft/class_230 net/minecraft/inventory/slot/InventorySlot
+CLASS net/minecraft/class_227 net/minecraft/inventory/slot/InventorySlot
 	FIELD field_1177 slot I
 		COMMENT The slot's index in its inventory
-	FIELD field_1366 inventory Lnet/minecraft/class_267;
+	FIELD field_1366 inventory Lnet/minecraft/class_262;
 	FIELD field_3040 id I
 		COMMENT The slot's index in its {@link net.minecraft.inventory.menu.InventoryMenu InventoryMenu}
 	FIELD field_3041 x I
 	FIELD field_3042 y I
-	METHOD <init> <init> (Lnet/minecraft/class_267;III)V
+	METHOD <init> <init> (Lnet/minecraft/class_262;III)V
+		ARG 4 y
 	METHOD method_1214 markDirty ()V
-	METHOD method_1613 getStack ()Lnet/minecraft/class_229;
+	METHOD method_1613 getStack ()Lnet/minecraft/class_226;
 	METHOD method_1964 getMaxStackSize ()I
-	METHOD method_2097 removeStack (I)Lnet/minecraft/class_229;
+	METHOD method_2097 removeStack (I)Lnet/minecraft/class_226;
+		ARG 1 amount
 	METHOD method_2098 hasStack ()Z
-	METHOD method_775 setStack (Lnet/minecraft/class_229;)V
-	METHOD method_790 onStackRemovedByPlayer (Lnet/minecraft/class_229;)V
-	METHOD method_791 canSetStack (Lnet/minecraft/class_229;)Z
+	METHOD method_775 setStack (Lnet/minecraft/class_226;)V
+		ARG 1 stack
+	METHOD method_790 onStackRemovedByPlayer (Lnet/minecraft/class_226;)V
+	METHOD method_791 canSetStack (Lnet/minecraft/class_226;)Z
+		ARG 1 stack
 	METHOD method_989 getTexture ()I

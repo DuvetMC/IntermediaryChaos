@@ -1,4 +1,5 @@
-CLASS net/minecraft/class_580 net/minecraft/network/packet/EntityAnimationPacket
+CLASS net/minecraft/class_573 net/minecraft/network/packet/EntityAnimationPacket
 	FIELD field_2675 id I
 	FIELD field_2676 action I
-	METHOD <init> <init> (Lnet/minecraft/class_1;I)V
+	METHOD <init> <init> (Lnet/minecraft/class_198;I)V
+		ARG 2 action

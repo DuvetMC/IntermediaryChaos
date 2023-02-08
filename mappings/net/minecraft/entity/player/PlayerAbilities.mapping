@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_981 net/minecraft/entity/player/PlayerAbilities
+CLASS net/minecraft/class_974 net/minecraft/entity/player/PlayerAbilities
 	FIELD field_4202 invulnerable Z
 	FIELD field_4203 flying Z
 	FIELD field_4204 canFly Z

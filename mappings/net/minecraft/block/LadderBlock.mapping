@@ -1,2 +1,4 @@
-CLASS net/minecraft/class_408 net/minecraft/block/LadderBlock
+CLASS net/minecraft/class_414 net/minecraft/block/LadderBlock
 	METHOD <init> <init> (II)V
+		ARG 1 id
+		ARG 2 sprite

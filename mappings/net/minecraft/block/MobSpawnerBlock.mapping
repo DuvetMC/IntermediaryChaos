@@ -1,2 +1,4 @@
-CLASS net/minecraft/class_456 net/minecraft/block/MobSpawnerBlock
+CLASS net/minecraft/class_461 net/minecraft/block/MobSpawnerBlock
 	METHOD <init> <init> (II)V
+		ARG 1 id
+		ARG 2 sprite

@@ -1,8 +1,8 @@
-CLASS net/minecraft/class_362 net/minecraft/client/render/Frustum
-	FIELD field_1731 INSTANCE Lnet/minecraft/class_362;
+CLASS net/minecraft/class_357 net/minecraft/client/render/Frustum
+	FIELD field_1731 INSTANCE Lnet/minecraft/class_357;
 	FIELD field_1732 projectionBuffer Ljava/nio/FloatBuffer;
 	FIELD field_1733 modelBuffer Ljava/nio/FloatBuffer;
 	FIELD field_1734 clipBuffer Ljava/nio/FloatBuffer;
-	METHOD method_1709 getInstance ()Lnet/minecraft/class_363;
+	METHOD method_1709 getInstance ()Lnet/minecraft/class_358;
 	METHOD method_987 compute ()V
 	METHOD method_988 normalize ([[FI)V

@@ -1,20 +1,38 @@
-CLASS net/minecraft/class_932 net/minecraft/util/Long2ObjectHashMap
-	FIELD field_4035 nodes [Lnet/minecraft/class_964;
+CLASS net/minecraft/class_925 net/minecraft/util/Long2ObjectHashMap
+	FIELD field_4035 nodes [Lnet/minecraft/class_957;
 	FIELD field_4036 size I
 	FIELD field_4037 threshold I
 	FIELD field_4038 loadFactor F
 	FIELD field_4039 modCount I
 	METHOD method_2968 getSize ()I
 	METHOD method_2969 hash (I)I
+		ARG 0 key
 	METHOD method_2970 index (II)I
+		ARG 0 hash
+		ARG 1 cap
 	METHOD method_2971 insertNode (IJLjava/lang/Object;I)V
+		ARG 1 hash
+		ARG 2 key
+		ARG 4 value
+		ARG 5 index
 	METHOD method_2972 get (J)Ljava/lang/Object;
+		ARG 1 key
 	METHOD method_2973 put (JLjava/lang/Object;)V
-	METHOD method_2974 addAll ([Lnet/minecraft/class_964;)V
+		ARG 1 key
+		ARG 3 value
+	METHOD method_2974 addAll ([Lnet/minecraft/class_957;)V
+		ARG 1 nodes
 	METHOD method_2975 resize (I)V
+		ARG 1 cap
 	METHOD method_2976 contains (J)Z
-	METHOD method_2977 getNode (J)Lnet/minecraft/class_964;
+		ARG 1 key
+	METHOD method_2977 getNode (J)Lnet/minecraft/class_957;
+		ARG 1 key
 	METHOD method_2978 remove (J)Ljava/lang/Object;
-	METHOD method_2979 removeNode (J)Lnet/minecraft/class_964;
+		ARG 1 key
+	METHOD method_2979 removeNode (J)Lnet/minecraft/class_957;
+		ARG 1 key
 	METHOD method_2980 getKey (J)I
+		ARG 0 value
 	METHOD method_2981 hash (J)I
+		ARG 0 key

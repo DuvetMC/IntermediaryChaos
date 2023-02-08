@@ -1,4 +1,8 @@
-CLASS net/minecraft/class_574 net/minecraft/block/JukeboxBlock
+CLASS net/minecraft/class_567 net/minecraft/block/JukeboxBlock
 	METHOD <init> <init> (II)V
-	METHOD method_1889 removeRecord (Lnet/minecraft/class_14;III)V
-	METHOD method_2795 setRecord (Lnet/minecraft/class_14;IIII)V
+		ARG 1 id
+		ARG 2 sprite
+	METHOD method_1889 removeRecord (Lnet/minecraft/class_191;III)V
+		ARG 4 z
+	METHOD method_2795 setRecord (Lnet/minecraft/class_191;IIII)V
+		ARG 5 record

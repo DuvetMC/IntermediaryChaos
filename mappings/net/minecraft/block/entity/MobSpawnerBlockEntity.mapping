@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_455 net/minecraft/block/entity/MobSpawnerBlockEntity
+CLASS net/minecraft/class_460 net/minecraft/block/entity/MobSpawnerBlockEntity
 	FIELD field_2172 type Ljava/lang/String;
 	FIELD field_2173 rotation D
 	FIELD field_2174 lastRotation D
@@ -7,3 +7,4 @@ CLASS net/minecraft/class_455 net/minecraft/block/entity/MobSpawnerBlockEntity
 	METHOD method_1520 isActive ()Z
 	METHOD method_2148 getType ()Ljava/lang/String;
 	METHOD method_2149 setType (Ljava/lang/String;)V
+		ARG 1 type

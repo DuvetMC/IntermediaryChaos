@@ -1,5 +1,6 @@
-CLASS net/minecraft/class_433 net/minecraft/entity/FallingBlockEntity
+CLASS net/minecraft/class_438 net/minecraft/entity/FallingBlockEntity
 	FIELD field_2094 blockId I
 	FIELD field_2095 time I
-	METHOD <init> <init> (Lnet/minecraft/class_14;DDDI)V
-	METHOD method_1321 getWorld ()Lnet/minecraft/class_14;
+	METHOD <init> <init> (Lnet/minecraft/class_191;DDDI)V
+		ARG 8 blockId
+	METHOD method_1321 getWorld ()Lnet/minecraft/class_191;

@@ -1,3 +1,4 @@
-CLASS net/minecraft/class_789 argo/jdom/JsonStringNodeBuilder
+CLASS net/minecraft/class_782 argo/jdom/JsonStringNodeBuilder
 	FIELD field_3637 value Ljava/lang/String;
 	METHOD <init> <init> (Ljava/lang/String;)V
+		ARG 1 value

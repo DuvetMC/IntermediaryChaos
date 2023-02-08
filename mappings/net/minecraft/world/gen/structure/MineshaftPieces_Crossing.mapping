@@ -1,5 +1,8 @@
-CLASS net/minecraft/class_955 net/minecraft/world/gen/structure/MineshaftPieces_Crossing
+CLASS net/minecraft/class_948 net/minecraft/world/gen/structure/MineshaftPieces_Crossing
+	COMMENT @nest net/minecraft/world/gen/structure/MineshaftPieces$Crossing
 	FIELD field_4097 direction I
 	FIELD field_4098 hasTwoFloors Z
-	METHOD <init> <init> (ILjava/util/Random;Lnet/minecraft/class_976;I)V
-	METHOD method_3030 findSize (Ljava/util/List;Ljava/util/Random;IIII)Lnet/minecraft/class_976;
+	METHOD <init> <init> (ILjava/util/Random;Lnet/minecraft/class_969;I)V
+		ARG 4 direction
+	METHOD method_3030 findSize (Ljava/util/List;Ljava/util/Random;IIII)Lnet/minecraft/class_969;
+		ARG 5 facing

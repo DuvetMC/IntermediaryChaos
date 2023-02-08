@@ -1,1 +1,2 @@
-CLASS net/minecraft/class_725 net/minecraft/world/storage/AnvilWorldStorageSource_1
+CLASS net/minecraft/class_718 net/minecraft/world/storage/AnvilWorldStorageSource_1
+	COMMENT @nest net/minecraft/world/storage/AnvilWorldStorageSource$1

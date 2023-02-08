@@ -1,5 +1,7 @@
-CLASS net/minecraft/class_714 net/minecraft/client/util/SmoothUtil
+CLASS net/minecraft/class_707 net/minecraft/client/util/SmoothUtil
 	FIELD field_3229 actualSum F
 	FIELD field_3230 smoothedSum F
 	FIELD field_3231 movementLatency F
 	METHOD method_2254 smooth (FF)F
+		ARG 1 original
+		ARG 2 smoother

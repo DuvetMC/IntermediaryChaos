@@ -1,8 +1,10 @@
-CLASS net/minecraft/class_296 net/minecraft/crafting/recipe/ShapedRecipe
+CLASS net/minecraft/class_291 net/minecraft/crafting/recipe/ShapedRecipe
 	FIELD field_1409 width I
 	FIELD field_1410 height I
-	FIELD field_1411 inputs [Lnet/minecraft/class_229;
-	FIELD field_1412 result Lnet/minecraft/class_229;
+	FIELD field_1411 inputs [Lnet/minecraft/class_226;
+	FIELD field_1412 result Lnet/minecraft/class_226;
 	FIELD field_2228 resultId I
-	METHOD <init> <init> (II[Lnet/minecraft/class_229;Lnet/minecraft/class_229;)V
-	METHOD method_806 matches (Lnet/minecraft/class_292;IIZ)Z
+	METHOD <init> <init> (II[Lnet/minecraft/class_226;Lnet/minecraft/class_226;)V
+		ARG 4 result
+	METHOD method_806 matches (Lnet/minecraft/class_287;IIZ)Z
+		ARG 4 horizontal

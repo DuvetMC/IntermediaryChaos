@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_17 com/mojang/blaze3d/vertex/BufferBuilder
+CLASS net/minecraft/class_53 com/mojang/blaze3d/vertex/BufferBuilder
 	FIELD field_1378 color I
 	FIELD field_1446 nextVertexCount I
 	FIELD field_1620 drawMode I
@@ -12,7 +12,7 @@ CLASS net/minecraft/class_17 com/mojang/blaze3d/vertex/BufferBuilder
 	FIELD field_2183 intBuffer Ljava/nio/IntBuffer;
 	FIELD field_2184 floatBuffer Ljava/nio/FloatBuffer;
 	FIELD field_23 index I
-	FIELD field_274 INSTANCE Lnet/minecraft/class_17;
+	FIELD field_274 INSTANCE Lnet/minecraft/class_53;
 	FIELD field_275 byteBuffer Ljava/nio/ByteBuffer;
 	FIELD field_276 buffer [I
 	FIELD field_277 vertexCount I
@@ -25,21 +25,61 @@ CLASS net/minecraft/class_17 com/mojang/blaze3d/vertex/BufferBuilder
 	FIELD field_4474 brightness I
 	FIELD field_4475 hasBrightness Z
 	METHOD <init> <init> (I)V
+		ARG 1 size
 	METHOD method_1064 offset (DDD)V
+		ARG 1 xOffset
+		ARG 3 yOffset
+		ARG 5 zOffset
 	METHOD method_1440 texture (DD)V
+		ARG 1 u
+		ARG 3 v
+	METHOD method_146 end ()V
 	METHOD method_148 vertex (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD method_149 vertex (DDDDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 u
+		ARG 9 v
 	METHOD method_153 uncolored ()V
 	METHOD method_154 clear ()V
 	METHOD method_1876 addOffset (FFF)V
+		ARG 1 xOffset
+		ARG 2 yOffset
+		ARG 3 zOffset
 	METHOD method_2044 color (II)V
+		ARG 1 rgb
+		ARG 2 a
 	METHOD method_211 color (FFF)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
 	METHOD method_3285 brightness (I)V
+		ARG 1 brightness
 	METHOD method_358 color (I)V
+		ARG 1 rgb
 	METHOD method_535 start ()V
 		COMMENT Start with default draw mode {@link org.lwjgl.opengl.GL11#GL_QUADS GL_QUADS}
 	METHOD method_536 normal (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_784 color (IIII)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+		ARG 4 a
 	METHOD method_907 color (FFFF)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+		ARG 4 a
 	METHOD method_908 start (I)V
+		ARG 1 drawMode
 	METHOD method_909 color (III)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b

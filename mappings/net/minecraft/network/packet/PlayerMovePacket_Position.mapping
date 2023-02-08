@@ -1,2 +1,8 @@
-CLASS net/minecraft/class_552 net/minecraft/network/packet/PlayerMovePacket_Position
+CLASS net/minecraft/class_545 net/minecraft/network/packet/PlayerMovePacket_Position
+	COMMENT @nest net/minecraft/network/packet/PlayerMovePacket$Position
 	METHOD <init> <init> (DDDDZ)V
+		ARG 1 x
+		ARG 3 minY
+		ARG 5 y
+		ARG 7 z
+		ARG 9 onGround

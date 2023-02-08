@@ -1,1 +1,2 @@
-CLASS net/minecraft/class_902 net/minecraft/world/gen/structure/StrongholdPieces_StoneBrickPicker
+CLASS net/minecraft/class_895 net/minecraft/world/gen/structure/StrongholdPieces_StoneBrickPicker
+	COMMENT @nest net/minecraft/world/gen/structure/StrongholdPieces$StoneBrickPicker

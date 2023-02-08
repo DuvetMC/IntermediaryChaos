@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_530 net/minecraft/entity/vehicle/BoatEntity
+CLASS net/minecraft/class_523 net/minecraft/entity/vehicle/BoatEntity
 	FIELD field_2954 velocity I
 	FIELD field_2955 boatX D
 	FIELD field_2956 boatY D
@@ -8,4 +8,5 @@ CLASS net/minecraft/class_530 net/minecraft/entity/vehicle/BoatEntity
 	FIELD field_2960 boatVelocityX D
 	FIELD field_2961 boatVelocityY D
 	FIELD field_2962 boatVelocityZ D
-	METHOD <init> <init> (Lnet/minecraft/class_14;DDD)V
+	METHOD <init> <init> (Lnet/minecraft/class_191;DDD)V
+		ARG 6 z

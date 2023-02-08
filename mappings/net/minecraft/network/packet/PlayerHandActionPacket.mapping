@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_524 net/minecraft/network/packet/PlayerHandActionPacket
+CLASS net/minecraft/class_517 net/minecraft/network/packet/PlayerHandActionPacket
 	FIELD field_2433 x I
 	FIELD field_2434 y I
 	FIELD field_2435 z I
@@ -13,3 +13,8 @@ CLASS net/minecraft/class_524 net/minecraft/network/packet/PlayerHandActionPacke
 		COMMENT <br> 4: drop item
 		COMMENT <br> 5: stop using item
 	METHOD <init> <init> (IIIII)V
+		ARG 1 action
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face

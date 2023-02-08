@@ -1,4 +1,8 @@
-CLASS net/minecraft/class_28 net/minecraft/block/PlantBlock
+CLASS net/minecraft/class_36 net/minecraft/block/PlantBlock
 	METHOD <init> <init> (II)V
-	METHOD method_1112 canSurviveOrBreak (Lnet/minecraft/class_14;III)V
+		ARG 1 id
+		ARG 2 sprite
+	METHOD method_1112 canSurviveOrBreak (Lnet/minecraft/class_191;III)V
+		ARG 4 z
 	METHOD method_879 canPlantOn (I)Z
+		ARG 1 blockId

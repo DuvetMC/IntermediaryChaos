@@ -1,2 +1,8 @@
-CLASS net/minecraft/class_986 net/minecraft/world/gen/structure/MineshaftPieces_Room
+CLASS net/minecraft/class_979 net/minecraft/world/gen/structure/MineshaftPieces_Room
+	COMMENT @nest net/minecraft/world/gen/structure/MineshaftPieces$Room
+	FIELD field_4219 entrances Ljava/util/LinkedList;
 	METHOD <init> <init> (ILjava/util/Random;II)V
+		ARG 1 generationDepth
+		ARG 2 random
+		ARG 3 x
+		ARG 4 z

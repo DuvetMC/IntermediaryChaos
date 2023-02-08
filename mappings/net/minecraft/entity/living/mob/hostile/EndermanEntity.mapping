@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_951 net/minecraft/entity/living/mob/hostile/EndermanEntity
+CLASS net/minecraft/class_944 net/minecraft/entity/living/mob/hostile/EndermanEntity
 	FIELD field_4093 angryStareCooldown I
 		COMMENT Cooldown that adds a delay before an enderman becomes angry.
 		COMMENT A player must stare at an enderman for 5 ticks before it becomes angry
@@ -7,10 +7,16 @@ CLASS net/minecraft/class_951 net/minecraft/entity/living/mob/hostile/EndermanEn
 	FIELD field_4523 blocksToPickup [Z
 		COMMENT The blocks an enderman can pickup
 	METHOD method_3026 tryTeleport (DDD)Z
-	METHOD method_3027 tryTeleportTo (Lnet/minecraft/class_1;)Z
-	METHOD method_3028 canGetAngryAt (Lnet/minecraft/class_3;)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_3027 tryTeleportTo (Lnet/minecraft/class_198;)Z
+		ARG 1 target
+	METHOD method_3028 canGetAngryAt (Lnet/minecraft/class_203;)Z
+		ARG 1 target
 	METHOD method_3029 tryRandomTeleport ()Z
 	METHOD method_3334 setCarriedBlock (I)V
 	METHOD method_3335 setCarriedBlockMeta (I)V
+		ARG 1 id
 	METHOD method_3336 getCarriedBlock ()I
 	METHOD method_3337 getCarriedBlockMeta ()I

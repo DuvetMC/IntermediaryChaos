@@ -1,3 +1,4 @@
-CLASS net/minecraft/class_74 net/minecraft/client/player/input/GameInput
-	FIELD field_768 options Lnet/minecraft/class_124;
-	METHOD <init> <init> (Lnet/minecraft/class_124;)V
+CLASS net/minecraft/class_82 net/minecraft/client/player/input/GameInput
+	FIELD field_768 options Lnet/minecraft/class_148;
+	METHOD <init> <init> (Lnet/minecraft/class_148;)V
+		ARG 1 options

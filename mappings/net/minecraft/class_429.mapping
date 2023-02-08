@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_429
-	METHOD valueOf valueOf (Ljava/lang/String;)Lnet/minecraft/class_429;
-	METHOD values values ()[Lnet/minecraft/class_429;

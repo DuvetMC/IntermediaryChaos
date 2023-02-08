@@ -1,27 +1,59 @@
-CLASS net/minecraft/class_461 net/minecraft/nbt/NbtCompound
+CLASS net/minecraft/class_244 net/minecraft/nbt/NbtCompound
 	FIELD field_1302 elements Ljava/util/Map;
 	METHOD method_1143 putByte (Ljava/lang/String;B)V
+		ARG 1 key
+		ARG 2 value
 	METHOD method_1145 putInt (Ljava/lang/String;I)V
+		ARG 1 key
+		ARG 2 value
 	METHOD method_1146 putLong (Ljava/lang/String;J)V
-	METHOD method_1147 putCompound (Ljava/lang/String;Lnet/minecraft/class_461;)V
-	METHOD method_1148 put (Ljava/lang/String;Lnet/minecraft/class_469;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_1147 putCompound (Ljava/lang/String;Lnet/minecraft/class_244;)V
+		ARG 2 nbt
+	METHOD method_1148 put (Ljava/lang/String;Lnet/minecraft/class_397;)V
+		ARG 2 element
 	METHOD method_1149 putString (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 key
+		ARG 2 value
 	METHOD method_1150 putShort (Ljava/lang/String;S)V
+		ARG 1 key
+		ARG 2 value
 	METHOD method_1151 putBoolean (Ljava/lang/String;Z)V
+		ARG 1 key
+		ARG 2 value
 	METHOD method_1152 putByteArray (Ljava/lang/String;[B)V
+		ARG 1 key
+		ARG 2 value
 	METHOD method_1153 getByte (Ljava/lang/String;)B
+		ARG 1 key
 	METHOD method_1154 getShort (Ljava/lang/String;)S
+		ARG 1 key
 	METHOD method_1155 getInt (Ljava/lang/String;)I
+		ARG 1 key
 	METHOD method_1156 getLong (Ljava/lang/String;)J
+		ARG 1 key
 	METHOD method_1158 getString (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 key
 	METHOD method_1159 getByteArray (Ljava/lang/String;)[B
-	METHOD method_1160 getCompound (Ljava/lang/String;)Lnet/minecraft/class_461;
-	METHOD method_1161 getList (Ljava/lang/String;)Lnet/minecraft/class_464;
+		ARG 1 key
+	METHOD method_1160 getCompound (Ljava/lang/String;)Lnet/minecraft/class_244;
+		ARG 1 key
+	METHOD method_1161 getList (Ljava/lang/String;)Lnet/minecraft/class_393;
+		ARG 1 key
 	METHOD method_1162 getBoolean (Ljava/lang/String;)Z
+		ARG 1 key
 	METHOD method_1436 contains (Ljava/lang/String;)Z
+		ARG 1 key
 	METHOD method_1437 putFloat (Ljava/lang/String;F)V
+		ARG 1 key
+		ARG 2 value
 	METHOD method_1438 getFloat (Ljava/lang/String;)F
+		ARG 1 key
 	METHOD method_1896 putDouble (Ljava/lang/String;D)V
+		ARG 1 key
+		ARG 2 value
 	METHOD method_1897 getDouble (Ljava/lang/String;)D
+		ARG 1 key
 	METHOD method_2837 getValues ()Ljava/util/Collection;
 	METHOD toString toString ()Ljava/lang/String;

@@ -1,2 +1,3 @@
-CLASS net/minecraft/class_810 argo/format/JsonFormatter
-	METHOD method_2663 format (Lnet/minecraft/class_829;)Ljava/lang/String;
+CLASS net/minecraft/class_803 argo/format/JsonFormatter
+	METHOD method_2663 format (Lnet/minecraft/class_822;)Ljava/lang/String;
+		ARG 1 json

@@ -1,2 +1,6 @@
-CLASS net/minecraft/class_551 net/minecraft/network/packet/PlayerMovePacket_Angles
+CLASS net/minecraft/class_544 net/minecraft/network/packet/PlayerMovePacket_Angles
+	COMMENT @nest net/minecraft/network/packet/PlayerMovePacket$Angles
 	METHOD <init> <init> (FFZ)V
+		ARG 1 yaw
+		ARG 2 pitch
+		ARG 3 onGround

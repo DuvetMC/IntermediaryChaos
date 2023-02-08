@@ -1,6 +1,10 @@
-CLASS net/minecraft/class_1020 net/minecraft/block/StemBlock
-	FIELD field_4480 plant Lnet/minecraft/class_18;
-	METHOD <init> <init> (ILnet/minecraft/class_18;)V
-	METHOD method_3286 getConnectDirection (Lnet/minecraft/class_447;III)I
-	METHOD method_3287 getGrowthChance (Lnet/minecraft/class_14;III)F
-	METHOD method_3351 grow (Lnet/minecraft/class_14;III)V
+CLASS net/minecraft/class_1013 net/minecraft/block/StemBlock
+	FIELD field_4480 plant Lnet/minecraft/class_35;
+	METHOD <init> <init> (ILnet/minecraft/class_35;)V
+		ARG 2 plant
+	METHOD method_3286 getConnectDirection (Lnet/minecraft/class_452;III)I
+		ARG 4 z
+	METHOD method_3287 getGrowthChance (Lnet/minecraft/class_191;III)F
+		ARG 4 z
+	METHOD method_3351 grow (Lnet/minecraft/class_191;III)V
+		ARG 4 z

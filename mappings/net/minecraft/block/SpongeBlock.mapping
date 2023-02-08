@@ -1,2 +1,3 @@
-CLASS net/minecraft/class_91 net/minecraft/block/SpongeBlock
+CLASS net/minecraft/class_97 net/minecraft/block/SpongeBlock
 	METHOD <init> <init> (I)V
+		ARG 1 id

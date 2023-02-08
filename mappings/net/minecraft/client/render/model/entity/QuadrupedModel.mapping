@@ -1,8 +1,10 @@
-CLASS net/minecraft/class_322 net/minecraft/client/render/model/entity/QuadrupedModel
-	FIELD field_1521 head Lnet/minecraft/class_7;
-	FIELD field_1522 body Lnet/minecraft/class_7;
-	FIELD field_1523 backRightLeg Lnet/minecraft/class_7;
-	FIELD field_1524 backLeftLeg Lnet/minecraft/class_7;
-	FIELD field_1525 frontRightLeg Lnet/minecraft/class_7;
-	FIELD field_1526 frontLeftLeg Lnet/minecraft/class_7;
+CLASS net/minecraft/class_317 net/minecraft/client/render/model/entity/QuadrupedModel
+	FIELD field_1521 head Lnet/minecraft/class_68;
+	FIELD field_1522 body Lnet/minecraft/class_68;
+	FIELD field_1523 backRightLeg Lnet/minecraft/class_68;
+	FIELD field_1524 backLeftLeg Lnet/minecraft/class_68;
+	FIELD field_1525 frontRightLeg Lnet/minecraft/class_68;
+	FIELD field_1526 frontLeftLeg Lnet/minecraft/class_68;
 	METHOD <init> <init> (IF)V
+		ARG 1 pivotPoint
+		ARG 2 reduction

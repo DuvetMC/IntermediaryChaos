@@ -1,23 +1,29 @@
-CLASS net/minecraft/class_414 net/minecraft/client/render/block/entity/BlockEntityRenderDispatcher
-	FIELD field_2003 INSTANCE Lnet/minecraft/class_414;
+CLASS net/minecraft/class_420 net/minecraft/client/render/block/entity/BlockEntityRenderDispatcher
+	FIELD field_2003 INSTANCE Lnet/minecraft/class_420;
 	FIELD field_2004 offsetX D
 	FIELD field_2005 offsetY D
 	FIELD field_2006 offsetZ D
-	FIELD field_2007 textureManager Lnet/minecraft/class_5;
+	FIELD field_2007 textureManager Lnet/minecraft/class_52;
 	FIELD field_2008 renderers Ljava/util/Map;
-	FIELD field_2009 textRenderer Lnet/minecraft/class_33;
-	FIELD field_2010 world Lnet/minecraft/class_14;
+	FIELD field_2009 textRenderer Lnet/minecraft/class_62;
+	FIELD field_2010 world Lnet/minecraft/class_191;
 	FIELD field_2204 cameraX D
 	FIELD field_2205 cameraY D
 	FIELD field_2206 cameraZ D
-	FIELD field_2265 camera Lnet/minecraft/class_209;
+	FIELD field_2265 camera Lnet/minecraft/class_199;
 	FIELD field_2266 cameraYaw F
 	FIELD field_2267 cameraPitch F
-	METHOD method_1262 getTextRenderer ()Lnet/minecraft/class_33;
-	METHOD method_1263 getRenderer (Ljava/lang/Class;)Lnet/minecraft/class_413;
-	METHOD method_1264 hasRenderer (Lnet/minecraft/class_262;)Z
-	METHOD method_1265 render (Lnet/minecraft/class_262;DDDF)V
-	METHOD method_1266 render (Lnet/minecraft/class_262;F)V
-	METHOD method_1267 prepare (Lnet/minecraft/class_14;Lnet/minecraft/class_5;Lnet/minecraft/class_33;Lnet/minecraft/class_209;F)V
-	METHOD method_1268 getRenderer (Lnet/minecraft/class_262;)Lnet/minecraft/class_413;
-	METHOD method_2896 setWorld (Lnet/minecraft/class_14;)V
+	METHOD method_1262 getTextRenderer ()Lnet/minecraft/class_62;
+	METHOD method_1263 getRenderer (Ljava/lang/Class;)Lnet/minecraft/class_419;
+		ARG 1 type
+	METHOD method_1264 hasRenderer (Lnet/minecraft/class_257;)Z
+		ARG 1 blockEntity
+	METHOD method_1265 render (Lnet/minecraft/class_257;DDDF)V
+		ARG 8 tickDelta
+	METHOD method_1266 render (Lnet/minecraft/class_257;F)V
+		ARG 2 tickDelta
+	METHOD method_1267 prepare (Lnet/minecraft/class_191;Lnet/minecraft/class_52;Lnet/minecraft/class_62;Lnet/minecraft/class_199;F)V
+	METHOD method_1268 getRenderer (Lnet/minecraft/class_257;)Lnet/minecraft/class_419;
+		ARG 1 blockEntity
+	METHOD method_2896 setWorld (Lnet/minecraft/class_191;)V
+		ARG 1 world

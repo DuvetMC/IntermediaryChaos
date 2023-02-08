@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_449 net/minecraft/client/render/world/RenderStage
+CLASS net/minecraft/class_454 net/minecraft/client/render/world/RenderStage
 	FIELD field_2155 regionX I
 	FIELD field_2156 regionY I
 	FIELD field_2157 regionZ I
@@ -10,6 +10,16 @@ CLASS net/minecraft/class_449 net/minecraft/client/render/world/RenderStage
 	FIELD field_2163 doNotFlipGlList Z
 	METHOD method_1387 render ()V
 	METHOD method_1592 addNewIdToGlList (I)V
+		ARG 1 id
 	METHOD method_1593 checkMatch (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_1594 setPositions (IIIDDD)V
+		ARG 1 regionX
+		ARG 2 regionY
+		ARG 3 regionZ
+		ARG 4 cameraX
+		ARG 6 cameraY
+		ARG 8 cameraZ
 	METHOD method_1595 reset ()V

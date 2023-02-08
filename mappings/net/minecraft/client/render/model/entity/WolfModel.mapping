@@ -1,9 +1,9 @@
-CLASS net/minecraft/class_761 net/minecraft/client/render/model/entity/WolfModel
-	FIELD field_3532 head Lnet/minecraft/class_7;
-	FIELD field_3533 body Lnet/minecraft/class_7;
-	FIELD field_3534 backRightLeg Lnet/minecraft/class_7;
-	FIELD field_3535 backLeftLeg Lnet/minecraft/class_7;
-	FIELD field_3536 frontRightLeg Lnet/minecraft/class_7;
-	FIELD field_3537 frontLeftLeg Lnet/minecraft/class_7;
-	FIELD field_3541 tail Lnet/minecraft/class_7;
-	FIELD field_3542 neck Lnet/minecraft/class_7;
+CLASS net/minecraft/class_754 net/minecraft/client/render/model/entity/WolfModel
+	FIELD field_3532 head Lnet/minecraft/class_68;
+	FIELD field_3533 body Lnet/minecraft/class_68;
+	FIELD field_3534 backRightLeg Lnet/minecraft/class_68;
+	FIELD field_3535 backLeftLeg Lnet/minecraft/class_68;
+	FIELD field_3536 frontRightLeg Lnet/minecraft/class_68;
+	FIELD field_3537 frontLeftLeg Lnet/minecraft/class_68;
+	FIELD field_3541 tail Lnet/minecraft/class_68;
+	FIELD field_3542 neck Lnet/minecraft/class_68;

@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_47 net/minecraft/client/gui/widget/ButtonWidget
+CLASS net/minecraft/class_57 net/minecraft/client/gui/widget/ButtonWidget
 	FIELD field_186 height I
 	FIELD field_187 id I
 	FIELD field_188 width I
@@ -8,9 +8,22 @@ CLASS net/minecraft/class_47 net/minecraft/client/gui/widget/ButtonWidget
 	FIELD field_331 active Z
 	FIELD field_332 visible Z
 	METHOD <init> <init> (IIIIILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 width
+		ARG 5 height
+		ARG 6 message
 	METHOD <init> <init> (IIILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 message
 	METHOD method_1661 isMouseOver (Lnet/minecraft/client/Minecraft;II)Z
 	METHOD method_1662 render (Lnet/minecraft/client/Minecraft;II)V
 	METHOD method_1948 mouseReleased (II)V
+		ARG 1 mouseX
+		ARG 2 mouseY
 	METHOD method_1949 getYImage (Z)I
+		ARG 1 isHovered
 	METHOD method_1950 renderBackground (Lnet/minecraft/client/Minecraft;II)V

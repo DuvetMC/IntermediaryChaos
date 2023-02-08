@@ -1,5 +1,6 @@
-CLASS net/minecraft/class_276 net/minecraft/client/gui/screen/inventory/menu/ChestScreen
-	FIELD field_1361 bottom Lnet/minecraft/class_267;
-	FIELD field_1362 top Lnet/minecraft/class_267;
+CLASS net/minecraft/class_271 net/minecraft/client/gui/screen/inventory/menu/ChestScreen
+	FIELD field_1361 bottom Lnet/minecraft/class_262;
+	FIELD field_1362 top Lnet/minecraft/class_262;
 	FIELD field_1363 rows I
-	METHOD <init> <init> (Lnet/minecraft/class_267;Lnet/minecraft/class_267;)V
+	METHOD <init> <init> (Lnet/minecraft/class_262;Lnet/minecraft/class_262;)V
+		ARG 2 top

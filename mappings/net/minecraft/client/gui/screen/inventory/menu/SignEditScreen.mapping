@@ -1,6 +1,7 @@
-CLASS net/minecraft/class_416 net/minecraft/client/gui/screen/inventory/menu/SignEditScreen
+CLASS net/minecraft/class_422 net/minecraft/client/gui/screen/inventory/menu/SignEditScreen
 	FIELD field_2014 title Ljava/lang/String;
-	FIELD field_2015 sign Lnet/minecraft/class_405;
+	FIELD field_2015 sign Lnet/minecraft/class_411;
 	FIELD field_2016 ticksSinceOpened I
 	FIELD field_2017 currentRow I
-	METHOD <init> <init> (Lnet/minecraft/class_405;)V
+	METHOD <init> <init> (Lnet/minecraft/class_411;)V
+		ARG 1 sign

@@ -1,5 +1,6 @@
-CLASS net/minecraft/class_698 net/minecraft/block/entity/NoteBlockBlockEntity
+CLASS net/minecraft/class_691 net/minecraft/block/entity/NoteBlockBlockEntity
 	FIELD field_3172 note B
 	FIELD field_3173 powered Z
 	METHOD method_2226 tunePitch ()V
-	METHOD method_2227 playNote (Lnet/minecraft/class_14;III)V
+	METHOD method_2227 playNote (Lnet/minecraft/class_191;III)V
+		ARG 4 z

@@ -1,7 +1,8 @@
-CLASS net/minecraft/class_377 net/minecraft/world/LightType
-	FIELD field_1824 SKY Lnet/minecraft/class_377;
-	FIELD field_1825 BLOCK Lnet/minecraft/class_377;
+CLASS net/minecraft/class_372 net/minecraft/world/LightType
+	FIELD field_1824 SKY Lnet/minecraft/class_372;
+	FIELD field_1825 BLOCK Lnet/minecraft/class_372;
 	FIELD field_1988 defaultValue I
 	METHOD <init> <init> (Ljava/lang/String;II)V
-	METHOD valueOf valueOf (Ljava/lang/String;)Lnet/minecraft/class_377;
-	METHOD values values ()[Lnet/minecraft/class_377;
+		ARG 3 defaultValue
+	METHOD valueOf valueOf (Ljava/lang/String;)Lnet/minecraft/class_372;
+	METHOD values values ()[Lnet/minecraft/class_372;

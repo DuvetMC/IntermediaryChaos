@@ -1,3 +1,4 @@
-CLASS net/minecraft/class_758 net/minecraft/client/entity/particle/EmotionParticle
+CLASS net/minecraft/class_751 net/minecraft/client/entity/particle/EmotionParticle
 	FIELD field_3509 baseScale F
-	METHOD <init> <init> (Lnet/minecraft/class_14;DDDDDDF)V
+	METHOD <init> <init> (Lnet/minecraft/class_191;DDDDDDF)V
+		ARG 14 scaleFactor

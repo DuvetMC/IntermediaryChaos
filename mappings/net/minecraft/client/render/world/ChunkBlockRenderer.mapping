@@ -1,12 +1,12 @@
-CLASS net/minecraft/class_12 net/minecraft/client/render/world/ChunkBlockRenderer
+CLASS net/minecraft/class_47 net/minecraft/client/render/world/ChunkBlockRenderer
 	FIELD field_1447 centerX I
 	FIELD field_1448 centerY I
 	FIELD field_1449 centerZ I
-	FIELD field_1450 box Lnet/minecraft/class_19;
+	FIELD field_1450 box Lnet/minecraft/class_200;
 	FIELD field_1626 notculled Z
 	FIELD field_1627 setColorOcclusion Z
 	FIELD field_1628 hasColorOcclusion I
-	FIELD field_17 bufferBuilder Lnet/minecraft/class_17;
+	FIELD field_17 bufferBuilder Lnet/minecraft/class_53;
 	FIELD field_1862 regionCoordinateX I
 	FIELD field_1863 regionCoordinateY I
 	FIELD field_1864 regionCoordinateZ I
@@ -22,19 +22,25 @@ CLASS net/minecraft/class_12 net/minecraft/client/render/world/ChunkBlockRendere
 	FIELD field_2226 chunkReloadOrder I
 	FIELD field_22 z I
 	FIELD field_244 currentChunkUpdates I
-	FIELD field_245 world Lnet/minecraft/class_14;
+	FIELD field_245 world Lnet/minecraft/class_191;
 	FIELD field_246 isBoxInFrustum Z
 	FIELD field_247 glList I
 	FIELD field_388 renderStages [Z
 	FIELD field_887 blocksUnstaged Z
 	METHOD method_1021 updatePosition (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_1022 getChunkRenderReloaderStatus ()Z
 	METHOD method_1065 getRenderStageGlId (I)I
+		ARG 1 glID
 	METHOD method_123 stageBlocksToRender ()V
-	METHOD method_125 getCameraMoveDistnce (Lnet/minecraft/class_1;)F
+	METHOD method_125 getCameraMoveDistnce (Lnet/minecraft/class_198;)F
+		ARG 1 camera
 	METHOD method_130 resetRenderStagesAndWorld ()V
 	METHOD method_1386 stageBlockRenderer ()V
 	METHOD method_1547 translateFRegion ()V
-	METHOD method_213 updateIsBoxInFrustum (Lnet/minecraft/class_483;)V
+	METHOD method_213 updateIsBoxInFrustum (Lnet/minecraft/class_476;)V
+		ARG 1 cameraView
 	METHOD method_364 resetRenderStages ()V
 	METHOD method_911 renderGlListPlus2 ()V

@@ -1,8 +1,9 @@
-CLASS net/minecraft/class_286 net/minecraft/crafting/CraftingManager
-	FIELD field_1386 INSTANCE Lnet/minecraft/class_286;
+CLASS net/minecraft/class_281 net/minecraft/crafting/CraftingManager
+	FIELD field_1386 INSTANCE Lnet/minecraft/class_281;
 	FIELD field_1408 recipes Ljava/util/List;
-	METHOD method_2183 registerShapeless (Lnet/minecraft/class_229;[Ljava/lang/Object;)V
+	METHOD method_2183 registerShapeless (Lnet/minecraft/class_226;[Ljava/lang/Object;)V
+		ARG 2 args
 	METHOD method_2460 getRecipes ()Ljava/util/List;
-	METHOD method_786 getResult (Lnet/minecraft/class_292;)Lnet/minecraft/class_229;
-	METHOD method_797 getInstance ()Lnet/minecraft/class_286;
-	METHOD method_798 registerShaped (Lnet/minecraft/class_229;[Ljava/lang/Object;)V
+	METHOD method_786 getResult (Lnet/minecraft/class_287;)Lnet/minecraft/class_226;
+	METHOD method_797 getInstance ()Lnet/minecraft/class_281;
+	METHOD method_798 registerShaped (Lnet/minecraft/class_226;[Ljava/lang/Object;)V

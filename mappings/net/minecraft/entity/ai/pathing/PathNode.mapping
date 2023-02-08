@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_330 net/minecraft/entity/ai/pathing/PathNode
+CLASS net/minecraft/class_325 net/minecraft/entity/ai/pathing/PathNode
 	FIELD field_1552 posX I
 	FIELD field_1553 posY I
 	FIELD field_1554 posZ I
@@ -7,12 +7,19 @@ CLASS net/minecraft/class_330 net/minecraft/entity/ai/pathing/PathNode
 	FIELD field_1557 distanceFromStart F
 	FIELD field_1558 distanceToTarget F
 	FIELD field_1559 totalPathDistance F
-	FIELD field_1560 previousNode Lnet/minecraft/class_330;
+	FIELD field_1560 previousNode Lnet/minecraft/class_325;
 	FIELD field_1561 visited Z
 	METHOD <init> <init> (III)V
+		ARG 1 posX
+		ARG 2 posY
+		ARG 3 posZ
 	METHOD equals equals (Ljava/lang/Object;)Z
 	METHOD hashCode hashCode ()I
 	METHOD method_2252 hash (III)I
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
 	METHOD method_858 inHeap ()Z
-	METHOD method_859 getDistanceTo (Lnet/minecraft/class_330;)F
+	METHOD method_859 getDistanceTo (Lnet/minecraft/class_325;)F
+		ARG 1 pathNode
 	METHOD toString toString ()Ljava/lang/String;

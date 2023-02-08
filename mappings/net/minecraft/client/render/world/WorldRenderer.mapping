@@ -1,5 +1,5 @@
-CLASS net/minecraft/class_16 net/minecraft/client/render/world/WorldRenderer
-	FIELD field_1084 blockRenderer Lnet/minecraft/class_215;
+CLASS net/minecraft/class_49 net/minecraft/client/render/world/WorldRenderer
+	FIELD field_1084 blockRenderer Lnet/minecraft/class_207;
 	FIELD field_1601 glIntBufferWithColorOcclusion Ljava/nio/IntBuffer;
 	FIELD field_1602 hasColorOcclusion Z
 	FIELD field_1603 entityCount I
@@ -22,14 +22,15 @@ CLASS net/minecraft/class_16 net/minecraft/client/render/world/WorldRenderer
 	FIELD field_2000 blockEntities Ljava/util/List;
 	FIELD field_2100 overworldSkyBoxUnderHorizon I
 	FIELD field_2149 emptyChunkSections I
-	FIELD field_2150 renderStages [Lnet/minecraft/class_449;
+	FIELD field_2150 renderStages [Lnet/minecraft/class_454;
+	FIELD field_250 world Lnet/minecraft/class_191;
 	FIELD field_2518 entityRenderCooldown I
-	FIELD field_251 chunkBlockRendererList1 [Lnet/minecraft/class_12;
-	FIELD field_254 chunkBlockRendererList2 [Lnet/minecraft/class_12;
+	FIELD field_251 chunkBlockRendererList1 [Lnet/minecraft/class_47;
+	FIELD field_254 chunkBlockRendererList2 [Lnet/minecraft/class_47;
 	FIELD field_255 chunkCountX I
 	FIELD field_256 chunkSectionCount I
 	FIELD field_257 chunkCountZ I
-	FIELD field_258 textureManager Lnet/minecraft/class_5;
+	FIELD field_258 textureManager Lnet/minecraft/class_52;
 	FIELD field_389 renderdChunkBlockRenderers Ljava/util/List;
 	FIELD field_390 ticks I
 	FIELD field_487 glLists I
@@ -38,22 +39,48 @@ CLASS net/minecraft/class_16 net/minecraft/client/render/world/WorldRenderer
 	FIELD field_88 cameraY D
 	FIELD field_89 cameraZ D
 	METHOD method_1059 render (IIID)I
+		ARG 1 renderStartIndex
+		ARG 2 chunksToRender
+		ARG 3 renderStage
+		ARG 4 tickDelta
 	METHOD method_1060 updateRenderBoundaries (III)V
+		ARG 1 cameraX
+		ARG 2 cameraY
+		ARG 3 cameraZ
 	METHOD method_1272 renderClouds (F)V
+		ARG 1 tickDelta
 	METHOD method_132 stageChunkSectionRerender (IIIIII)V
-	METHOD method_133 renderTerrain (Lnet/minecraft/class_209;ID)I
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ
+	METHOD method_133 renderTerrain (Lnet/minecraft/class_199;ID)I
+		ARG 3 tickDelta
 	METHOD method_1384 renderStages (ID)V
+		ARG 1 renderStage
+		ARG 2 tickDelta
 	METHOD method_1385 drawNoise ()V
 	METHOD method_1405 renderFancyClouds (F)V
-	METHOD method_1702 renderHitbox (Lnet/minecraft/class_19;)V
-	METHOD method_2194 prepareChunks (Lnet/minecraft/class_209;Z)Z
+		ARG 1 tickDelta
+	METHOD method_1702 renderHitbox (Lnet/minecraft/class_200;)V
+	METHOD method_2194 prepareChunks (Lnet/minecraft/class_199;Z)Z
+		ARG 2 dontDoExtraLogic
 	METHOD method_2664 hasThiccFog (DDDF)Z
+		ARG 1 x
+		ARG 3 y
 	METHOD method_2833 deleteGlLists ()V
-	METHOD method_587 renderEntities (Lnet/minecraft/class_9;Lnet/minecraft/class_483;F)V
-	METHOD method_588 updateFrustums (Lnet/minecraft/class_483;F)V
+	METHOD method_587 renderEntities (Lnet/minecraft/class_72;Lnet/minecraft/class_476;F)V
+	METHOD method_588 updateFrustums (Lnet/minecraft/class_476;F)V
+		ARG 2 tickDelta
 	METHOD method_620 renderSky (F)V
-	METHOD method_622 renderBlockOutline (Lnet/minecraft/class_3;Lnet/minecraft/class_2;ILnet/minecraft/class_229;F)V
+		ARG 1 tickDelta
+	METHOD method_621 setWorld (Lnet/minecraft/class_191;)V
+	METHOD method_622 renderBlockOutline (Lnet/minecraft/class_203;Lnet/minecraft/class_73;ILnet/minecraft/class_226;F)V
 	METHOD method_624 tick ()V
 	METHOD method_900 checkColorOcclusion (II)V
+		ARG 1 start
+		ARG 2 end
 	METHOD method_901 getChunkDebugInfo ()Ljava/lang/String;
 	METHOD method_903 getEntityDebugInfo ()Ljava/lang/String;

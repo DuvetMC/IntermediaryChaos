@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_545 net/minecraft/network/packet/EntityMovePacket
+CLASS net/minecraft/class_538 net/minecraft/network/packet/EntityMovePacket
 	FIELD field_2510 id I
 	FIELD field_2511 dx B
 	FIELD field_2512 dy B

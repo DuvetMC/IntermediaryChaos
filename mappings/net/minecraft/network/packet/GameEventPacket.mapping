@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_751 net/minecraft/network/packet/GameEventPacket
+CLASS net/minecraft/class_744 net/minecraft/network/packet/GameEventPacket
 	FIELD field_3450 EVENT_MESSAGES [Ljava/lang/String;
 	FIELD field_3451 event I
 	FIELD field_4234 data I

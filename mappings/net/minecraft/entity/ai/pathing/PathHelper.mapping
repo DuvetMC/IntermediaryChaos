@@ -1,17 +1,26 @@
-CLASS net/minecraft/class_332 net/minecraft/entity/ai/pathing/PathHelper
-	FIELD field_1564 chunkCache Lnet/minecraft/class_447;
-	FIELD field_1565 pathHeap Lnet/minecraft/class_333;
-	FIELD field_1566 hashMap Lnet/minecraft/class_505;
-	FIELD field_1567 pathNodes [Lnet/minecraft/class_330;
-	METHOD method_1596 getPathToPos (Lnet/minecraft/class_1;IIIF)Lnet/minecraft/class_331;
-	METHOD method_1597 buildPath (Lnet/minecraft/class_1;Lnet/minecraft/class_330;Lnet/minecraft/class_330;Lnet/minecraft/class_330;F)Lnet/minecraft/class_331;
-	METHOD method_1598 getPathToEntity (Lnet/minecraft/class_1;Lnet/minecraft/class_1;F)Lnet/minecraft/class_331;
-	METHOD method_1599 getAmountOfSuccessors (Lnet/minecraft/class_1;Lnet/minecraft/class_330;Lnet/minecraft/class_330;Lnet/minecraft/class_330;F)I
+CLASS net/minecraft/class_327 net/minecraft/entity/ai/pathing/PathHelper
+	FIELD field_1564 chunkCache Lnet/minecraft/class_452;
+	FIELD field_1565 pathHeap Lnet/minecraft/class_328;
+	FIELD field_1566 hashMap Lnet/minecraft/class_498;
+	FIELD field_1567 pathNodes [Lnet/minecraft/class_325;
+	METHOD method_1596 getPathToPos (Lnet/minecraft/class_198;IIIF)Lnet/minecraft/class_326;
+		ARG 5 pathRange
+	METHOD method_1597 buildPath (Lnet/minecraft/class_198;Lnet/minecraft/class_325;Lnet/minecraft/class_325;Lnet/minecraft/class_325;F)Lnet/minecraft/class_326;
+		ARG 5 pathRange
+	METHOD method_1598 getPathToEntity (Lnet/minecraft/class_198;Lnet/minecraft/class_198;F)Lnet/minecraft/class_326;
+		ARG 3 pathRange
+	METHOD method_1599 getAmountOfSuccessors (Lnet/minecraft/class_198;Lnet/minecraft/class_325;Lnet/minecraft/class_325;Lnet/minecraft/class_325;F)I
 		COMMENT Generate successor nodes from current path node
 		COMMENT @return the amount of valid successors
-	METHOD method_863 getPathNode (III)Lnet/minecraft/class_330;
-	METHOD method_864 getVerticalOffsetInPath (Lnet/minecraft/class_1;IIILnet/minecraft/class_330;)I
-	METHOD method_865 createPathFromNodeLinkedList (Lnet/minecraft/class_330;Lnet/minecraft/class_330;)Lnet/minecraft/class_331;
-	METHOD method_866 getPath (Lnet/minecraft/class_1;DDDF)Lnet/minecraft/class_331;
-	METHOD method_868 getSafePathNode (Lnet/minecraft/class_1;IIILnet/minecraft/class_330;I)Lnet/minecraft/class_330;
+		ARG 5 pathRange
+	METHOD method_863 getPathNode (III)Lnet/minecraft/class_325;
+		ARG 3 z
+	METHOD method_864 getVerticalOffsetInPath (Lnet/minecraft/class_198;IIILnet/minecraft/class_325;)I
+		ARG 5 increasedEntityHitBox
+	METHOD method_865 createPathFromNodeLinkedList (Lnet/minecraft/class_325;Lnet/minecraft/class_325;)Lnet/minecraft/class_326;
+		ARG 2 targetPathNode
+	METHOD method_866 getPath (Lnet/minecraft/class_198;DDDF)Lnet/minecraft/class_326;
+		ARG 8 pathRange
+	METHOD method_868 getSafePathNode (Lnet/minecraft/class_198;IIILnet/minecraft/class_325;I)Lnet/minecraft/class_325;
 		COMMENT @return path node with coords x and z, searches for a y that is safe and within reach
+		ARG 6 verticalOffset

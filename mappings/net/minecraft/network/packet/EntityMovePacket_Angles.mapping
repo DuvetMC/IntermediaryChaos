@@ -1,1 +1,2 @@
-CLASS net/minecraft/class_542 net/minecraft/network/packet/EntityMovePacket_Angles
+CLASS net/minecraft/class_535 net/minecraft/network/packet/EntityMovePacket_Angles
+	COMMENT @nest net/minecraft/network/packet/EntityMovePacket$Angles

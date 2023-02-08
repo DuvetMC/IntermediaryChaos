@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_781 net/minecraft/entity/weather/LightningBoltEntity
+CLASS net/minecraft/class_774 net/minecraft/entity/weather/LightningBoltEntity
 	FIELD field_3581 seed J
 	FIELD field_3582 stage I
 		COMMENT Determines what actions this lightning bolt performs each tick.
@@ -9,4 +9,5 @@ CLASS net/minecraft/class_781 net/minecraft/entity/weather/LightningBoltEntity
 		COMMENT Once the lightning bolt has worked through all its attempts it is removed.
 	FIELD field_3583 fireAttempts I
 		COMMENT The number of attempts this lightning bolt will do to summon fire.
-	METHOD <init> <init> (Lnet/minecraft/class_14;DDD)V
+	METHOD <init> <init> (Lnet/minecraft/class_191;DDD)V
+		ARG 6 z

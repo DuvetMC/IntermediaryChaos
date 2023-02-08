@@ -1,3 +1,4 @@
-CLASS net/minecraft/class_948 net/minecraft/network/packet/PlayerXpPacket
+CLASS net/minecraft/class_941 net/minecraft/network/packet/PlayerXpPacket
+	FIELD field_4085 levelProgress I
 	FIELD field_4086 xp I
 	FIELD field_4087 level I

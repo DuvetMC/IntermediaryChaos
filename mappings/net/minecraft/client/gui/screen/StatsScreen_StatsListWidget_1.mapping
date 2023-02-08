@@ -1,5 +1,8 @@
-CLASS net/minecraft/class_826 net/minecraft/client/gui/screen/StatsScreen_StatsListWidget_1
-	FIELD field_3704 grandparent Lnet/minecraft/class_784;
-	FIELD field_3705 parent Lnet/minecraft/class_790;
+CLASS net/minecraft/class_819 net/minecraft/client/gui/screen/StatsScreen_StatsListWidget_1
+	COMMENT @nest net/minecraft/client/gui/screen/StatsScreen$StatsListWidget$1
+	FIELD field_3704 grandparent Lnet/minecraft/class_777;
+	FIELD field_3705 parent Lnet/minecraft/class_783;
 	METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
-	METHOD method_2697 compare (Lnet/minecraft/class_764;Lnet/minecraft/class_764;)I
+		ARG 1 stat1
+		ARG 2 stat2
+	METHOD method_2697 compare (Lnet/minecraft/class_757;Lnet/minecraft/class_757;)I

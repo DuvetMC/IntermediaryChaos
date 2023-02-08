@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_704 net/minecraft/network/packet/AddPaintingPacket
+CLASS net/minecraft/class_697 net/minecraft/network/packet/AddPaintingPacket
 	FIELD field_3184 id I
 	FIELD field_3185 x I
 	FIELD field_3186 y I

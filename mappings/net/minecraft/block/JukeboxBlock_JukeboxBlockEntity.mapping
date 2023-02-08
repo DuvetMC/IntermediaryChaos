@@ -1,2 +1,3 @@
-CLASS net/minecraft/class_860 net/minecraft/block/JukeboxBlock_JukeboxBlockEntity
+CLASS net/minecraft/class_853 net/minecraft/block/JukeboxBlock_JukeboxBlockEntity
+	COMMENT @nest net/minecraft/block/JukeboxBlock$JukeboxBlockEntity
 	FIELD field_3796 record I

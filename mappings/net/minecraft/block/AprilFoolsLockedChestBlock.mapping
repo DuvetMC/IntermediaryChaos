@@ -1,2 +1,3 @@
-CLASS net/minecraft/class_759 net/minecraft/block/AprilFoolsLockedChestBlock
+CLASS net/minecraft/class_752 net/minecraft/block/AprilFoolsLockedChestBlock
 	METHOD <init> <init> (I)V
+		ARG 1 id

@@ -1,11 +1,11 @@
-CLASS net/minecraft/class_124 net/minecraft/client/options/GameOptions
-	FIELD field_1182 inventoryKey Lnet/minecraft/class_1028;
-	FIELD field_1183 dropKey Lnet/minecraft/class_1028;
+CLASS net/minecraft/class_148 net/minecraft/client/options/GameOptions
+	FIELD field_1182 inventoryKey Lnet/minecraft/class_1021;
+	FIELD field_1183 dropKey Lnet/minecraft/class_1021;
 	FIELD field_1634 defaultDifficulty I
 	FIELD field_1635 GUI_SETTINGS [Ljava/lang/String;
 	FIELD field_2035 fancyGraphics Z
 	FIELD field_2766 mouseSensitivity F
-	FIELD field_2767 sneakKey Lnet/minecraft/class_1028;
+	FIELD field_2767 sneakKey Lnet/minecraft/class_1021;
 	FIELD field_3007 lastServer Ljava/lang/String;
 	FIELD field_3342 debugEnabled Z
 	FIELD field_3343 discreteScroll Z
@@ -17,30 +17,36 @@ CLASS net/minecraft/class_124 net/minecraft/client/options/GameOptions
 	FIELD field_3668 advancedOpengl Z
 	FIELD field_4078 fov F
 	FIELD field_4079 gamma F
-	FIELD field_4080 attackKey Lnet/minecraft/class_1028;
-	FIELD field_4081 usekey Lnet/minecraft/class_1028;
-	FIELD field_4082 playerListKey Lnet/minecraft/class_1028;
-	FIELD field_4506 pickItemKey Lnet/minecraft/class_1028;
+	FIELD field_4080 attackKey Lnet/minecraft/class_1021;
+	FIELD field_4081 usekey Lnet/minecraft/class_1021;
+	FIELD field_4082 playerListKey Lnet/minecraft/class_1021;
+	FIELD field_4506 pickItemKey Lnet/minecraft/class_1021;
 	FIELD field_749 musicVolume F
 	FIELD field_750 soundVolume F
 	FIELD field_751 invertMouseY Z
 	FIELD field_753 viewDistance I
-	FIELD field_754 forwardKey Lnet/minecraft/class_1028;
-	FIELD field_755 leftKey Lnet/minecraft/class_1028;
-	FIELD field_756 backKey Lnet/minecraft/class_1028;
-	FIELD field_757 rightKey Lnet/minecraft/class_1028;
-	FIELD field_758 jumpKey Lnet/minecraft/class_1028;
-	FIELD field_760 chatKey Lnet/minecraft/class_1028;
-	FIELD field_764 ingameKeys [Lnet/minecraft/class_1028;
+	FIELD field_754 forwardKey Lnet/minecraft/class_1021;
+	FIELD field_755 leftKey Lnet/minecraft/class_1021;
+	FIELD field_756 backKey Lnet/minecraft/class_1021;
+	FIELD field_757 rightKey Lnet/minecraft/class_1021;
+	FIELD field_758 jumpKey Lnet/minecraft/class_1021;
+	FIELD field_760 chatKey Lnet/minecraft/class_1021;
+	FIELD field_764 ingameKeys [Lnet/minecraft/class_1021;
 	FIELD field_766 file Ljava/io/File;
 	FIELD field_832 viewBobbing Z
 	FIELD field_833 anaglyph Z
 	FIELD field_835 client Lnet/minecraft/client/Minecraft;
-	METHOD method_1951 setValue (Lnet/minecraft/class_660;F)V
+	METHOD method_1951 setValue (Lnet/minecraft/class_653;F)V
+		ARG 2 value
 	METHOD method_1952 parseFloat (Ljava/lang/String;)F
-	METHOD method_1954 getValueFloat (Lnet/minecraft/class_660;)F
-	METHOD method_2116 getValueBool (Lnet/minecraft/class_660;)Z
+		ARG 1 value
+	METHOD method_1954 getValueFloat (Lnet/minecraft/class_653;)F
+		ARG 1 option
+	METHOD method_2116 getValueBool (Lnet/minecraft/class_653;)Z
+		ARG 1 option
 	METHOD method_351 load ()V
 	METHOD method_354 save ()V
-	METHOD method_355 getValueAsString (Lnet/minecraft/class_660;)Ljava/lang/String;
-	METHOD method_356 setValue (Lnet/minecraft/class_660;I)V
+	METHOD method_355 getValueAsString (Lnet/minecraft/class_653;)Ljava/lang/String;
+		ARG 1 option
+	METHOD method_356 setValue (Lnet/minecraft/class_653;I)V
+		ARG 2 value

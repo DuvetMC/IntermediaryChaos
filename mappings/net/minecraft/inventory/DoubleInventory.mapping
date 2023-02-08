@@ -1,5 +1,6 @@
-CLASS net/minecraft/class_259 net/minecraft/inventory/DoubleInventory
+CLASS net/minecraft/class_254 net/minecraft/inventory/DoubleInventory
 	FIELD field_1312 name Ljava/lang/String;
-	FIELD field_1313 inventory1 Lnet/minecraft/class_267;
-	FIELD field_1314 inventory2 Lnet/minecraft/class_267;
-	METHOD <init> <init> (Ljava/lang/String;Lnet/minecraft/class_267;Lnet/minecraft/class_267;)V
+	FIELD field_1313 inventory1 Lnet/minecraft/class_262;
+	FIELD field_1314 inventory2 Lnet/minecraft/class_262;
+	METHOD <init> <init> (Ljava/lang/String;Lnet/minecraft/class_262;Lnet/minecraft/class_262;)V
+		ARG 3 inventory2

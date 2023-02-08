@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_792 net/minecraft/client/entity/particle/FootstepParticle
+CLASS net/minecraft/class_785 net/minecraft/client/entity/particle/FootstepParticle
 	FIELD field_3641 age I
 	FIELD field_3642 maxAge I
-	FIELD field_3643 textureManager Lnet/minecraft/class_5;
+	FIELD field_3643 textureManager Lnet/minecraft/class_52;

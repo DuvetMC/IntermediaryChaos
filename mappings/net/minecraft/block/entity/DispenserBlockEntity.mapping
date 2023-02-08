@@ -1,3 +1,4 @@
-CLASS net/minecraft/class_676 net/minecraft/block/entity/DispenserBlockEntity
-	FIELD field_3124 inventory [Lnet/minecraft/class_229;
+CLASS net/minecraft/class_669 net/minecraft/block/entity/DispenserBlockEntity
+	FIELD field_3124 inventory [Lnet/minecraft/class_226;
 	FIELD field_3125 RANDOM Ljava/util/Random;
+	METHOD method_2140 pickNonEmptySlot ()Lnet/minecraft/class_226;

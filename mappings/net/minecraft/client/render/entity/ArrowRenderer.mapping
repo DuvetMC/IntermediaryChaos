@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_271 net/minecraft/client/render/entity/ArrowRenderer
-	METHOD method_1461 render (Lnet/minecraft/class_268;DDDFF)V
+CLASS net/minecraft/class_266 net/minecraft/client/render/entity/ArrowRenderer
+	METHOD method_1461 render (Lnet/minecraft/class_263;DDDFF)V

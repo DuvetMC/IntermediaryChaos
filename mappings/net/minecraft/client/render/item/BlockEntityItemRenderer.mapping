@@ -1,4 +1,5 @@
-CLASS net/minecraft/class_928 net/minecraft/client/render/item/BlockEntityItemRenderer
-	FIELD field_4024 INSTANCE Lnet/minecraft/class_928;
-	FIELD field_4025 chest Lnet/minecraft/class_383;
-	METHOD method_2961 render (Lnet/minecraft/class_18;IF)V
+CLASS net/minecraft/class_921 net/minecraft/client/render/item/BlockEntityItemRenderer
+	FIELD field_4024 INSTANCE Lnet/minecraft/class_921;
+	FIELD field_4025 chest Lnet/minecraft/class_378;
+	METHOD method_2961 render (Lnet/minecraft/class_35;IF)V
+		ARG 3 tickDelta

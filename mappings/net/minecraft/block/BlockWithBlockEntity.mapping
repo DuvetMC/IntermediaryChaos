@@ -1,1 +1,2 @@
-CLASS net/minecraft/class_265 net/minecraft/block/BlockWithBlockEntity
+CLASS net/minecraft/class_260 net/minecraft/block/BlockWithBlockEntity
+	METHOD method_1081 createBlockEntity ()Lnet/minecraft/class_257;

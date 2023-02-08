@@ -1,6 +1,9 @@
-CLASS net/minecraft/class_798 net/minecraft/client/gui/screen/StatsScreen_AbstractStatsListWidget
+CLASS net/minecraft/class_791 net/minecraft/client/gui/screen/StatsScreen_AbstractStatsListWidget
+	COMMENT @nest net/minecraft/client/gui/screen/StatsScreen$AbstractStatsListWidget
 	FIELD field_3650 clickedIconId I
 	FIELD field_3651 entries Ljava/util/List;
-	FIELD field_3655 statsScreen Lnet/minecraft/class_784;
-	METHOD method_2616 renderStat (Lnet/minecraft/class_764;II)V
+	FIELD field_3655 statsScreen Lnet/minecraft/class_777;
+	METHOD method_2616 renderStat (Lnet/minecraft/class_757;II)V
+		ARG 3 z
 	METHOD method_2619 click (I)V
+		ARG 1 buttonDownTime

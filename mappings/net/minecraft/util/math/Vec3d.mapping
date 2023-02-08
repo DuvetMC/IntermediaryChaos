@@ -1,18 +1,32 @@
-CLASS net/minecraft/class_9 net/minecraft/util/math/Vec3d
+CLASS net/minecraft/class_72 net/minecraft/util/math/Vec3d
 	FIELD field_14 x D
 	FIELD field_15 y D
 	FIELD field_16 z D
+	FIELD field_2189 CACHE Ljava/util/List;
 	METHOD <init> <init> (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD method_1325 length ()D
-	METHOD method_1409 of (DDD)Lnet/minecraft/class_9;
-	METHOD method_1411 cross (Lnet/minecraft/class_9;)Lnet/minecraft/class_9;
+	METHOD method_1409 of (DDD)Lnet/minecraft/class_72;
+		ARG 4 z
+	METHOD method_1411 cross (Lnet/minecraft/class_72;)Lnet/minecraft/class_72;
+		ARG 1 vec
 	METHOD method_1412 squaredDistanceTo (DDD)D
-	METHOD method_1476 subtract (DDD)Lnet/minecraft/class_9;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_1476 subtract (DDD)Lnet/minecraft/class_72;
+		ARG 5 z
 	METHOD method_1713 rotateX (F)V
+		ARG 1 angle
 	METHOD method_1714 rotateY (F)V
-	METHOD method_2959 dot (Lnet/minecraft/class_9;)D
-	METHOD method_366 add (DDD)Lnet/minecraft/class_9;
-	METHOD method_410 intermediateWithX (Lnet/minecraft/class_9;D)Lnet/minecraft/class_9;
+		ARG 1 angle
+	METHOD method_2959 dot (Lnet/minecraft/class_72;)D
+		ARG 1 vec
+	METHOD method_366 add (DDD)Lnet/minecraft/class_72;
+		ARG 5 z
+	METHOD method_410 intermediateWithX (Lnet/minecraft/class_72;D)Lnet/minecraft/class_72;
 		COMMENT Returns a vector in between this and the given vector.
 		COMMENT
 		COMMENT <p>
@@ -24,8 +38,10 @@ CLASS net/minecraft/class_9 net/minecraft/util/math/Vec3d
 		COMMENT If this and the given vector have virtually identical X-coordinates, or the given
 		COMMENT value of {@code x} does not lie in between this and the given vector's X-coordinates,
 		COMMENT this method returns {@code null}.
-	METHOD method_411 distanceTo (Lnet/minecraft/class_9;)D
-	METHOD method_412 intermediateWithY (Lnet/minecraft/class_9;D)Lnet/minecraft/class_9;
+		ARG 2 x
+	METHOD method_411 distanceTo (Lnet/minecraft/class_72;)D
+		ARG 1 vec
+	METHOD method_412 intermediateWithY (Lnet/minecraft/class_72;D)Lnet/minecraft/class_72;
 		COMMENT Returns a vector in between this and the given vector.
 		COMMENT
 		COMMENT <p>
@@ -37,7 +53,8 @@ CLASS net/minecraft/class_9 net/minecraft/util/math/Vec3d
 		COMMENT If this and the given vector have virtually identical Y-coordinates, or the given
 		COMMENT value of {@code y} does not lie in between this and the given vector's Y-coordinates,
 		COMMENT this method returns {@code null}.
-	METHOD method_413 intermediateWithZ (Lnet/minecraft/class_9;D)Lnet/minecraft/class_9;
+		ARG 2 y
+	METHOD method_413 intermediateWithZ (Lnet/minecraft/class_72;D)Lnet/minecraft/class_72;
 		COMMENT Returns a vector in between this and the given vector.
 		COMMENT
 		COMMENT <p>
@@ -49,7 +66,10 @@ CLASS net/minecraft/class_9 net/minecraft/util/math/Vec3d
 		COMMENT If this and the given vector have virtually identical Z-coordinates, or the given
 		COMMENT value of {@code z} does not lie in between this and the given vector's Z-coordinates,
 		COMMENT this method returns {@code null}.
-	METHOD method_437 squaredDistanceTo (Lnet/minecraft/class_9;)D
-	METHOD method_821 normalize ()Lnet/minecraft/class_9;
-	METHOD method_822 subtractFrom (Lnet/minecraft/class_9;)Lnet/minecraft/class_9;
+		ARG 2 z
+	METHOD method_437 squaredDistanceTo (Lnet/minecraft/class_72;)D
+		ARG 1 vec
+	METHOD method_821 normalize ()Lnet/minecraft/class_72;
+	METHOD method_822 subtractFrom (Lnet/minecraft/class_72;)Lnet/minecraft/class_72;
+		ARG 1 vec
 	METHOD toString toString ()Ljava/lang/String;

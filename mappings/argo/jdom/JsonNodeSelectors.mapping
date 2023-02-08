@@ -1,11 +1,21 @@
-CLASS net/minecraft/class_801 argo/jdom/JsonNodeSelectors
-	METHOD method_2625 anElement (I)Lnet/minecraft/class_800;
-	METHOD method_2626 chainedJsonNodeSelector (Lnet/minecraft/class_800;Lnet/minecraft/class_800;)Lnet/minecraft/class_800;
-	METHOD method_2627 aField (Ljava/lang/String;)Lnet/minecraft/class_800;
-	METHOD method_2628 aField (Lnet/minecraft/class_828;)Lnet/minecraft/class_800;
-	METHOD method_2629 aStringNode ([Ljava/lang/Object;)Lnet/minecraft/class_800;
-	METHOD method_2630 chainOn ([Ljava/lang/Object;Lnet/minecraft/class_800;)Lnet/minecraft/class_800;
-	METHOD method_2631 anArrayNodeWithElement (I)Lnet/minecraft/class_800;
-	METHOD method_2632 anObjectNodeWithField (Ljava/lang/String;)Lnet/minecraft/class_800;
-	METHOD method_2633 anArrayNode ([Ljava/lang/Object;)Lnet/minecraft/class_800;
-	METHOD method_2634 anObjectNode ([Ljava/lang/Object;)Lnet/minecraft/class_800;
+CLASS net/minecraft/class_794 argo/jdom/JsonNodeSelectors
+	METHOD method_2625 anElement (I)Lnet/minecraft/class_793;
+		ARG 0 index
+	METHOD method_2626 chainedJsonNodeSelector (Lnet/minecraft/class_793;Lnet/minecraft/class_793;)Lnet/minecraft/class_793;
+		ARG 1 child
+	METHOD method_2627 aField (Ljava/lang/String;)Lnet/minecraft/class_793;
+		ARG 0 fieldName
+	METHOD method_2628 aField (Lnet/minecraft/class_821;)Lnet/minecraft/class_793;
+		ARG 0 fieldName
+	METHOD method_2629 aStringNode ([Ljava/lang/Object;)Lnet/minecraft/class_793;
+		ARG 0 pathElements
+	METHOD method_2630 chainOn ([Ljava/lang/Object;Lnet/minecraft/class_793;)Lnet/minecraft/class_793;
+		ARG 1 parentSelector
+	METHOD method_2631 anArrayNodeWithElement (I)Lnet/minecraft/class_793;
+		ARG 0 index
+	METHOD method_2632 anObjectNodeWithField (Ljava/lang/String;)Lnet/minecraft/class_793;
+		ARG 0 fieldName
+	METHOD method_2633 anArrayNode ([Ljava/lang/Object;)Lnet/minecraft/class_793;
+		ARG 0 pathElements
+	METHOD method_2634 anObjectNode ([Ljava/lang/Object;)Lnet/minecraft/class_793;
+		ARG 0 pathElements

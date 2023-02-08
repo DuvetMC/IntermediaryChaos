@@ -1,17 +1,20 @@
-CLASS net/minecraft/class_1015 net/minecraft/client/gui/screen/multiplayer/MultiplayerScreen
-	FIELD field_4442 parent Lnet/minecraft/class_49;
-	FIELD field_4446 editButton Lnet/minecraft/class_47;
-	FIELD field_4447 joinButton Lnet/minecraft/class_47;
-	FIELD field_4448 deleteButton Lnet/minecraft/class_47;
+CLASS net/minecraft/class_1008 net/minecraft/client/gui/screen/multiplayer/MultiplayerScreen
+	FIELD field_4442 parent Lnet/minecraft/class_59;
+	FIELD field_4444 serverList Ljava/util/List;
+	FIELD field_4446 editButton Lnet/minecraft/class_57;
+	FIELD field_4447 joinButton Lnet/minecraft/class_57;
+	FIELD field_4448 deleteButton Lnet/minecraft/class_57;
 	FIELD field_4449 deleteServerConfirmationDialogOpen Z
 	FIELD field_4450 addServerDialogOpen Z
 	FIELD field_4451 editServerDialogOpen Z
 	FIELD field_4452 serverOpen Z
 	FIELD field_4453 tooltipText Ljava/lang/String;
-	FIELD field_4454 serverEntry Lnet/minecraft/class_967;
-	METHOD <init> <init> (Lnet/minecraft/class_49;)V
+	FIELD field_4454 serverEntry Lnet/minecraft/class_960;
+	METHOD <init> <init> (Lnet/minecraft/class_59;)V
+		ARG 1 parent
 	METHOD method_3254 connect (Ljava/lang/String;II)V
-	METHOD method_3255 connect (Lnet/minecraft/class_967;)V
+	METHOD method_3255 connect (Lnet/minecraft/class_960;)V
+		ARG 1 entry
 	METHOD method_3263 addButtons ()V
 		COMMENT Button Ids:
 		COMMENT     - 0: Cancel Button

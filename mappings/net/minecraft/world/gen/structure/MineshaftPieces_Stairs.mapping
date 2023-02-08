@@ -1,3 +1,6 @@
-CLASS net/minecraft/class_947 net/minecraft/world/gen/structure/MineshaftPieces_Stairs
-	METHOD <init> <init> (ILjava/util/Random;Lnet/minecraft/class_976;I)V
-	METHOD method_3022 findSize (Ljava/util/List;Ljava/util/Random;IIII)Lnet/minecraft/class_976;
+CLASS net/minecraft/class_940 net/minecraft/world/gen/structure/MineshaftPieces_Stairs
+	COMMENT @nest net/minecraft/world/gen/structure/MineshaftPieces$Stairs
+	METHOD <init> <init> (ILjava/util/Random;Lnet/minecraft/class_969;I)V
+		ARG 4 facing
+	METHOD method_3022 findSize (Ljava/util/List;Ljava/util/Random;IIII)Lnet/minecraft/class_969;
+		ARG 5 facing

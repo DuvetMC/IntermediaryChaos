@@ -1,4 +1,7 @@
-CLASS net/minecraft/class_303 net/minecraft/crafting/CraftingManager_1
-	FIELD field_2263 registry Lnet/minecraft/class_286;
+CLASS net/minecraft/class_298 net/minecraft/crafting/CraftingManager_1
+	COMMENT @nest net/minecraft/crafting/CraftingManager$1
+	FIELD field_2263 registry Lnet/minecraft/class_281;
 	METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
-	METHOD method_1665 compare (Lnet/minecraft/class_679;Lnet/minecraft/class_679;)I
+		ARG 1 type1
+		ARG 2 type2
+	METHOD method_1665 compare (Lnet/minecraft/class_672;Lnet/minecraft/class_672;)I

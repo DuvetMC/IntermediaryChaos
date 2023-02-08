@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_5 net/minecraft/client/render/TextureManager
-	FIELD field_770 options Lnet/minecraft/class_124;
-	METHOD <init> (Lnet/minecraft/class_644;Lnet/minecraft/class_124;)V
-		ARG 2 options

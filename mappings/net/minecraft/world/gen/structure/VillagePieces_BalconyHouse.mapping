@@ -1,2 +1,4 @@
-CLASS net/minecraft/class_934 net/minecraft/world/gen/structure/VillagePieces_BalconyHouse
+CLASS net/minecraft/class_927 net/minecraft/world/gen/structure/VillagePieces_BalconyHouse
+	COMMENT @nest net/minecraft/world/gen/structure/VillagePieces$BalconyHouse
 	FIELD field_4043 hasRooftopTerrace Z
+	METHOD method_3313 of (Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_927;

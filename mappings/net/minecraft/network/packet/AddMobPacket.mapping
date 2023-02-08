@@ -1,11 +1,13 @@
-CLASS net/minecraft/class_589 net/minecraft/network/packet/AddMobPacket
+CLASS net/minecraft/class_582 net/minecraft/network/packet/AddMobPacket
 	FIELD field_2706 id I
+	FIELD field_2707 type B
 	FIELD field_2708 x I
 	FIELD field_2709 y I
 	FIELD field_2710 z I
 	FIELD field_2711 yaw B
 	FIELD field_2712 pitch B
-	FIELD field_3151 tracker Lnet/minecraft/class_701;
+	FIELD field_3151 tracker Lnet/minecraft/class_694;
 	FIELD field_3152 entries Ljava/util/List;
-	METHOD <init> <init> (Lnet/minecraft/class_209;)V
+	METHOD <init> <init> (Lnet/minecraft/class_199;)V
+		ARG 1 entity
 	METHOD method_2193 getEntries ()Ljava/util/List;

@@ -1,3 +1,4 @@
-CLASS net/minecraft/class_978 net/minecraft/world/gen/feature/HugeMushroomFeature
+CLASS net/minecraft/class_971 net/minecraft/world/gen/feature/HugeMushroomFeature
 	FIELD field_4197 variant I
 	METHOD <init> <init> (I)V
+		ARG 1 variant

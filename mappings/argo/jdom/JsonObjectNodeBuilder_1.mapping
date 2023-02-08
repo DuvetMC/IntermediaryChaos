@@ -1,1 +1,2 @@
-CLASS net/minecraft/class_822 argo/jdom/JsonObjectNodeBuilder_1
+CLASS net/minecraft/class_815 argo/jdom/JsonObjectNodeBuilder_1
+	COMMENT @nest argo/jdom/JsonObjectNodeBuilder$1

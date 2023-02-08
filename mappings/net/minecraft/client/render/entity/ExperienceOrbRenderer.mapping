@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_989 net/minecraft/client/render/entity/ExperienceOrbRenderer
-	METHOD method_3147 render (Lnet/minecraft/class_922;DDDFF)V
+CLASS net/minecraft/class_982 net/minecraft/client/render/entity/ExperienceOrbRenderer
+	METHOD method_3147 render (Lnet/minecraft/class_915;DDDFF)V

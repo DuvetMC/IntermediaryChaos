@@ -1,16 +1,34 @@
-CLASS net/minecraft/class_90 net/minecraft/client/gui/GameGui
-	FIELD field_1124 ITEM_RENDERER Lnet/minecraft/class_273;
+CLASS net/minecraft/class_96 net/minecraft/client/gui/GameGui
+	FIELD field_1124 ITEM_RENDERER Lnet/minecraft/class_268;
 	FIELD field_2166 vignetteBrightness F
 	FIELD field_2652 overlayMessage Ljava/lang/String;
 	FIELD field_2653 overlayMessageTimer I
 	FIELD field_3432 overlayMessageTinted Z
+	FIELD field_512 chat Ljava/util/List;
 	FIELD field_513 client Lnet/minecraft/client/Minecraft;
 	FIELD field_782 ticks I
 	FIELD field_783 random Ljava/util/Random;
 	METHOD method_1609 renderVignette (FII)V
+		ARG 1 brightnessAtEyes
+		ARG 2 width
+		ARG 3 height
 	METHOD method_1610 renderInventorySlot (IIIF)V
+		ARG 1 slot
+		ARG 2 x
+		ARG 3 z
+		ARG 4 tickDelta
 	METHOD method_1899 setRecordPlayingOverlay (Ljava/lang/String;)V
+		ARG 1 playerName
 	METHOD method_1999 renderPumpkinBlur (II)V
+		ARG 1 width
+		ARG 2 height
 	METHOD method_2000 renderPortalOverlay (FII)V
+		ARG 1 portalTime
+		ARG 2 width
+		ARG 3 height
 	METHOD method_558 render (FZII)V
+		ARG 1 tickDelta
+		ARG 2 screenOpen
+		ARG 3 mouseX
+		ARG 4 mouseY
 	METHOD method_640 tick ()V

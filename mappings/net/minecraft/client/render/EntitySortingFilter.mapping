@@ -1,7 +1,10 @@
-CLASS net/minecraft/class_39 net/minecraft/client/render/EntitySortingFilter
+CLASS net/minecraft/class_48 net/minecraft/client/render/EntitySortingFilter
 	FIELD field_3906 posX D
 	FIELD field_3907 posY D
 	FIELD field_3908 posZ D
-	METHOD <init> <init> (Lnet/minecraft/class_1;)V
+	METHOD <init> <init> (Lnet/minecraft/class_198;)V
+		ARG 1 entity
 	METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
-	METHOD method_1659 compare (Lnet/minecraft/class_12;Lnet/minecraft/class_12;)I
+		ARG 1 point1
+		ARG 2 point2
+	METHOD method_1659 compare (Lnet/minecraft/class_47;Lnet/minecraft/class_47;)I

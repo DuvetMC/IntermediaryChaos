@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_504 net/minecraft/client/render/entity/FireballRenderer
-	METHOD method_1757 render (Lnet/minecraft/class_601;DDDFF)V
+CLASS net/minecraft/class_497 net/minecraft/client/render/entity/FireballRenderer
+	METHOD method_1757 render (Lnet/minecraft/class_594;DDDFF)V

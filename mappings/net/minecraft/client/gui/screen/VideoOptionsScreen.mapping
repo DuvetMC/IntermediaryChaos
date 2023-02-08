@@ -1,6 +1,7 @@
-CLASS net/minecraft/class_734 net/minecraft/client/gui/screen/VideoOptionsScreen
+CLASS net/minecraft/class_727 net/minecraft/client/gui/screen/VideoOptionsScreen
 	FIELD field_3368 title Ljava/lang/String;
-	FIELD field_3369 parent Lnet/minecraft/class_49;
-	FIELD field_3370 options Lnet/minecraft/class_124;
-	FIELD field_3371 VIDEO_OPTIONS [Lnet/minecraft/class_660;
-	METHOD <init> <init> (Lnet/minecraft/class_49;Lnet/minecraft/class_124;)V
+	FIELD field_3369 parent Lnet/minecraft/class_59;
+	FIELD field_3370 options Lnet/minecraft/class_148;
+	FIELD field_3371 VIDEO_OPTIONS [Lnet/minecraft/class_653;
+	METHOD <init> <init> (Lnet/minecraft/class_59;Lnet/minecraft/class_148;)V
+		ARG 2 options

@@ -1,20 +1,29 @@
-CLASS net/minecraft/class_634 net/minecraft/world/dimension/Dimension
-	FIELD field_2917 world Lnet/minecraft/class_14;
-	FIELD field_2918 biomeSource Lnet/minecraft/class_983;
+CLASS net/minecraft/class_627 net/minecraft/world/dimension/Dimension
+	FIELD field_2917 world Lnet/minecraft/class_191;
+	FIELD field_2918 biomeSource Lnet/minecraft/class_976;
 	FIELD field_2920 brightnessTable [F
 	FIELD field_2921 id I
 	FIELD field_2922 backgroundColor [F
 	FIELD field_2995 yeetsWater Z
 	FIELD field_2996 isDark Z
 	METHOD method_2008 createBiomeSource ()V
-	METHOD method_2009 getFogColor (FF)Lnet/minecraft/class_9;
-	METHOD method_2010 fromId (I)Lnet/minecraft/class_634;
+	METHOD method_2009 getFogColor (FF)Lnet/minecraft/class_72;
+		ARG 2 tickDelta
+	METHOD method_2010 fromId (I)Lnet/minecraft/class_627;
+		ARG 0 id
 	METHOD method_2011 isValidSpawnPos (II)Z
+		ARG 1 x
+		ARG 2 z
 	METHOD method_2012 getTimeOfDay (JF)F
-	METHOD method_2013 init (Lnet/minecraft/class_14;)V
+		ARG 1 time
+		ARG 3 tickDelta
+	METHOD method_2013 init (Lnet/minecraft/class_191;)V
+		ARG 1 world
 	METHOD method_2015 populateBrightnessTable ()V
 	METHOD method_2016 getBackgroundColor (FF)[F
-	METHOD method_2017 createChunkGenerator ()Lnet/minecraft/class_379;
+		ARG 1 timeOfDay
+		ARG 2 tickDelta
+	METHOD method_2017 createChunkGenerator ()Lnet/minecraft/class_374;
 	METHOD method_2018 hasWorldSpawn ()Z
 	METHOD method_2862 hasGround ()Z
 	METHOD method_2863 getCloudHeight ()F

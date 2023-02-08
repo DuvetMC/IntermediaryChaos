@@ -1,9 +1,11 @@
-CLASS net/minecraft/class_517 net/minecraft/util/Int2ObjectHashMap_Node
+CLASS net/minecraft/class_510 net/minecraft/util/Int2ObjectHashMap_Node
+	COMMENT @nest net/minecraft/util/Int2ObjectHashMap$Node
 	FIELD field_2412 key I
 	FIELD field_2413 value Ljava/lang/Object;
-	FIELD field_2414 next Lnet/minecraft/class_517;
+	FIELD field_2414 next Lnet/minecraft/class_510;
 	FIELD field_2415 hash I
-	METHOD <init> <init> (IILjava/lang/Object;Lnet/minecraft/class_517;)V
+	METHOD <init> <init> (IILjava/lang/Object;Lnet/minecraft/class_510;)V
+		ARG 4 next
 	METHOD equals equals (Ljava/lang/Object;)Z
 	METHOD hashCode hashCode ()I
 	METHOD method_1798 getKey ()I

@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_501 net/minecraft/network/packet/WorldChunkPacket
+CLASS net/minecraft/class_494 net/minecraft/network/packet/WorldChunkPacket
 	FIELD field_2354 chunkX I
 	FIELD field_2355 chunkZ I
 	FIELD field_2357 sectionsWithData I

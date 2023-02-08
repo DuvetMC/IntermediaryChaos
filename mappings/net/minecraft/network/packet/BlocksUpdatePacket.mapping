@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_526 net/minecraft/network/packet/BlocksUpdatePacket
+CLASS net/minecraft/class_519 net/minecraft/network/packet/BlocksUpdatePacket
 	FIELD field_2445 chunkX I
 	FIELD field_2446 chunkZ I
 	FIELD field_2448 updates [B

@@ -1,4 +1,9 @@
-CLASS net/minecraft/class_398 net/minecraft/world/NaturalSpawner
-	METHOD method_1330 getRandomPosInChunk (Lnet/minecraft/class_14;II)Lnet/minecraft/class_386;
-	METHOD method_2146 isValidSpawnPos (Lnet/minecraft/class_614;Lnet/minecraft/class_14;III)Z
-	METHOD method_3152 populateChunk (Lnet/minecraft/class_14;Lnet/minecraft/class_611;IIIILjava/util/Random;)V
+CLASS net/minecraft/class_404 net/minecraft/world/NaturalSpawner
+	FIELD field_2319 mobSpawningChunks Ljava/util/Set;
+	METHOD method_1216 spawnEntities (Lnet/minecraft/class_191;ZZ)I
+	METHOD method_1330 getRandomPosInChunk (Lnet/minecraft/class_191;II)Lnet/minecraft/class_381;
+		ARG 2 chunkZ
+	METHOD method_2146 isValidSpawnPos (Lnet/minecraft/class_607;Lnet/minecraft/class_191;III)Z
+		ARG 4 z
+	METHOD method_3152 populateChunk (Lnet/minecraft/class_191;Lnet/minecraft/class_604;IIIILjava/util/Random;)V
+		ARG 6 random

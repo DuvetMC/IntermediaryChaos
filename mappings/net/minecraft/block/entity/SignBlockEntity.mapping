@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_405 net/minecraft/block/entity/SignBlockEntity
+CLASS net/minecraft/class_411 net/minecraft/block/entity/SignBlockEntity
 	FIELD field_1991 lines [Ljava/lang/String;
 	FIELD field_1992 currentRow I
 	FIELD field_3566 editable Z

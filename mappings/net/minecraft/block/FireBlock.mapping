@@ -1,10 +1,20 @@
-CLASS net/minecraft/class_252 net/minecraft/block/FireBlock
+CLASS net/minecraft/class_235 net/minecraft/block/FireBlock
 	FIELD field_1263 burnChance [I
 	FIELD field_1264 spreadChance [I
 	METHOD <init> <init> (II)V
-	METHOD method_1080 hasFlammableNeighbor (Lnet/minecraft/class_14;III)Z
-	METHOD method_1113 spread (Lnet/minecraft/class_14;IIIILjava/util/Random;I)V
-	METHOD method_1115 updateBurnChance (Lnet/minecraft/class_14;IIII)I
-	METHOD method_1682 getBurnChance (Lnet/minecraft/class_14;III)I
+		ARG 1 id
+		ARG 2 sprite
+	METHOD method_1080 hasFlammableNeighbor (Lnet/minecraft/class_191;III)Z
+		ARG 4 z
+	METHOD method_1113 spread (Lnet/minecraft/class_191;IIIILjava/util/Random;I)V
+		ARG 7 metadata
+	METHOD method_1115 updateBurnChance (Lnet/minecraft/class_191;IIII)I
+		ARG 5 burnChance
+	METHOD method_1682 getBurnChance (Lnet/minecraft/class_191;III)I
+		ARG 4 z
 	METHOD method_668 registerBurnProperties (III)V
-	METHOD method_669 canBurn (Lnet/minecraft/class_447;III)Z
+		ARG 1 blockId
+		ARG 2 burnChance
+		ARG 3 spreadChance
+	METHOD method_669 canBurn (Lnet/minecraft/class_452;III)Z
+		ARG 4 z

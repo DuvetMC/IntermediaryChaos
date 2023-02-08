@@ -1,2 +1,4 @@
-CLASS net/minecraft/class_975 net/minecraft/world/gen/structure/VillagePieces_Farm
+CLASS net/minecraft/class_968 net/minecraft/world/gen/structure/VillagePieces_Farm
+	COMMENT @nest net/minecraft/world/gen/structure/VillagePieces$Farm
 	FIELD field_4189 cropAId I
+	METHOD method_3320 create (Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_968;

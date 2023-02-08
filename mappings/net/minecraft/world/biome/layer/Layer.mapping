@@ -1,10 +1,20 @@
-CLASS net/minecraft/class_1000 net/minecraft/world/biome/layer/Layer
-	FIELD field_4273 parent Lnet/minecraft/class_1000;
+CLASS net/minecraft/class_993 net/minecraft/world/biome/layer/Layer
+	FIELD field_4273 parent Lnet/minecraft/class_993;
 	FIELD field_4274 localWorldSeed J
 	FIELD field_4275 chunkSeed J
 	FIELD field_4276 seed J
 	METHOD <init> <init> (J)V
+		ARG 1 seed
 	METHOD method_3171 nextInt (I)I
+		ARG 1 bound
 	METHOD method_3172 nextValues (IIII)[I
+		ARG 1 x
+		ARG 2 z
+		ARG 3 width
+		ARG 4 length
+	METHOD method_3173 init (J)[Lnet/minecraft/class_993;
 	METHOD method_3174 setChunkSeed (JJ)V
+		ARG 1 chunkX
+		ARG 3 chunkZ
 	METHOD method_3175 setLocalWorldSeed (J)V
+		ARG 1 worldSeed

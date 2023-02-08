@@ -1,3 +1,5 @@
-CLASS net/minecraft/class_406 net/minecraft/block/DoorBlock
+CLASS net/minecraft/class_412 net/minecraft/block/DoorBlock
 	METHOD method_1672 updateBoundingBox (I)V
-	METHOD method_1738 updateOpenState (Lnet/minecraft/class_14;IIIZ)V
+		ARG 1 metadata
+	METHOD method_1738 updateOpenState (Lnet/minecraft/class_191;IIIZ)V
+		ARG 5 powered

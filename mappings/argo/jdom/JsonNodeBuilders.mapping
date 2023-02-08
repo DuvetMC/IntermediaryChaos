@@ -1,8 +1,10 @@
-CLASS net/minecraft/class_836 argo/jdom/JsonNodeBuilders
-	METHOD method_2718 aNullBuilder ()Lnet/minecraft/class_807;
-	METHOD method_2719 aNumberBuilder (Ljava/lang/String;)Lnet/minecraft/class_807;
-	METHOD method_2720 aTrueBuilder ()Lnet/minecraft/class_807;
-	METHOD method_2721 aStringBuilder (Ljava/lang/String;)Lnet/minecraft/class_789;
-	METHOD method_2722 aFalseBuilder ()Lnet/minecraft/class_807;
-	METHOD method_2723 anObjectBuilder ()Lnet/minecraft/class_835;
-	METHOD method_2724 anArrayBuilder ()Lnet/minecraft/class_785;
+CLASS net/minecraft/class_829 argo/jdom/JsonNodeBuilders
+	METHOD method_2718 aNullBuilder ()Lnet/minecraft/class_800;
+	METHOD method_2719 aNumberBuilder (Ljava/lang/String;)Lnet/minecraft/class_800;
+		ARG 0 value
+	METHOD method_2720 aTrueBuilder ()Lnet/minecraft/class_800;
+	METHOD method_2721 aStringBuilder (Ljava/lang/String;)Lnet/minecraft/class_782;
+		ARG 0 value
+	METHOD method_2722 aFalseBuilder ()Lnet/minecraft/class_800;
+	METHOD method_2723 anObjectBuilder ()Lnet/minecraft/class_828;
+	METHOD method_2724 anArrayBuilder ()Lnet/minecraft/class_778;

@@ -1,3 +1,4 @@
-CLASS net/minecraft/class_835 argo/jdom/JsonObjectNodeBuilder
+CLASS net/minecraft/class_828 argo/jdom/JsonObjectNodeBuilder
 	FIELD field_3715 fieldBuilders Ljava/util/List;
-	METHOD method_2716 withField (Lnet/minecraft/class_825;)Lnet/minecraft/class_835;
+	METHOD method_2716 withField (Lnet/minecraft/class_818;)Lnet/minecraft/class_828;
+		ARG 1 fieldBuilder

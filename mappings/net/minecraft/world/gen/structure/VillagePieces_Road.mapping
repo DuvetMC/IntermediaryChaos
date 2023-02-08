@@ -1,3 +1,5 @@
-CLASS net/minecraft/class_894 net/minecraft/world/gen/structure/VillagePieces_Road
+CLASS net/minecraft/class_887 net/minecraft/world/gen/structure/VillagePieces_Road
+	COMMENT @nest net/minecraft/world/gen/structure/VillagePieces$Road
 	FIELD field_3954 length I
-	METHOD method_2927 findSize (Lnet/minecraft/class_945;Ljava/util/List;Ljava/util/Random;IIII)Lnet/minecraft/class_976;
+	METHOD method_2927 findSize (Lnet/minecraft/class_938;Ljava/util/List;Ljava/util/Random;IIII)Lnet/minecraft/class_969;
+		ARG 6 facing

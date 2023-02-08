@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_640 net/minecraft/network/packet/PlayerInteractEntityPacket
+CLASS net/minecraft/class_633 net/minecraft/network/packet/PlayerInteractEntityPacket
 	FIELD field_2939 playerId I
 	FIELD field_2940 targetId I
 	FIELD field_3000 action I
@@ -6,3 +6,6 @@ CLASS net/minecraft/class_640 net/minecraft/network/packet/PlayerInteractEntityP
 		COMMENT <br>0: interact
 		COMMENT <br>1: attack
 	METHOD <init> <init> (III)V
+		ARG 1 playerId
+		ARG 2 targetId
+		ARG 3 action

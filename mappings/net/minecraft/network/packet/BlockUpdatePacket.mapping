@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_525 net/minecraft/network/packet/BlockUpdatePacket
+CLASS net/minecraft/class_518 net/minecraft/network/packet/BlockUpdatePacket
 	FIELD field_2440 x I
 	FIELD field_2441 y I
 	FIELD field_2442 z I

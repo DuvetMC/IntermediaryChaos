@@ -1,1 +1,2 @@
-CLASS net/minecraft/class_816 argo/jdom/JsonListenerToJdomAdapter_3
+CLASS net/minecraft/class_809 argo/jdom/JsonListenerToJdomAdapter_3
+	COMMENT @nest argo/jdom/JsonListenerToJdomAdapter$3

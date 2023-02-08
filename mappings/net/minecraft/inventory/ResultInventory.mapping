@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_291 net/minecraft/inventory/ResultInventory
-	FIELD field_1396 stacks [Lnet/minecraft/class_229;
+CLASS net/minecraft/class_286 net/minecraft/inventory/ResultInventory
+	FIELD field_1396 stacks [Lnet/minecraft/class_226;

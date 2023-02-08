@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_998 net/minecraft/network/packet/PlayerInfoPacket
+CLASS net/minecraft/class_991 net/minecraft/network/packet/PlayerInfoPacket
 	FIELD field_4270 playerName Ljava/lang/String;
 	FIELD field_4271 online Z
 	FIELD field_4272 ping I

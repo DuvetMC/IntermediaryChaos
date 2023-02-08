@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_48 net/minecraft/client/gui/screen/GameMenuScreen
+CLASS net/minecraft/class_58 net/minecraft/client/gui/screen/GameMenuScreen
 	FIELD field_2188 ticks I

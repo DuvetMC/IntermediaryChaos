@@ -1,5 +1,6 @@
-CLASS net/minecraft/class_797 argo/jdom/ChainedFunctor
-	FIELD field_3647 parentJsonNodeSelector Lnet/minecraft/class_800;
-	FIELD field_3648 childJsonNodeSelector Lnet/minecraft/class_800;
-	METHOD <init> <init> (Lnet/minecraft/class_800;Lnet/minecraft/class_800;)V
+CLASS net/minecraft/class_790 argo/jdom/ChainedFunctor
+	FIELD field_3647 parentJsonNodeSelector Lnet/minecraft/class_793;
+	FIELD field_3648 childJsonNodeSelector Lnet/minecraft/class_793;
+	METHOD <init> <init> (Lnet/minecraft/class_793;Lnet/minecraft/class_793;)V
+		ARG 2 childJsonNodeSelector
 	METHOD toString toString ()Ljava/lang/String;

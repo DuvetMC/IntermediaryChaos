@@ -1,4 +1,5 @@
-CLASS net/minecraft/class_974 net/minecraft/block/MushroomBlock
+CLASS net/minecraft/class_967 net/minecraft/block/MushroomBlock
 	FIELD field_4188 type I
 		COMMENT The mushroom type (0 = brown, 1 = red)
-	METHOD <init> <init> (ILnet/minecraft/class_79;II)V
+	METHOD <init> <init> (ILnet/minecraft/class_87;II)V
+		ARG 4 type

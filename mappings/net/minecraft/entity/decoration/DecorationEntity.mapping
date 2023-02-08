@@ -1,11 +1,14 @@
-CLASS net/minecraft/class_370 net/minecraft/entity/decoration/DecorationEntity
+CLASS net/minecraft/class_365 net/minecraft/entity/decoration/DecorationEntity
 	FIELD field_1759 validationCooldown I
 	FIELD field_1760 xPos I
 	FIELD field_1761 yPos I
 	FIELD field_1762 zPos I
 	FIELD field_1763 dir I
-	FIELD field_1764 motive Lnet/minecraft/class_371;
-	METHOD <init> <init> (Lnet/minecraft/class_14;IIII)V
+	FIELD field_1764 motive Lnet/minecraft/class_366;
+	METHOD <init> <init> (Lnet/minecraft/class_191;IIII)V
+		ARG 5 dir
 	METHOD method_1001 setDirection (I)V
+		ARG 1 dir
 	METHOD method_1002 isPosValid ()Z
 	METHOD method_1003 getPositionOffset (I)F
+		ARG 1 length

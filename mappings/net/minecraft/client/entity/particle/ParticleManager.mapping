@@ -1,13 +1,21 @@
-CLASS net/minecraft/class_26 net/minecraft/client/entity/particle/ParticleManager
-	FIELD field_1141 world Lnet/minecraft/class_14;
+CLASS net/minecraft/class_64 net/minecraft/client/entity/particle/ParticleManager
+	FIELD field_1141 world Lnet/minecraft/class_191;
 	FIELD field_1142 random Ljava/util/Random;
-	FIELD field_348 textureManager Lnet/minecraft/class_5;
+	FIELD field_348 textureManager Lnet/minecraft/class_52;
 	FIELD field_917 particles [Ljava/util/List;
 	METHOD method_1548 tick ()V
-	METHOD method_1549 renderParticles (Lnet/minecraft/class_1;F)V
+	METHOD method_1549 renderParticles (Lnet/minecraft/class_198;F)V
+		ARG 2 tickDelta
 	METHOD method_1550 getParticlesDebugInfo ()Ljava/lang/String;
-	METHOD method_1551 renderLitParticles (Lnet/minecraft/class_1;F)V
-	METHOD method_572 addParticle (Lnet/minecraft/class_25;)V
+	METHOD method_1551 renderLitParticles (Lnet/minecraft/class_198;F)V
+		ARG 2 tickDelta
+	METHOD method_572 addParticle (Lnet/minecraft/class_221;)V
+		ARG 1 particle
 	METHOD method_657 addBlockMiningParticles (IIIII)V
 	METHOD method_658 addBlockBreakingParticles (IIII)V
-	METHOD method_660 setWorld (Lnet/minecraft/class_14;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
+	METHOD method_660 setWorld (Lnet/minecraft/class_191;)V
+		ARG 1 world

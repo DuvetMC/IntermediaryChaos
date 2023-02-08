@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_642 net/minecraft/client/gui/screen/ResourcePackScreen
-	FIELD field_2945 parent Lnet/minecraft/class_49;
+CLASS net/minecraft/class_635 net/minecraft/client/gui/screen/ResourcePackScreen
+	FIELD field_2945 parent Lnet/minecraft/class_59;

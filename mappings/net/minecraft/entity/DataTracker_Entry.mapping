@@ -1,4 +1,5 @@
-CLASS net/minecraft/class_690 net/minecraft/entity/DataTracker_Entry
+CLASS net/minecraft/class_683 net/minecraft/entity/DataTracker_Entry
+	COMMENT @nest net/minecraft/entity/DataTracker$Entry
 	FIELD field_3162 type I
 		COMMENT A number that encodes the type of data stored in this entry.
 	FIELD field_3163 id I
@@ -6,8 +7,13 @@ CLASS net/minecraft/class_690 net/minecraft/entity/DataTracker_Entry
 	FIELD field_3164 value Ljava/lang/Object;
 	FIELD field_3165 modified Z
 	METHOD <init> <init> (IILjava/lang/Object;)V
+		ARG 1 type
+		ARG 2 id
+		ARG 3 value
 	METHOD method_2205 getId ()I
 	METHOD method_2206 setValue (Ljava/lang/Object;)V
+		ARG 1 value
 	METHOD method_2207 setModified (Z)V
+		ARG 1 modified
 	METHOD method_2208 getValue ()Ljava/lang/Object;
 	METHOD method_2209 getType ()I

@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_756 net/minecraft/entity/living/mob/passive/animal/tamable/WolfEntity
+CLASS net/minecraft/class_749 net/minecraft/entity/living/mob/passive/animal/tamable/WolfEntity
 	FIELD field_3468 begAnimationProgress F
 	FIELD field_3469 lastBegAnimationProgress F
 	FIELD field_3470 furWet Z
@@ -7,8 +7,13 @@ CLASS net/minecraft/class_756 net/minecraft/entity/living/mob/passive/animal/tam
 	FIELD field_3473 lastShakeProgress F
 	METHOD method_2437 isAngry ()Z
 	METHOD method_2439 getShakeAngle (FF)F
+		ARG 1 tickdelta
+		ARG 2 offset
 	METHOD method_2444 shakeLerp (F)F
+		ARG 1 tickDelta
 	METHOD method_2445 begLerp (F)F
+		ARG 1 tickDelta
 	METHOD method_2446 updateAnger (Z)V
+		ARG 1 angry
 	METHOD method_2448 isFurWet ()Z
 	METHOD method_2449 age ()F

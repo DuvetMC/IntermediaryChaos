@@ -1,8 +1,19 @@
-CLASS net/minecraft/class_373 net/minecraft/world/chunk/ChunkNibbleStorage
+CLASS net/minecraft/class_368 net/minecraft/world/chunk/ChunkNibbleStorage
 	FIELD field_1791 data [B
 	FIELD field_4199 zBitOffset I
 	FIELD field_4200 yBitOffset I
 	METHOD <init> <init> (II)V
+		ARG 1 size
+		ARG 2 zBitOffset
 	METHOD <init> <init> ([BI)V
+		ARG 1 data
+		ARG 2 zBitOffset
 	METHOD method_1005 get (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_1006 set (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 value

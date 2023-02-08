@@ -1,7 +1,9 @@
-CLASS net/minecraft/class_317 net/minecraft/entity/living/mob/hostile/CreeperEntity
+CLASS net/minecraft/class_312 net/minecraft/entity/living/mob/hostile/CreeperEntity
 	FIELD field_1575 currentFuseTime I
 	FIELD field_1576 lastFuseTime I
 	METHOD method_2169 setFuseSpeed (I)V
+		ARG 1 fuseSpeed
 	METHOD method_2170 getFuseSpeed ()I
 	METHOD method_2596 isCharged ()Z
 	METHOD method_888 getFuseTime (F)F
+		ARG 1 timeDelta

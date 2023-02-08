@@ -1,7 +1,14 @@
-CLASS net/minecraft/class_984 net/minecraft/world/gen/structure/VillagePieces
-	METHOD method_3135 selectNextPiece (Lnet/minecraft/class_945;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_946;
+CLASS net/minecraft/class_977 net/minecraft/world/gen/structure/VillagePieces
+	METHOD method_3135 selectNextPiece (Lnet/minecraft/class_938;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_939;
+		ARG 7 type
+	METHOD method_3136 getTotalWeight (Ljava/util/ArrayList;)I
 	METHOD method_3137 getPieceChance (Ljava/util/Random;I)Ljava/util/ArrayList;
-	METHOD method_3138 syntheticAddRoad (Lnet/minecraft/class_945;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_946;
-	METHOD method_3139 generateNextPiece (Lnet/minecraft/class_945;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_895;
-	METHOD method_3140 tryGenerateNextPiece (Lnet/minecraft/class_945;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_946;
-	METHOD method_3141 generateRoadPiece (Lnet/minecraft/class_945;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_946;
+	METHOD method_3138 syntheticAddRoad (Lnet/minecraft/class_938;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_939;
+		ARG 7 type
+	METHOD method_3139 generateNextPiece (Lnet/minecraft/class_938;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_888;
+		ARG 7 generationDepth
+	METHOD method_3140 tryGenerateNextPiece (Lnet/minecraft/class_938;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_939;
+		ARG 7 generationDepth
+	METHOD method_3141 generateRoadPiece (Lnet/minecraft/class_938;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_939;
+		ARG 7 generationDepth
+	METHOD method_3322 createPiece (Lnet/minecraft/class_923;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_888;

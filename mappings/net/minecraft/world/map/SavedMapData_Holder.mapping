@@ -1,11 +1,13 @@
-CLASS net/minecraft/class_877 net/minecraft/world/map/SavedMapData_Holder
-	FIELD field_3878 player Lnet/minecraft/class_3;
+CLASS net/minecraft/class_870 net/minecraft/world/map/SavedMapData_Holder
+	COMMENT @nest net/minecraft/world/map/SavedMapData$Holder
+	FIELD field_3878 player Lnet/minecraft/class_203;
 	FIELD field_3879 dirtyMinY [I
 	FIELD field_3880 dirtyMaxY [I
-	FIELD field_3881 mapData Lnet/minecraft/class_865;
+	FIELD field_3881 mapData Lnet/minecraft/class_858;
 	FIELD field_3882 nextDirtyPixel I
 		COMMENT The {@code dirtyMinY} and {@code dirtyMaxY} arrays store new mininum and maximum y
 		COMMENT values of specific points on the map. This field holds the index of the next dirty
 		COMMENT location for update packets.
 	FIELD field_3883 cooldown I
-	METHOD <init> <init> (Lnet/minecraft/class_865;Lnet/minecraft/class_3;)V
+	METHOD <init> <init> (Lnet/minecraft/class_858;Lnet/minecraft/class_203;)V
+		ARG 2 player

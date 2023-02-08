@@ -1,5 +1,10 @@
-CLASS net/minecraft/class_895 net/minecraft/world/gen/structure/VillagePieces_VillagePiece
-	METHOD method_2928 generatePieceLeft (Lnet/minecraft/class_945;Ljava/util/List;Ljava/util/Random;II)Lnet/minecraft/class_946;
-	METHOD method_2929 generatePieceRight (Lnet/minecraft/class_945;Ljava/util/List;Ljava/util/Random;II)Lnet/minecraft/class_946;
-	METHOD method_2930 updateHeight (Lnet/minecraft/class_14;Lnet/minecraft/class_976;)I
-	METHOD method_3308 isValidStructureBox (Lnet/minecraft/class_976;)Z
+CLASS net/minecraft/class_888 net/minecraft/world/gen/structure/VillagePieces_VillagePiece
+	COMMENT @nest net/minecraft/world/gen/structure/VillagePieces$VillagePiece
+	METHOD method_2928 generatePieceLeft (Lnet/minecraft/class_938;Ljava/util/List;Ljava/util/Random;II)Lnet/minecraft/class_939;
+		ARG 5 offset
+	METHOD method_2929 generatePieceRight (Lnet/minecraft/class_938;Ljava/util/List;Ljava/util/Random;II)Lnet/minecraft/class_939;
+		ARG 5 offset
+	METHOD method_2930 updateHeight (Lnet/minecraft/class_191;Lnet/minecraft/class_969;)I
+		ARG 2 box
+	METHOD method_3308 isValidStructureBox (Lnet/minecraft/class_969;)Z
+		ARG 0 box

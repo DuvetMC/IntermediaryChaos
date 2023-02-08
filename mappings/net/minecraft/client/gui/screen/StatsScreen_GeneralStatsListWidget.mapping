@@ -1,2 +1,3 @@
-CLASS net/minecraft/class_834 net/minecraft/client/gui/screen/StatsScreen_GeneralStatsListWidget
-	FIELD field_3714 parent Lnet/minecraft/class_784;
+CLASS net/minecraft/class_827 net/minecraft/client/gui/screen/StatsScreen_GeneralStatsListWidget
+	COMMENT @nest net/minecraft/client/gui/screen/StatsScreen$GeneralStatsListWidget
+	FIELD field_3714 parent Lnet/minecraft/class_777;

@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_717 net/minecraft/world/WorldData
+CLASS net/minecraft/class_710 net/minecraft/world/WorldData
 	FIELD field_3292 seed J
 	FIELD field_3293 spawnX I
 	FIELD field_3294 spawnY I
@@ -6,7 +6,7 @@ CLASS net/minecraft/class_717 net/minecraft/world/WorldData
 	FIELD field_3296 time J
 	FIELD field_3297 lastPlayed J
 	FIELD field_3298 sizeOnDisk J
-	FIELD field_3299 playerData Lnet/minecraft/class_461;
+	FIELD field_3299 playerData Lnet/minecraft/class_244;
 	FIELD field_3300 dimensionId I
 	FIELD field_3301 worldName Ljava/lang/String;
 	FIELD field_3302 version I
@@ -14,36 +14,58 @@ CLASS net/minecraft/class_717 net/minecraft/world/WorldData
 	FIELD field_3605 rainTime I
 	FIELD field_3606 thundering Z
 	FIELD field_3607 thundertime I
+	FIELD field_4277 defaultGameMode I
 	FIELD field_4278 allowStructures Z
-	METHOD <init> <init> (Lnet/minecraft/class_461;)V
-	METHOD <init> <init> (Lnet/minecraft/class_717;)V
-	METHOD <init> <init> (Lnet/minecraft/class_936;Ljava/lang/String;)V
-	METHOD method_2266 toNbt ()Lnet/minecraft/class_461;
+	METHOD <init> <init> (Lnet/minecraft/class_244;)V
+		ARG 1 nbt
+	METHOD <init> <init> (Lnet/minecraft/class_710;)V
+		ARG 1 data
+	METHOD <init> <init> (Lnet/minecraft/class_929;Ljava/lang/String;)V
+		ARG 2 worldName
+	METHOD method_2266 toNbt ()Lnet/minecraft/class_244;
 	METHOD method_2267 setSpawnX (I)V
+		ARG 1 x
 	METHOD method_2268 setSpawnPoint (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_2269 setTime (J)V
+		ARG 1 time
 	METHOD method_2270 setName (Ljava/lang/String;)V
-	METHOD method_2273 writeNbt (Lnet/minecraft/class_461;Lnet/minecraft/class_461;)V
+		ARG 1 name
+	METHOD method_2271 toNbt (Ljava/util/List;)Lnet/minecraft/class_244;
+	METHOD method_2272 setInitialized (Lnet/minecraft/class_244;)V
+	METHOD method_2273 writeNbt (Lnet/minecraft/class_244;Lnet/minecraft/class_244;)V
+		ARG 2 playerData
 	METHOD method_2274 getSeed ()J
 	METHOD method_2275 setSpawnY (I)V
+		ARG 1 y
+	METHOD method_2276 setGeneratorType (J)V
 	METHOD method_2277 getSpawnX ()I
 	METHOD method_2278 setSpawnZ (I)V
+		ARG 1 z
 	METHOD method_2279 getSpawnY ()I
 	METHOD method_2280 setVersion (I)V
+		ARG 1 version
 	METHOD method_2281 getSpawnZ ()I
 	METHOD method_2282 getTime ()J
 	METHOD method_2283 getSizeOnDisk ()J
-	METHOD method_2284 getPlayerData ()Lnet/minecraft/class_461;
+	METHOD method_2284 getPlayerData ()Lnet/minecraft/class_244;
 	METHOD method_2285 getDimensionId ()I
 	METHOD method_2286 getName ()Ljava/lang/String;
 	METHOD method_2287 getVersion ()I
 	METHOD method_2288 getLastPlayed ()J
 	METHOD method_2572 setThundering (Z)V
+		ARG 1 thundering
 	METHOD method_2573 setRaining (Z)V
+		ARG 1 raining
 	METHOD method_2574 setThunderTime (I)V
+		ARG 1 thunderTime
 	METHOD method_2575 setRainTime (I)V
+		ARG 1 rainTime
 	METHOD method_2576 isThundering ()Z
 	METHOD method_2577 getThunderTime ()I
 	METHOD method_2578 isRaining ()Z
 	METHOD method_2579 getRainTime ()I
+	METHOD method_3176 getDefaultGamemode ()I
 	METHOD method_3177 allowStructures ()Z

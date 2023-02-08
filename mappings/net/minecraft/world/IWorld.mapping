@@ -1,12 +1,40 @@
-CLASS net/minecraft/class_447 net/minecraft/world/IWorld
+CLASS net/minecraft/class_452 net/minecraft/world/IWorld
 	METHOD method_1011 getBlock (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_1052 getBlockMetadata (III)I
-	METHOD method_1097 getBlockEntity (III)Lnet/minecraft/class_262;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_1097 getBlockEntity (III)Lnet/minecraft/class_257;
+		ARG 3 z
 	METHOD method_2091 isAir (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_2864 getBrightness (IIII)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockLight
 	METHOD method_2865 isOpaqueCube (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_2949 getHeight ()I
 	METHOD method_2950 getLightColor (IIII)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockLight
 	METHOD method_471 isRedstoneConductor (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_475 getBrightness (III)F
-	METHOD method_478 getMaterial (III)Lnet/minecraft/class_79;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_478 getMaterial (III)Lnet/minecraft/class_87;
+		ARG 3 z

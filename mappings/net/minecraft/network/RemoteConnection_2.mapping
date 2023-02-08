@@ -1,2 +1,3 @@
-CLASS net/minecraft/class_881 net/minecraft/network/RemoteConnection_2
+CLASS net/minecraft/class_874 net/minecraft/network/RemoteConnection_2
+	COMMENT @nest net/minecraft/network/RemoteConnection$2
 	METHOD run run ()V

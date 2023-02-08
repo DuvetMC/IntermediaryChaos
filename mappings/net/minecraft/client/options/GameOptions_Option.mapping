@@ -1,28 +1,33 @@
-CLASS net/minecraft/class_660 net/minecraft/client/options/GameOptions_Option
-	FIELD field_3057 MUSIC Lnet/minecraft/class_660;
-	FIELD field_3058 SOUND Lnet/minecraft/class_660;
-	FIELD field_3059 INVERT_MOUSE Lnet/minecraft/class_660;
-	FIELD field_3060 SENSITIVITY Lnet/minecraft/class_660;
-	FIELD field_3061 RENDER_DISTANCE Lnet/minecraft/class_660;
-	FIELD field_3062 VIEW_BOBBING Lnet/minecraft/class_660;
-	FIELD field_3063 ANAGLYPH Lnet/minecraft/class_660;
-	FIELD field_3064 FRAMERATE_LIMIT Lnet/minecraft/class_660;
-	FIELD field_3065 DIFFICULTY Lnet/minecraft/class_660;
-	FIELD field_3066 GRAPHICS Lnet/minecraft/class_660;
+CLASS net/minecraft/class_653 net/minecraft/client/options/GameOptions_Option
+	COMMENT @nest net/minecraft/client/options/GameOptions$Option
+	FIELD field_3057 MUSIC Lnet/minecraft/class_653;
+	FIELD field_3058 SOUND Lnet/minecraft/class_653;
+	FIELD field_3059 INVERT_MOUSE Lnet/minecraft/class_653;
+	FIELD field_3060 SENSITIVITY Lnet/minecraft/class_653;
+	FIELD field_3061 RENDER_DISTANCE Lnet/minecraft/class_653;
+	FIELD field_3062 VIEW_BOBBING Lnet/minecraft/class_653;
+	FIELD field_3063 ANAGLYPH Lnet/minecraft/class_653;
+	FIELD field_3064 FRAMERATE_LIMIT Lnet/minecraft/class_653;
+	FIELD field_3065 DIFFICULTY Lnet/minecraft/class_653;
+	FIELD field_3066 GRAPHICS Lnet/minecraft/class_653;
 	FIELD field_3067 isFloat Z
 	FIELD field_3068 isBoolean Z
 	FIELD field_3069 name Ljava/lang/String;
-	FIELD field_3070 RENDER_OPTIONS [Lnet/minecraft/class_660;
-	FIELD field_3325 AMBIENT_OCCLUSION Lnet/minecraft/class_660;
-	FIELD field_3476 GUI_SCALE Lnet/minecraft/class_660;
-	FIELD field_3646 ADVANCED_OPENGL Lnet/minecraft/class_660;
-	FIELD field_4362 FOV Lnet/minecraft/class_660;
-	FIELD field_4363 GAMMA Lnet/minecraft/class_660;
+	FIELD field_3070 RENDER_OPTIONS [Lnet/minecraft/class_653;
+	FIELD field_3325 AMBIENT_OCCLUSION Lnet/minecraft/class_653;
+	FIELD field_3476 GUI_SCALE Lnet/minecraft/class_653;
+	FIELD field_3646 ADVANCED_OPENGL Lnet/minecraft/class_653;
+	FIELD field_4362 FOV Lnet/minecraft/class_653;
+	FIELD field_4363 GAMMA Lnet/minecraft/class_653;
 	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;ZZ)V
+		ARG 3 name
+		ARG 4 isFloat
+		ARG 5 isBoolean
 	METHOD method_2103 isFloatOption ()Z
-	METHOD method_2104 byId (I)Lnet/minecraft/class_660;
+	METHOD method_2104 byId (I)Lnet/minecraft/class_653;
+		ARG 0 id
 	METHOD method_2105 isBooleanOption ()Z
 	METHOD method_2106 getId ()I
 	METHOD method_2107 getName ()Ljava/lang/String;
-	METHOD valueOf valueOf (Ljava/lang/String;)Lnet/minecraft/class_660;
-	METHOD values values ()[Lnet/minecraft/class_660;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lnet/minecraft/class_653;
+	METHOD values values ()[Lnet/minecraft/class_653;

@@ -1,1 +1,2 @@
-CLASS net/minecraft/class_657 net/minecraft/client/options/GameOptions_1
+CLASS net/minecraft/class_650 net/minecraft/client/options/GameOptions_1
+	COMMENT @nest net/minecraft/client/options/GameOptions$1

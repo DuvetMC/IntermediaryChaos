@@ -1,10 +1,11 @@
-CLASS net/minecraft/class_273 net/minecraft/client/render/item/ItemRenderer
-	FIELD field_1353 itemBlockRenderer Lnet/minecraft/class_215;
+CLASS net/minecraft/class_268 net/minecraft/client/render/item/ItemRenderer
+	FIELD field_1353 itemBlockRenderer Lnet/minecraft/class_207;
 	FIELD field_1354 random Ljava/util/Random;
 	FIELD field_3579 useCustomDisplayColor Z
 	METHOD method_1462 renderBufferVertexWithSprite (IIIIII)V
-	METHOD method_1463 render (Lnet/minecraft/class_227;DDDFF)V
-	METHOD method_2528 renderGuiItem (Lnet/minecraft/class_33;Lnet/minecraft/class_5;Lnet/minecraft/class_229;II)V
-	METHOD method_812 renderItemInGui (Lnet/minecraft/class_33;Lnet/minecraft/class_5;IIIII)V
-	METHOD method_823 renderBufferVerticies (Lnet/minecraft/class_17;IIIII)V
-	METHOD method_824 renderItemInfo (Lnet/minecraft/class_33;Lnet/minecraft/class_5;Lnet/minecraft/class_229;II)V
+	METHOD method_1463 render (Lnet/minecraft/class_224;DDDFF)V
+	METHOD method_2528 renderGuiItem (Lnet/minecraft/class_62;Lnet/minecraft/class_52;Lnet/minecraft/class_226;II)V
+	METHOD method_812 renderItemInGui (Lnet/minecraft/class_62;Lnet/minecraft/class_52;IIIII)V
+	METHOD method_823 renderBufferVerticies (Lnet/minecraft/class_53;IIIII)V
+		ARG 6 color
+	METHOD method_824 renderItemInfo (Lnet/minecraft/class_62;Lnet/minecraft/class_52;Lnet/minecraft/class_226;II)V

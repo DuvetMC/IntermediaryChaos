@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_7 net/minecraft/client/render/model/ModelPart
+CLASS net/minecraft/class_68 net/minecraft/client/render/model/ModelPart
 	FIELD field_1472 rotationX F
 	FIELD field_1473 rotationY F
 	FIELD field_1474 rotationZ F
@@ -12,11 +12,28 @@ CLASS net/minecraft/class_7 net/minecraft/client/render/model/ModelPart
 	FIELD field_4486 textureWidth F
 	FIELD field_4487 textureHeight F
 	FIELD field_799 flipped Z
-	METHOD <init> <init> (Lnet/minecraft/class_129;II)V
+	METHOD <init> <init> (Lnet/minecraft/class_151;II)V
+		ARG 3 textureV
 	METHOD method_1487 compile (F)V
+		ARG 1 scale
 	METHOD method_1830 translate (F)V
+		ARG 1 scale
+	METHOD method_1877 addBox (FFFIII)V
 	METHOD method_194 addBox (FFFIIIF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 sizeX
+		ARG 5 sizeY
+		ARG 6 sizeZ
+		ARG 7 increase
 	METHOD method_2485 renderRotation (F)V
-	METHOD method_3294 setTextureSize (II)Lnet/minecraft/class_7;
+		ARG 1 scale
+	METHOD method_3294 setTextureSize (II)Lnet/minecraft/class_68;
+		ARG 2 height
 	METHOD method_829 render (F)V
+		ARG 1 scale
 	METHOD method_830 setPivot (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

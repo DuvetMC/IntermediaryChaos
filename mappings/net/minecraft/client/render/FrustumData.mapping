@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_363 net/minecraft/client/render/FrustumData
+CLASS net/minecraft/class_358 net/minecraft/client/render/FrustumData
 	FIELD field_1735 frustum [[F
 	FIELD field_1736 projectionMatrix [F
 	FIELD field_1737 modelMatrix [F

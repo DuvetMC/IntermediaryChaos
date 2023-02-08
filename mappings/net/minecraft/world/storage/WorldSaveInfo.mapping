@@ -1,12 +1,14 @@
-CLASS net/minecraft/class_743 net/minecraft/world/storage/WorldSaveInfo
+CLASS net/minecraft/class_736 net/minecraft/world/storage/WorldSaveInfo
 	FIELD field_3435 fileName Ljava/lang/String;
 	FIELD field_3436 worldName Ljava/lang/String;
 	FIELD field_3437 lastPlayed J
 	FIELD field_3438 size J
 	FIELD field_3439 sameVersion Z
+	FIELD field_4183 gameMode I
 	METHOD compareTo compareTo (Ljava/lang/Object;)I
 	METHOD method_2405 getFileName ()Ljava/lang/String;
-	METHOD method_2406 compareTo (Lnet/minecraft/class_743;)I
+	METHOD method_2406 compareTo (Lnet/minecraft/class_736;)I
 	METHOD method_2407 getWorldName ()Ljava/lang/String;
 	METHOD method_2409 isSameVersion ()Z
 	METHOD method_2410 getLastPlayed ()J
+	METHOD method_3099 getGameMode ()I

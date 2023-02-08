@@ -1,11 +1,16 @@
-CLASS net/minecraft/class_808 argo/saj/PositionTrackingPushbackReader
+CLASS net/minecraft/class_801 argo/saj/PositionTrackingPushbackReader
 	FIELD field_3672 pushbackReader Ljava/io/PushbackReader;
 	FIELD field_3673 characterCount I
 	FIELD field_3674 lineCount I
 	FIELD field_3675 lastCharacterWasCariageReturn Z
 	METHOD <init> <init> (Ljava/io/Reader;)V
+		ARG 1 reader
 	METHOD method_2652 unread (C)V
+		ARG 1 c
 	METHOD method_2653 updateCharacterAndLineCounts (I)V
+		ARG 1 result
 	METHOD method_2654 uncount ([C)V
+		ARG 1 resultCharArray
 	METHOD method_2655 read ([C)I
+		ARG 1 buffer
 	METHOD method_2656 read ()I

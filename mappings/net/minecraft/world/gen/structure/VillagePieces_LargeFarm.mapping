@@ -1,1 +1,3 @@
-CLASS net/minecraft/class_961 net/minecraft/world/gen/structure/VillagePieces_LargeFarm
+CLASS net/minecraft/class_954 net/minecraft/world/gen/structure/VillagePieces_LargeFarm
+	COMMENT @nest net/minecraft/world/gen/structure/VillagePieces$LargeFarm
+	METHOD method_3318 of (Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_954;

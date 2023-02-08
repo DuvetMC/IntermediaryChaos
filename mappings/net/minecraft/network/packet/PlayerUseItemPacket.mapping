@@ -1,8 +1,8 @@
-CLASS net/minecraft/class_531 net/minecraft/network/packet/PlayerUseItemPacket
+CLASS net/minecraft/class_524 net/minecraft/network/packet/PlayerUseItemPacket
 	FIELD field_2460 x I
 	FIELD field_2461 y I
 	FIELD field_2462 z I
 	FIELD field_2463 face I
 		COMMENT The face of the block on which the interaction takes place. Can be set to 255 if the
 		COMMENT player is using an item while not looking at a block.
-	FIELD field_3052 stack Lnet/minecraft/class_229;
+	FIELD field_3052 stack Lnet/minecraft/class_226;

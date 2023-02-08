@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_434 net/minecraft/entity/vehicle/MinecartEntity
+CLASS net/minecraft/class_439 net/minecraft/entity/vehicle/MinecartEntity
 	FIELD field_2097 ADJACENT_RAIL_POSITIONS_BY_SHAPE [[[I
 	FIELD field_2203 yawFlipped Z
 	FIELD field_2688 clientInterpolationSteps I
@@ -10,6 +10,8 @@ CLASS net/minecraft/class_434 net/minecraft/entity/vehicle/MinecartEntity
 	FIELD field_2997 clientXVelocity D
 	FIELD field_2998 clientYVelocity D
 	FIELD field_2999 clientZVelocity D
-	METHOD method_1322 snapPositionToRailWithOffset (DDDD)Lnet/minecraft/class_9;
+	METHOD method_1322 snapPositionToRailWithOffset (DDDD)Lnet/minecraft/class_72;
 		COMMENT This method is used to determine the minecart's render orientation, by computing a position along the rail slightly before and slightly after the minecart's actual position.
-	METHOD method_1324 snapPositionToRail (DDD)Lnet/minecraft/class_9;
+		ARG 7 offset
+	METHOD method_1324 snapPositionToRail (DDD)Lnet/minecraft/class_72;
+		ARG 5 z

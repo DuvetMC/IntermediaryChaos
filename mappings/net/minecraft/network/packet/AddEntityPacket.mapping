@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_878 net/minecraft/network/packet/AddEntityPacket
+CLASS net/minecraft/class_871 net/minecraft/network/packet/AddEntityPacket
 	FIELD field_3888 id I
 	FIELD field_3889 x I
 	FIELD field_3890 y I

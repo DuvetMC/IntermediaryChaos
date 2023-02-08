@@ -1,1 +1,2 @@
-CLASS net/minecraft/class_977 net/minecraft/client/gui/screen/multiplayer/MultiplayerScreen_ServerListWidget
+CLASS net/minecraft/class_970 net/minecraft/client/gui/screen/multiplayer/MultiplayerScreen_ServerListWidget
+	COMMENT @nest net/minecraft/client/gui/screen/multiplayer/MultiplayerScreen$ServerListWidget

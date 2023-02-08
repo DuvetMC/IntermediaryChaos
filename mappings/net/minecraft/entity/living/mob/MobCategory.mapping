@@ -1,14 +1,14 @@
-CLASS net/minecraft/class_614 net/minecraft/entity/living/mob/MobCategory
-	FIELD field_2853 MONSTER Lnet/minecraft/class_614;
-	FIELD field_2854 CREATURE Lnet/minecraft/class_614;
+CLASS net/minecraft/class_607 net/minecraft/entity/living/mob/MobCategory
+	FIELD field_2853 MONSTER Lnet/minecraft/class_607;
+	FIELD field_2854 CREATURE Lnet/minecraft/class_607;
 	FIELD field_2855 type Ljava/lang/Class;
 	FIELD field_2856 cap I
-	FIELD field_3158 WATER_CREATURE Lnet/minecraft/class_614;
-	FIELD field_3159 spawnableMaterial Lnet/minecraft/class_79;
+	FIELD field_3158 WATER_CREATURE Lnet/minecraft/class_607;
+	FIELD field_3159 spawnableMaterial Lnet/minecraft/class_87;
 	FIELD field_3160 peaceful Z
 	METHOD method_2198 getType ()Ljava/lang/Class;
 	METHOD method_2199 getCap ()I
-	METHOD method_2200 getSpawnableMaterial ()Lnet/minecraft/class_79;
+	METHOD method_2200 getSpawnableMaterial ()Lnet/minecraft/class_87;
 	METHOD method_2201 isPeaceful ()Z
-	METHOD valueOf valueOf (Ljava/lang/String;)Lnet/minecraft/class_614;
-	METHOD values values ()[Lnet/minecraft/class_614;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lnet/minecraft/class_607;
+	METHOD values values ()[Lnet/minecraft/class_607;

@@ -1,12 +1,12 @@
-CLASS net/minecraft/class_231 net/minecraft/client/entity/living/player/InputClientPlayerEntity
-	FIELD field_1181 input Lnet/minecraft/class_73;
+CLASS net/minecraft/class_228 net/minecraft/client/entity/living/player/InputClientPlayerEntity
+	FIELD field_1181 input Lnet/minecraft/class_81;
 	FIELD field_1375 client Lnet/minecraft/client/Minecraft;
 	FIELD field_4260 doubleTapSprintTimer I
 	FIELD field_4264 sprintingCooldown I
-	METHOD <init> (Lnet/minecraft/client/Minecraft;Lnet/minecraft/class_14;Lnet/minecraft/class_67;I)V
-		ARG 1 client
-		ARG 2 world
-		ARG 3 session
 	METHOD method_2057 setPlayerHealth (I)V
 	METHOD method_2784 isBlockAtPosFullCube (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_3163 setXp (III)V
 	METHOD method_3164 getAdjustedMovementSpeed ()F

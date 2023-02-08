@@ -1,3 +1,5 @@
-CLASS net/minecraft/class_680 net/minecraft/block/ColoredBlock
+CLASS net/minecraft/class_673 net/minecraft/block/ColoredBlock
 	METHOD method_2155 getColor (I)I
+		ARG 0 id
 	METHOD method_2156 getColorId (I)I
+		ARG 0 id

@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_285 net/minecraft/item/PickaxeItem
-	FIELD field_1385 EFFECTIVE_BLOCKS [Lnet/minecraft/class_18;
+CLASS net/minecraft/class_280 net/minecraft/item/PickaxeItem
+	FIELD field_1385 EFFECTIVE_BLOCKS [Lnet/minecraft/class_35;

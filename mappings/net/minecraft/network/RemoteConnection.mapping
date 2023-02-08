@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_512 net/minecraft/network/RemoteConnection
+CLASS net/minecraft/class_505 net/minecraft/network/RemoteConnection
 	FIELD field_2389 socket Ljava/net/Socket;
 	FIELD field_2390 input Ljava/io/DataInputStream;
 	FIELD field_2391 output Ljava/io/DataOutputStream;
@@ -9,7 +9,7 @@ CLASS net/minecraft/class_512 net/minecraft/network/RemoteConnection
 		COMMENT The send queue for packets containing block (entity) data.
 		COMMENT <br>
 		COMMENT Note: this queue is unused since 1.4.3.
-	FIELD field_2396 listener Lnet/minecraft/class_514;
+	FIELD field_2396 listener Lnet/minecraft/class_507;
 	FIELD field_2397 closed Z
 	FIELD field_2398 writer Ljava/lang/Thread;
 	FIELD field_2399 reader Ljava/lang/Thread;
@@ -18,6 +18,8 @@ CLASS net/minecraft/class_512 net/minecraft/network/RemoteConnection
 	FIELD field_2402 blockDataDelay I
 		COMMENT Delay before this connection can send block data packets.
 	FIELD field_2496 timeoutTimer I
+	FIELD field_2611 READ_THREAD_COUNTER I
+	FIELD field_2612 WRITE_THREAD_COUNTER I
 	FIELD field_2625 sendQueueSize I
 	FIELD field_2681 lock Ljava/lang/Object;
 	FIELD field_3022 address Ljava/net/SocketAddress;
@@ -29,5 +31,6 @@ CLASS net/minecraft/class_512 net/minecraft/network/RemoteConnection
 	FIELD field_3872 TOTAL_SEND_SIZE [I
 		COMMENT The total size of all sent packets, by packet id.
 	METHOD method_1781 onConnectionCrashed (Ljava/lang/Exception;)V
+		ARG 1 exception
 	METHOD method_1783 write ()Z
 	METHOD method_1785 read ()Z

@@ -1,3 +1,3 @@
-CLASS net/minecraft/class_465 net/minecraft/nbt/NbtDouble
+CLASS net/minecraft/class_394 net/minecraft/nbt/NbtDouble
 	FIELD field_1920 value D
 	METHOD toString toString ()Ljava/lang/String;

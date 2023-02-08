@@ -1,2 +1,3 @@
-CLASS net/minecraft/class_846 net/minecraft/stat/StatFormatter
+CLASS net/minecraft/class_839 net/minecraft/stat/StatFormatter
 	METHOD method_2754 format (I)Ljava/lang/String;
+		ARG 1 value

@@ -1,6 +1,8 @@
-CLASS net/minecraft/class_331 net/minecraft/entity/ai/pathing/Path
-	FIELD field_1562 nodes [Lnet/minecraft/class_330;
+CLASS net/minecraft/class_326 net/minecraft/entity/ai/pathing/Path
+	FIELD field_1562 nodes [Lnet/minecraft/class_325;
 	FIELD field_1563 currentIndex I
-	METHOD <init> <init> ([Lnet/minecraft/class_330;)V
+	METHOD <init> <init> ([Lnet/minecraft/class_325;)V
+		ARG 1 nodes
 	METHOD method_1544 nextNode ()V
 	METHOD method_1545 reachedTarget ()Z
+	METHOD method_861 getNextPos (Lnet/minecraft/class_198;)Lnet/minecraft/class_72;

@@ -1,4 +1,5 @@
-CLASS net/minecraft/class_122 net/minecraft/client/gui/widget/OptionButtonWidget
-	FIELD field_3119 option Lnet/minecraft/class_660;
-	METHOD <init> <init> (IIILnet/minecraft/class_660;Ljava/lang/String;)V
-	METHOD method_2138 getOption ()Lnet/minecraft/class_660;
+CLASS net/minecraft/class_146 net/minecraft/client/gui/widget/OptionButtonWidget
+	FIELD field_3119 option Lnet/minecraft/class_653;
+	METHOD <init> <init> (IIILnet/minecraft/class_653;Ljava/lang/String;)V
+		ARG 5 message
+	METHOD method_2138 getOption ()Lnet/minecraft/class_653;

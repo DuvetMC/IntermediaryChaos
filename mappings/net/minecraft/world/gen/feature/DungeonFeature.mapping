@@ -1,2 +1,3 @@
-CLASS net/minecraft/class_457 net/minecraft/world/gen/feature/DungeonFeature
+CLASS net/minecraft/class_462 net/minecraft/world/gen/feature/DungeonFeature
 	METHOD method_1564 getRandomDungeonType (Ljava/util/Random;)Ljava/lang/String;
+		ARG 1 random

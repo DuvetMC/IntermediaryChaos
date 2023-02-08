@@ -1,37 +1,51 @@
-CLASS net/minecraft/class_396 net/minecraft/client/gui/screen/world/SelectWorldScreen
-	FIELD field_1939 parent Lnet/minecraft/class_49;
+CLASS net/minecraft/class_402 net/minecraft/client/gui/screen/world/SelectWorldScreen
+	FIELD field_1939 parent Lnet/minecraft/class_59;
 	FIELD field_1940 title Ljava/lang/String;
 	FIELD field_1968 worldLoaded Z
 	FIELD field_3420 dateFormat Ljava/text/DateFormat;
 	FIELD field_3421 selectedWorldId I
 	FIELD field_3422 saves Ljava/util/List;
-	FIELD field_3423 worldList Lnet/minecraft/class_732;
+	FIELD field_3423 worldList Lnet/minecraft/class_725;
 	FIELD field_3424 worldText Ljava/lang/String;
 	FIELD field_3425 conversionText Ljava/lang/String;
 		COMMENT The text to display when a world needs to be converted (e.g. when it needs to be converted from a lower version)
 	FIELD field_3426 isInChildScreen Z
 		COMMENT Is true if the player is in a child screen (e.g. a confirmation screen).
 		COMMENT Is set to false again when the selectWorldScreen gets displayed again.
-	FIELD field_3427 renameWorldButton Lnet/minecraft/class_47;
-	FIELD field_3428 playSelectedWorldButton Lnet/minecraft/class_47;
-	FIELD field_3429 deleteWorldButton Lnet/minecraft/class_47;
+	FIELD field_3427 renameWorldButton Lnet/minecraft/class_57;
+	FIELD field_3428 playSelectedWorldButton Lnet/minecraft/class_57;
+	FIELD field_3429 deleteWorldButton Lnet/minecraft/class_57;
 	FIELD field_4148 gameModeTexts [Ljava/lang/String;
-	METHOD <init> <init> (Lnet/minecraft/class_49;)V
+	METHOD <init> <init> (Lnet/minecraft/class_59;)V
+		ARG 1 parent
 	METHOD method_1205 loadWorld (I)V
+		ARG 1 id
 	METHOD method_1206 getWorldName (I)Ljava/lang/String;
-	METHOD method_2389 getSaves (Lnet/minecraft/class_396;)Ljava/util/List;
-	METHOD method_2390 setSelectedWorldId (Lnet/minecraft/class_396;I)I
-	METHOD method_2391 getSelectedWorldId (Lnet/minecraft/class_396;)I
+		ARG 1 index
+	METHOD method_2389 getSaves (Lnet/minecraft/class_402;)Ljava/util/List;
+		ARG 0 selectWorldScreen
+	METHOD method_2390 setSelectedWorldId (Lnet/minecraft/class_402;I)I
+		ARG 1 id
+	METHOD method_2391 getSelectedWorldId (Lnet/minecraft/class_402;)I
+		ARG 0 selectWorldScreen
 	METHOD method_2392 getSaveFileName (I)Ljava/lang/String;
 		COMMENT The world save name is the name of the save folder. When a world is created this
 		COMMENT is always equal to the world name, but can be different if the folder is either manually
 		COMMENT editted or if you create multiple worlds with the same name.
-	METHOD method_2393 getPlaySelectedWorldButton (Lnet/minecraft/class_396;)Lnet/minecraft/class_47;
-	METHOD method_2394 getRenameWorldButton (Lnet/minecraft/class_396;)Lnet/minecraft/class_47;
-	METHOD method_2395 getDeleteWorldButton (Lnet/minecraft/class_396;)Lnet/minecraft/class_47;
-	METHOD method_2396 getWorldText (Lnet/minecraft/class_396;)Ljava/lang/String;
-	METHOD method_2397 getDateFormat (Lnet/minecraft/class_396;)Ljava/text/DateFormat;
-	METHOD method_2398 getConversionText (Lnet/minecraft/class_396;)Ljava/lang/String;
+		ARG 1 index
+	METHOD method_2393 getPlaySelectedWorldButton (Lnet/minecraft/class_402;)Lnet/minecraft/class_57;
+		ARG 0 selectWorldScreen
+	METHOD method_2394 getRenameWorldButton (Lnet/minecraft/class_402;)Lnet/minecraft/class_57;
+		ARG 0 selectWorldScreen
+	METHOD method_2395 getDeleteWorldButton (Lnet/minecraft/class_402;)Lnet/minecraft/class_57;
+		ARG 0 selectWorldScreen
+	METHOD method_2396 getWorldText (Lnet/minecraft/class_402;)Ljava/lang/String;
+		ARG 0 selectWorldScreen
+	METHOD method_2397 getDateFormat (Lnet/minecraft/class_402;)Ljava/text/DateFormat;
+		ARG 0 selectWorldScreen
+	METHOD method_2398 getConversionText (Lnet/minecraft/class_402;)Ljava/lang/String;
+		ARG 0 selectWorldScreen
 	METHOD method_2399 addButtons ()V
 	METHOD method_2400 getSaves ()V
-	METHOD method_3061 getGameModeTexts (Lnet/minecraft/class_396;)[Ljava/lang/String;
+	METHOD method_3061 getGameModeTexts (Lnet/minecraft/class_402;)[Ljava/lang/String;
+		ARG 0 selectWorldScreen

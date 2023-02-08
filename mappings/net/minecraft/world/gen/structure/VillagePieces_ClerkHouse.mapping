@@ -1,1 +1,3 @@
-CLASS net/minecraft/class_1022 net/minecraft/world/gen/structure/VillagePieces_ClerkHouse
+CLASS net/minecraft/class_1015 net/minecraft/world/gen/structure/VillagePieces_ClerkHouse
+	COMMENT @nest net/minecraft/world/gen/structure/VillagePieces$ClerkHouse
+	METHOD method_3328 of (Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_1015;

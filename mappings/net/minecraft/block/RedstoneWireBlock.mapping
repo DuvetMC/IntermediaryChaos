@@ -1,9 +1,16 @@
-CLASS net/minecraft/class_490 net/minecraft/block/RedstoneWireBlock
+CLASS net/minecraft/class_483 net/minecraft/block/RedstoneWireBlock
 	FIELD field_2297 emitsRedstonePower Z
 	FIELD field_3169 neighborsToUpdate Ljava/util/Set;
 	METHOD <init> <init> (II)V
-	METHOD method_1720 increaseWirePower (Lnet/minecraft/class_14;IIII)I
-	METHOD method_1721 updatePower (Lnet/minecraft/class_14;IIIIII)V
-	METHOD method_1722 updateNeighborsOfWire (Lnet/minecraft/class_14;III)V
-	METHOD method_1740 shouldConnectTo (Lnet/minecraft/class_447;IIII)Z
-	METHOD method_2214 updatePower (Lnet/minecraft/class_14;III)V
+		ARG 1 id
+		ARG 2 sprite
+	METHOD method_1720 increaseWirePower (Lnet/minecraft/class_191;IIII)I
+		ARG 5 wirePower
+	METHOD method_1721 updatePower (Lnet/minecraft/class_191;IIIIII)V
+		ARG 7 _z
+	METHOD method_1722 updateNeighborsOfWire (Lnet/minecraft/class_191;III)V
+		ARG 4 z
+	METHOD method_1740 shouldConnectTo (Lnet/minecraft/class_452;IIII)Z
+		ARG 4 side
+	METHOD method_2214 updatePower (Lnet/minecraft/class_191;III)V
+		ARG 4 z

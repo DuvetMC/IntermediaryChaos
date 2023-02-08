@@ -1,5 +1,6 @@
-CLASS net/minecraft/class_559 net/minecraft/client/gui/screen/DirectConnectScreen
-	FIELD field_2583 parent Lnet/minecraft/class_49;
-	FIELD field_3366 serverField Lnet/minecraft/class_740;
-	FIELD field_4464 server Lnet/minecraft/class_967;
-	METHOD <init> <init> (Lnet/minecraft/class_49;Lnet/minecraft/class_967;)V
+CLASS net/minecraft/class_552 net/minecraft/client/gui/screen/DirectConnectScreen
+	FIELD field_2583 parent Lnet/minecraft/class_59;
+	FIELD field_3366 serverField Lnet/minecraft/class_733;
+	FIELD field_4464 server Lnet/minecraft/class_960;
+	METHOD <init> <init> (Lnet/minecraft/class_59;Lnet/minecraft/class_960;)V
+		ARG 2 server

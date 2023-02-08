@@ -1,5 +1,10 @@
-CLASS net/minecraft/class_486 net/minecraft/block/RedstoneOreBlock
+CLASS net/minecraft/class_479 net/minecraft/block/RedstoneOreBlock
 	FIELD field_2317 lit Z
 	METHOD <init> <init> (IIZ)V
-	METHOD method_1712 lightUp (Lnet/minecraft/class_14;III)V
-	METHOD method_1739 addParticles (Lnet/minecraft/class_14;III)V
+		ARG 1 id
+		ARG 2 sprite
+		ARG 3 lit
+	METHOD method_1712 lightUp (Lnet/minecraft/class_191;III)V
+		ARG 4 z
+	METHOD method_1739 addParticles (Lnet/minecraft/class_191;III)V
+		ARG 4 z

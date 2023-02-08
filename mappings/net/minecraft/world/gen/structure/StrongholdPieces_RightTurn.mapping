@@ -1,1 +1,2 @@
-CLASS net/minecraft/class_958 net/minecraft/world/gen/structure/StrongholdPieces_RightTurn
+CLASS net/minecraft/class_951 net/minecraft/world/gen/structure/StrongholdPieces_RightTurn
+	COMMENT @nest net/minecraft/world/gen/structure/StrongholdPieces$RightTurn

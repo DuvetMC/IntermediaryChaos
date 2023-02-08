@@ -1,10 +1,17 @@
-CLASS net/minecraft/class_469 net/minecraft/nbt/NbtElement
+CLASS net/minecraft/class_397 net/minecraft/nbt/NbtElement
 	FIELD field_1923 name Ljava/lang/String;
 	METHOD method_1166 getType ()B
-	METHOD method_1168 serialize (Lnet/minecraft/class_469;Ljava/io/DataOutput;)V
+	METHOD method_1167 create (B)Lnet/minecraft/class_397;
+	METHOD method_1168 serialize (Lnet/minecraft/class_397;Ljava/io/DataOutput;)V
+		ARG 1 output
 	METHOD method_1169 read (Ljava/io/DataInput;)V
+		ARG 1 input
 	METHOD method_1170 write (Ljava/io/DataOutput;)V
-	METHOD method_1171 deserialize (Ljava/io/DataInput;)Lnet/minecraft/class_469;
+		ARG 1 output
+	METHOD method_1171 deserialize (Ljava/io/DataInput;)Lnet/minecraft/class_397;
+		ARG 0 input
 	METHOD method_1172 getName ()Ljava/lang/String;
 	METHOD method_1623 getName (B)Ljava/lang/String;
-	METHOD method_1624 setName (Ljava/lang/String;)Lnet/minecraft/class_469;
+		ARG 0 type
+	METHOD method_1624 setName (Ljava/lang/String;)Lnet/minecraft/class_397;
+		ARG 1 name

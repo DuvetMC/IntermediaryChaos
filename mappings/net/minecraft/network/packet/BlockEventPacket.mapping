@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_705 net/minecraft/network/packet/BlockEventPacket
+CLASS net/minecraft/class_698 net/minecraft/network/packet/BlockEventPacket
 	FIELD field_3190 x I
 	FIELD field_3191 y I
 	FIELD field_3192 z I

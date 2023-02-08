@@ -1,3 +1,3 @@
-CLASS net/minecraft/class_706 net/minecraft/client/render/model/entity/SquidModel
-	FIELD field_3195 body Lnet/minecraft/class_7;
-	FIELD field_3196 legs [Lnet/minecraft/class_7;
+CLASS net/minecraft/class_699 net/minecraft/client/render/model/entity/SquidModel
+	FIELD field_3195 body Lnet/minecraft/class_68;
+	FIELD field_3196 legs [Lnet/minecraft/class_68;

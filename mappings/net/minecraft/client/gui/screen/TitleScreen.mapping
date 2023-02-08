@@ -1,9 +1,16 @@
-CLASS net/minecraft/class_311 net/minecraft/client/gui/screen/TitleScreen
+CLASS net/minecraft/class_306 net/minecraft/client/gui/screen/TitleScreen
 	FIELD field_1492 randomFloat F
 	FIELD field_1551 splashText Ljava/lang/String;
 	FIELD field_2343 RANDOM Ljava/util/Random;
-	FIELD field_3466 buttonResetDemo Lnet/minecraft/class_47;
+	FIELD field_3466 buttonResetDemo Lnet/minecraft/class_57;
 	FIELD field_4301 time I
 	METHOD method_3191 drawBackgroundImage (F)V
+		ARG 1 tickDelta
 	METHOD method_3192 drawBackgroundBase (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 tickdelta
 	METHOD method_3193 drawBackground (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 tickDelta

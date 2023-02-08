@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_415 net/minecraft/client/render/model/block/entity/SignModel
-	FIELD field_2012 board Lnet/minecraft/class_7;
-	FIELD field_2013 pole Lnet/minecraft/class_7;
+CLASS net/minecraft/class_421 net/minecraft/client/render/model/block/entity/SignModel
+	FIELD field_2012 board Lnet/minecraft/class_68;
+	FIELD field_2013 pole Lnet/minecraft/class_68;
 	METHOD method_1546 render ()V

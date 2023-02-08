@@ -1,9 +1,15 @@
-CLASS net/minecraft/class_735 net/minecraft/world/storage/WorldStorageSource
+CLASS net/minecraft/class_728 net/minecraft/world/storage/WorldStorageSource
 	METHOD method_2344 needsConversion (Ljava/lang/String;)Z
+		ARG 1 worldName
 	METHOD method_2345 rename (Ljava/lang/String;Ljava/lang/String;)V
-	METHOD method_2346 convert (Ljava/lang/String;Lnet/minecraft/class_482;)Z
-	METHOD method_2347 get (Ljava/lang/String;Z)Lnet/minecraft/class_746;
+		ARG 1 worldName
+		ARG 2 newName
+	METHOD method_2346 convert (Ljava/lang/String;Lnet/minecraft/class_475;)Z
+		ARG 2 listener
+	METHOD method_2347 get (Ljava/lang/String;Z)Lnet/minecraft/class_739;
+		ARG 2 createPlayerDataDir
 	METHOD method_2348 getAll ()Ljava/util/List;
-	METHOD method_2349 getData (Ljava/lang/String;)Lnet/minecraft/class_717;
+	METHOD method_2349 getData (Ljava/lang/String;)Lnet/minecraft/class_710;
+		ARG 1 worldName
 	METHOD method_2350 clearRegionIo ()V
 	METHOD method_2351 delete (Ljava/lang/String;)V

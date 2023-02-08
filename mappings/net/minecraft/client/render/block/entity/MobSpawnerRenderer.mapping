@@ -1,2 +1,3 @@
-CLASS net/minecraft/class_460 net/minecraft/client/render/block/entity/MobSpawnerRenderer
-	METHOD method_1441 renderMobSpawner (Lnet/minecraft/class_455;DDDF)V
+CLASS net/minecraft/class_465 net/minecraft/client/render/block/entity/MobSpawnerRenderer
+	METHOD method_1441 renderMobSpawner (Lnet/minecraft/class_460;DDDF)V
+		ARG 1 x

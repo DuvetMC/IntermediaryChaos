@@ -1,3 +1,6 @@
-CLASS net/minecraft/class_603 net/minecraft/block/PumpkinBlock
+CLASS net/minecraft/class_596 net/minecraft/block/PumpkinBlock
 	FIELD field_2803 lit Z
 	METHOD <init> <init> (IIZ)V
+		ARG 1 id
+		ARG 2 sprite
+		ARG 3 lit

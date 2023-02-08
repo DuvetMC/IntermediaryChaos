@@ -1,10 +1,14 @@
-CLASS net/minecraft/class_333 net/minecraft/entity/ai/pathing/PathMinHeap
-	FIELD field_1568 pathNodes [Lnet/minecraft/class_330;
+CLASS net/minecraft/class_328 net/minecraft/entity/ai/pathing/PathMinHeap
+	FIELD field_1568 pathNodes [Lnet/minecraft/class_325;
 	FIELD field_1569 count I
 	METHOD method_1673 clear ()V
-	METHOD method_1674 insertWithTotalDistance (Lnet/minecraft/class_330;F)V
-	METHOD method_1675 removePathNode ()Lnet/minecraft/class_330;
+	METHOD method_1674 insertWithTotalDistance (Lnet/minecraft/class_325;F)V
+		ARG 2 totalDistance
+	METHOD method_1675 removePathNode ()Lnet/minecraft/class_325;
 	METHOD method_1676 isEmpty ()Z
 	METHOD method_871 shiftUp (I)V
-	METHOD method_872 insert (Lnet/minecraft/class_330;)Lnet/minecraft/class_330;
+		ARG 1 index
+	METHOD method_872 insert (Lnet/minecraft/class_325;)Lnet/minecraft/class_325;
+		ARG 1 pathNode
 	METHOD method_875 shiftDown (I)V
+		ARG 1 index

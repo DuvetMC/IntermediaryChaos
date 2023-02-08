@@ -1,52 +1,53 @@
-CLASS net/minecraft/class_79 net/minecraft/block/material/Material
-	FIELD field_1497 AIR Lnet/minecraft/class_79;
-	FIELD field_1498 GRASS Lnet/minecraft/class_79;
-	FIELD field_1499 STONE Lnet/minecraft/class_79;
-	FIELD field_1500 IRON Lnet/minecraft/class_79;
-	FIELD field_1501 PLANT Lnet/minecraft/class_79;
-	FIELD field_1502 SPONGE Lnet/minecraft/class_79;
-	FIELD field_1503 WOOL Lnet/minecraft/class_79;
-	FIELD field_1504 FIRE Lnet/minecraft/class_79;
-	FIELD field_1505 SAND Lnet/minecraft/class_79;
-	FIELD field_1506 DECORATION Lnet/minecraft/class_79;
-	FIELD field_1507 GLASS Lnet/minecraft/class_79;
-	FIELD field_1508 TNT Lnet/minecraft/class_79;
-	FIELD field_1572 LEAVES Lnet/minecraft/class_79;
-	FIELD field_2268 CORAL Lnet/minecraft/class_79;
-	FIELD field_2340 ICE Lnet/minecraft/class_79;
-	FIELD field_2341 SNOW_LAYER Lnet/minecraft/class_79;
-	FIELD field_2485 SNOW Lnet/minecraft/class_79;
-	FIELD field_2486 CLAY Lnet/minecraft/class_79;
-	FIELD field_2600 CACTUS Lnet/minecraft/class_79;
+CLASS net/minecraft/class_87 net/minecraft/block/material/Material
+	FIELD field_1497 AIR Lnet/minecraft/class_87;
+	FIELD field_1498 GRASS Lnet/minecraft/class_87;
+	FIELD field_1499 STONE Lnet/minecraft/class_87;
+	FIELD field_1500 IRON Lnet/minecraft/class_87;
+	FIELD field_1501 PLANT Lnet/minecraft/class_87;
+	FIELD field_1502 SPONGE Lnet/minecraft/class_87;
+	FIELD field_1503 WOOL Lnet/minecraft/class_87;
+	FIELD field_1504 FIRE Lnet/minecraft/class_87;
+	FIELD field_1505 SAND Lnet/minecraft/class_87;
+	FIELD field_1506 DECORATION Lnet/minecraft/class_87;
+	FIELD field_1507 GLASS Lnet/minecraft/class_87;
+	FIELD field_1508 TNT Lnet/minecraft/class_87;
+	FIELD field_1572 LEAVES Lnet/minecraft/class_87;
+	FIELD field_2268 CORAL Lnet/minecraft/class_87;
+	FIELD field_2340 ICE Lnet/minecraft/class_87;
+	FIELD field_2341 SNOW_LAYER Lnet/minecraft/class_87;
+	FIELD field_2485 SNOW Lnet/minecraft/class_87;
+	FIELD field_2486 CLAY Lnet/minecraft/class_87;
+	FIELD field_2600 CACTUS Lnet/minecraft/class_87;
 	FIELD field_2672 flammable Z
-	FIELD field_2858 PUMPKIN Lnet/minecraft/class_79;
-	FIELD field_2859 PORTAL Lnet/minecraft/class_79;
-	FIELD field_3161 CAKE Lnet/minecraft/class_79;
+	FIELD field_2858 PUMPKIN Lnet/minecraft/class_87;
+	FIELD field_2859 PORTAL Lnet/minecraft/class_87;
+	FIELD field_3161 CAKE Lnet/minecraft/class_87;
 	FIELD field_3767 replaceable Z
-	FIELD field_3856 color Lnet/minecraft/class_859;
+	FIELD field_3856 color Lnet/minecraft/class_852;
 	FIELD field_3857 translucent Z
-	FIELD field_3858 DIRT Lnet/minecraft/class_79;
-	FIELD field_3924 COBWEB Lnet/minecraft/class_79;
-	FIELD field_3925 PISTON Lnet/minecraft/class_79;
+	FIELD field_3858 DIRT Lnet/minecraft/class_87;
+	FIELD field_3924 COBWEB Lnet/minecraft/class_87;
+	FIELD field_3925 PISTON Lnet/minecraft/class_87;
 	FIELD field_3926 toolNotRequired Z
 	FIELD field_3927 pistonMoveBehavior I
-	FIELD field_4434 REPLACEABLE_PLANT Lnet/minecraft/class_79;
-	FIELD field_447 WOOD Lnet/minecraft/class_79;
-	FIELD field_448 WATER Lnet/minecraft/class_79;
-	FIELD field_449 LAVA Lnet/minecraft/class_79;
-	METHOD <init> <init> (Lnet/minecraft/class_859;)V
+	FIELD field_4434 REPLACEABLE_PLANT Lnet/minecraft/class_87;
+	FIELD field_447 WOOD Lnet/minecraft/class_87;
+	FIELD field_448 WATER Lnet/minecraft/class_87;
+	FIELD field_449 LAVA Lnet/minecraft/class_87;
+	METHOD <init> <init> (Lnet/minecraft/class_852;)V
+		ARG 1 color
 	METHOD method_1130 isOpaque ()Z
 	METHOD method_1911 isFlammable ()Z
-	METHOD method_1912 setFlammable ()Lnet/minecraft/class_79;
-	METHOD method_2780 setReplaceable ()Lnet/minecraft/class_79;
+	METHOD method_1912 setFlammable ()Lnet/minecraft/class_87;
+	METHOD method_2780 setReplaceable ()Lnet/minecraft/class_87;
 	METHOD method_2781 isReplaceable ()Z
 	METHOD method_2830 isSolidBlocking ()Z
-	METHOD method_2831 setTranslucent ()Lnet/minecraft/class_79;
+	METHOD method_2831 setTranslucent ()Lnet/minecraft/class_87;
 	METHOD method_2897 isToolNotRequired ()Z
 	METHOD method_2898 getPistonMoveBehavior ()I
-	METHOD method_2899 setDestroyOnPistonMove ()Lnet/minecraft/class_79;
-	METHOD method_2900 setBlocksPistonMove ()Lnet/minecraft/class_79;
-	METHOD method_2901 setRequiresTool ()Lnet/minecraft/class_79;
+	METHOD method_2899 setDestroyOnPistonMove ()Lnet/minecraft/class_87;
+	METHOD method_2900 setBlocksPistonMove ()Lnet/minecraft/class_87;
+	METHOD method_2901 setRequiresTool ()Lnet/minecraft/class_87;
 	METHOD method_835 isLiquid ()Z
 	METHOD method_844 isSolid ()Z
 	METHOD method_881 blocksMovement ()Z

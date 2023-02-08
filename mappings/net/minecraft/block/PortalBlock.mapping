@@ -1,3 +1,6 @@
-CLASS net/minecraft/class_639 net/minecraft/block/PortalBlock
+CLASS net/minecraft/class_632 net/minecraft/block/PortalBlock
 	METHOD <init> <init> (II)V
-	METHOD method_2027 create (Lnet/minecraft/class_14;III)Z
+		ARG 1 id
+		ARG 2 sprite
+	METHOD method_2027 create (Lnet/minecraft/class_191;III)Z
+		ARG 4 z

@@ -1,3 +1,4 @@
-CLASS net/minecraft/class_626 net/minecraft/client/render/entity/ArmoredEntityRenderer
-	FIELD field_2900 model Lnet/minecraft/class_131;
-	METHOD <init> <init> (Lnet/minecraft/class_131;F)V
+CLASS net/minecraft/class_619 net/minecraft/client/render/entity/ArmoredEntityRenderer
+	FIELD field_2900 model Lnet/minecraft/class_153;
+	METHOD <init> <init> (Lnet/minecraft/class_153;F)V
+		ARG 2 shadowSize

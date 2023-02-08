@@ -1,3 +1,4 @@
-CLASS net/minecraft/class_491 net/minecraft/item/WoodenDoorItem
-	FIELD field_2311 material Lnet/minecraft/class_79;
-	METHOD method_3218 place (Lnet/minecraft/class_14;IIIILnet/minecraft/class_18;)V
+CLASS net/minecraft/class_484 net/minecraft/item/WoodenDoorItem
+	FIELD field_2311 material Lnet/minecraft/class_87;
+	METHOD method_3218 place (Lnet/minecraft/class_191;IIIILnet/minecraft/class_35;)V
+		ARG 5 block

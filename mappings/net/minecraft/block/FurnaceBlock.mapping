@@ -1,7 +1,11 @@
-CLASS net/minecraft/class_367 net/minecraft/block/FurnaceBlock
+CLASS net/minecraft/class_362 net/minecraft/block/FurnaceBlock
 	FIELD field_1750 lit Z
 	FIELD field_3897 random Ljava/util/Random;
 	FIELD field_3905 ignoreBlockRemoval Z
 	METHOD <init> <init> (IZ)V
-	METHOD method_1580 updateLitState (ZLnet/minecraft/class_14;III)V
-	METHOD method_1581 updateState (Lnet/minecraft/class_14;III)V
+		ARG 1 id
+		ARG 2 lit
+	METHOD method_1580 updateLitState (ZLnet/minecraft/class_191;III)V
+		ARG 4 z
+	METHOD method_1581 updateState (Lnet/minecraft/class_191;III)V
+		ARG 4 z

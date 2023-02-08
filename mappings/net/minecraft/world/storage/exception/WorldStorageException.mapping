@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_572 net/minecraft/world/storage/exception/WorldStorageException
-	METHOD <init> <init> (Ljava/lang/String;)V

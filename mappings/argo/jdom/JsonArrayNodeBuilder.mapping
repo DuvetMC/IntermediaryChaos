@@ -1,3 +1,4 @@
-CLASS net/minecraft/class_785 argo/jdom/JsonArrayNodeBuilder
+CLASS net/minecraft/class_778 argo/jdom/JsonArrayNodeBuilder
 	FIELD field_3603 elementBuilders Ljava/util/List;
-	METHOD method_2571 withElement (Lnet/minecraft/class_807;)Lnet/minecraft/class_785;
+	METHOD method_2571 withElement (Lnet/minecraft/class_800;)Lnet/minecraft/class_778;
+		ARG 1 elementBuilder

@@ -1,1 +1,2 @@
-CLASS net/minecraft/class_349 net/minecraft/block/Block_1
+CLASS net/minecraft/class_344 net/minecraft/block/Block_1
+	COMMENT @nest net/minecraft/block/Block$1

@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_6 net/minecraft/client/TickTimer
+CLASS net/minecraft/class_33 net/minecraft/client/TickTimer
 	FIELD field_16 ticksThisFrame I
 	FIELD field_202 tps F
 	FIELD field_204 tickDelta F
@@ -10,4 +10,5 @@ CLASS net/minecraft/class_6 net/minecraft/client/TickTimer
 	FIELD field_518 cumTickTime J
 	FIELD field_519 tickTimeCorrection D
 	METHOD <init> <init> (F)V
+		ARG 1 tps
 	METHOD method_656 advance ()V

@@ -1,4 +1,9 @@
-CLASS net/minecraft/class_1032 net/minecraft/world/gen/structure/StructureFeature
+CLASS net/minecraft/class_1025 net/minecraft/world/gen/structure/StructureFeature
+	FIELD field_4500 structures Ljava/util/HashMap;
 	METHOD method_3304 isFeatureChunk (II)Z
-	METHOD method_3305 place (Lnet/minecraft/class_14;Ljava/util/Random;II)Z
-	METHOD method_3306 createStart (II)Lnet/minecraft/class_970;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+	METHOD method_3305 place (Lnet/minecraft/class_191;Ljava/util/Random;II)Z
+		ARG 4 chunkZ
+	METHOD method_3306 createStart (II)Lnet/minecraft/class_963;
+		ARG 2 z

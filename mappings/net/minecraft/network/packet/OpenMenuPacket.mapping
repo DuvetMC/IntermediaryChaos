@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_663 net/minecraft/network/packet/OpenMenuPacket
+CLASS net/minecraft/class_656 net/minecraft/network/packet/OpenMenuPacket
 	FIELD field_3077 menuId I
 	FIELD field_3078 menuType I
 		COMMENT The type of inventory menu. The possible values are:

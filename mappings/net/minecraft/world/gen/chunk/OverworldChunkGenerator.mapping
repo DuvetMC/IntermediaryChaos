@@ -1,27 +1,39 @@
-CLASS net/minecraft/class_375 net/minecraft/world/gen/chunk/OverworldChunkGenerator
-	FIELD field_1802 minLimitPerlinNoise Lnet/minecraft/class_57;
-	FIELD field_1803 maxLimitPerlinNoise Lnet/minecraft/class_57;
-	FIELD field_1804 mainPerlinNoise Lnet/minecraft/class_57;
-	FIELD field_1845 world Lnet/minecraft/class_14;
+CLASS net/minecraft/class_370 net/minecraft/world/gen/chunk/OverworldChunkGenerator
+	FIELD field_1802 minLimitPerlinNoise Lnet/minecraft/class_44;
+	FIELD field_1803 maxLimitPerlinNoise Lnet/minecraft/class_44;
+	FIELD field_1804 mainPerlinNoise Lnet/minecraft/class_44;
+	FIELD field_1845 world Lnet/minecraft/class_191;
 	FIELD field_1886 random Ljava/util/Random;
-	FIELD field_1887 forestNoise Lnet/minecraft/class_57;
-	FIELD field_1947 surfaceNoise Lnet/minecraft/class_57;
+	FIELD field_1887 forestNoise Lnet/minecraft/class_44;
+	FIELD field_1947 surfaceNoise Lnet/minecraft/class_44;
 	FIELD field_1984 heightmap [D
 	FIELD field_1985 minLimitNoiseBuffer [D
 	FIELD field_1986 maxLimitNoiseBuffer [D
-	FIELD field_2019 scaleNoise Lnet/minecraft/class_57;
-	FIELD field_2020 depthNoise Lnet/minecraft/class_57;
+	FIELD field_2019 scaleNoise Lnet/minecraft/class_44;
+	FIELD field_2020 depthNoise Lnet/minecraft/class_44;
 	FIELD field_2021 depthNoiseBuffer [D
 	FIELD field_2022 mainNoiseBuffer [D
-	FIELD field_2729 cave Lnet/minecraft/class_586;
-	FIELD field_2935 biomes [Lnet/minecraft/class_611;
+	FIELD field_2729 cave Lnet/minecraft/class_579;
+	FIELD field_2935 biomes [Lnet/minecraft/class_604;
 	FIELD field_3988 structures Z
 	FIELD field_3989 depthBuffer [D
-	FIELD field_3990 stronghold Lnet/minecraft/class_1001;
-	FIELD field_3991 village Lnet/minecraft/class_916;
-	FIELD field_3992 mineshaft Lnet/minecraft/class_914;
-	FIELD field_3993 ravine Lnet/minecraft/class_586;
-	METHOD <init> <init> (Lnet/minecraft/class_14;JZ)V
+	FIELD field_3990 stronghold Lnet/minecraft/class_994;
+	FIELD field_3991 village Lnet/minecraft/class_909;
+	FIELD field_3992 mineshaft Lnet/minecraft/class_907;
+	FIELD field_3993 ravine Lnet/minecraft/class_579;
+	METHOD <init> <init> (Lnet/minecraft/class_191;JZ)V
+		ARG 4 structures
 	METHOD method_1666 generate (II[B)V
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 blockIds
 	METHOD method_1668 populateHeightmap ([DIIIIII)[D
-	METHOD method_1669 generateBiomes (II[B[Lnet/minecraft/class_611;)V
+		ARG 1 heightmap
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 width
+		ARG 6 height
+		ARG 7 depth
+	METHOD method_1669 generateBiomes (II[B[Lnet/minecraft/class_604;)V
+		ARG 4 biomes

@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_587 net/minecraft/network/packet/WorldTimePacket
+CLASS net/minecraft/class_580 net/minecraft/network/packet/WorldTimePacket
 	FIELD field_2700 time J

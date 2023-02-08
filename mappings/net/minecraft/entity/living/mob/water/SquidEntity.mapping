@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_709 net/minecraft/entity/living/mob/water/SquidEntity
+CLASS net/minecraft/class_702 net/minecraft/entity/living/mob/water/SquidEntity
 	FIELD field_3197 squidPitch F
 	FIELD field_3198 lastSquidPitch F
 	FIELD field_3199 squidYaw F

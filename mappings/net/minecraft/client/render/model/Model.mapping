@@ -1,7 +1,9 @@
-CLASS net/minecraft/class_129 net/minecraft/client/render/model/Model
+CLASS net/minecraft/class_151 net/minecraft/client/render/model/Model
 	FIELD field_2262 handSwingProgress F
 	FIELD field_2339 hasVehicle Z
 	FIELD field_4077 parts Ljava/util/List;
-	METHOD method_2475 renderMobAnimation (Lnet/minecraft/class_209;FFF)V
-	METHOD method_831 render (Lnet/minecraft/class_1;FFFFFF)V
+	METHOD method_2475 renderMobAnimation (Lnet/minecraft/class_199;FFF)V
+		ARG 4 tickDelta
+	METHOD method_831 render (Lnet/minecraft/class_198;FFFFFF)V
+		ARG 7 scale
 	METHOD method_855 setAngles (FFFFFF)V
