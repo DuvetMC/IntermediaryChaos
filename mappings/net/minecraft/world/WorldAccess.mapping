@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_452 net/minecraft/world/IWorld
+CLASS net/minecraft/class_452 net/minecraft/world/WorldAccess
 	METHOD method_1011 getBlock (III)I
 		ARG 1 x
 		ARG 2 y

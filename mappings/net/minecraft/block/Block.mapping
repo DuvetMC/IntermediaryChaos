@@ -108,6 +108,19 @@ CLASS net/minecraft/class_35 net/minecraft/block/Block
 	FIELD field_4178 FENCE_GATE Lnet/minecraft/class_35;
 	FIELD field_4179 BRICK_STAIRS Lnet/minecraft/class_35;
 	FIELD field_4180 STONE_BRICK_STAIRS Lnet/minecraft/class_35;
+	FIELD field_4578 LILYPAD Lnet/minecraft/class_35;
+	FIELD field_4579 NETHER_BRICKS Lnet/minecraft/class_35;
+	FIELD field_4580 NETHER_BRICK_FENCE Lnet/minecraft/class_35;
+	FIELD field_4581 NETHER_BRICK_STIRS Lnet/minecraft/class_35;
+	FIELD field_4582 NETHER_WART Lnet/minecraft/class_35;
+	FIELD field_4583 MYCELIUM Lnet/minecraft/class_1035;
+	FIELD field_4771 ENCHANTING_TABLE Lnet/minecraft/class_35;
+	FIELD field_4772 BREWING_STAND Lnet/minecraft/class_35;
+	FIELD field_4773 CAULDRON Lnet/minecraft/class_35;
+	FIELD field_4774 END_PORTAL Lnet/minecraft/class_35;
+	FIELD field_4775 END_PORTAL_FRAME Lnet/minecraft/class_35;
+	FIELD field_4904 END_STONE Lnet/minecraft/class_35;
+	FIELD field_4979 DRAGON_EGG Lnet/minecraft/class_35;
 	FIELD field_521 SPONGE Lnet/minecraft/class_35;
 	FIELD field_522 GLASS Lnet/minecraft/class_35;
 	FIELD field_537 WOOL Lnet/minecraft/class_35;
@@ -142,6 +155,8 @@ CLASS net/minecraft/class_35 net/minecraft/block/Block
 	FIELD field_984 COAL_ORE Lnet/minecraft/class_35;
 	FIELD field_985 LEAVES Lnet/minecraft/class_164;
 	METHOD <init> <init> (IILnet/minecraft/class_87;)V
+		ARG 1 id
+		ARG 2 spriteIndex
 		ARG 3 material
 	METHOD <init> <init> (ILnet/minecraft/class_87;)V
 		ARG 1 id

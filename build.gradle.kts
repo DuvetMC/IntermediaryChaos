@@ -9,7 +9,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("org.quiltmc:enigma-cli:1.5.1")
+        classpath("org.quiltmc:enigma-cli:1.5.2")
         classpath("net.fabricmc:stitch:0.6.2")
         classpath("de.undercouch:gradle-download-task:4.1.2")
         classpath("org.quiltmc.unpick:unpick:3.0.2")
@@ -31,8 +31,8 @@ enum class EnvType {
     BOTH
 }
 
-val minecraftVersion = "b1.8.1"
-val officialVersion = "b1.8.1"
+val minecraftVersion = "1.0.0"
+val officialVersion = "1.0.0"
 val env = EnvType.CLIENT
 
 version = if (System.getenv("BUILD_NUMBER") != null) {
@@ -54,8 +54,8 @@ repositories {
 val enigmaConfig by configurations.creating
 
 dependencies {
-    enigmaConfig("org.quiltmc:enigma-swing:1.5.1")
-    enigmaConfig("org.quiltmc:enigma-server:1.5.1")
+    enigmaConfig("org.quiltmc:enigma-swing:1.5.2")
+    enigmaConfig("org.quiltmc:enigma-server:1.5.2")
     enigmaConfig("org.quiltmc:quilt-enigma-plugin:1.2.1")
     enigmaConfig("net.fabricmc:name-proposal:0.1.4")
     listOf(

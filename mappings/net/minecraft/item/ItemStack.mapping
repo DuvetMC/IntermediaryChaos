@@ -3,6 +3,7 @@ CLASS net/minecraft/class_226 net/minecraft/item/ItemStack
 	FIELD field_1166 itemId I
 	FIELD field_1167 popAnimationTime I
 	FIELD field_1466 metadata I
+	FIELD field_4675 nbt Lnet/minecraft/class_244;
 	METHOD <init> <init> (III)V
 		ARG 1 itemId
 		ARG 2 size
@@ -64,6 +65,9 @@ CLASS net/minecraft/class_226 net/minecraft/item/ItemStack
 		ARG 2 player
 	METHOD method_3226 getUseDuration ()I
 	METHOD method_3227 getUseAction ()Lnet/minecraft/class_1002;
+	METHOD method_3500 getRarity ()Lnet/minecraft/class_1099;
+	METHOD method_3502 isEnchanted ()Z
+	METHOD method_3571 hasEnchantmentNbt ()Z
 	METHOD method_684 getItem ()Lnet/minecraft/class_238;
 	METHOD method_763 split (I)Lnet/minecraft/class_226;
 		ARG 1 amount

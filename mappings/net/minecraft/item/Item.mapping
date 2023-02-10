@@ -124,6 +124,29 @@ CLASS net/minecraft/class_238 net/minecraft/item/Item
 	FIELD field_4348 COOKED_CHICKEN Lnet/minecraft/class_238;
 	FIELD field_4349 ROTTEN_FLESH Lnet/minecraft/class_238;
 	FIELD field_4350 ENDER_PEARL Lnet/minecraft/class_238;
+	FIELD field_4607 BLAZE_ROD Lnet/minecraft/class_238;
+	FIELD field_4608 GHAST_TEAR Lnet/minecraft/class_238;
+	FIELD field_4609 GOLD_NUGGET Lnet/minecraft/class_238;
+	FIELD field_4610 NETHER_WART Lnet/minecraft/class_238;
+	FIELD field_4657 RECORD_BLOCKS Lnet/minecraft/class_238;
+	FIELD field_4658 RECORD_CHIRP Lnet/minecraft/class_238;
+	FIELD field_4659 RECORD_FAR Lnet/minecraft/class_238;
+	FIELD field_4660 RECORD_MALL Lnet/minecraft/class_238;
+	FIELD field_4661 RECORD_MELLOHI Lnet/minecraft/class_238;
+	FIELD field_4662 RECORD_STAL Lnet/minecraft/class_238;
+	FIELD field_4663 RECORD_STRAD Lnet/minecraft/class_238;
+	FIELD field_4664 RECORD_WARD Lnet/minecraft/class_238;
+	FIELD field_4665 RECORD_11 Lnet/minecraft/class_238;
+	FIELD field_4666 POTION Lnet/minecraft/class_1079;
+	FIELD field_4667 BOTTLE Lnet/minecraft/class_238;
+	FIELD field_4668 SPIDER_EYE Lnet/minecraft/class_238;
+	FIELD field_4669 FERMENTED_SPIDER_EYE Lnet/minecraft/class_238;
+	FIELD field_4670 BLAZE_POWDER Lnet/minecraft/class_238;
+	FIELD field_4671 MAGMA_CREAM Lnet/minecraft/class_238;
+	FIELD field_4806 EYE_OF_ENDER Lnet/minecraft/class_238;
+	FIELD field_4807 BREWING_STAND Lnet/minecraft/class_238;
+	FIELD field_4808 CAULDRON Lnet/minecraft/class_238;
+	FIELD field_4919 GLISTERING_MELON Lnet/minecraft/class_238;
 	METHOD <init> <init> (I)V
 		ARG 1 id
 	METHOD method_1398 canInteract (Lnet/minecraft/class_226;Lnet/minecraft/class_199;)V
@@ -160,6 +183,10 @@ CLASS net/minecraft/class_238 net/minecraft/item/Item
 	METHOD method_3200 getUseAction (Lnet/minecraft/class_226;)Lnet/minecraft/class_1002;
 		ARG 1 stack
 	METHOD method_3201 getUseDuration (Lnet/minecraft/class_226;)I
+		ARG 1 stack
+	METHOD method_3486 isEnchanted (Lnet/minecraft/class_226;)Z
+		ARG 1 stack
+	METHOD method_3557 getRarity (Lnet/minecraft/class_226;)Lnet/minecraft/class_1099;
 		ARG 1 stack
 	METHOD method_680 getSprite (I)I
 	METHOD method_681 getMiningSpeed (Lnet/minecraft/class_226;Lnet/minecraft/class_35;)F

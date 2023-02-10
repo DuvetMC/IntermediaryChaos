@@ -26,4 +26,14 @@ CLASS net/minecraft/class_748 net/minecraft/stat/achievement/Achievements
 		COMMENT Achieved when the pig the player is riding falls from 5 blocks or more
 	FIELD field_4027 KILL_SKELETON_FROM_DISTANCE Lnet/minecraft/class_810;
 		COMMENT Achieved when killing a skeleton from than 50 metres away
+	FIELD field_4937 CRAFT_POTION Lnet/minecraft/class_810;
+	FIELD field_4938 ENTER_THE_END Lnet/minecraft/class_810;
+	FIELD field_4939 EXIT_THE_END Lnet/minecraft/class_810;
+	FIELD field_4940 CRAFT_ENCHANTING_TABLE Lnet/minecraft/class_810;
+	FIELD field_4941 DAMAGE_HEAVILY Lnet/minecraft/class_810;
+	FIELD field_4942 CRAFT_BOOKSHELF Lnet/minecraft/class_810;
+	FIELD field_4943 GET_DIAMOND Lnet/minecraft/class_810;
+	FIELD field_4944 ENTER_NETHER Lnet/minecraft/class_810;
+	FIELD field_4945 GET_GHAST_TEAR Lnet/minecraft/class_810;
+	FIELD field_4946 GET_BLAZE_ROD Lnet/minecraft/class_810;
 	METHOD method_2582 init ()V

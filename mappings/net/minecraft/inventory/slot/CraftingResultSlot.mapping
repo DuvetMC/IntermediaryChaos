@@ -2,4 +2,9 @@ CLASS net/minecraft/class_665 net/minecraft/inventory/slot/CraftingResultSlot
 	FIELD field_3115 craftingInventory Lnet/minecraft/class_262;
 	FIELD field_3567 player Lnet/minecraft/class_203;
 	METHOD <init> <init> (Lnet/minecraft/class_203;Lnet/minecraft/class_262;Lnet/minecraft/class_262;III)V
+		ARG 1 player
+		ARG 2 craftingInventory
+		ARG 3 resultInventory
+		ARG 4 slot
+		ARG 5 x
 		ARG 6 y

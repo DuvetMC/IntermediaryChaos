@@ -15,14 +15,18 @@ CLASS net/minecraft/class_955 net/minecraft/entity/damage/DamageSource
 	FIELD field_4136 bypassesArmor Z
 	FIELD field_4137 outOfWorld Z
 	FIELD field_4138 exhaustion F
+	FIELD field_4651 causesFire Z
 	METHOD <init> <init> (Ljava/lang/String;)V
 		ARG 1 name
 	METHOD method_3047 getAttacker ()Lnet/minecraft/class_198;
 	METHOD method_3048 fire (Lnet/minecraft/class_594;Lnet/minecraft/class_198;)Lnet/minecraft/class_955;
+		ARG 0 fireball
 		ARG 1 entity
 	METHOD method_3049 arrow (Lnet/minecraft/class_263;Lnet/minecraft/class_198;)Lnet/minecraft/class_955;
+		ARG 0 arrow
 		ARG 1 entity
 	METHOD method_3050 thrownProjectile (Lnet/minecraft/class_198;Lnet/minecraft/class_198;)Lnet/minecraft/class_955;
+		ARG 0 thrownEntity
 		ARG 1 attacker
 	METHOD method_3051 player (Lnet/minecraft/class_203;)Lnet/minecraft/class_955;
 		ARG 0 attacker
@@ -34,3 +38,9 @@ CLASS net/minecraft/class_955 net/minecraft/entity/damage/DamageSource
 	METHOD method_3056 getSource ()Lnet/minecraft/class_198;
 	METHOD method_3057 setBypassesArmor ()Lnet/minecraft/class_955;
 	METHOD method_3058 setOutOfWorld ()Lnet/minecraft/class_955;
+	METHOD method_3473 setCausesFire ()Lnet/minecraft/class_955;
+	METHOD method_3474 getCausesFire ()Z
+	METHOD method_3630 magic (Lnet/minecraft/class_198;Lnet/minecraft/class_198;)Lnet/minecraft/class_955;
+		ARG 0 magicProjectile
+		ARG 1 attacker
+	METHOD method_3681 getName ()Ljava/lang/String;
