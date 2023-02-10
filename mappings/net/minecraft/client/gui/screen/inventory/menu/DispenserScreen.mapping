@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_678 net/minecraft/client/gui/screen/inventory/menu/DispenserScreen
-	METHOD <init> <init> (Lnet/minecraft/class_201;Lnet/minecraft/class_669;)V
-		ARG 2 dispenser

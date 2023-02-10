@@ -19,11 +19,3 @@ CLASS net/minecraft/class_57 net/minecraft/client/gui/widget/ButtonWidget
 		ARG 2 x
 		ARG 3 y
 		ARG 4 message
-	METHOD method_1661 isMouseOver (Lnet/minecraft/client/Minecraft;II)Z
-	METHOD method_1662 render (Lnet/minecraft/client/Minecraft;II)V
-	METHOD method_1948 mouseReleased (II)V
-		ARG 1 mouseX
-		ARG 2 mouseY
-	METHOD method_1949 getYImage (Z)I
-		ARG 1 isHovered
-	METHOD method_1950 renderBackground (Lnet/minecraft/client/Minecraft;II)V

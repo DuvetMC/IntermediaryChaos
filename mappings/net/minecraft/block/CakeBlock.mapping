@@ -1,6 +1,0 @@
-CLASS net/minecraft/class_695 net/minecraft/block/CakeBlock
-	METHOD <init> <init> (II)V
-		ARG 1 id
-		ARG 2 sprite
-	METHOD method_2236 tryEatCake (Lnet/minecraft/class_191;IIILnet/minecraft/class_203;)V
-		ARG 5 player

@@ -6,8 +6,3 @@ CLASS net/minecraft/class_360 net/minecraft/block/entity/FurnaceBlockEntity
 	METHOD method_1108 hasFuel ()Z
 	METHOD method_1109 canCook ()Z
 	METHOD method_1178 getFuelTime (Lnet/minecraft/class_226;)I
-	METHOD method_1560 getCookProgress (I)I
-		ARG 1 range
-	METHOD method_1561 getLitProgress (I)I
-		ARG 1 range
-	METHOD method_1562 finishCooking ()V

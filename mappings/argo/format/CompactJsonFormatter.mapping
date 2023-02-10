@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_779 argo/format/CompactJsonFormatter
-	METHOD method_2580 format (Lnet/minecraft/class_787;Ljava/io/Writer;)V
-		ARG 2 writer
-	METHOD method_2581 format (Lnet/minecraft/class_822;Ljava/io/Writer;)V
-		ARG 2 writer

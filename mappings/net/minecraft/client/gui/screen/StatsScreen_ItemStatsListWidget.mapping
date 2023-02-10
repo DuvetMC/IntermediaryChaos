@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_775 net/minecraft/client/gui/screen/StatsScreen_ItemStatsListWidget
-	COMMENT @nest net/minecraft/client/gui/screen/StatsScreen$ItemStatsListWidget

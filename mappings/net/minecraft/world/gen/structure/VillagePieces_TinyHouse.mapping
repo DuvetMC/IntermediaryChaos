@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_998 net/minecraft/world/gen/structure/VillagePieces_TinyHouse
-	COMMENT @nest net/minecraft/world/gen/structure/VillagePieces$TinyHouse
-	METHOD method_3323 of (Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_998;

@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_615 net/minecraft/client/render/entity/FishingBobberRenderer
-	METHOD method_1986 render (Lnet/minecraft/class_609;DDDFF)V

@@ -6,15 +6,9 @@ CLASS net/minecraft/class_235 net/minecraft/block/FireBlock
 		ARG 2 sprite
 	METHOD method_1080 hasFlammableNeighbor (Lnet/minecraft/class_191;III)Z
 		ARG 4 z
-	METHOD method_1113 spread (Lnet/minecraft/class_191;IIIILjava/util/Random;I)V
-		ARG 7 metadata
 	METHOD method_1115 updateBurnChance (Lnet/minecraft/class_191;IIII)I
 		ARG 5 burnChance
-	METHOD method_1682 getBurnChance (Lnet/minecraft/class_191;III)I
-		ARG 4 z
 	METHOD method_668 registerBurnProperties (III)V
 		ARG 1 blockId
 		ARG 2 burnChance
 		ARG 3 spreadChance
-	METHOD method_669 canBurn (Lnet/minecraft/class_452;III)Z
-		ARG 4 z

@@ -19,7 +19,3 @@ CLASS net/minecraft/class_259 net/minecraft/block/FlowingLiquidBlock
 		ARG 4 z
 	METHOD method_1282 canSpreadTo (Lnet/minecraft/class_191;III)Z
 		ARG 4 z
-	METHOD method_1339 spreadTo (Lnet/minecraft/class_191;IIII)V
-		ARG 5 level
-	METHOD method_1459 getSpreadDirections (Lnet/minecraft/class_191;III)[Z
-		ARG 4 z

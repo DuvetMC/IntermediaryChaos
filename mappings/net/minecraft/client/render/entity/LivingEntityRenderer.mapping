@@ -3,24 +3,11 @@ CLASS net/minecraft/class_270 net/minecraft/client/render/entity/LivingEntityRen
 	FIELD field_1696 bodyModel Lnet/minecraft/class_151;
 	METHOD <init> <init> (Lnet/minecraft/class_151;F)V
 		ARG 2 shadowSize
-	METHOD method_1811 renderDecoration (Lnet/minecraft/class_199;F)V
-		ARG 2 tickDelta
-	METHOD method_1890 getEntityAge (Lnet/minecraft/class_199;F)F
-		ARG 2 tickDelta
-	METHOD method_1909 getHandSwingProgress (Lnet/minecraft/class_199;F)F
-		ARG 2 tickDelta
-	METHOD method_2181 applyRotation (Lnet/minecraft/class_199;FFF)V
-		ARG 4 tickDelta
-	METHOD method_2325 applyTranslation (Lnet/minecraft/class_199;DDD)V
-		ARG 4 dy
-	METHOD method_2611 bindDecorationTextureCaller (Lnet/minecraft/class_199;IF)Z
 	METHOD method_898 scale (Lnet/minecraft/class_199;F)V
 		ARG 2 scale
 	METHOD method_899 getCreeperFuseTime (Lnet/minecraft/class_199;FF)I
 		ARG 3 timeDelta
 	METHOD method_958 getYawWhileDead (Lnet/minecraft/class_199;)F
 		ARG 1 entity
-	METHOD method_959 bindDecorationTexture (Lnet/minecraft/class_199;IF)Z
 	METHOD method_960 setModel (Lnet/minecraft/class_151;)V
 		ARG 1 model
-	METHOD method_986 render (Lnet/minecraft/class_199;DDDFF)V

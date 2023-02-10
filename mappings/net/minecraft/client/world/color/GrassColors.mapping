@@ -1,7 +1,0 @@
-CLASS net/minecraft/class_602 net/minecraft/client/world/color/GrassColors
-	FIELD field_2825 colorMap [I
-	METHOD method_1966 getColor (DD)I
-		ARG 0 temperature
-		ARG 2 humidity
-	METHOD method_2811 setColorMap ([I)V
-		ARG 0 map

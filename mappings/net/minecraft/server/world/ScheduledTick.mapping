@@ -16,4 +16,3 @@ CLASS net/minecraft/class_388 net/minecraft/server/world/ScheduledTick
 	METHOD hashCode hashCode ()I
 	METHOD method_1311 setTime (J)Lnet/minecraft/class_388;
 		ARG 1 time
-	METHOD method_1524 compareTo (Lnet/minecraft/class_388;)I

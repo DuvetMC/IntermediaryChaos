@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_930 net/minecraft/entity/damage/EntityDamageSource
-	FIELD field_4047 entity Lnet/minecraft/class_198;
-	METHOD <init> <init> (Ljava/lang/String;Lnet/minecraft/class_198;)V
-		ARG 2 entity

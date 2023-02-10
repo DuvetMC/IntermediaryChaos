@@ -1,3 +1,1 @@
 CLASS net/minecraft/class_289 net/minecraft/client/gui/screen/inventory/menu/CraftingTableScreen
-	METHOD <init> <init> (Lnet/minecraft/class_201;Lnet/minecraft/class_191;III)V
-		ARG 5 z

@@ -1,9 +1,4 @@
 CLASS net/minecraft/class_78 net/minecraft/block/FallingBlock
-	FIELD field_2109 fallImmediately Z
 	METHOD <init> <init> (II)V
 		ARG 1 id
 		ARG 2 sprite
-	METHOD method_1602 canFallThrough (Lnet/minecraft/class_191;III)Z
-		ARG 3 z
-	METHOD method_1603 tryFall (Lnet/minecraft/class_191;III)V
-		ARG 4 z

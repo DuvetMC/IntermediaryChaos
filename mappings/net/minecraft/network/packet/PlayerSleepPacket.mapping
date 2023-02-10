@@ -1,6 +1,0 @@
-CLASS net/minecraft/class_721 net/minecraft/network/packet/PlayerSleepPacket
-	FIELD field_3335 id I
-	FIELD field_3336 x I
-	FIELD field_3337 y I
-	FIELD field_3338 z I
-	FIELD field_3339 action I

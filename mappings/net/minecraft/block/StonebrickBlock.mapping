@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_1024 net/minecraft/block/StonebrickBlock
-	METHOD <init> <init> (I)V
-		ARG 1 id

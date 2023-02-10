@@ -1,7 +1,0 @@
-CLASS net/minecraft/class_865 net/minecraft/block/TrapdoorBlock
-	METHOD method_2841 updateBoundingBox (I)V
-		ARG 1 meta
-	METHOD method_2842 isOpen (I)Z
-		ARG 0 metadata
-	METHOD method_2867 setOpenState (Lnet/minecraft/class_191;IIIZ)V
-		ARG 5 open

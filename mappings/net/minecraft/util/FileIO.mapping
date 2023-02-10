@@ -1,9 +1,0 @@
-CLASS net/minecraft/class_1039 net/minecraft/util/FileIO
-	FIELD field_4542 INSTANCE Lnet/minecraft/class_1039;
-	FIELD field_4545 queue Ljava/util/List;
-	FIELD field_4633 hurryUp Z
-	FIELD field_4699 itemsToProcess J
-	FIELD field_4700 processedItems J
-	METHOD method_3373 speedUp ()V
-	METHOD method_3375 executeQueue ()V
-	METHOD run run ()V

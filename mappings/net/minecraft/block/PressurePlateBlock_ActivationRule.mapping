@@ -1,7 +1,0 @@
-CLASS net/minecraft/class_482 net/minecraft/block/PressurePlateBlock_ActivationRule
-	COMMENT @nest net/minecraft/block/PressurePlateBlock$ActivationRule
-	FIELD field_2293 EVERYTHING Lnet/minecraft/class_482;
-	FIELD field_2294 MOBS Lnet/minecraft/class_482;
-	FIELD field_2295 PLAYERS Lnet/minecraft/class_482;
-	METHOD valueOf valueOf (Ljava/lang/String;)Lnet/minecraft/class_482;
-	METHOD values values ()[Lnet/minecraft/class_482;

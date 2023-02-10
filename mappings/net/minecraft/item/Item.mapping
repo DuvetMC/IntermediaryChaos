@@ -77,129 +77,12 @@ CLASS net/minecraft/class_238 net/minecraft/item/Item
 	FIELD field_2032 WATER_BUCKET Lnet/minecraft/class_238;
 	FIELD field_2033 LAVA_BUCKET Lnet/minecraft/class_238;
 	FIELD field_2093 MINECART Lnet/minecraft/class_238;
-	FIELD field_2177 SADDLE Lnet/minecraft/class_238;
-	FIELD field_2298 REDSTONE Lnet/minecraft/class_238;
-	FIELD field_2299 IRON_DOOR Lnet/minecraft/class_238;
-	FIELD field_2366 SNOWBALL Lnet/minecraft/class_238;
-	FIELD field_2459 BOAT Lnet/minecraft/class_238;
-	FIELD field_2550 LEATHER Lnet/minecraft/class_238;
-	FIELD field_2551 MILK_BUCKET Lnet/minecraft/class_238;
-	FIELD field_2593 BRICK Lnet/minecraft/class_238;
-	FIELD field_2594 CLAY Lnet/minecraft/class_238;
-	FIELD field_2595 REEDS Lnet/minecraft/class_238;
-	FIELD field_2596 PAPER Lnet/minecraft/class_238;
-	FIELD field_2597 BOOK Lnet/minecraft/class_238;
-	FIELD field_2598 SLIMEBALL Lnet/minecraft/class_238;
-	FIELD field_2632 CHEST_MINECART Lnet/minecraft/class_238;
-	FIELD field_2633 FURNACE_MINECART Lnet/minecraft/class_238;
-	FIELD field_2634 EGG Lnet/minecraft/class_238;
-	FIELD field_2635 RECORD_13 Lnet/minecraft/class_238;
-	FIELD field_2636 RECORD_CAT Lnet/minecraft/class_238;
-	FIELD field_2667 handheld Z
-	FIELD field_2740 COMPASS Lnet/minecraft/class_238;
-	FIELD field_2760 FISHING_ROD Lnet/minecraft/class_238;
-	FIELD field_2810 CLOCK Lnet/minecraft/class_238;
-	FIELD field_2811 GLOWSTONE_DUST Lnet/minecraft/class_238;
-	FIELD field_2812 FISH Lnet/minecraft/class_238;
-	FIELD field_2813 COOKED_FISH Lnet/minecraft/class_238;
-	FIELD field_3039 id Ljava/lang/String;
-	FIELD field_3142 recipeRemainder Lnet/minecraft/class_238;
-		COMMENT The item that remains after this item is used up during crafting, smelting or brewing.
-	FIELD field_3143 DYE Lnet/minecraft/class_238;
-	FIELD field_3144 BONE Lnet/minecraft/class_238;
-	FIELD field_3145 SUGAR Lnet/minecraft/class_238;
-	FIELD field_3146 CAKE Lnet/minecraft/class_238;
-	FIELD field_3147 stackable Z
-	FIELD field_3317 BED Lnet/minecraft/class_238;
-	FIELD field_3318 REPEATER Lnet/minecraft/class_238;
-	FIELD field_3474 COOKIE Lnet/minecraft/class_238;
-	FIELD field_3804 FILLED_MAP Lnet/minecraft/class_873;
-	FIELD field_3919 SHEARS Lnet/minecraft/class_875;
-	FIELD field_4342 MELON Lnet/minecraft/class_238;
-	FIELD field_4343 PUMPKIN_SEEDS Lnet/minecraft/class_238;
-	FIELD field_4344 MELON_SEEDS Lnet/minecraft/class_238;
-	FIELD field_4345 BEEF Lnet/minecraft/class_238;
-	FIELD field_4346 COOKED_BEEF Lnet/minecraft/class_238;
-	FIELD field_4347 CHICKEN Lnet/minecraft/class_238;
-	FIELD field_4348 COOKED_CHICKEN Lnet/minecraft/class_238;
-	FIELD field_4349 ROTTEN_FLESH Lnet/minecraft/class_238;
-	FIELD field_4350 ENDER_PEARL Lnet/minecraft/class_238;
-	FIELD field_4607 BLAZE_ROD Lnet/minecraft/class_238;
-	FIELD field_4608 GHAST_TEAR Lnet/minecraft/class_238;
-	FIELD field_4609 GOLD_NUGGET Lnet/minecraft/class_238;
-	FIELD field_4610 NETHER_WART Lnet/minecraft/class_238;
-	FIELD field_4657 RECORD_BLOCKS Lnet/minecraft/class_238;
-	FIELD field_4658 RECORD_CHIRP Lnet/minecraft/class_238;
-	FIELD field_4659 RECORD_FAR Lnet/minecraft/class_238;
-	FIELD field_4660 RECORD_MALL Lnet/minecraft/class_238;
-	FIELD field_4661 RECORD_MELLOHI Lnet/minecraft/class_238;
-	FIELD field_4662 RECORD_STAL Lnet/minecraft/class_238;
-	FIELD field_4663 RECORD_STRAD Lnet/minecraft/class_238;
-	FIELD field_4664 RECORD_WARD Lnet/minecraft/class_238;
-	FIELD field_4665 RECORD_11 Lnet/minecraft/class_238;
-	FIELD field_4666 POTION Lnet/minecraft/class_1079;
-	FIELD field_4667 BOTTLE Lnet/minecraft/class_238;
-	FIELD field_4668 SPIDER_EYE Lnet/minecraft/class_238;
-	FIELD field_4669 FERMENTED_SPIDER_EYE Lnet/minecraft/class_238;
-	FIELD field_4670 BLAZE_POWDER Lnet/minecraft/class_238;
-	FIELD field_4671 MAGMA_CREAM Lnet/minecraft/class_238;
-	FIELD field_4806 EYE_OF_ENDER Lnet/minecraft/class_238;
-	FIELD field_4807 BREWING_STAND Lnet/minecraft/class_238;
-	FIELD field_4808 CAULDRON Lnet/minecraft/class_238;
-	FIELD field_4919 GLISTERING_MELON Lnet/minecraft/class_238;
 	METHOD <init> <init> (I)V
 		ARG 1 id
-	METHOD method_1398 canInteract (Lnet/minecraft/class_226;Lnet/minecraft/class_199;)V
-	METHOD method_1873 isHandheld ()Z
-	METHOD method_1907 setHandheld ()Lnet/minecraft/class_238;
-	METHOD method_1963 shouldRotate ()Z
-	METHOD method_2096 setId (Ljava/lang/String;)Lnet/minecraft/class_238;
-		ARG 1 id
-	METHOD method_2171 getBlockMetadata (I)I
-		ARG 1 metadata
-	METHOD method_2172 setRecipeRemainder (Lnet/minecraft/class_238;)Lnet/minecraft/class_238;
-		ARG 1 item
-	METHOD method_2173 setStackable (Z)Lnet/minecraft/class_238;
-		ARG 1 stackable
-	METHOD method_2174 getTranslationKey (Lnet/minecraft/class_226;)Ljava/lang/String;
-		ARG 1 stack
-	METHOD method_2175 setMaxStackSize (I)Lnet/minecraft/class_238;
-		ARG 1 size
-	METHOD method_2176 setMaxDamage (I)Lnet/minecraft/class_238;
-		ARG 1 damage
-	METHOD method_2177 isStackable ()Z
-	METHOD method_2178 getRecipeRemainder ()Lnet/minecraft/class_238;
-	METHOD method_2179 hasRecipeRemainder ()Z
-	METHOD method_2450 isDamageable ()Z
-	METHOD method_2451 getDisplayName ()Ljava/lang/String;
-	METHOD method_2598 getSprite (Lnet/minecraft/class_226;)I
-	METHOD method_2599 getDisplayColor (I)I
-	METHOD method_2797 tick (Lnet/minecraft/class_226;Lnet/minecraft/class_191;Lnet/minecraft/class_198;IZ)V
-		ARG 5 selected
-	METHOD method_2798 onResult (Lnet/minecraft/class_226;Lnet/minecraft/class_191;Lnet/minecraft/class_203;)V
-		ARG 3 player
-	METHOD method_3199 stopUsing (Lnet/minecraft/class_226;Lnet/minecraft/class_191;Lnet/minecraft/class_203;I)V
-		ARG 4 remainingUseTime
-	METHOD method_3200 getUseAction (Lnet/minecraft/class_226;)Lnet/minecraft/class_1002;
-		ARG 1 stack
-	METHOD method_3201 getUseDuration (Lnet/minecraft/class_226;)I
-		ARG 1 stack
-	METHOD method_3486 isEnchanted (Lnet/minecraft/class_226;)Z
-		ARG 1 stack
-	METHOD method_3557 getRarity (Lnet/minecraft/class_226;)Lnet/minecraft/class_1099;
-		ARG 1 stack
-	METHOD method_680 getSprite (I)I
-	METHOD method_681 getMiningSpeed (Lnet/minecraft/class_226;Lnet/minecraft/class_35;)F
-		ARG 2 block
 	METHOD method_682 startUsing (Lnet/minecraft/class_226;Lnet/minecraft/class_191;Lnet/minecraft/class_203;)Lnet/minecraft/class_226;
-		ARG 3 player
-	METHOD method_682b finishUsing (Lnet/minecraft/class_226;Lnet/minecraft/class_191;Lnet/minecraft/class_203;)Lnet/minecraft/class_226;
 		ARG 3 player
 	METHOD method_683 use (Lnet/minecraft/class_226;Lnet/minecraft/class_203;Lnet/minecraft/class_191;IIII)Z
 	METHOD method_762 getMaxStackSize ()I
-	METHOD method_816 attackEntity (Lnet/minecraft/class_226;Lnet/minecraft/class_199;Lnet/minecraft/class_199;)Z
-		ARG 3 attacker
-	METHOD method_817 mineBlock (Lnet/minecraft/class_226;IIIILnet/minecraft/class_199;)Z
 	METHOD method_818 getMaxDamage ()I
 	METHOD method_837 canEffectivelyMine (Lnet/minecraft/class_35;)Z
 		ARG 1 block

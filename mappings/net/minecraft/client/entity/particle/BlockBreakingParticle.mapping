@@ -1,4 +1,1 @@
 CLASS net/minecraft/class_219 net/minecraft/client/entity/particle/BlockBreakingParticle
-	FIELD field_2938 block Lnet/minecraft/class_35;
-	METHOD method_2030 updateColor (III)Lnet/minecraft/class_219;
-		ARG 3 z

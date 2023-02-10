@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_464 net/minecraft/client/render/entity/PigRenderer
-	METHOD <init> <init> (Lnet/minecraft/class_151;Lnet/minecraft/class_151;F)V
-		ARG 3 shadowSize
-	METHOD method_1578 bindDecorationTexture (Lnet/minecraft/class_315;IF)Z

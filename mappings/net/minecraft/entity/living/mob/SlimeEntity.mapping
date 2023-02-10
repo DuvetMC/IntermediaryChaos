@@ -1,7 +1,0 @@
-CLASS net/minecraft/class_563 net/minecraft/entity/living/mob/SlimeEntity
-	FIELD field_2607 stretch F
-	FIELD field_2608 lastStretch F
-	FIELD field_2610 ticksUntilNextJump I
-	METHOD method_1879 setSize (I)V
-		ARG 1 size
-	METHOD method_2493 getSize ()I

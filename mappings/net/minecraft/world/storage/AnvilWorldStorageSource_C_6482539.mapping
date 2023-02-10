@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_734 net/minecraft/world/storage/AnvilWorldStorageSource_C_6482539
-	COMMENT @nest net/minecraft/world/storage/AnvilWorldStorageSource$C_6482539
-	METHOD accept accept (Ljava/io/File;Ljava/lang/String;)Z

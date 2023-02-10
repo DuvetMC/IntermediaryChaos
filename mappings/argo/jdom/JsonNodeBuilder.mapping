@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_800 argo/jdom/JsonNodeBuilder
-	METHOD method_2644 build ()Lnet/minecraft/class_787;

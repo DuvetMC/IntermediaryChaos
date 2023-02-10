@@ -1,8 +1,0 @@
-CLASS net/minecraft/class_956 net/minecraft/world/gen/structure/StrongholdPieces_StrongholdPiece_EntranceType
-	COMMENT @nest net/minecraft/world/gen/structure/StrongholdPieces$StrongholdPiece$EntranceType
-	FIELD field_4139 OPENING Lnet/minecraft/class_956;
-	FIELD field_4140 WOOD_DOOR Lnet/minecraft/class_956;
-	FIELD field_4141 GATES Lnet/minecraft/class_956;
-	FIELD field_4142 IRON_DOOR Lnet/minecraft/class_956;
-	METHOD valueOf valueOf (Ljava/lang/String;)Lnet/minecraft/class_956;
-	METHOD values values ()[Lnet/minecraft/class_956;

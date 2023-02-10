@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_470 net/minecraft/client/render/ArbOcclustionCapabilities
-	METHOD method_1521 getArbOcclusionCapabilities ()Z

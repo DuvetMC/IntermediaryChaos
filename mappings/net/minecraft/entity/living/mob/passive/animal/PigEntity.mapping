@@ -1,4 +1,1 @@
 CLASS net/minecraft/class_315 net/minecraft/entity/living/mob/passive/animal/PigEntity
-	METHOD method_2240 setSaddled (Z)V
-		ARG 1 saddled
-	METHOD method_2241 isSaddled ()Z

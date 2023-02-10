@@ -1,8 +1,0 @@
-CLASS net/minecraft/class_701 net/minecraft/block/DispenserBlock
-	FIELD field_3902 random Ljava/util/Random;
-	METHOD <init> <init> (I)V
-		ARG 1 id
-	METHOD method_2242 dispense (Lnet/minecraft/class_191;IIILjava/util/Random;)V
-		ARG 5 random
-	METHOD method_2243 updateFacing (Lnet/minecraft/class_191;III)V
-		ARG 4 z

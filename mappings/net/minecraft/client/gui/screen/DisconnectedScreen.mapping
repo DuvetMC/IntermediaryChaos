@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_495 net/minecraft/client/gui/screen/DisconnectedScreen
-	FIELD field_2362 name Ljava/lang/String;

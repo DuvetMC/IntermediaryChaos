@@ -4,7 +4,6 @@ CLASS net/minecraft/class_33 net/minecraft/client/TickTimer
 	FIELD field_204 tickDelta F
 	FIELD field_205 tpsScale F
 	FIELD field_206 partialTick F
-	FIELD field_3876 lastCorrectionTime J
 	FIELD field_516 timeSec D
 	FIELD field_517 lastTickTime J
 	FIELD field_518 cumTickTime J

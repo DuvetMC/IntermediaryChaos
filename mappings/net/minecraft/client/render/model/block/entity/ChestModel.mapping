@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_1026 net/minecraft/client/render/model/block/entity/ChestModel
-	FIELD field_4501 lid Lnet/minecraft/class_68;
-	FIELD field_4502 base Lnet/minecraft/class_68;
-	FIELD field_4503 lock Lnet/minecraft/class_68;
-	METHOD method_3307 renderParts ()V

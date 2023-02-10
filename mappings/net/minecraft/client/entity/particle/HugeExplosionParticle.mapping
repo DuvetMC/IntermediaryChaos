@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_904 net/minecraft/client/entity/particle/HugeExplosionParticle
-	FIELD field_3981 age I
-	FIELD field_3982 maxAge I

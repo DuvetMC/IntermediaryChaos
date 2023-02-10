@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_570 net/minecraft/item/MusicDiscItem
-	FIELD field_2650 recordType Ljava/lang/String;

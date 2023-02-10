@@ -31,8 +31,8 @@ enum class EnvType {
     BOTH
 }
 
-val minecraftVersion = "1.0.0"
-val officialVersion = "1.0.0"
+val minecraftVersion = "inf-20100618"
+val officialVersion = "inf-20100618"
 val env = EnvType.CLIENT
 
 version = if (System.getenv("BUILD_NUMBER") != null) {

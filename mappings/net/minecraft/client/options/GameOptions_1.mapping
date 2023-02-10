@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_650 net/minecraft/client/options/GameOptions_1
-	COMMENT @nest net/minecraft/client/options/GameOptions$1
-	FIELD field_3038 OPTIONS [I

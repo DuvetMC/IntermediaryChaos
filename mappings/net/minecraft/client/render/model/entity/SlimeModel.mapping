@@ -1,7 +1,0 @@
-CLASS net/minecraft/class_560 net/minecraft/client/render/model/entity/SlimeModel
-	FIELD field_2604 body Lnet/minecraft/class_68;
-	FIELD field_2621 rightEye Lnet/minecraft/class_68;
-	FIELD field_2622 leftEye Lnet/minecraft/class_68;
-	FIELD field_2623 mouth Lnet/minecraft/class_68;
-	METHOD <init> <init> (I)V
-		ARG 1 size

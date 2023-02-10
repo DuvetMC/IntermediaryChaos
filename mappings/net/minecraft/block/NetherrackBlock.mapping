@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_631 net/minecraft/block/NetherrackBlock
-	METHOD <init> <init> (II)V
-		ARG 1 id
-		ARG 2 sprite

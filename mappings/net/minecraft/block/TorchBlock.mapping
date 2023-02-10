@@ -4,5 +4,3 @@ CLASS net/minecraft/class_193 net/minecraft/block/TorchBlock
 		ARG 2 sprite
 	METHOD method_1110 canSurviveOrBreak (Lnet/minecraft/class_191;III)Z
 		ARG 4 z
-	METHOD method_2923 canSitOnTop (Lnet/minecraft/class_191;III)Z
-		ARG 4 z

@@ -1,9 +1,0 @@
-CLASS net/minecraft/class_738 net/minecraft/block/RepeaterBlock
-	FIELD field_3441 RANDOM_DISPLAY [D
-	FIELD field_3442 DELAY_SETTINGS [I
-	FIELD field_3443 powered Z
-	METHOD <init> <init> (IZ)V
-		ARG 1 id
-		ARG 2 powered
-	METHOD method_2417 shouldBePowered (Lnet/minecraft/class_191;IIII)Z
-		ARG 5 metadata

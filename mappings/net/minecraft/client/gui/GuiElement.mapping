@@ -1,20 +1,5 @@
 CLASS net/minecraft/class_145 net/minecraft/client/gui/GuiElement
 	FIELD field_744 drawOffset F
-	METHOD method_1869 fill (IIIII)V
-		ARG 1 y1
-		ARG 2 x2
-		ARG 3 y2
-		ARG 4 color
-	METHOD method_2729 drawHorizontalLine (IIII)V
-		ARG 1 x1
-		ARG 2 x2
-		ARG 3 y
-		ARG 4 color
-	METHOD method_2730 drawVerticalLine (IIII)V
-		ARG 1 x
-		ARG 2 y1
-		ARG 3 y2
-		ARG 4 color
 	METHOD method_346 fillGradient (IIIIII)V
 		ARG 1 x1
 		ARG 2 y1

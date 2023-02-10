@@ -1,8 +1,0 @@
-CLASS net/minecraft/class_579 net/minecraft/world/gen/Generator
-	FIELD field_2698 range I
-	FIELD field_2699 random Ljava/util/Random;
-	FIELD field_4307 world Lnet/minecraft/class_191;
-	METHOD method_1925 place (Lnet/minecraft/class_191;IIII[B)V
-		ARG 6 blockIds
-	METHOD method_1926 place (Lnet/minecraft/class_374;Lnet/minecraft/class_191;II[B)V
-		ARG 5 blockIds

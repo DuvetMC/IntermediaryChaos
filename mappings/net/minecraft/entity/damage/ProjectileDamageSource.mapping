@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_934 net/minecraft/entity/damage/ProjectileDamageSource
-	FIELD field_4051 projectile Lnet/minecraft/class_198;
-	METHOD <init> <init> (Ljava/lang/String;Lnet/minecraft/class_198;Lnet/minecraft/class_198;)V
-		ARG 3 projectile

@@ -1,6 +1,0 @@
-CLASS net/minecraft/class_873 net/minecraft/item/FilledMapItem
-	METHOD method_2858 update (Lnet/minecraft/class_191;Lnet/minecraft/class_198;Lnet/minecraft/class_858;)V
-		ARG 3 data
-	METHOD method_2859 getSavedMapData (Lnet/minecraft/class_226;Lnet/minecraft/class_191;)Lnet/minecraft/class_858;
-		ARG 2 world
-	METHOD method_2860 getMapData (SLnet/minecraft/class_191;)Lnet/minecraft/class_858;

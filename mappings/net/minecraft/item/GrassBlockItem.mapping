@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_905 net/minecraft/item/GrassBlockItem
-	FIELD field_3983 block Lnet/minecraft/class_35;

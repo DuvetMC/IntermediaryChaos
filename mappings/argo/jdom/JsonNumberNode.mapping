@@ -1,8 +1,0 @@
-CLASS net/minecraft/class_792 argo/jdom/JsonNumberNode
-	FIELD field_3656 PATTERN Ljava/util/regex/Pattern;
-	FIELD field_3657 value Ljava/lang/String;
-	METHOD <init> <init> (Ljava/lang/String;)V
-		ARG 1 value
-	METHOD equals equals (Ljava/lang/Object;)Z
-	METHOD hashCode hashCode ()I
-	METHOD toString toString ()Ljava/lang/String;

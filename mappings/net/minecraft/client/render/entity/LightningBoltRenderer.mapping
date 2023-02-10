@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_817 net/minecraft/client/render/entity/LightningBoltRenderer
-	METHOD method_2691 render (Lnet/minecraft/class_774;DDDFF)V

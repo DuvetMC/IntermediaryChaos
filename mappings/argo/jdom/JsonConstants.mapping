@@ -1,7 +1,0 @@
-CLASS net/minecraft/class_835 argo/jdom/JsonConstants
-	FIELD field_3722 NULL Lnet/minecraft/class_835;
-	FIELD field_3723 TRUE Lnet/minecraft/class_835;
-	FIELD field_3724 FALSE Lnet/minecraft/class_835;
-	FIELD field_3725 jsonNodeType Lnet/minecraft/class_769;
-	METHOD <init> <init> (Lnet/minecraft/class_769;)V
-		ARG 1 jsonNodeType

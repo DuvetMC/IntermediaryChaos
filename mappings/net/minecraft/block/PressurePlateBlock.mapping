@@ -1,6 +1,0 @@
-CLASS net/minecraft/class_480 net/minecraft/block/PressurePlateBlock
-	FIELD field_2289 rule Lnet/minecraft/class_482;
-	METHOD <init> <init> (IILnet/minecraft/class_482;Lnet/minecraft/class_87;)V
-		ARG 4 material
-	METHOD method_1715 updatePowerLevel (Lnet/minecraft/class_191;III)V
-		ARG 4 z

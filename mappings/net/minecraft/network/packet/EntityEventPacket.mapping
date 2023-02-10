@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_642 net/minecraft/network/packet/EntityEventPacket
-	FIELD field_3002 id I
-	FIELD field_3003 event B

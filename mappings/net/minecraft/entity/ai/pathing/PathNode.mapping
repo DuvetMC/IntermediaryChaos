@@ -15,10 +15,6 @@ CLASS net/minecraft/class_325 net/minecraft/entity/ai/pathing/PathNode
 		ARG 3 posZ
 	METHOD equals equals (Ljava/lang/Object;)Z
 	METHOD hashCode hashCode ()I
-	METHOD method_2252 hash (III)I
-		ARG 0 x
-		ARG 1 y
-		ARG 2 z
 	METHOD method_858 inHeap ()Z
 	METHOD method_859 getDistanceTo (Lnet/minecraft/class_325;)F
 		ARG 1 pathNode

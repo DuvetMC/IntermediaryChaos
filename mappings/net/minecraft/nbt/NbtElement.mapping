@@ -11,7 +11,3 @@ CLASS net/minecraft/class_397 net/minecraft/nbt/NbtElement
 	METHOD method_1171 deserialize (Ljava/io/DataInput;)Lnet/minecraft/class_397;
 		ARG 0 input
 	METHOD method_1172 getName ()Ljava/lang/String;
-	METHOD method_1623 getName (B)Ljava/lang/String;
-		ARG 0 type
-	METHOD method_1624 setName (Ljava/lang/String;)Lnet/minecraft/class_397;
-		ARG 1 name

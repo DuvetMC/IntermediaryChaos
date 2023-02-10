@@ -1,6 +1,0 @@
-CLASS net/minecraft/class_891 net/minecraft/client/render/model/entity/SilverfishModel
-	FIELD field_3964 body [Lnet/minecraft/class_68;
-	FIELD field_3965 scales [Lnet/minecraft/class_68;
-	FIELD field_3966 radii [F
-	FIELD field_3967 SEGMENT_LOCATIONS [[I
-	FIELD field_3968 SEGMENT_SIZES [[I

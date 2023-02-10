@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_892 net/minecraft/client/entity/particle/CloudParticle
-	FIELD field_3969 baseScale F

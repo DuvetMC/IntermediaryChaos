@@ -14,19 +14,3 @@ CLASS net/minecraft/class_46 net/minecraft/world/gen/noise/SimplexNoiseGenerator
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-	METHOD method_1446 getNoise ([DDDDIIIDDDD)V
-		ARG 1 noise
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 sizeX
-		ARG 9 sizeY
-		ARG 10 sizeZ
-		ARG 11 scaleX
-		ARG 13 scaleY
-		ARG 15 scaleZ
-		ARG 17 scaleExponent
-	METHOD method_2028 gradient (IDD)D
-		ARG 1 hash
-		ARG 2 x
-		ARG 4 z

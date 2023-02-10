@@ -2,21 +2,6 @@ CLASS net/minecraft/class_206 net/minecraft/client/render/entity/EntityRenderer
 	FIELD field_1087 dispatcher Lnet/minecraft/class_269;
 	FIELD field_1169 shadowSize F
 	FIELD field_1515 shadowDarkness F
-	FIELD field_2214 blockRenderer Lnet/minecraft/class_207;
-	METHOD method_1477 getWorld ()Lnet/minecraft/class_191;
-	METHOD method_1478 drawBox (Lnet/minecraft/class_200;)V
-		ARG 0 box
-	METHOD method_1479 renderAreaEffectCloud (Lnet/minecraft/class_200;DDD)V
-		ARG 5 dz
-	METHOD method_1480 renderOnFire (Lnet/minecraft/class_198;DDDF)V
-		ARG 8 tickDelta
-	METHOD method_1481 renderShadowOnBlock (Lnet/minecraft/class_35;DDDIIIFFDDD)V
-		ARG 17 cz
-	METHOD method_1482 postRender (Lnet/minecraft/class_198;DDDFF)V
-		ARG 9 tickDelta
-	METHOD method_1852 getFontRenderer ()Lnet/minecraft/class_62;
-	METHOD method_628 renderShadow (Lnet/minecraft/class_198;DDDFF)V
-		ARG 9 tickDelta
 	METHOD method_629 setEntityRenderDispatcher (Lnet/minecraft/class_269;)V
 		ARG 1 dispatcher
 	METHOD method_766 bindTexture (Ljava/lang/String;)V

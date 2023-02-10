@@ -1,16 +1,2 @@
 CLASS net/minecraft/class_240 net/minecraft/item/FoodItem
 	FIELD field_1281 hungerPoints I
-	FIELD field_3568 canBeCooked Z
-	FIELD field_3997 eatingTime I
-	FIELD field_3998 effectChance F
-	FIELD field_3999 alwaysEdible Z
-	FIELD field_4000 statusEffectId I
-	FIELD field_4001 duration I
-	FIELD field_4002 multiplier I
-	FIELD field_4003 saturation F
-	METHOD method_2504 getHungerPoints ()I
-	METHOD method_2505 canBeCooked ()Z
-	METHOD method_2951 setStatusEffect (IIIF)Lnet/minecraft/class_240;
-		ARG 4 effectChance
-	METHOD method_2952 getSaturation ()F
-	METHOD method_2953 alwaysEdible ()Lnet/minecraft/class_240;

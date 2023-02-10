@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_780 argo/saj/ThingWithPosition
-	METHOD method_2583 getColumn ()I
-	METHOD method_2584 getRow ()I

@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_834 net/minecraft/stat/StatsSyncer_2
-	COMMENT @nest net/minecraft/stat/StatsSyncer$2
-	METHOD run run ()V

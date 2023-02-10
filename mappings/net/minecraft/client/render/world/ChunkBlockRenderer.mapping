@@ -17,9 +17,6 @@ CLASS net/minecraft/class_47 net/minecraft/client/render/world/ChunkBlockRendere
 	FIELD field_18 x I
 	FIELD field_2011 blockEntitiesToRender Ljava/util/List;
 	FIELD field_20 y I
-	FIELD field_2154 blocksRendered Z
-	FIELD field_2185 blockEntities Ljava/util/List;
-	FIELD field_2226 chunkReloadOrder I
 	FIELD field_22 z I
 	FIELD field_244 currentChunkUpdates I
 	FIELD field_245 world Lnet/minecraft/class_191;
@@ -38,9 +35,5 @@ CLASS net/minecraft/class_47 net/minecraft/client/render/world/ChunkBlockRendere
 	METHOD method_125 getCameraMoveDistnce (Lnet/minecraft/class_198;)F
 		ARG 1 camera
 	METHOD method_130 resetRenderStagesAndWorld ()V
-	METHOD method_1386 stageBlockRenderer ()V
-	METHOD method_1547 translateFRegion ()V
-	METHOD method_213 updateIsBoxInFrustum (Lnet/minecraft/class_476;)V
-		ARG 1 cameraView
 	METHOD method_364 resetRenderStages ()V
 	METHOD method_911 renderGlListPlus2 ()V

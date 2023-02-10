@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_823 argo/jdom/JsonNodeSelectors_3
-	COMMENT @nest argo/jdom/JsonNodeSelectors$3
-	METHOD toString toString ()Ljava/lang/String;

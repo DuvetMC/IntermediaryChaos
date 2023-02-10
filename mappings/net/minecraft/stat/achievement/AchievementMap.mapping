@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_741 net/minecraft/stat/achievement/AchievementMap
-	FIELD field_3445 INSTANCE Lnet/minecraft/class_741;
-	FIELD field_3446 uuids Ljava/util/Map;
-	METHOD method_2425 getUuid (I)Ljava/lang/String;
-		ARG 0 id

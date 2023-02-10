@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_1011 net/minecraft/network/packet/EntityRemoveStatusEffectPacket
-	FIELD field_4471 id I
-	FIELD field_4472 effect B

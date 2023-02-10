@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_920 net/minecraft/network/packet/CreativeMenuSlotPacket
-	FIELD field_4020 slotId I

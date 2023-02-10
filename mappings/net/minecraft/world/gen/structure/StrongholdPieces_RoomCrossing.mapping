@@ -1,8 +1,0 @@
-CLASS net/minecraft/class_1006 net/minecraft/world/gen/structure/StrongholdPieces_RoomCrossing
-	COMMENT @nest net/minecraft/world/gen/structure/StrongholdPieces$RoomCrossing
-	FIELD field_4429 type I
-	FIELD field_4430 LOOT_ENTRIES [Lnet/minecraft/class_935;
-	METHOD <init> <init> (ILjava/util/Random;Lnet/minecraft/class_969;I)V
-		ARG 4 facing
-	METHOD method_3325 of (Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_1006;
-		ARG 6 generationDepth

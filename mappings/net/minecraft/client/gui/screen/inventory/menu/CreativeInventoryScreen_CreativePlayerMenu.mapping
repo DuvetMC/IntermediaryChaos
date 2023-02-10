@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_962 net/minecraft/client/gui/screen/inventory/menu/CreativeInventoryScreen_CreativePlayerMenu
-	COMMENT @nest net/minecraft/client/gui/screen/inventory/menu/CreativeInventoryScreen$CreativePlayerMenu
-	FIELD field_4167 tabs Ljava/util/List;
-	METHOD method_3089 scrollItems (F)V
-		ARG 1 position

@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_613 net/minecraft/client/entity/particle/PortalParticle
-	FIELD field_2875 baseScale F
-	FIELD field_2877 startX D
-	FIELD field_2878 startY D
-	FIELD field_2879 startZ D

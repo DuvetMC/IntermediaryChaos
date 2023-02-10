@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_859 net/minecraft/client/render/MapRenderer
-	FIELD field_3825 colors [I
-	FIELD field_3827 options Lnet/minecraft/class_148;
-	METHOD method_2817 render (Lnet/minecraft/class_203;Lnet/minecraft/class_52;Lnet/minecraft/class_858;)V

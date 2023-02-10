@@ -8,5 +8,3 @@ CLASS net/minecraft/class_321 net/minecraft/client/render/model/entity/CreeperMo
 	FIELD field_1542 leftBackleg Lnet/minecraft/class_68;
 	FIELD field_1543 rightFrontLeg Lnet/minecraft/class_68;
 	FIELD field_1544 leftFrontLeg Lnet/minecraft/class_68;
-	METHOD <init> <init> (F)V
-		ARG 1 reduction

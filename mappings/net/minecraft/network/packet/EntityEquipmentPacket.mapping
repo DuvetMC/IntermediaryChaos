@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_660 net/minecraft/network/packet/EntityEquipmentPacket
-	FIELD field_3086 id I
-	FIELD field_3087 equipmentSlot I

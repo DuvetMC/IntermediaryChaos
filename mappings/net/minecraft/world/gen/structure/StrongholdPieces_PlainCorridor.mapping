@@ -1,7 +1,0 @@
-CLASS net/minecraft/class_949 net/minecraft/world/gen/structure/StrongholdPieces_PlainCorridor
-	COMMENT @nest net/minecraft/world/gen/structure/StrongholdPieces$PlainCorridor
-	FIELD field_4099 steps I
-	METHOD <init> <init> (ILjava/util/Random;Lnet/minecraft/class_969;I)V
-		ARG 4 facing
-	METHOD method_3039 findSize (Ljava/util/List;Ljava/util/Random;IIII)Lnet/minecraft/class_969;
-		ARG 5 facing

@@ -3,7 +3,3 @@ CLASS net/minecraft/class_401 net/minecraft/client/gui/screen/ConfirmScreen
 	FIELD field_1936 title Ljava/lang/String;
 	FIELD field_1937 description Ljava/lang/String;
 	FIELD field_1938 id I
-	FIELD field_3404 confirmText Ljava/lang/String;
-	FIELD field_3405 abortText Ljava/lang/String;
-	METHOD <init> <init> (Lnet/minecraft/class_59;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
-		ARG 6 id

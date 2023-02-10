@@ -9,16 +9,7 @@ CLASS net/minecraft/class_68 net/minecraft/client/render/model/ModelPart
 	FIELD field_1479 renderCallList I
 	FIELD field_1480 visible Z
 	FIELD field_1481 invisible Z
-	FIELD field_4486 textureWidth F
-	FIELD field_4487 textureHeight F
 	FIELD field_799 flipped Z
-	METHOD <init> <init> (Lnet/minecraft/class_151;II)V
-		ARG 3 textureV
-	METHOD method_1487 compile (F)V
-		ARG 1 scale
-	METHOD method_1830 translate (F)V
-		ARG 1 scale
-	METHOD method_1877 addBox (FFFIII)V
 	METHOD method_194 addBox (FFFIIIF)V
 		ARG 1 x
 		ARG 2 y
@@ -27,10 +18,6 @@ CLASS net/minecraft/class_68 net/minecraft/client/render/model/ModelPart
 		ARG 5 sizeY
 		ARG 6 sizeZ
 		ARG 7 increase
-	METHOD method_2485 renderRotation (F)V
-		ARG 1 scale
-	METHOD method_3294 setTextureSize (II)Lnet/minecraft/class_68;
-		ARG 2 height
 	METHOD method_829 render (F)V
 		ARG 1 scale
 	METHOD method_830 setPivot (FFF)V

@@ -3,20 +3,6 @@ CLASS net/minecraft/class_234 net/minecraft/client/sound/system/SoundSystem
 	FIELD field_1252 music Lnet/minecraft/class_233;
 	FIELD field_1253 nextSoundEventIndex I
 	FIELD field_1299 options Lnet/minecraft/class_148;
-	FIELD field_2324 random Ljava/util/Random;
-	FIELD field_2325 musicCooldown I
-	FIELD field_2666 records Lnet/minecraft/class_233;
-	METHOD method_1678 play (Ljava/lang/String;FF)V
-		ARG 1 id
-		ARG 2 volume
-		ARG 3 pitch
-	METHOD method_1679 tickListener (Lnet/minecraft/class_199;F)V
-		ARG 2 tickDelta
-	METHOD method_1680 close ()V
-	METHOD method_1681 loadMusic (Ljava/lang/String;Ljava/io/File;)V
-	METHOD method_1901 playRecord (Ljava/lang/String;FFFFF)V
-	METHOD method_1902 loadRecord (Ljava/lang/String;Ljava/io/File;)V
-	METHOD method_1903 tickMusic ()V
 	METHOD method_649 loadSound (Ljava/lang/String;Ljava/io/File;)V
 	METHOD method_687 volumeChanged ()V
 	METHOD method_977 play (Ljava/lang/String;FFFFF)V

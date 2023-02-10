@@ -1,3 +1,2 @@
 CLASS net/minecraft/class_440 net/minecraft/client/render/entity/MinecartRenderer
 	FIELD field_2098 model Lnet/minecraft/class_151;
-	METHOD method_1579 render (Lnet/minecraft/class_439;DDDFF)V

@@ -1,8 +1,0 @@
-CLASS net/minecraft/class_1010 net/minecraft/world/gen/structure/StrongholdPieces_Library
-	COMMENT @nest net/minecraft/world/gen/structure/StrongholdPieces$Library
-	FIELD field_4466 LOOT_ENTRIES [Lnet/minecraft/class_935;
-	FIELD field_4467 isTall Z
-	METHOD <init> <init> (ILjava/util/Random;Lnet/minecraft/class_969;I)V
-		ARG 4 facing
-	METHOD method_3326 of (Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_1010;
-		ARG 6 generationDepth

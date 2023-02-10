@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_468 net/minecraft/crafting/FoodRecipes
-	METHOD method_1444 register (Lnet/minecraft/class_281;)V
-		ARG 1 manager

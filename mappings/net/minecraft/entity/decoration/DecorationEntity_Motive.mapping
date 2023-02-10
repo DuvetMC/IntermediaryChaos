@@ -19,11 +19,5 @@ CLASS net/minecraft/class_366 net/minecraft/entity/decoration/DecorationEntity_M
 	FIELD field_1786 SKULL_AND_ROSES Lnet/minecraft/class_366;
 	FIELD field_1787 FIGHTERS Lnet/minecraft/class_366;
 	FIELD field_1788 POINTER Lnet/minecraft/class_366;
-	FIELD field_2761 CREEBET Lnet/minecraft/class_366;
-	FIELD field_2762 GRAHAM Lnet/minecraft/class_366;
-	FIELD field_2763 PIGSCENE Lnet/minecraft/class_366;
-	FIELD field_2764 SKELETON Lnet/minecraft/class_366;
-	FIELD field_2765 DONKEY_KONG Lnet/minecraft/class_366;
-	FIELD field_3212 BURNING_SKULL Lnet/minecraft/class_366;
 	METHOD valueOf valueOf (Ljava/lang/String;)Lnet/minecraft/class_366;
 	METHOD values values ()[Lnet/minecraft/class_366;

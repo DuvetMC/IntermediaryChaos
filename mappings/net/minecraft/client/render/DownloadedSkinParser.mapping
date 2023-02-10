@@ -12,8 +12,3 @@ CLASS net/minecraft/class_407 net/minecraft/client/render/DownloadedSkinParser
 		ARG 2 vMin
 		ARG 3 uMax
 		ARG 4 vMax
-	METHOD method_1406 hasTransperancy (IIII)Z
-		ARG 1 uMin
-		ARG 2 vMin
-		ARG 3 uMax
-		ARG 4 vMax

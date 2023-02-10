@@ -20,8 +20,6 @@ CLASS net/minecraft/class_221 net/minecraft/client/entity/particle/Particle
 	FIELD field_26 randomVOffset F
 	METHOD <init> <init> (Lnet/minecraft/class_191;DDDDDD)V
 		ARG 12 velocityZ
-	METHOD method_1663 multiplyVelocity (F)Lnet/minecraft/class_221;
-		ARG 1 value
 	METHOD method_573 getTextureType ()I
 	METHOD method_575 render (Lnet/minecraft/class_53;FFFFFF)V
 		ARG 7 sideways

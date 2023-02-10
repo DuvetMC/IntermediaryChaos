@@ -1,15 +1,4 @@
 CLASS net/minecraft/class_187 net/minecraft/client/gui/screen/inventory/menu/InventoryMenuScreen
-	FIELD field_1176 menu Lnet/minecraft/class_648;
 	FIELD field_1367 backgroundWidth I
 	FIELD field_1368 backgroundHeight I
-	METHOD <init> <init> (Lnet/minecraft/class_648;)V
-		ARG 1 menu
-	METHOD method_1619 getHoveredSlot (II)Lnet/minecraft/class_227;
-		ARG 2 mouseY
-	METHOD method_1620 drawSlot (Lnet/minecraft/class_227;)V
-		ARG 1 invSlot
-	METHOD method_2109 isMouseOverSlot (Lnet/minecraft/class_227;II)Z
-		ARG 3 mouseY
-	METHOD method_2989 clickSlot (Lnet/minecraft/class_227;IIZ)V
-	METHOD method_777 drawBackground (F)V
 	METHOD method_778 drawForeground ()V

@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_924 net/minecraft/block/MelonBlock
-	METHOD <init> <init> (I)V
-		ARG 1 id

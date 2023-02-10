@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_761 net/minecraft/client/render/entity/WolfRenderer
-	METHOD method_2499 getEntityAge (Lnet/minecraft/class_749;F)F

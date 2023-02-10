@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_537 net/minecraft/network/packet/EntityMovePacket_Position
-	COMMENT @nest net/minecraft/network/packet/EntityMovePacket$Position

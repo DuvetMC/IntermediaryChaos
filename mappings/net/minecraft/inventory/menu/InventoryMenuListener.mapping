@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_649 net/minecraft/inventory/menu/InventoryMenuListener
-	METHOD method_2089 onDataChanged (Lnet/minecraft/class_648;II)V
-		ARG 3 value
-	METHOD method_2090 onSlotChanged (Lnet/minecraft/class_648;ILnet/minecraft/class_226;)V
-		ARG 3 stack

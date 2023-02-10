@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_985 net/minecraft/client/render/model/entity/EndermanModel
-	FIELD field_4230 carryingBlock Z
-	FIELD field_4231 angry Z

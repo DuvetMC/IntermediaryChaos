@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_796 net/minecraft/client/Minecraft_1
-	COMMENT @nest Minecraft$1
-	FIELD field_3664 client Lnet/minecraft/client/Minecraft;
-	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
-		ARG 1 client

@@ -43,17 +43,4 @@ CLASS net/minecraft/class_244 net/minecraft/nbt/NbtCompound
 		ARG 1 key
 	METHOD method_1162 getBoolean (Ljava/lang/String;)Z
 		ARG 1 key
-	METHOD method_1436 contains (Ljava/lang/String;)Z
-		ARG 1 key
-	METHOD method_1437 putFloat (Ljava/lang/String;F)V
-		ARG 1 key
-		ARG 2 value
-	METHOD method_1438 getFloat (Ljava/lang/String;)F
-		ARG 1 key
-	METHOD method_1896 putDouble (Ljava/lang/String;D)V
-		ARG 1 key
-		ARG 2 value
-	METHOD method_1897 getDouble (Ljava/lang/String;)D
-		ARG 1 key
-	METHOD method_2837 getValues ()Ljava/util/Collection;
 	METHOD toString toString ()Ljava/lang/String;

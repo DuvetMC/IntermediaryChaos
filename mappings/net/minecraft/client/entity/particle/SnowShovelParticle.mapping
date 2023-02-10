@@ -1,6 +1,0 @@
-CLASS net/minecraft/class_805 net/minecraft/client/entity/particle/SnowShovelParticle
-	FIELD field_3679 baseScale F
-	METHOD <init> <init> (Lnet/minecraft/class_191;DDDDDD)V
-		ARG 12 velocityZ
-	METHOD <init> <init> (Lnet/minecraft/class_191;DDDDDDF)V
-		ARG 14 scaleFactor

@@ -1,7 +1,0 @@
-CLASS net/minecraft/class_1014 net/minecraft/block/VineBlock
-	METHOD <init> <init> (I)V
-		ARG 1 id
-	METHOD method_3288 canGrowOn (I)Z
-		ARG 1 blockId
-	METHOD method_3289 hasConnections (Lnet/minecraft/class_191;III)Z
-		ARG 4 z

@@ -12,13 +12,6 @@ CLASS net/minecraft/class_376 net/minecraft/world/chunk/WorldChunk
 	FIELD field_1962 entitiesBySection [Ljava/util/List;
 	FIELD field_1997 loaded Z
 		COMMENT True if  this chunk is currently loaded into the world.
-	FIELD field_2171 containsEntities Z
-		COMMENT True if this chunk contains entities - used to decide how often to save this chunk to disk.
-	FIELD field_2207 lastSaveTime J
-	FIELD field_4431 precipitationHeight [I
-		COMMENT The minimum y-coordinate at which snow or rain can fall for each column in this chunk.
-	FIELD field_4432 needsLightUpdate [Z
-		COMMENT Stores whether each column in this chunk needs a light update.
 	METHOD <init> <init> (Lnet/minecraft/class_191;II)V
 		ARG 3 chunkZ
 	METHOD <init> <init> (Lnet/minecraft/class_191;[BII)V
@@ -59,47 +52,3 @@ CLASS net/minecraft/class_376 net/minecraft/world/chunk/WorldChunk
 	METHOD method_1299 isAt (II)Z
 		ARG 1 chunkX
 		ARG 2 chunkZ
-	METHOD method_1368 shouldSave (Z)Z
-		ARG 1 saveEntities
-	METHOD method_1396 getEntities (Ljava/lang/Class;Lnet/minecraft/class_200;Ljava/util/List;)V
-		ARG 3 entities
-	METHOD method_1683 populateHeightmap ()V
-	METHOD method_1684 setBlockAt (IIII)Z
-		ARG 1 sectionX
-		ARG 2 y
-		ARG 3 sectionZ
-		ARG 4 blockId
-	METHOD method_1685 setBlockWithMetadataAt (IIIII)Z
-		ARG 1 sectionX
-		ARG 2 y
-		ARG 3 sectionZ
-		ARG 4 blockId
-		ARG 5 metadata
-	METHOD method_1686 addBlockEntity (Lnet/minecraft/class_257;)V
-		ARG 1 blockEntity
-	METHOD method_1687 getBlockMetadataAt (Lnet/minecraft/class_372;III)I
-	METHOD method_1688 setLightAt (Lnet/minecraft/class_372;IIII)V
-		ARG 5 light
-	METHOD method_1689 getEntities (Lnet/minecraft/class_198;Lnet/minecraft/class_200;Ljava/util/List;)V
-		ARG 3 entities
-	METHOD method_1690 setBlockMetadataAt (IIII)V
-	METHOD method_1691 removeEntity (Lnet/minecraft/class_198;)V
-		ARG 1 entity
-	METHOD method_1692 load ()V
-	METHOD method_1693 unload ()V
-	METHOD method_1694 markDirty ()V
-	METHOD method_1695 removeBlockEntityAt (III)V
-		ARG 1 sectionX
-		ARG 2 y
-		ARG 3 sectionZ
-	METHOD method_1774 set ([BIIIIIII)I
-	METHOD method_1862 populateSkylight ()V
-	METHOD method_1894 getRandomForSlime (J)Ljava/util/Random;
-		ARG 1 seed
-	METHOD method_2202 isEmpty ()Z
-	METHOD method_3245 populate (Lnet/minecraft/class_374;Lnet/minecraft/class_374;II)V
-		ARG 4 chunkZ
-	METHOD method_3246 getPrecipitationHeightAt (II)I
-		ARG 1 sectionX
-		ARG 2 sectionZ
-	METHOD method_3247 checkSkylight (IIII)V

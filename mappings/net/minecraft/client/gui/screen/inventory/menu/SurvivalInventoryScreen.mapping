@@ -1,5 +1,3 @@
 CLASS net/minecraft/class_300 net/minecraft/client/gui/screen/inventory/menu/SurvivalInventoryScreen
 	FIELD field_1629 mouseX F
 	FIELD field_1630 mouseY F
-	METHOD <init> <init> (Lnet/minecraft/class_203;)V
-		ARG 1 player

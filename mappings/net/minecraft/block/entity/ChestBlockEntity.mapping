@@ -1,12 +1,2 @@
 CLASS net/minecraft/class_378 net/minecraft/block/entity/ChestBlockEntity
 	FIELD field_1882 inventory [Lnet/minecraft/class_226;
-	FIELD field_4065 isDoubleChest Z
-	FIELD field_4066 northNeighbor Lnet/minecraft/class_378;
-	FIELD field_4067 eastNeighbor Lnet/minecraft/class_378;
-	FIELD field_4068 westNeighbor Lnet/minecraft/class_378;
-	FIELD field_4069 southNeighbor Lnet/minecraft/class_378;
-	FIELD field_4070 animationProgress F
-	FIELD field_4071 lastAnimationProgress F
-	FIELD field_4072 viewerCount I
-	FIELD field_4073 ticks I
-	METHOD method_2998 updateShape ()V

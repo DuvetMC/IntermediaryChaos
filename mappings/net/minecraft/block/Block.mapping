@@ -31,96 +31,18 @@ CLASS net/minecraft/class_35 net/minecraft/block/Block
 	FIELD field_213 BEDROCK Lnet/minecraft/class_35;
 	FIELD field_214 FLOWING_WATER Lnet/minecraft/class_35;
 	FIELD field_216 FLOWING_LAVA Lnet/minecraft/class_35;
-	FIELD field_2176 MOB_SPAWNER Lnet/minecraft/class_35;
 	FIELD field_218 sprite I
 	FIELD field_219 minX D
-	FIELD field_2200 OAK_STAIRS Lnet/minecraft/class_35;
-	FIELD field_2201 STONE_STAIRS Lnet/minecraft/class_35;
 	FIELD field_220 minY D
 	FIELD field_221 minZ D
 	FIELD field_222 maxX D
 	FIELD field_223 maxY D
-	FIELD field_2246 LAPIS_ORE Lnet/minecraft/class_35;
-	FIELD field_2247 LAPIS_BLOCK Lnet/minecraft/class_35;
-	FIELD field_2248 DISPENSER Lnet/minecraft/class_35;
-	FIELD field_2249 SANDSTONE Lnet/minecraft/class_35;
 	FIELD field_224 maxZ D
-	FIELD field_2250 NOTEBLOCK Lnet/minecraft/class_35;
-	FIELD field_2251 BED Lnet/minecraft/class_35;
-	FIELD field_2252 WEB Lnet/minecraft/class_35;
-	FIELD field_2253 DETECTOR_RAIL Lnet/minecraft/class_35;
-	FIELD field_2256 TALLGRASS Lnet/minecraft/class_868;
-	FIELD field_2257 DEADBUSH Lnet/minecraft/class_860;
-	FIELD field_2301 WALL_SIGN Lnet/minecraft/class_35;
-	FIELD field_2302 LEVER Lnet/minecraft/class_35;
-	FIELD field_2303 STONE_PRESSURE_PLATE Lnet/minecraft/class_35;
-	FIELD field_2304 IRON_DOOR Lnet/minecraft/class_35;
-	FIELD field_2305 WOODEN_PRESSURE_PLATE Lnet/minecraft/class_35;
-	FIELD field_2306 REDSTONE_ORE Lnet/minecraft/class_35;
-	FIELD field_2307 LIT_REDSTONE_ORE Lnet/minecraft/class_35;
-	FIELD field_2308 UNLIT_REDSTONE_TORCH Lnet/minecraft/class_35;
-	FIELD field_2309 REDSTONE_TORCH Lnet/minecraft/class_35;
-	FIELD field_2310 STONE_BUTTON Lnet/minecraft/class_35;
-	FIELD field_2332 SNOW_LAYER Lnet/minecraft/class_35;
-	FIELD field_2333 ICE Lnet/minecraft/class_35;
-	FIELD field_2334 slipperiness F
-	FIELD field_2403 SNOW Lnet/minecraft/class_35;
 	FIELD field_24 rawId I
-	FIELD field_2516 CACTUS Lnet/minecraft/class_35;
-	FIELD field_2605 CLAY Lnet/minecraft/class_35;
-	FIELD field_2606 REEDS Lnet/minecraft/class_35;
-	FIELD field_2654 JUKEBOX Lnet/minecraft/class_35;
-	FIELD field_2723 FENCE Lnet/minecraft/class_35;
-	FIELD field_2749 IS_BLOCK_ENTITY [Z
-	FIELD field_2909 PUMPKIN Lnet/minecraft/class_35;
-	FIELD field_2910 NETHERRACK Lnet/minecraft/class_35;
-	FIELD field_2911 SOUL_SAND Lnet/minecraft/class_35;
-	FIELD field_2912 GLOWSTONE Lnet/minecraft/class_35;
-	FIELD field_2913 NETHER_PORTAL Lnet/minecraft/class_632;
-	FIELD field_2914 LIT_PUMPKIN Lnet/minecraft/class_35;
-	FIELD field_3105 id Ljava/lang/String;
-	FIELD field_3181 CAKE Lnet/minecraft/class_35;
-	FIELD field_3433 REPEATER Lnet/minecraft/class_35;
-	FIELD field_3434 POWERED_REPEATER Lnet/minecraft/class_35;
-	FIELD field_3551 CHEST_LOCKED_APRIL_FOOLS Lnet/minecraft/class_35;
-	FIELD field_3716 POWERED_RAIL Lnet/minecraft/class_35;
-	FIELD field_3718 stats Z
-	FIELD field_3899 TRAPDOOR Lnet/minecraft/class_35;
-	FIELD field_3900 UPDATE_CLIENTS [Z
-	FIELD field_3938 STICKY_PISTON Lnet/minecraft/class_35;
-	FIELD field_3939 PISTON Lnet/minecraft/class_35;
-	FIELD field_3940 PISTON_HEAD Lnet/minecraft/class_876;
-	FIELD field_3941 MOVING_BLOCK Lnet/minecraft/class_881;
 	FIELD field_405 PLANKS Lnet/minecraft/class_35;
 	FIELD field_407 SAND Lnet/minecraft/class_35;
 	FIELD field_408 GRAVEL Lnet/minecraft/class_35;
 	FIELD field_412 LOG Lnet/minecraft/class_35;
-	FIELD field_4168 MONSTER_EGG Lnet/minecraft/class_35;
-	FIELD field_4169 STONE_BRICKS Lnet/minecraft/class_35;
-	FIELD field_4170 BROWN_MUSHROOM_BLOCK Lnet/minecraft/class_35;
-	FIELD field_4171 RED_MUSHROOM_BLOCK Lnet/minecraft/class_35;
-	FIELD field_4172 IRON_BARS Lnet/minecraft/class_35;
-	FIELD field_4173 GLASS_PANE Lnet/minecraft/class_35;
-	FIELD field_4174 MELON_BLOCK Lnet/minecraft/class_35;
-	FIELD field_4175 PUMPKIN_STEM Lnet/minecraft/class_35;
-	FIELD field_4176 MELON_STEM Lnet/minecraft/class_35;
-	FIELD field_4177 VINE Lnet/minecraft/class_35;
-	FIELD field_4178 FENCE_GATE Lnet/minecraft/class_35;
-	FIELD field_4179 BRICK_STAIRS Lnet/minecraft/class_35;
-	FIELD field_4180 STONE_BRICK_STAIRS Lnet/minecraft/class_35;
-	FIELD field_4578 LILYPAD Lnet/minecraft/class_35;
-	FIELD field_4579 NETHER_BRICKS Lnet/minecraft/class_35;
-	FIELD field_4580 NETHER_BRICK_FENCE Lnet/minecraft/class_35;
-	FIELD field_4581 NETHER_BRICK_STIRS Lnet/minecraft/class_35;
-	FIELD field_4582 NETHER_WART Lnet/minecraft/class_35;
-	FIELD field_4583 MYCELIUM Lnet/minecraft/class_1035;
-	FIELD field_4771 ENCHANTING_TABLE Lnet/minecraft/class_35;
-	FIELD field_4772 BREWING_STAND Lnet/minecraft/class_35;
-	FIELD field_4773 CAULDRON Lnet/minecraft/class_35;
-	FIELD field_4774 END_PORTAL Lnet/minecraft/class_35;
-	FIELD field_4775 END_PORTAL_FRAME Lnet/minecraft/class_35;
-	FIELD field_4904 END_STONE Lnet/minecraft/class_35;
-	FIELD field_4979 DRAGON_EGG Lnet/minecraft/class_35;
 	FIELD field_521 SPONGE Lnet/minecraft/class_35;
 	FIELD field_522 GLASS Lnet/minecraft/class_35;
 	FIELD field_537 WOOL Lnet/minecraft/class_35;
@@ -161,17 +83,6 @@ CLASS net/minecraft/class_35 net/minecraft/block/Block
 	METHOD <init> <init> (ILnet/minecraft/class_87;)V
 		ARG 1 id
 		ARG 2 material
-	METHOD method_101 shouldRenderFace (Lnet/minecraft/class_452;IIII)Z
-		ARG 5 face
-	METHOD method_107 setTicksRandomly (Z)Lnet/minecraft/class_35;
-		COMMENT Sets whether this block accepts random ticks. Random ticks are mostly used by plants
-		COMMENT and crops to update growth, but some other blocks are affected by random ticks as well,
-		COMMENT like e.g. leaves (to update decay).
-		COMMENT Note that while this field might be set to true the block might not do anything with the random tick.
-		COMMENT
-		COMMENT <p>
-		COMMENT NOTE: this method should only be used during the block's creation before it is registered.
-		ARG 1 ticksRandomly
 	METHOD method_108 isOpaqueCube ()Z
 	METHOD method_1083 onExploded (Lnet/minecraft/class_191;III)V
 		ARG 4 z
@@ -179,8 +90,6 @@ CLASS net/minecraft/class_35 net/minecraft/block/Block
 		ARG 4 z
 	METHOD method_1085 dropItems (Lnet/minecraft/class_191;IIII)V
 	METHOD method_109 getCollisionShape (Lnet/minecraft/class_191;III)Lnet/minecraft/class_200;
-		ARG 4 z
-	METHOD method_1111 isSupported (Lnet/minecraft/class_191;III)Z
 		ARG 4 z
 	METHOD method_1125 tick (Lnet/minecraft/class_191;IIILjava/util/Random;)V
 		COMMENT Performs a scheduled tick. Blocks that want to perform some action after a delay can
@@ -197,99 +106,11 @@ CLASS net/minecraft/class_35 net/minecraft/block/Block
 		COMMENT 16 blocks of the player each tick.
 		ARG 5 random
 	METHOD method_1129 getTickRate ()I
-	METHOD method_1252 updateShape (Lnet/minecraft/class_452;III)V
-		ARG 4 z
 	METHOD method_1253 startMining (Lnet/minecraft/class_191;IIILnet/minecraft/class_203;)V
 		ARG 5 player
-	METHOD method_1286 applyMaterialDrag (Lnet/minecraft/class_191;IIILnet/minecraft/class_198;Lnet/minecraft/class_72;)V
-		ARG 6 velocity
 	METHOD method_1287 hasCollision (IZ)Z
 		ARG 1 metadata
 		ARG 2 allowFluids
-	METHOD method_1433 setSound (Lnet/minecraft/class_230;)Lnet/minecraft/class_35;
-		COMMENT Sets this block's sound type.
-		COMMENT
-		COMMENT <p>
-		COMMENT NOTE: this method should only be used during the block's creation before it is registered.
-		ARG 1 sound
-	METHOD method_1434 getBlastResistance (Lnet/minecraft/class_198;)F
-		COMMENT Returns this block's blast resistance for the given entity.
-		ARG 1 entity
-	METHOD method_1435 getCollisionBoxes (Lnet/minecraft/class_191;IIILnet/minecraft/class_200;Ljava/util/ArrayList;)V
-	METHOD method_1614 getColor (Lnet/minecraft/class_452;III)I
-		ARG 4 z
-	METHOD method_1727 onEntityCollision (Lnet/minecraft/class_191;IIILnet/minecraft/class_198;)V
-		ARG 5 entity
-	METHOD method_1728 isEmittingWeakPower (Lnet/minecraft/class_452;IIII)Z
-		COMMENT Returns whether weak redstone power is emitted by this block in the given direction.
-		COMMENT
-		COMMENT <p>
-		COMMENT NOTE: directions in redstone power related methods are backwards, so blocks should
-		COMMENT check for power emitted in the direction <i>opposite</i> of the one given.
-		ARG 5 dir
-	METHOD method_1729 isEmittingStrongPower (Lnet/minecraft/class_191;IIII)Z
-		ARG 5 dir
-	METHOD method_1730 isPowerSource ()Z
-		COMMENT Returns whether this block is capable of emitting redstone power.
-	METHOD method_1731 setBlockItemBounds ()V
-		COMMENT Sets the bounds for the BlockItem
-	METHOD method_1807 afterMinedByPlayer (Lnet/minecraft/class_191;Lnet/minecraft/class_203;IIII)V
-		ARG 6 metadata
-	METHOD method_2004 onPlaced (Lnet/minecraft/class_191;IIILnet/minecraft/class_199;)V
-		COMMENT Called when this block is placed by an entity.
-		ARG 5 entity
-	METHOD method_2135 setId (Ljava/lang/String;)Lnet/minecraft/class_35;
-		COMMENT Sets this block's id.
-		COMMENT
-		COMMENT <p>
-		COMMENT NOTE: this method should only be used during the block's creation before it is registered.
-		ARG 1 id
-	METHOD method_2237 doEvent (Lnet/minecraft/class_191;IIIII)V
-		COMMENT Performs a block event. Block events are queued on the server, and executed once per
-		COMMENT tick. Successful block events are synced with clients that are within range. Block events
-		COMMENT are most notably used by pistons to handle extension and retraction, but note blocks
-		COMMENT also use them to play sounds.
-		ARG 6 data
-	METHOD method_2238 getDropItemMetadata (I)I
-		ARG 1 metadata
-	METHOD method_249 getLightLevel (Lnet/minecraft/class_452;III)F
-		ARG 4 z
-	METHOD method_2492 getName ()Ljava/lang/String;
-	METHOD method_2731 hasStats ()Z
-	METHOD method_2732 disableStats ()Lnet/minecraft/class_35;
-		COMMENT Disables tracking by stats for this block.
-		COMMENT
-		COMMENT <p>
-		COMMENT NOTE: this method should only be used during the block's creation before it is registered.
-	METHOD method_2854 isFaceSolid (Lnet/minecraft/class_452;IIII)Z
-		ARG 5 face
-	METHOD method_2855 canPlace (Lnet/minecraft/class_191;IIII)Z
-		ARG 5 face
-	METHOD method_2856 init ()V
-	METHOD method_2857 updateClients ()Lnet/minecraft/class_35;
-	METHOD method_2918 dropItems (Lnet/minecraft/class_191;IIILnet/minecraft/class_226;)V
-		ARG 5 stack
-	METHOD method_2919 getColor (I)I
-		ARG 1 tint
-	METHOD method_2920 getPistonMoveBehavior ()I
-		COMMENT Returns how this block interacts with pistons. The following values are accepted:
-		COMMENT <br>- 0: this block can be pushed and pulled by pistons.
-		COMMENT <br>- 1: this block is broken when pushed.
-		COMMENT <br>- 2: this block cannot be pushed or pulled by pistons.
-	METHOD method_2921 setUnbreakable ()Lnet/minecraft/class_35;
-		COMMENT Sets this block as unbreakable by setting its strength to -1. Note that this changes both
-		COMMENT the block's mining speed and its blast resistance.
-		COMMENT
-		COMMENT <p>
-		COMMENT NOTE: this method should only be used during the block's creation before it is registered.
-	METHOD method_2922 getMiningSpeed ()F
-	METHOD method_3090 getLightColor (Lnet/minecraft/class_452;III)I
-		ARG 4 z
-	METHOD method_3091 getSprite (Lnet/minecraft/class_452;IIII)I
-		ARG 5 face
-	METHOD method_3092 getAmbientOcclusionLight (Lnet/minecraft/class_452;III)F
-		ARG 4 z
-	METHOD method_3093 getColor ()I
 	METHOD method_387 isFullCube ()Z
 	METHOD method_394 getBaseDropCount (Ljava/util/Random;)I
 		ARG 1 random

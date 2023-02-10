@@ -1,6 +1,0 @@
-CLASS net/minecraft/class_848 net/minecraft/world/gen/feature/TallPlantFeature
-	FIELD field_3771 plantId I
-	FIELD field_3772 plantVariant I
-	METHOD <init> <init> (II)V
-		ARG 1 plantId
-		ARG 2 plantVariant

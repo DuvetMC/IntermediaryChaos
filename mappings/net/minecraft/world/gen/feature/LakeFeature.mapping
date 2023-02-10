@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_645 net/minecraft/world/gen/feature/LakeFeature
-	FIELD field_3023 liquidId I
-	METHOD <init> <init> (I)V
-		ARG 1 liquidId

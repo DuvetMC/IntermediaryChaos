@@ -1,10 +1,6 @@
 CLASS net/minecraft/class_377 net/minecraft/client/entity/particle/EntityPickupParticle
 	FIELD field_1877 entity Lnet/minecraft/class_198;
 		COMMENT The entity being picked up - this could be an item, arrow, or xp.
-	FIELD field_1878 collector Lnet/minecraft/class_198;
-		COMMENT The collector that is picking up the entity.
 	FIELD field_1879 age I
 	FIELD field_1880 maxAge I
 	FIELD field_1881 yOffset F
-	METHOD <init> <init> (Lnet/minecraft/class_191;Lnet/minecraft/class_198;Lnet/minecraft/class_198;F)V
-		ARG 4 yOffset

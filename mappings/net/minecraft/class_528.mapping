@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_528
-	METHOD windowClosing windowClosing (Ljava/awt/event/WindowEvent;)V

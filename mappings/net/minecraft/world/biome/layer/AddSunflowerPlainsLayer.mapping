@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_1000 net/minecraft/world/biome/layer/AddSunflowerPlainsLayer
-	METHOD <init> <init> (JLnet/minecraft/class_993;)V
-		ARG 3 parent

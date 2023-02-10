@@ -1,8 +1,0 @@
-CLASS net/minecraft/class_802 argo/jdom/JsonListenerToJdomAdapter
-	FIELD field_3676 stack Ljava/util/Stack;
-	FIELD field_3677 root Lnet/minecraft/class_800;
-	METHOD method_2658 getDocument ()Lnet/minecraft/class_822;
-	METHOD method_2659 addRootNode (Lnet/minecraft/class_800;)V
-		ARG 1 node
-	METHOD method_2660 addValue (Lnet/minecraft/class_800;)V
-		ARG 1 node

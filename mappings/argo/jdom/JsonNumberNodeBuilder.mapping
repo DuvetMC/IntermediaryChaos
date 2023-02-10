@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_811 argo/jdom/JsonNumberNodeBuilder
-	FIELD field_3696 value Lnet/minecraft/class_787;
-	METHOD <init> <init> (Ljava/lang/String;)V
-		ARG 1 value

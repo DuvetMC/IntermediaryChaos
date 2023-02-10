@@ -1,9 +1,0 @@
-CLASS net/minecraft/class_533 net/minecraft/network/packet/EntityTeleportPacket
-	FIELD field_2497 id I
-	FIELD field_2498 x I
-	FIELD field_2499 y I
-	FIELD field_2500 z I
-	FIELD field_2501 yaw B
-	FIELD field_2502 pitch B
-	METHOD <init> <init> (Lnet/minecraft/class_198;)V
-		ARG 1 entity

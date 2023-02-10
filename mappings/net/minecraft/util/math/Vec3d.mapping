@@ -2,28 +2,11 @@ CLASS net/minecraft/class_72 net/minecraft/util/math/Vec3d
 	FIELD field_14 x D
 	FIELD field_15 y D
 	FIELD field_16 z D
-	FIELD field_2189 CACHE Ljava/util/List;
 	METHOD <init> <init> (DDD)V
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
 	METHOD method_1325 length ()D
-	METHOD method_1409 of (DDD)Lnet/minecraft/class_72;
-		ARG 4 z
-	METHOD method_1411 cross (Lnet/minecraft/class_72;)Lnet/minecraft/class_72;
-		ARG 1 vec
-	METHOD method_1412 squaredDistanceTo (DDD)D
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-	METHOD method_1476 subtract (DDD)Lnet/minecraft/class_72;
-		ARG 5 z
-	METHOD method_1713 rotateX (F)V
-		ARG 1 angle
-	METHOD method_1714 rotateY (F)V
-		ARG 1 angle
-	METHOD method_2959 dot (Lnet/minecraft/class_72;)D
-		ARG 1 vec
 	METHOD method_366 add (DDD)Lnet/minecraft/class_72;
 		ARG 5 z
 	METHOD method_410 intermediateWithX (Lnet/minecraft/class_72;D)Lnet/minecraft/class_72;
