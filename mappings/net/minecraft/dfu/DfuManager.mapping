@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_3676 net/minecraft/dfu/DfuManager
+	FIELD field_23118 NEW_SCHEMA Ljava/util/function/BiFunction;
+	FIELD field_23686 DFU Lcom/mojang/datafixers/DataFixer;
+	METHOD method_13775 setup (Lcom/mojang/datafixers/DataFixerBuilder;)V
+		ARG 0 builder
+	METHOD method_21891 buildDfu ()Lcom/mojang/datafixers/DataFixer;
+	METHOD method_21907 getDfu ()Lcom/mojang/datafixers/DataFixer;

@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_662 net/minecraft/locale/LanguageManager
+	FIELD field_20828 LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD field_3095 INSTANCE Lnet/minecraft/class_662;
 	METHOD method_2120 getInstance ()Lnet/minecraft/class_662;
 	METHOD method_2121 translate (Ljava/lang/String;)Ljava/lang/String;

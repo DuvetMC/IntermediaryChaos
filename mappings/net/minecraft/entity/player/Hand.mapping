@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_3626 net/minecraft/entity/player/Hand
+	FIELD field_14921 LEFT Lnet/minecraft/class_3626;
+	FIELD field_14922 RIGHT Lnet/minecraft/class_3626;

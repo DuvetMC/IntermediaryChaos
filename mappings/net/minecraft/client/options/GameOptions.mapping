@@ -1,19 +1,53 @@
 CLASS net/minecraft/class_148 net/minecraft/client/options/GameOptions
+	FIELD field_10537 AMBIENT_OCCLUSION [Ljava/lang/String;
+	FIELD field_10549 fullscreenKey Lnet/minecraft/class_1021;
+	FIELD field_11215 highlightSpectatorsKey Lnet/minecraft/class_1021;
 	FIELD field_1182 inventoryKey Lnet/minecraft/class_1021;
 	FIELD field_1183 dropKey Lnet/minecraft/class_1021;
+	FIELD field_13789 reducedDebugInfo Z
+	FIELD field_14271 CLOUDS [Ljava/lang/String;
+	FIELD field_14272 cloudOption I
+	FIELD field_14698 mainHand Lnet/minecraft/class_3626;
+	FIELD field_14699 swapHandsKey Lnet/minecraft/class_1021;
+	FIELD field_15342 ATTACK_INDICATOR [Ljava/lang/String;
+	FIELD field_17135 COLON_SPLITTER Lcom/google/common/base/Splitter;
+	FIELD field_18119 NARRATOR [Ljava/lang/String;
+	FIELD field_18184 saveToolbarKey Lnet/minecraft/class_1021;
+	FIELD field_18185 loadToolbarKey Lnet/minecraft/class_1021;
+	FIELD field_18562 showAdvancementsKey Lnet/minecraft/class_1021;
 	FIELD field_2035 fancyGraphics Z
+	FIELD field_22437 biomeBlendRadius I
+	FIELD field_23978 forceUnicode Z
+	FIELD field_2766 mouseSensitivity D
 	FIELD field_2767 sneakKey Lnet/minecraft/class_1021;
 	FIELD field_3007 lastServer Ljava/lang/String;
 	FIELD field_3342 debugEnabled Z
 	FIELD field_3344 smoothCamera Z
 	FIELD field_3345 debugCamera Z
+	FIELD field_3348 ambientOcclusion I
 	FIELD field_3349 hudEnabled Z
 	FIELD field_3510 guiScale I
-	FIELD field_3511 GUI_SCALES [Ljava/lang/String;
+	FIELD field_3511 PARTICLES [Ljava/lang/String;
+	FIELD field_4078 fov D
+	FIELD field_4079 gamma D
 	FIELD field_4080 attackKey Lnet/minecraft/class_1021;
 	FIELD field_4081 usekey Lnet/minecraft/class_1021;
 	FIELD field_4082 playerListKey Lnet/minecraft/class_1021;
-	FIELD field_4506 pickItemKey Lnet/minecraft/class_1021;
+	FIELD field_4506 commandKey Lnet/minecraft/class_1021;
+	FIELD field_4970 particles I
+	FIELD field_5049 language Ljava/lang/String;
+	FIELD field_5681 pickItemKey Lnet/minecraft/class_1021;
+	FIELD field_5684 chatColors Z
+	FIELD field_5685 chatLinks Z
+	FIELD field_5686 promptChatLinks Z
+	FIELD field_6633 enableSnooper Z
+	FIELD field_6634 fullscreen Z
+	FIELD field_6635 vsync Z
+	FIELD field_6853 hideServerAddress Z
+	FIELD field_6945 advancedTooltips Z
+	FIELD field_6946 pauseOnLostFocus Z
+	FIELD field_7345 touchscreen Z
+	FIELD field_7451 heldItemTooltips Z
 	FIELD field_751 invertMouseY Z
 	FIELD field_753 viewDistance I
 	FIELD field_754 forwardKey Lnet/minecraft/class_1021;
@@ -24,8 +58,23 @@ CLASS net/minecraft/class_148 net/minecraft/client/options/GameOptions
 	FIELD field_760 chatKey Lnet/minecraft/class_1021;
 	FIELD field_764 ingameKeys [Lnet/minecraft/class_1021;
 	FIELD field_766 file Ljava/io/File;
+	FIELD field_7769 chatScale D
+	FIELD field_7770 chatWidth D
+	FIELD field_7771 unfocusedChatHeight D
+	FIELD field_7772 focusedChatHeight D
 	FIELD field_832 viewBobbing Z
+	FIELD field_833 chatOpacity D
+	FIELD field_835 client Lnet/minecraft/class_2053;
 	FIELD field_904 framerateLimit I
+	FIELD field_9171 sprintKey Lnet/minecraft/class_1021;
+	FIELD field_9172 screenshotKey Lnet/minecraft/class_1021;
+	FIELD field_9173 togglePerspectiveKey Lnet/minecraft/class_1021;
+	FIELD field_9174 smoothCameraKey Lnet/minecraft/class_1021;
+	FIELD field_9175 hotbarKeys [Lnet/minecraft/class_1021;
+	FIELD field_9177 GSON Lcom/google/gson/Gson;
+	FIELD field_9616 mipmap I
+	FIELD field_9618 saturation F
+	FIELD field_9785 LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD method_1952 parseFloat (Ljava/lang/String;)F
 		ARG 1 value
 	METHOD method_351 load ()V

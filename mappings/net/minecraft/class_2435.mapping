@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_2435
+	METHOD method_9011 getDifficulty ()I

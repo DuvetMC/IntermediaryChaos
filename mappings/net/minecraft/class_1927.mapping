@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_1927
+	FIELD field_13564 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_14198 OUT Ljava/io/PrintStream;

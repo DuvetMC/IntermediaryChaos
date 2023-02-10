@@ -4,4 +4,6 @@ CLASS net/minecraft/class_35 net/minecraft/block/Block
 	FIELD field_2334 slipperiness F
 	FIELD field_3105 id Ljava/lang/String;
 	FIELD field_852 miningSpeed F
+	METHOD method_16502 (Lnet/minecraft/class_35;)Z
+		ARG 0 block
 	METHOD method_665 hasCollision ()Z

@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_2307 net/minecraft/item/Items
+	METHOD method_12264 register (Ljava/lang/String;)Lnet/minecraft/class_238;
+		ARG 0 name

@@ -69,3 +69,5 @@ CLASS net/minecraft/class_203 net/minecraft/entity/living/player/PlayerEntity
 		ARG 1 ignoreHunger
 	METHOD method_760 openInventoryMenu (Lnet/minecraft/class_262;)V
 		ARG 1 inventory
+	CLASS net/minecraft/class_2436
+		METHOD method_9016 getChatVisibility ()I

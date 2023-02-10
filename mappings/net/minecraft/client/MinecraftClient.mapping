@@ -1,11 +1,26 @@
 CLASS net/minecraft/class_2053 net/minecraft/client/MinecraftClient
 	FIELD field_10867 authService Lcom/mojang/authlib/minecraft/MinecraftSessionService;
+	FIELD field_15238 dataf___erupper Lcom/mojang/datafixers/DataFixer;
+	FIELD field_23864 DEFAULT_CHARSET Lnet/minecraft/class_2105;
+	FIELD field_23865 ALTERNATE_CHARSET Lnet/minecraft/class_2105;
+	FIELD field_290 currentScreen Lnet/minecraft/class_59;
 	FIELD field_302 session Lnet/minecraft/class_63;
 	FIELD field_310 running Z
 	FIELD field_315 worldRenderer Lnet/minecraft/class_49;
+	FIELD field_318 particleManager Lnet/minecraft/class_64;
+	FIELD field_3407 instance Lnet/minecraft/class_2053;
 	FIELD field_5952 world Lnet/minecraft/class_500;
+	FIELD field_607 gameRenderer Lnet/minecraft/class_101;
+	FIELD field_767 options Lnet/minecraft/class_148;
 	FIELD field_7738 LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD field_8186 proxy Ljava/net/Proxy;
+	FIELD field_8818 IS_MACOS Z
 	METHOD <init> (Lnet/minecraft/class_3216;)V
 		ARG 1 launchOptions
+	METHOD method_162 showScreen (Lnet/minecraft/class_59;)V
+	METHOD method_2834 startTimerHackThread ()V
+	METHOD method_4267 getInstance ()Lnet/minecraft/class_2053;
 	METHOD method_7257 run ()V
+	METHOD method_9019 is64Bit ()Z
+	CLASS 1
+		METHOD run run ()V

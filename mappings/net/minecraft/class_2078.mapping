@@ -1,7 +1,0 @@
-CLASS net/minecraft/class_2078
-	FIELD field_19076 LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD field_23533 ILLEGAL_DOS_NAMES Ljava/util/regex/Pattern;
-	FIELD field_23836 GET_NANOS Ljava/util/function/LongSupplier;
-	METHOD method_23652 getSystemMillis ()J
-	METHOD method_23653 getSystemNanos ()J
-	CLASS class_4317 OperatingSystem

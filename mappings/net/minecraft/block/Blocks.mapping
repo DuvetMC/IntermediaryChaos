@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_2240 net/minecraft/block/Blocks
+	FIELD field_15112 BLOCKS Ljava/util/Set;
+	METHOD method_12269 register (Ljava/lang/String;)Lnet/minecraft/class_35;
+		ARG 0 name

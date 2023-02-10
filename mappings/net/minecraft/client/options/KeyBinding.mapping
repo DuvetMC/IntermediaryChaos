@@ -1,7 +1,10 @@
 CLASS net/minecraft/class_1021 net/minecraft/client/options/KeyBinding
+	FIELD field_18181 CATEGORIES Ljava/util/Map;
 	FIELD field_4496 name Ljava/lang/String;
 	FIELD field_4498 pressed Z
 	FIELD field_4499 timesPressed I
+	METHOD method_20846 (Ljava/util/HashMap;)V
+		ARG 0 map
 	METHOD method_3296 resetAll ()V
 	METHOD method_3299 updateKeyCodeMap ()V
 	METHOD method_3300 wasPressed ()Z

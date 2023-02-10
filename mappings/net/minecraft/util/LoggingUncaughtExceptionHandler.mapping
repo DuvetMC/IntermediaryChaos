@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_4864 net/minecraft/util/LoggingUncaughtExceptionHandler
+	FIELD field_21539 logger Lorg/apache/logging/log4j/Logger;
+	METHOD <init> (Lorg/apache/logging/log4j/Logger;)V
+		ARG 1 logger
+	METHOD uncaughtException uncaughtException (Ljava/lang/Thread;Ljava/lang/Throwable;)V
+		ARG 1 thread
+		ARG 2 t
