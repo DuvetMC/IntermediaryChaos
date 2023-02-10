@@ -1,4 +1,2 @@
 CLASS net/minecraft/class_591 net/minecraft/client/gui/widget/OptionSliderWidget
-	FIELD field_2769 value F
 	FIELD field_2770 dragging Z
-	FIELD field_2771 option Lnet/minecraft/class_653;

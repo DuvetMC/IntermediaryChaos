@@ -1,9 +1,0 @@
-CLASS net/minecraft/class_938 net/minecraft/world/gen/structure/VillagePieces_Start
-	COMMENT @nest net/minecraft/world/gen/structure/VillagePieces$Start
-	FIELD field_4059 biomeSource Lnet/minecraft/class_976;
-	FIELD field_4060 size I
-	FIELD field_4061 previous Lnet/minecraft/class_923;
-	FIELD field_4062 weights Ljava/util/ArrayList;
-	FIELD field_4063 buildingPieces Ljava/util/ArrayList;
-	FIELD field_4064 roadPieces Ljava/util/ArrayList;
-	METHOD method_2997 getBiomeSource ()Lnet/minecraft/class_976;

@@ -1,0 +1,23 @@
+CLASS net/minecraft/class_1953 net/minecraft/util/Style
+	FIELD field_7994 BLACK Lnet/minecraft/class_1953;
+	FIELD field_7995 DARK_BLUE Lnet/minecraft/class_1953;
+	FIELD field_7996 DARK_GREEN Lnet/minecraft/class_1953;
+	FIELD field_7997 DARK_AQUA Lnet/minecraft/class_1953;
+	FIELD field_7998 DARK_RED Lnet/minecraft/class_1953;
+	FIELD field_7999 DARK_PURPLE Lnet/minecraft/class_1953;
+	FIELD field_8000 GOLD Lnet/minecraft/class_1953;
+	FIELD field_8001 GRAY Lnet/minecraft/class_1953;
+	FIELD field_8002 DARK_GRAY Lnet/minecraft/class_1953;
+	FIELD field_8003 BLUE Lnet/minecraft/class_1953;
+	FIELD field_8004 GREEN Lnet/minecraft/class_1953;
+	FIELD field_8005 AQUA Lnet/minecraft/class_1953;
+	FIELD field_8006 RED Lnet/minecraft/class_1953;
+	FIELD field_8007 LIGHT_PURPLE Lnet/minecraft/class_1953;
+	FIELD field_8008 YELLOW Lnet/minecraft/class_1953;
+	FIELD field_8009 WHITE Lnet/minecraft/class_1953;
+	FIELD field_8010 OBFUSCATED Lnet/minecraft/class_1953;
+	FIELD field_8011 BOLD Lnet/minecraft/class_1953;
+	FIELD field_8012 STRIKETHROUGH Lnet/minecraft/class_1953;
+	FIELD field_8013 UNDERLINE Lnet/minecraft/class_1953;
+	FIELD field_8014 ITALIC Lnet/minecraft/class_1953;
+	FIELD field_8015 RESET Lnet/minecraft/class_1953;

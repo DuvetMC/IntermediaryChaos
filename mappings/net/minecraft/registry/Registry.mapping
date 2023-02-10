@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_5538 net/minecraft/registry/Registry
+	FIELD field_24147 REGISTRIES Lnet/minecraft/class_5538;
+	METHOD method_24124 createRegistry (Ljava/lang/String;Lnet/minecraft/class_5538;)Lnet/minecraft/class_5538;

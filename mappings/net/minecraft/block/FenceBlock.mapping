@@ -1,6 +1,1 @@
 CLASS net/minecraft/class_583 net/minecraft/block/FenceBlock
-	METHOD <init> <init> (II)V
-		ARG 1 id
-		ARG 2 sprite
-	METHOD method_3234 shouldConnectTo (Lnet/minecraft/class_452;III)Z
-		ARG 4 z

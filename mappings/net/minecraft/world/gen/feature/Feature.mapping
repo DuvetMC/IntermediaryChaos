@@ -1,7 +1,1 @@
 CLASS net/minecraft/class_385 net/minecraft/world/gen/feature/Feature
-	METHOD method_1103 place (Lnet/minecraft/class_191;Ljava/util/Random;III)Z
-		ARG 5 z
-	METHOD method_1483 prepare (DDD)V
-		ARG 1 d0
-		ARG 3 d1
-		ARG 5 d2

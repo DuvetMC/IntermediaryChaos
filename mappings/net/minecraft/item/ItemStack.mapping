@@ -1,72 +1,27 @@
 CLASS net/minecraft/class_226 net/minecraft/item/ItemStack
 	FIELD field_1164 size I
-	FIELD field_1166 itemId I
 	FIELD field_1167 popAnimationTime I
-	FIELD field_1466 metadata I
-	METHOD <init> <init> (III)V
-		ARG 1 itemId
-		ARG 2 size
-		ARG 3 metadata
-	METHOD <init> <init> (Lnet/minecraft/class_238;)V
-		ARG 1 item
-	METHOD <init> <init> (Lnet/minecraft/class_238;I)V
-		ARG 2 size
-	METHOD <init> <init> (Lnet/minecraft/class_238;II)V
-		ARG 3 metadata
-	METHOD <init> <init> (Lnet/minecraft/class_35;)V
-		ARG 1 block
-	METHOD <init> <init> (Lnet/minecraft/class_35;I)V
-		ARG 2 size
-	METHOD <init> <init> (Lnet/minecraft/class_35;II)V
-		ARG 3 metadata
 	METHOD method_1193 writeNbt (Lnet/minecraft/class_244;)Lnet/minecraft/class_244;
 		ARG 1 nbt
-	METHOD method_1641 mineBlock (IIIILnet/minecraft/class_203;)V
-	METHOD method_1643 startUsing (Lnet/minecraft/class_191;Lnet/minecraft/class_203;)Lnet/minecraft/class_226;
-		ARG 2 player
-	METHOD method_1645 use (Lnet/minecraft/class_203;Lnet/minecraft/class_191;IIII)Z
-	METHOD method_1646 getMiningSpeed (Lnet/minecraft/class_35;)F
-		ARG 1 block
 	METHOD method_1647 attackEntity (Lnet/minecraft/class_199;Lnet/minecraft/class_203;)V
 		ARG 2 attacker
-	METHOD method_1649 readNbt (Lnet/minecraft/class_244;)V
-		ARG 1 nbt
-	METHOD method_1650 canEffectivelyMine (Lnet/minecraft/class_35;)Z
-		ARG 1 block
-	METHOD method_1651 canInteract (Lnet/minecraft/class_199;)V
 	METHOD method_1652 getMaxSize ()I
 	METHOD method_1938 copy ()Lnet/minecraft/class_226;
 	METHOD method_2112 matches (Lnet/minecraft/class_226;)Z
 		ARG 1 other
 	METHOD method_2113 matches (Lnet/minecraft/class_226;Lnet/minecraft/class_226;)Z
 		ARG 1 stack2
-	METHOD method_2114 getTooltip ()Ljava/lang/String;
 	METHOD method_2184 matchesItem (Lnet/minecraft/class_226;)Z
 		ARG 1 other
 	METHOD method_2185 isStackable ()Z
 	METHOD method_2186 isDamageable ()Z
-	METHOD method_2187 isItemStackable ()Z
 	METHOD method_2188 isDamaged ()Z
-	METHOD method_2189 getDamage ()I
-	METHOD method_2190 getMetadata ()I
 	METHOD method_2818 tick (Lnet/minecraft/class_191;Lnet/minecraft/class_198;IZ)V
 		ARG 4 selected
-	METHOD method_2819 setDamage (I)V
-		ARG 1 damage
-	METHOD method_2820 onResult (Lnet/minecraft/class_191;Lnet/minecraft/class_203;)V
-	METHOD method_2869 copyOf (Lnet/minecraft/class_226;)Lnet/minecraft/class_226;
-		ARG 0 stack
-	METHOD method_3223 stopUsing (Lnet/minecraft/class_191;Lnet/minecraft/class_203;I)V
-		ARG 3 remainingUseTime
-	METHOD method_3224 fromNbt (Lnet/minecraft/class_244;)Lnet/minecraft/class_226;
-		ARG 0 nbt
-	METHOD method_3225 finishUsing (Lnet/minecraft/class_191;Lnet/minecraft/class_203;)Lnet/minecraft/class_226;
-		ARG 2 player
 	METHOD method_3226 getUseDuration ()I
 	METHOD method_3227 getUseAction ()Lnet/minecraft/class_1002;
 	METHOD method_684 getItem ()Lnet/minecraft/class_238;
 	METHOD method_763 split (I)Lnet/minecraft/class_226;
 		ARG 1 amount
 	METHOD method_819 getMaxDamage ()I
-	METHOD method_820 damageAndBreak (ILnet/minecraft/class_198;)V
 	METHOD toString toString ()Ljava/lang/String;

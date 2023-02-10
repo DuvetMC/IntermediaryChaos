@@ -19,10 +19,6 @@ CLASS net/minecraft/class_730 net/minecraft/world/chunk/storage/RegionFile
 	FIELD field_3394 chunkSaveTimes [I
 		COMMENT Contains the times for the latest modification to each chunk. This array
 		COMMENT is also written to the region file starting at byte 4096 (block offset 1).
-	FIELD field_3395 blockEmptyFlags Ljava/util/ArrayList;
-		COMMENT A list containing flags for each of the 4KB blocks in the file indicating whether
-		COMMENT it should be considered empty or occupied. In particular, if a value at index
-		COMMENT {@code blockOffset} is {@code true} then it is empty, and otherwise occupied.
 	FIELD field_3396 bytesWritten I
 		COMMENT The total number of bytes written to the region file, since this {@code RegionFile}
 		COMMENT object was instantiated. Note that this is always a multiple of 4096 (the size

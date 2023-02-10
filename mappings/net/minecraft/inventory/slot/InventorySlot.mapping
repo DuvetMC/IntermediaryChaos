@@ -16,7 +16,5 @@ CLASS net/minecraft/class_227 net/minecraft/inventory/slot/InventorySlot
 	METHOD method_2098 hasStack ()Z
 	METHOD method_775 setStack (Lnet/minecraft/class_226;)V
 		ARG 1 stack
-	METHOD method_790 onStackRemovedByPlayer (Lnet/minecraft/class_226;)V
 	METHOD method_791 canSetStack (Lnet/minecraft/class_226;)Z
 		ARG 1 stack
-	METHOD method_989 getTexture ()I

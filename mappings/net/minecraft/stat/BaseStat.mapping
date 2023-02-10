@@ -1,0 +1,15 @@
+CLASS net/minecraft/class_1940 net/minecraft/stat/BaseStat
+	FIELD field_11212 TRIGGER Lnet/minecraft/class_1940;
+	FIELD field_11213 TEAM_KILLS [Lnet/minecraft/class_1940;
+	FIELD field_11214 KILLED_BY_TEAM [Lnet/minecraft/class_1940;
+	FIELD field_15177 FOOD Lnet/minecraft/class_1940;
+	FIELD field_15178 AIR Lnet/minecraft/class_1940;
+	FIELD field_15179 XP Lnet/minecraft/class_1940;
+	FIELD field_15236 ARMOR Lnet/minecraft/class_1940;
+	FIELD field_15237 LEVEL Lnet/minecraft/class_1940;
+	FIELD field_7964 STATS Ljava/util/Map;
+	FIELD field_7965 DUMMY Lnet/minecraft/class_1940;
+	FIELD field_7966 DEATH_COUNT Lnet/minecraft/class_1940;
+	FIELD field_7967 PLAYER_KILL_COUNT Lnet/minecraft/class_1940;
+	FIELD field_7968 TOTAL_KILL_COUNT Lnet/minecraft/class_1940;
+	FIELD field_8030 HEALTH Lnet/minecraft/class_1940;

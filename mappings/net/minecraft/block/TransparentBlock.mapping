@@ -1,4 +1,1 @@
 CLASS net/minecraft/class_98 net/minecraft/block/TransparentBlock
-	FIELD field_986 sideVisible Z
-	METHOD <init> <init> (IILnet/minecraft/class_87;Z)V
-		ARG 4 sideVisible

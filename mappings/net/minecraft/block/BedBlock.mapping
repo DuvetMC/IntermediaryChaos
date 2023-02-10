@@ -1,13 +1,1 @@
 CLASS net/minecraft/class_737 net/minecraft/block/BedBlock
-	FIELD field_3440 BED_OFFSETS [[I
-	METHOD <init> <init> (I)V
-		ARG 1 id
-	METHOD method_2411 updateState (Lnet/minecraft/class_191;IIIZ)V
-		ARG 4 occupied
-	METHOD method_2413 isHeadOfBed (I)Z
-		ARG 0 metadata
-	METHOD method_2414 isOccupied (I)Z
-		ARG 0 metadata
-	METHOD method_2415 getSpawnPos (Lnet/minecraft/class_191;IIII)Lnet/minecraft/class_705;
-		ARG 4 skip
-	METHOD method_2416 setBoundingBox ()V

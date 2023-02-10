@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_770 argo/jdom/LeafFunctor
-	METHOD method_2527 typeSafeApplyTo (Ljava/lang/Object;)Ljava/lang/Object;
-		ARG 1 jsonNode

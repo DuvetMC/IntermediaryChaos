@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_3216 net/minecraft/client/main/LaunchOptions
+	CLASS net/minecraft/class_3221
+		FIELD field_13042 proxy Ljava/net/Proxy;

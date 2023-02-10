@@ -1,6 +1,0 @@
-CLASS net/minecraft/class_1012 net/minecraft/world/gen/structure/StrongholdPieces_StraightStairs
-	COMMENT @nest net/minecraft/world/gen/structure/StrongholdPieces$StraightStairs
-	METHOD <init> <init> (ILjava/util/Random;Lnet/minecraft/class_969;I)V
-		ARG 4 facing
-	METHOD method_3327 of (Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_1012;
-		ARG 6 generationDepth

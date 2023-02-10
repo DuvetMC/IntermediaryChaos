@@ -1,3 +1,2 @@
 CLASS net/minecraft/class_418 net/minecraft/client/render/block/entity/SignRenderer
 	FIELD field_2001 model Lnet/minecraft/class_421;
-	METHOD method_1486 render (Lnet/minecraft/class_411;DDDF)V

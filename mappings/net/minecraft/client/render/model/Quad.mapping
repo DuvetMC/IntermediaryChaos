@@ -7,5 +7,3 @@ CLASS net/minecraft/class_70 net/minecraft/client/render/model/Quad
 	METHOD <init> <init> ([Lnet/minecraft/class_71;IIIIFF)V
 		ARG 7 textureHeight
 	METHOD method_1600 flip ()V
-	METHOD method_1601 buildQuadBuffer (Lnet/minecraft/class_53;F)V
-		ARG 2 scale

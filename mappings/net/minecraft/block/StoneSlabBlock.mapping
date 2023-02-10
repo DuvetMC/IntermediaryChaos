@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_180 net/minecraft/block/StoneSlabBlock
-	FIELD field_3444 VARIANTS [Ljava/lang/String;
-	METHOD <init> <init> (IZ)V
-		ARG 1 id
-		ARG 2 doubleSlab

@@ -1,6 +1,14 @@
-CLASS net/minecraft/class_473 net/minecraft/util/CrashReport
-	FIELD field_2239 message Ljava/lang/String;
-	FIELD field_2240 throwable Ljava/lang/Throwable;
+CLASS net/minecraft/class_1291 net/minecraft/util/CrashReport
+	FIELD field_5592 message Ljava/lang/String;
+	FIELD field_5593 throwable Ljava/lang/Throwable;
+	FIELD field_9797 LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD <init> (Ljava/lang/String;Ljava/lang/Throwable;)V
 		ARG 1 message
 		ARG 2 t
+	METHOD method_4213 getMessage ()Ljava/lang/String;
+	METHOD method_4219 getThrowable ()Ljava/lang/Throwable;
+	METHOD method_4222 getAsString ()Ljava/lang/String;
+	METHOD method_4223 init ()V
+	METHOD method_4224 generateWittyComment ()Ljava/lang/String;
+	METHOD method_6329 (Ljava/lang/StringBuilder;)V
+		ARG 1 sb

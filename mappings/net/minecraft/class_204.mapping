@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_204
-	METHOD addNotify addNotify ()V
-	METHOD removeNotify removeNotify ()V

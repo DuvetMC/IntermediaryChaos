@@ -9,8 +9,6 @@ CLASS net/minecraft/class_181 net/minecraft/util/math/MathHelper
 	METHOD method_1328 floorDiv (II)I
 		ARG 0 a
 		ARG 1 b
-	METHOD method_2424 isEmpty (Ljava/lang/String;)Z
-		ARG 0 string
 	METHOD method_2991 nextInt (Ljava/util/Random;II)I
 		ARG 0 random
 		ARG 1 min

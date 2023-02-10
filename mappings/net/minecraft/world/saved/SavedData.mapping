@@ -9,5 +9,3 @@ CLASS net/minecraft/class_856 net/minecraft/world/saved/SavedData
 	METHOD method_2807 setDirty (Z)V
 		ARG 1 dirty
 	METHOD method_2808 isDirty ()Z
-	METHOD method_2809 writeNbt (Lnet/minecraft/class_244;)V
-		ARG 1 nbt

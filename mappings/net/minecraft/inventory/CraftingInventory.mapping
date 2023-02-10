@@ -1,8 +1,5 @@
 CLASS net/minecraft/class_287 net/minecraft/inventory/CraftingInventory
-	FIELD field_1397 stacks [Lnet/minecraft/class_226;
 	FIELD field_1398 menu Lnet/minecraft/class_648;
 	FIELD field_1451 width I
 	METHOD <init> <init> (Lnet/minecraft/class_648;II)V
 		ARG 3 height
-	METHOD method_2210 getStack (II)Lnet/minecraft/class_226;
-		ARG 2 row

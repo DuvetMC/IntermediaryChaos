@@ -1,7 +1,1 @@
 CLASS net/minecraft/class_330 net/minecraft/block/FarmlandBlock
-	METHOD <init> <init> (I)V
-		ARG 1 id
-	METHOD method_1617 hasVegetation (Lnet/minecraft/class_191;III)Z
-		ARG 4 z
-	METHOD method_1618 isIrrigated (Lnet/minecraft/class_191;III)Z
-		ARG 4 z

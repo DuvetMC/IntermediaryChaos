@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_424 net/minecraft/world/gen/feature/PlantFeature
-	FIELD field_2038 flowerId I
-	METHOD <init> <init> (I)V
-		ARG 1 flowerId

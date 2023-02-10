@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_588 net/minecraft/network/packet/PlayerSpawnPointPacket
-	FIELD field_2743 spawnX I
-	FIELD field_2744 spawnY I
-	FIELD field_2745 spawnZ I

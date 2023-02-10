@@ -29,15 +29,9 @@ CLASS net/minecraft/class_969 net/minecraft/world/gen/structure/StructureBox
 		ARG 2 minZ
 		ARG 3 maxX
 		ARG 4 maxZ
-	METHOD method_3116 orient (IIIIIIIIII)Lnet/minecraft/class_969;
-		ARG 9 dir
 	METHOD method_3117 intersects (Lnet/minecraft/class_969;)Z
 		ARG 1 box
 	METHOD method_3118 getSpanX ()I
-	METHOD method_3119 contains (III)Z
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
 	METHOD method_3120 union (Lnet/minecraft/class_969;)V
 		ARG 1 box
 	METHOD method_3121 getSpanY ()I

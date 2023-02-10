@@ -1,3 +1,2 @@
 CLASS net/minecraft/class_390 net/minecraft/nbt/NbtFloat
 	FIELD field_1915 value F
-	METHOD toString toString ()Ljava/lang/String;

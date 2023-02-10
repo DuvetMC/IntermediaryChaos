@@ -1,14 +1,5 @@
 CLASS net/minecraft/class_664 net/minecraft/entity/thrown/ThrownEntity
-	FIELD field_3106 shake I
-	FIELD field_3107 blockX I
-	FIELD field_3108 blockY I
-	FIELD field_3109 blockZ I
-	FIELD field_3110 inBlock I
 	FIELD field_3111 inGround Z
-	FIELD field_3112 thrower Lnet/minecraft/class_199;
 	FIELD field_3113 ticksInBlock I
-	FIELD field_3114 ticksInAir I
 	METHOD <init> <init> (Lnet/minecraft/class_191;DDD)V
 		ARG 6 z
-	METHOD <init> <init> (Lnet/minecraft/class_191;Lnet/minecraft/class_199;)V
-		ARG 2 thrower

@@ -1,2 +1,1 @@
 CLASS net/minecraft/class_886 net/minecraft/world/biome/layer/BiomeInitLayer
-	FIELD field_3953 warmBiomes [Lnet/minecraft/class_604;

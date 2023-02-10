@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_984 net/minecraft/world/gen/structure/StrongholdPieces_Start
-	COMMENT @nest net/minecraft/world/gen/structure/StrongholdPieces$Start
-	FIELD field_4228 previous Lnet/minecraft/class_884;
-	FIELD field_4229 children Ljava/util/ArrayList;

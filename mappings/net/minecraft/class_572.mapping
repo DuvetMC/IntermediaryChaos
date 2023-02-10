@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_572
-	METHOD openInputStream openInputStream ()Ljava/io/InputStream;

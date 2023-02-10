@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_715 net/minecraft/network/packet/Packet_1
-	COMMENT @nest net/minecraft/network/packet/Packet$1

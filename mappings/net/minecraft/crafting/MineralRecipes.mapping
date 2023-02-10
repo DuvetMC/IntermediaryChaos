@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_294 net/minecraft/crafting/MineralRecipes
-	FIELD field_1433 recipes [[Ljava/lang/Object;
-	METHOD method_808 register (Lnet/minecraft/class_281;)V
-		ARG 1 manager

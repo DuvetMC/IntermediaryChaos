@@ -16,6 +16,4 @@ CLASS net/minecraft/class_712 net/minecraft/client/gui/screen/world/CreateWorldS
 	METHOD <init> <init> (Lnet/minecraft/class_59;)V
 		ARG 1 parent
 	METHOD method_2297 getSaveDirectoryName ()V
-	METHOD method_2434 getWorldDirectoryName (Lnet/minecraft/class_728;Ljava/lang/String;)Ljava/lang/String;
-		ARG 1 worldName
 	METHOD method_3190 updateSettingsLabels ()V

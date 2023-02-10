@@ -1,9 +1,1 @@
 CLASS net/minecraft/class_881 net/minecraft/block/MovingBlock
-	METHOD <init> <init> (I)V
-		ARG 1 id
-	METHOD method_2915 createMovingBlockEntity (IIIZZ)Lnet/minecraft/class_257;
-		ARG 4 source
-	METHOD method_2916 getCollisionShape (Lnet/minecraft/class_191;IIIIFI)Lnet/minecraft/class_200;
-		ARG 7 facing
-	METHOD method_2917 getMovingBlockEntity (Lnet/minecraft/class_452;III)Lnet/minecraft/class_880;
-		ARG 4 z

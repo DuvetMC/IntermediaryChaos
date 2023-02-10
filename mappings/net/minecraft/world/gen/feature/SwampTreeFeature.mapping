@@ -1,3 +1,1 @@
 CLASS net/minecraft/class_912 net/minecraft/world/gen/feature/SwampTreeFeature
-	METHOD method_2958 placeVine (Lnet/minecraft/class_191;IIII)V
-		ARG 5 metadata

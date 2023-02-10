@@ -1,3 +1,2 @@
 CLASS net/minecraft/class_389 net/minecraft/nbt/NbtLong
 	FIELD field_1914 value J
-	METHOD toString toString ()Ljava/lang/String;

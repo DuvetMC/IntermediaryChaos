@@ -1,6 +1,0 @@
-CLASS net/minecraft/class_1017 net/minecraft/world/gen/structure/StrongholdPieces_Prison
-	COMMENT @nest net/minecraft/world/gen/structure/StrongholdPieces$Prison
-	METHOD <init> <init> (ILjava/util/Random;Lnet/minecraft/class_969;I)V
-		ARG 4 facing
-	METHOD method_3329 of (Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_1017;
-		ARG 6 generationDepth

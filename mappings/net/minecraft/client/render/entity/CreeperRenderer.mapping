@@ -1,6 +1,1 @@
 CLASS net/minecraft/class_337 net/minecraft/client/render/entity/CreeperRenderer
-	FIELD field_3678 model Lnet/minecraft/class_151;
-	METHOD method_1704 scale (Lnet/minecraft/class_312;F)V
-	METHOD method_1705 getCreeperFuseTime (Lnet/minecraft/class_312;FF)I
-	METHOD method_2661 bindDecorationTexture (Lnet/minecraft/class_312;IF)Z
-	METHOD method_2662 bindDecorationTextureCaller (Lnet/minecraft/class_312;IF)Z

@@ -2,15 +2,6 @@ CLASS net/minecraft/class_594 net/minecraft/entity/projectile/ProjectileEntity
 	FIELD field_2788 accelerationX D
 	FIELD field_2789 accelerationY D
 	FIELD field_2790 accelerationZ D
-	FIELD field_2791 blockX I
-	FIELD field_2792 blockY I
-	FIELD field_2793 blockZ I
-	FIELD field_2794 inBlock I
-	FIELD field_2795 inGround Z
 	FIELD field_2796 shooter Lnet/minecraft/class_199;
 	FIELD field_2797 ticksInBlock I
 	FIELD field_2798 ticksInAir I
-	METHOD <init> <init> (Lnet/minecraft/class_191;DDDDDD)V
-		ARG 6 z
-	METHOD <init> <init> (Lnet/minecraft/class_191;Lnet/minecraft/class_199;DDD)V
-		ARG 5 y

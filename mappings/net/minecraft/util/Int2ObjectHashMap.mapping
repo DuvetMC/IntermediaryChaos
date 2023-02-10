@@ -1,10 +1,7 @@
 CLASS net/minecraft/class_498 net/minecraft/util/Int2ObjectHashMap
-	FIELD field_2367 nodes [Lnet/minecraft/class_510;
 	FIELD field_2368 size I
 	FIELD field_2369 threshold I
 	FIELD field_2370 loadFactor F
-	FIELD field_2371 modCount I
-	FIELD field_4414 ids Ljava/util/Set;
 	METHOD method_1758 clear ()V
 	METHOD method_1759 get (I)Ljava/lang/Object;
 		ARG 1 key
@@ -19,8 +16,6 @@ CLASS net/minecraft/class_498 net/minecraft/util/Int2ObjectHashMap
 	METHOD method_1762 put (ILjava/lang/Object;)V
 		ARG 1 key
 		ARG 2 value
-	METHOD method_1763 addAll ([Lnet/minecraft/class_510;)V
-		ARG 1 nodes
 	METHOD method_1764 syntheticGetHash (I)I
 		ARG 0 i
 	METHOD method_1765 hash (I)I
@@ -29,9 +24,5 @@ CLASS net/minecraft/class_498 net/minecraft/util/Int2ObjectHashMap
 		ARG 1 size
 	METHOD method_1824 remove (I)Ljava/lang/Object;
 		ARG 1 key
-	METHOD method_1825 removeNode (I)Lnet/minecraft/class_510;
-		ARG 1 key
 	METHOD method_3236 contains (I)Z
-		ARG 1 key
-	METHOD method_3237 getNode (I)Lnet/minecraft/class_510;
 		ARG 1 key

@@ -1,4 +1,1 @@
 CLASS net/minecraft/class_989 net/minecraft/client/render/entity/SilverfishRenderer
-	METHOD method_3165 getYawWhileDead (Lnet/minecraft/class_972;)F
-	METHOD method_3166 render (Lnet/minecraft/class_972;DDDFF)V
-	METHOD method_3167 bindDecorationTexture (Lnet/minecraft/class_972;IF)Z

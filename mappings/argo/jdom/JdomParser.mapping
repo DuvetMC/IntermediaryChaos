@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_789 argo/jdom/JdomParser
-	METHOD method_2613 parse (Ljava/io/Reader;)Lnet/minecraft/class_822;
-		ARG 1 json
-	METHOD method_2614 parse (Ljava/lang/String;)Lnet/minecraft/class_822;
-		ARG 1 json

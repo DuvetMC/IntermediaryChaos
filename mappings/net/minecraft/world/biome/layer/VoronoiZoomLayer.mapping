@@ -1,3 +1,1 @@
 CLASS net/minecraft/class_1005 net/minecraft/world/biome/layer/VoronoiZoomLayer
-	METHOD <init> <init> (JLnet/minecraft/class_993;)V
-		ARG 3 parent

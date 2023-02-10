@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_640 net/minecraft/client/resource/pack/ZippedResourcePack
-	FIELD field_2991 file Ljava/util/zip/ZipFile;

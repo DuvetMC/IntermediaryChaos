@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_657 net/minecraft/network/packet/CloseMenuPacket
-	FIELD field_3082 id I
-	METHOD <init> <init> (I)V
-		ARG 1 id

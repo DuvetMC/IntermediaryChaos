@@ -1,13 +1,2 @@
 CLASS net/minecraft/class_693 net/minecraft/network/packet/PlayerMovementActionPacket
 	FIELD field_3176 id I
-	FIELD field_3177 action I
-		COMMENT The type of interaction. This can be one of the following:
-		COMMENT <br> 0: start sneaking
-		COMMENT <br> 1: stop sneaking
-		COMMENT <br> 2: stop sleeping
-		COMMENT <br> 3: start sprinting
-		COMMENT <br> 4: stop sprinting
-		COMMENT <br> 5: riding jump
-		COMMENT <br> 6: open horse inventory
-	METHOD <init> <init> (Lnet/minecraft/class_198;I)V
-		ARG 2 action

@@ -1,7 +1,5 @@
 CLASS net/minecraft/class_508 net/minecraft/client/world/chunk/ClientChunkCache
 	FIELD field_2406 empty Lnet/minecraft/class_376;
-	FIELD field_2407 chunkMap Lnet/minecraft/class_925;
-	FIELD field_2408 chunks Ljava/util/List;
 	FIELD field_2409 world Lnet/minecraft/class_191;
 	METHOD <init> <init> (Lnet/minecraft/class_191;)V
 		ARG 1 world

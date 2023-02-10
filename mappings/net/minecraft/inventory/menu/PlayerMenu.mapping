@@ -1,4 +1,3 @@
 CLASS net/minecraft/class_666 net/minecraft/inventory/menu/PlayerMenu
 	FIELD field_3116 craftingInventory Lnet/minecraft/class_287;
-	FIELD field_3117 resultInventory Lnet/minecraft/class_262;
 	FIELD field_3118 isServer Z

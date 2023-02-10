@@ -1,4 +1,1 @@
 CLASS net/minecraft/class_531 net/minecraft/block/ClayBlock
-	METHOD <init> <init> (II)V
-		ARG 1 id
-		ARG 2 sprite

@@ -3,7 +3,6 @@ CLASS net/minecraft/class_269 net/minecraft/client/render/entity/EntityRenderDis
 	FIELD field_1356 world Lnet/minecraft/class_191;
 	FIELD field_1357 cameraYaw F
 	FIELD field_1358 renderers Ljava/util/Map;
-	FIELD field_1516 INSTANCE Lnet/minecraft/class_269;
 	FIELD field_1517 cameraX D
 	FIELD field_1518 cameraY D
 	FIELD field_1519 cameraZ D
@@ -11,20 +10,13 @@ CLASS net/minecraft/class_269 net/minecraft/client/render/entity/EntityRenderDis
 	FIELD field_1874 _cameraY D
 	FIELD field_1875 _cameraZ D
 	FIELD field_2034 options Lnet/minecraft/class_148;
-	FIELD field_2233 camera Lnet/minecraft/class_199;
 	FIELD field_2234 cameraPitch F
-	FIELD field_2235 textRenderer Lnet/minecraft/class_62;
-	FIELD field_2509 heldItemRenderer Lnet/minecraft/class_472;
 	METHOD method_1257 getRenderer (Ljava/lang/Class;)Lnet/minecraft/class_206;
 		ARG 1 type
-	METHOD method_1856 getTextRenderer ()Lnet/minecraft/class_62;
-	METHOD method_768 render (Lnet/minecraft/class_198;DDDFF)V
 	METHOD method_851 getSquaredDistanceToCamera (DDD)D
 		ARG 1 x
 		ARG 3 y
 	METHOD method_852 setWorld (Lnet/minecraft/class_191;)V
 		ARG 1 world
-	METHOD method_853 prepare (Lnet/minecraft/class_191;Lnet/minecraft/class_52;Lnet/minecraft/class_62;Lnet/minecraft/class_199;Lnet/minecraft/class_148;F)V
-	METHOD method_854 render (Lnet/minecraft/class_198;F)V
 	METHOD method_982 getRenderer (Lnet/minecraft/class_198;)Lnet/minecraft/class_206;
 		ARG 1 entity

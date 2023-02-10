@@ -1,7 +1,0 @@
-CLASS net/minecraft/class_840 argo/saj/InvalidSyntaxException
-	FIELD field_3741 column I
-	FIELD field_3742 row I
-	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/Throwable;Lnet/minecraft/class_780;)V
-		ARG 3 thingWithPosition
-	METHOD <init> <init> (Ljava/lang/String;Lnet/minecraft/class_780;)V
-		ARG 2 thingWithPosition

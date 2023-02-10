@@ -1,11 +1,1 @@
 CLASS net/minecraft/class_902 net/minecraft/world/biome/layer/RiverLayer
-	METHOD <init> <init> (JLnet/minecraft/class_993;)V
-		ARG 3 parent
-	METHOD method_2938 pick (II)I
-		ARG 1 a
-		ARG 2 b
-	METHOD method_2939 pick (IIII)I
-		ARG 1 a
-		ARG 2 b
-		ARG 3 c
-		ARG 4 d

@@ -1,5 +1,1 @@
 CLASS net/minecraft/class_952 net/minecraft/network/packet/PlayerRespawnPacket
-	FIELD field_4106 dimensionId I
-	FIELD field_4107 worldHeight I
-	FIELD field_4108 gameMode I
-	FIELD field_4509 difficulty I

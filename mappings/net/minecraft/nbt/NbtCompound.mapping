@@ -9,8 +9,6 @@ CLASS net/minecraft/class_244 net/minecraft/nbt/NbtCompound
 	METHOD method_1146 putLong (Ljava/lang/String;J)V
 		ARG 1 key
 		ARG 2 value
-	METHOD method_1147 putCompound (Ljava/lang/String;Lnet/minecraft/class_244;)V
-		ARG 2 nbt
 	METHOD method_1148 put (Ljava/lang/String;Lnet/minecraft/class_397;)V
 		ARG 2 element
 	METHOD method_1149 putString (Ljava/lang/String;Ljava/lang/String;)V
@@ -39,8 +37,6 @@ CLASS net/minecraft/class_244 net/minecraft/nbt/NbtCompound
 		ARG 1 key
 	METHOD method_1160 getCompound (Ljava/lang/String;)Lnet/minecraft/class_244;
 		ARG 1 key
-	METHOD method_1161 getList (Ljava/lang/String;)Lnet/minecraft/class_393;
-		ARG 1 key
 	METHOD method_1162 getBoolean (Ljava/lang/String;)Z
 		ARG 1 key
 	METHOD method_1436 contains (Ljava/lang/String;)Z
@@ -55,5 +51,3 @@ CLASS net/minecraft/class_244 net/minecraft/nbt/NbtCompound
 		ARG 2 value
 	METHOD method_1897 getDouble (Ljava/lang/String;)D
 		ARG 1 key
-	METHOD method_2837 getValues ()Ljava/util/Collection;
-	METHOD toString toString ()Ljava/lang/String;

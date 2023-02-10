@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_973 net/minecraft/world/gen/structure/VillagePieces_PriestHouse
-	COMMENT @nest net/minecraft/world/gen/structure/VillagePieces$PriestHouse
-	METHOD method_3321 of (Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/class_973;

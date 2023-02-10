@@ -1,10 +1,4 @@
 CLASS net/minecraft/class_963 net/minecraft/world/gen/structure/StructureStart
-	FIELD field_4181 pieces Ljava/util/LinkedList;
 	FIELD field_4182 box Lnet/minecraft/class_969;
 	METHOD method_3094 getBoundingBox ()Lnet/minecraft/class_969;
-	METHOD method_3095 moveBelowSeaLevel (Lnet/minecraft/class_191;Ljava/util/Random;I)V
-		ARG 3 y
-	METHOD method_3096 postProcess (Lnet/minecraft/class_191;Ljava/util/Random;Lnet/minecraft/class_969;)V
-		ARG 3 box
-	METHOD method_3097 calculateBoundingBox ()V
 	METHOD method_3098 isValid ()Z

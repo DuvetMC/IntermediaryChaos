@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_709
-	METHOD compareTo compareTo (Ljava/lang/Object;)I

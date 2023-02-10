@@ -1,9 +1,0 @@
-CLASS net/minecraft/class_745 net/minecraft/entity/living/player/PlayerEntity_SleepAllowedStatus
-	COMMENT @nest net/minecraft/entity/living/player/PlayerEntity$SleepAllowedStatus
-	FIELD field_3452 OK Lnet/minecraft/class_745;
-	FIELD field_3453 NOT_POSSIBLE_HERE Lnet/minecraft/class_745;
-	FIELD field_3454 NOT_POSSIBLE_NOW Lnet/minecraft/class_745;
-	FIELD field_3455 TOO_FAR_AWAY Lnet/minecraft/class_745;
-	FIELD field_3456 OTHER_PROBLEM Lnet/minecraft/class_745;
-	METHOD valueOf valueOf (Ljava/lang/String;)Lnet/minecraft/class_745;
-	METHOD values values ()[Lnet/minecraft/class_745;

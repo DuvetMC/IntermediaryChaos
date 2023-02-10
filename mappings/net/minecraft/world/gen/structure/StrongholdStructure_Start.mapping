@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_896 net/minecraft/world/gen/structure/StrongholdStructure_Start
-	COMMENT @nest net/minecraft/world/gen/structure/StrongholdStructure$Start
-	METHOD <init> <init> (Lnet/minecraft/class_191;Ljava/util/Random;II)V
-		ARG 4 chunkZ

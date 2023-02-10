@@ -1,38 +1,7 @@
 CLASS net/minecraft/class_618 net/minecraft/world/gen/chunk/NetherChunkGenerator
 	FIELD field_2881 scaleNoise Lnet/minecraft/class_44;
 	FIELD field_2882 depthNoise Lnet/minecraft/class_44;
-	FIELD field_2883 mainNoiseBuffer [D
-	FIELD field_2884 minLimitNoiseBuffer [D
-	FIELD field_2885 maxLimitNoiseBuffer [D
-	FIELD field_2886 scaleNoiseBuffer [D
-	FIELD field_2887 depthNoiseBuffer [D
-	FIELD field_2888 random Ljava/util/Random;
 	FIELD field_2889 minLimitPerlinNoise Lnet/minecraft/class_44;
 	FIELD field_2890 maxLimitPerlinNoise Lnet/minecraft/class_44;
 	FIELD field_2891 mainPerlinNoise Lnet/minecraft/class_44;
-	FIELD field_2892 soulSandGravelNoise Lnet/minecraft/class_44;
 	FIELD field_2893 lavaLakeNoise Lnet/minecraft/class_44;
-	FIELD field_2894 world Lnet/minecraft/class_191;
-	FIELD field_2895 heightMap [D
-	FIELD field_2896 soulSandNoiseBuffer [D
-	FIELD field_2897 gravelNoiseBuffer [D
-	FIELD field_2898 lavaLakeNoiseBuffer [D
-	FIELD field_2899 cave Lnet/minecraft/class_579;
-	METHOD <init> <init> (Lnet/minecraft/class_191;J)V
-		ARG 2 seed
-	METHOD method_1988 generate (II[B)V
-		ARG 1 chunkX
-		ARG 2 chunkZ
-		ARG 3 blockIds
-	METHOD method_1989 populateHeightMap ([DIIIIII)[D
-		ARG 1 heightMap
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 sizeX
-		ARG 6 sizeY
-		ARG 7 sizeZ
-	METHOD method_1990 generateSurfaces (II[B)V
-		ARG 1 chunkX
-		ARG 2 chunkZ
-		ARG 3 blockIds

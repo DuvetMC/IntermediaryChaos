@@ -1,4 +1,1 @@
 CLASS net/minecraft/class_675 net/minecraft/client/render/entity/SquidRenderer
-	METHOD method_2157 render (Lnet/minecraft/class_702;DDDFF)V
-	METHOD method_2159 applyRotation (Lnet/minecraft/class_702;FFF)V
-	METHOD method_2160 getEntityAge (Lnet/minecraft/class_702;F)F

@@ -1,16 +1,8 @@
 CLASS net/minecraft/class_1021 net/minecraft/client/options/KeyBinding
-	FIELD field_4494 ALL Ljava/util/List;
-	FIELD field_4495 BY_KEY_CODE Lnet/minecraft/class_498;
 	FIELD field_4496 name Ljava/lang/String;
-	FIELD field_4497 keyCode I
 	FIELD field_4498 pressed Z
 	FIELD field_4499 timesPressed I
 	METHOD method_3296 resetAll ()V
-	METHOD method_3297 onKeyPressed (I)V
-		ARG 0 keyCode
-	METHOD method_3298 setKeyPressed (IZ)V
-		ARG 0 keyCode
-		ARG 1 pressed
 	METHOD method_3299 updateKeyCodeMap ()V
 	METHOD method_3300 wasPressed ()Z
 	METHOD method_3301 reset ()V

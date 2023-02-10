@@ -9,7 +9,6 @@ CLASS net/minecraft/class_955 net/minecraft/entity/damage/DamageSource
 	FIELD field_4130 FALL Lnet/minecraft/class_955;
 	FIELD field_4131 OUT_OF_WORLD Lnet/minecraft/class_955;
 	FIELD field_4132 GENERIC Lnet/minecraft/class_955;
-	FIELD field_4133 EXPLOSION_SCALED Lnet/minecraft/class_955;
 	FIELD field_4134 MAGIC Lnet/minecraft/class_955;
 	FIELD field_4135 name Ljava/lang/String;
 	FIELD field_4136 bypassesArmor Z

@@ -6,4 +6,3 @@ CLASS net/minecraft/class_151 net/minecraft/client/render/model/Model
 		ARG 4 tickDelta
 	METHOD method_831 render (Lnet/minecraft/class_198;FFFFFF)V
 		ARG 7 scale
-	METHOD method_855 setAngles (FFFFFF)V

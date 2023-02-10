@@ -1,5 +1,2 @@
 CLASS net/minecraft/class_623 net/minecraft/server/world/PortalForcer
 	FIELD field_2908 random Ljava/util/Random;
-	METHOD method_2001 onDimensionChanged (Lnet/minecraft/class_191;Lnet/minecraft/class_198;)V
-	METHOD method_2002 findNetherPortal (Lnet/minecraft/class_191;Lnet/minecraft/class_198;)Z
-	METHOD method_2003 generateNetherPortal (Lnet/minecraft/class_191;Lnet/minecraft/class_198;)Z

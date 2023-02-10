@@ -1,59 +1,7 @@
 CLASS net/minecraft/class_604 net/minecraft/world/biome/Biome
-	FIELD field_2829 SWAMPLAND Lnet/minecraft/class_604;
-	FIELD field_2831 FOREST Lnet/minecraft/class_604;
-	FIELD field_2834 TAIGA Lnet/minecraft/class_604;
-	FIELD field_2835 DESERT Lnet/minecraft/class_604;
-	FIELD field_2836 PLAINS Lnet/minecraft/class_604;
-	FIELD field_2839 HELL Lnet/minecraft/class_604;
-	FIELD field_2840 name Ljava/lang/String;
-	FIELD field_2841 baseColor I
-	FIELD field_2842 surfaceBlockId B
-	FIELD field_2843 subsurfaceBlockId B
-	FIELD field_2844 mutatedColor I
-	FIELD field_2845 monsterEntries Ljava/util/List;
-	FIELD field_2846 passiveEntries Ljava/util/List;
-	FIELD field_2847 ALL [Lnet/minecraft/class_604;
-	FIELD field_3154 waterEntries Ljava/util/List;
-	FIELD field_3662 snowy Z
-	FIELD field_3663 hasRain Z
-	FIELD field_3853 THE_END Lnet/minecraft/class_604;
-	FIELD field_4415 largeTree Lnet/minecraft/class_526;
-	FIELD field_4416 spruceTree Lnet/minecraft/class_679;
-	FIELD field_4417 swampTree Lnet/minecraft/class_912;
-	FIELD field_4418 OCEAN Lnet/minecraft/class_604;
-	FIELD field_4419 EXTREME_HILLS Lnet/minecraft/class_604;
-	FIELD field_4420 RIVER Lnet/minecraft/class_604;
-	FIELD field_4421 baseHeight F
-	FIELD field_4422 heightVariation F
-	FIELD field_4423 temperature F
-	FIELD field_4424 downfall F
-	FIELD field_4425 decorator Lnet/minecraft/class_999;
 	FIELD field_4426 id I
-	FIELD field_4427 tree Lnet/minecraft/class_415;
-	METHOD <init> <init> (I)V
-		ARG 1 id
 	METHOD method_1970 getSkyColor (F)I
 		ARG 1 temperature
-	METHOD method_1972 setMutatedColor (I)Lnet/minecraft/class_604;
-		ARG 1 color
 	METHOD method_1973 getSpawnEntries (Lnet/minecraft/class_607;)Ljava/util/List;
 		ARG 1 category
-	METHOD method_1974 setName (Ljava/lang/String;)Lnet/minecraft/class_604;
-		ARG 1 name
-	METHOD method_1976 setBaseColor (I)Lnet/minecraft/class_604;
-		ARG 1 color
-	METHOD method_2195 getRandomTree (Ljava/util/Random;)Lnet/minecraft/class_385;
-		ARG 1 random
-	METHOD method_2635 isSnowy ()Z
-	METHOD method_2636 canRain ()Z
-	METHOD method_2637 disableRain ()Lnet/minecraft/class_604;
-	METHOD method_3238 createDecorator ()Lnet/minecraft/class_999;
-	METHOD method_3239 setTemperatureAndDownfall (FF)Lnet/minecraft/class_604;
-		ARG 2 downfall
-	METHOD method_3240 decorate (Lnet/minecraft/class_191;Ljava/util/Random;II)V
-		ARG 4 z
-	METHOD method_3241 setHeight (FF)Lnet/minecraft/class_604;
-		ARG 2 heightVariation
 	METHOD method_3242 getAnimalSpawnChance ()F
-	METHOD method_3243 getScaledDownfall ()I
-	METHOD method_3244 getScaledTemperature ()I

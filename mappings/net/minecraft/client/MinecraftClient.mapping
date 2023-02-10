@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_2053 net/minecraft/client/MinecraftClient
+	FIELD field_10867 authService Lcom/mojang/authlib/minecraft/MinecraftSessionService;
+	FIELD field_302 session Lnet/minecraft/class_63;
+	FIELD field_310 running Z
+	FIELD field_315 worldRenderer Lnet/minecraft/class_49;
+	FIELD field_5952 world Lnet/minecraft/class_500;
+	FIELD field_7738 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_8186 proxy Ljava/net/Proxy;
+	METHOD <init> (Lnet/minecraft/class_3216;)V
+		ARG 1 launchOptions
+	METHOD method_7257 run ()V

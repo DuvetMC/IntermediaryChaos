@@ -1,3 +1,1 @@
 CLASS net/minecraft/class_441 net/minecraft/client/render/entity/FallingBlockRenderer
-	FIELD field_2099 blockRenderer Lnet/minecraft/class_207;
-	METHOD method_1604 render (Lnet/minecraft/class_438;DDDFF)V

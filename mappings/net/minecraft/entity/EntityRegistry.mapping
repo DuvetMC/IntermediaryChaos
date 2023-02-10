@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_406 net/minecraft/entity/EntityRegistry
+	FIELD field_9883 LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD method_1232 create (Lnet/minecraft/class_244;Lnet/minecraft/class_191;)Lnet/minecraft/class_198;
+		ARG 1 world

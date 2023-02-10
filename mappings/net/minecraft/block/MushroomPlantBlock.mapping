@@ -1,3 +1,1 @@
 CLASS net/minecraft/class_166 net/minecraft/block/MushroomPlantBlock
-	METHOD method_2926 grow (Lnet/minecraft/class_191;IIILjava/util/Random;)Z
-		ARG 5 random

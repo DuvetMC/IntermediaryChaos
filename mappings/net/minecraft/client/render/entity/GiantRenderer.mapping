@@ -1,5 +1,2 @@
 CLASS net/minecraft/class_338 net/minecraft/client/render/entity/GiantRenderer
 	FIELD field_1600 size F
-	METHOD <init> <init> (Lnet/minecraft/class_151;FF)V
-		ARG 3 size
-	METHOD method_1671 scale (Lnet/minecraft/class_331;F)V

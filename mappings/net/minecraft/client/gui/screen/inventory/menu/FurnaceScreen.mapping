@@ -1,4 +1,1 @@
 CLASS net/minecraft/class_363 net/minecraft/client/gui/screen/inventory/menu/FurnaceScreen
-	FIELD field_1757 furnace Lnet/minecraft/class_360;
-	METHOD <init> <init> (Lnet/minecraft/class_201;Lnet/minecraft/class_360;)V
-		ARG 2 parentBlockEntity

@@ -5,4 +5,3 @@ CLASS net/minecraft/class_357 net/minecraft/client/render/Frustum
 	FIELD field_1734 clipBuffer Ljava/nio/FloatBuffer;
 	METHOD method_1709 getInstance ()Lnet/minecraft/class_358;
 	METHOD method_987 compute ()V
-	METHOD method_988 normalize ([[FI)V

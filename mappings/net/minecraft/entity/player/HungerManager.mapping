@@ -12,12 +12,10 @@ CLASS net/minecraft/class_958 net/minecraft/entity/player/HungerManager
 	METHOD method_3065 add (IF)V
 		ARG 1 food
 		ARG 2 saturation
-	METHOD method_3066 add (Lnet/minecraft/class_240;)V
 	METHOD method_3067 tick (Lnet/minecraft/class_203;)V
 		ARG 1 player
 	METHOD method_3068 readNbt (Lnet/minecraft/class_244;)V
 		ARG 1 nbt
-	METHOD method_3069 getLastFoodLevel ()I
 	METHOD method_3070 setSaturationLevel (F)V
 		ARG 1 saturationLevel
 	METHOD method_3071 writeNbt (Lnet/minecraft/class_244;)V

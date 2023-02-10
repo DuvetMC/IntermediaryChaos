@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_684 net/minecraft/crafting/DyeRecipes
-	METHOD method_2211 register (Lnet/minecraft/class_281;)V
-		ARG 1 manager

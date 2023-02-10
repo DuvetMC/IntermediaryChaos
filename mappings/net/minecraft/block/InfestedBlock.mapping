@@ -1,7 +1,1 @@
 CLASS net/minecraft/class_1023 net/minecraft/block/InfestedBlock
-	METHOD <init> <init> (I)V
-		ARG 1 id
-	METHOD method_3302 canBeInfested (I)Z
-		ARG 0 blockId
-	METHOD method_3303 getVariant (I)I
-		ARG 0 blockId

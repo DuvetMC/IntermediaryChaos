@@ -1,5 +1,1 @@
 CLASS net/minecraft/class_492 net/minecraft/entity/EnderEyeEntity
-	FIELD field_2352 lifespan I
-	METHOD <init> <init> (Lnet/minecraft/class_191;DDD)V
-		ARG 4 y
-	METHOD method_1753 setTarget (DDDFF)V

@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1818 net/minecraft/util/CrashReportSection
+	METHOD method_14076 (III)Ljava/lang/String;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z

@@ -1,5 +1,2 @@
 CLASS net/minecraft/class_237 net/minecraft/item/ToolItem
-	FIELD field_1275 effectiveBlocks [Lnet/minecraft/class_35;
 	FIELD field_1276 miningSpeed F
-	FIELD field_1514 attackDamage I
-	FIELD field_3137 material Lnet/minecraft/class_671;

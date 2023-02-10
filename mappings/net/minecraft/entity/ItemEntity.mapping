@@ -1,6 +1,4 @@
 CLASS net/minecraft/class_224 net/minecraft/entity/ItemEntity
-	FIELD field_1156 getItemStack Lnet/minecraft/class_226;
-	FIELD field_1157 pickupCooldown I
 	FIELD field_1159 age I
 	FIELD field_1336 hoverHeight F
 	FIELD field_1337 health I

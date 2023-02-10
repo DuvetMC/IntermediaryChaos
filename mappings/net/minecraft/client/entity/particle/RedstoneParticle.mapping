@@ -1,6 +1,2 @@
 CLASS net/minecraft/class_487 net/minecraft/client/entity/particle/RedstoneParticle
 	FIELD field_2318 baseScale F
-	METHOD <init> <init> (Lnet/minecraft/class_191;DDDFFF)V
-		ARG 10 b
-	METHOD <init> <init> (Lnet/minecraft/class_191;DDDFFFF)V
-		ARG 11 b

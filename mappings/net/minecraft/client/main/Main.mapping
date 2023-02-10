@@ -1,0 +1,6 @@
+CLASS net/minecraft/client/main/Main net/minecraft/client/main/Main
+	FIELD field_20485 LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD main main ([Ljava/lang/String;)V
+		ARG 0 args
+	CLASS 2
+		METHOD run run ()V

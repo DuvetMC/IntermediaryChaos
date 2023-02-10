@@ -1,3 +1,1 @@
 CLASS net/minecraft/class_931 net/minecraft/world/biome/layer/AddSnowLayer
-	METHOD <init> <init> (JLnet/minecraft/class_993;)V
-		ARG 3 parent

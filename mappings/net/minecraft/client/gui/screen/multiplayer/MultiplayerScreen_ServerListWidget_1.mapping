@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_914 net/minecraft/client/gui/screen/multiplayer/MultiplayerScreen_ServerListWidget_1
-	COMMENT @nest net/minecraft/client/gui/screen/multiplayer/MultiplayerScreen$ServerListWidget$1
-	METHOD run run ()V

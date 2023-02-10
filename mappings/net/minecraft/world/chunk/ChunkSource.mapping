@@ -1,15 +1,2 @@
 CLASS net/minecraft/class_374 net/minecraft/world/chunk/ChunkSource
-	METHOD method_1018 getChunk (II)Lnet/minecraft/class_376;
-		ARG 2 chunkZ
-	METHOD method_1027 isLoaded (II)Z
-		ARG 1 chunkX
-		ARG 2 chunkZ
-	METHOD method_1087 populate (Lnet/minecraft/class_374;II)V
-		ARG 3 chunkZ
-	METHOD method_1180 save (ZLnet/minecraft/class_475;)Z
-		ARG 2 listener
-	METHOD method_1297 canSave ()Z
-	METHOD method_1501 tick ()Z
-	METHOD method_1795 loadChunk (II)Lnet/minecraft/class_376;
-		ARG 2 chunkZ
 	METHOD method_2145 getName ()Ljava/lang/String;

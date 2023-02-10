@@ -1,16 +1,9 @@
 CLASS net/minecraft/class_965 net/minecraft/world/biome/BiomeCache
 	FIELD field_4184 source Lnet/minecraft/class_976;
-	FIELD field_4185 timeOfLastCleanUp J
-	FIELD field_4186 entriesByChunkPos Lnet/minecraft/class_925;
-	FIELD field_4187 entries Ljava/util/List;
 	METHOD <init> <init> (Lnet/minecraft/class_976;)V
 		ARG 1 source
 	METHOD method_3106 cleanUp ()V
-	METHOD method_3107 getBiome (II)Lnet/minecraft/class_604;
-		ARG 2 z
 	METHOD method_3108 getBiomeSource (Lnet/minecraft/class_965;)Lnet/minecraft/class_976;
 		ARG 0 cache
 	METHOD method_3111 getBiomesInChunk (II)[Lnet/minecraft/class_604;
-		ARG 2 z
-	METHOD method_3112 getEntry (II)Lnet/minecraft/class_890;
 		ARG 2 z

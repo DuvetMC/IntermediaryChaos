@@ -1,4 +1,3 @@
 CLASS net/minecraft/class_994 net/minecraft/world/gen/structure/StrongholdStructure
-	FIELD field_4297 validBiomes [Lnet/minecraft/class_604;
 	FIELD field_4298 isValid Z
 	FIELD field_4520 positions [Lnet/minecraft/class_488;

@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_295 net/minecraft/crafting/ToolRecipes
-	FIELD field_1434 patterns [[Ljava/lang/String;
-	FIELD field_1435 recipes [[Ljava/lang/Object;
-	METHOD method_809 register (Lnet/minecraft/class_281;)V
-		ARG 1 manager

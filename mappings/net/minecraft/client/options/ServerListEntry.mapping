@@ -1,13 +1,8 @@
 CLASS net/minecraft/class_960 net/minecraft/client/options/ServerListEntry
 	FIELD field_4160 name Ljava/lang/String;
 	FIELD field_4161 address Ljava/lang/String;
-	FIELD field_4162 onlinePlayers Ljava/lang/String;
-	FIELD field_4163 description Ljava/lang/String;
 	FIELD field_4164 ping J
 	FIELD field_4165 isLoaded Z
-	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;)V
-		ARG 1 name
-		ARG 2 address
 	METHOD method_3079 toNbt ()Lnet/minecraft/class_244;
 	METHOD method_3080 fromNbt (Lnet/minecraft/class_244;)Lnet/minecraft/class_960;
 		ARG 0 nbt

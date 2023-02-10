@@ -1,32 +1,3 @@
 CLASS net/minecraft/class_763 net/minecraft/stat/StatHandler
-	FIELD field_3563 stats Ljava/util/Map;
-	FIELD field_3564 unsentStats Ljava/util/Map;
-	FIELD field_3743 dirty Z
-	FIELD field_3744 syncer Lnet/minecraft/class_776;
-	METHOD <init> <init> (Lnet/minecraft/class_63;Ljava/io/File;)V
-		ARG 2 gameDir
-	METHOD method_2755 getUnsentStats ()Ljava/util/Map;
-	METHOD method_2756 deserializeStats (Ljava/lang/String;)Ljava/util/Map;
-		ARG 0 s
-	METHOD method_2757 serializeStats (Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)Ljava/lang/String;
-		ARG 0 playerName
-		ARG 1 sessionId
-		ARG 2 stats
-	METHOD method_2758 setStats (Ljava/util/Map;)V
-		ARG 1 stats
-	METHOD method_2759 incrementStat (Ljava/util/Map;Lnet/minecraft/class_837;I)V
-		ARG 3 amount
-	METHOD method_2760 hasAchievement (Lnet/minecraft/class_810;)Z
-		ARG 1 achievement
 	METHOD method_2761 getValue (Lnet/minecraft/class_837;)I
 		ARG 1 stat
-	METHOD method_2762 incrementStat (Lnet/minecraft/class_837;I)V
-		ARG 2 amount
-	METHOD method_2764 incrementStats (Ljava/util/Map;)V
-		ARG 1 stats
-	METHOD method_2765 hasParentAchievement (Lnet/minecraft/class_810;)Z
-		ARG 1 achievement
-	METHOD method_2766 reset ()V
-	METHOD method_2767 incrementUnsentStats (Ljava/util/Map;)V
-		ARG 1 stats
-	METHOD method_2768 tick ()V

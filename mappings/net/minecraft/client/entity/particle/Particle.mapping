@@ -1,6 +1,5 @@
 CLASS net/minecraft/class_221 net/minecraft/client/entity/particle/Particle
 	FIELD field_1143 age I
-	FIELD field_1144 miscTexColumn I
 	FIELD field_1145 maxAge I
 	FIELD field_1146 scale F
 	FIELD field_1147 gravity F
@@ -23,7 +22,5 @@ CLASS net/minecraft/class_221 net/minecraft/client/entity/particle/Particle
 	METHOD method_1663 multiplyVelocity (F)Lnet/minecraft/class_221;
 		ARG 1 value
 	METHOD method_573 getTextureType ()I
-	METHOD method_575 render (Lnet/minecraft/class_53;FFFFFF)V
-		ARG 7 sideways
 	METHOD method_576 multiplyScale (F)Lnet/minecraft/class_221;
 		ARG 1 value

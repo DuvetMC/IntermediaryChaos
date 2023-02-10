@@ -1,3 +1,2 @@
 CLASS net/minecraft/class_392 net/minecraft/nbt/NbtByte
 	FIELD field_1917 value B
-	METHOD toString toString ()Ljava/lang/String;

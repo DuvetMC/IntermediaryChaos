@@ -1,7 +1,2 @@
 CLASS net/minecraft/class_697 net/minecraft/network/packet/AddPaintingPacket
 	FIELD field_3184 id I
-	FIELD field_3185 x I
-	FIELD field_3186 y I
-	FIELD field_3187 z I
-	FIELD field_3188 facing I
-	FIELD field_3189 motive Ljava/lang/String;

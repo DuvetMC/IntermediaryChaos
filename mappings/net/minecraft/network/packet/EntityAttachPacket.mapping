@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_638 net/minecraft/network/packet/EntityAttachPacket
-	FIELD field_2985 id I
-	FIELD field_2986 holderId I

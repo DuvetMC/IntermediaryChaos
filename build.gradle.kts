@@ -31,9 +31,9 @@ enum class EnvType {
     BOTH
 }
 
-val minecraftVersion = "b1.8.1"
-val officialVersion = "b1.8.1"
-val env = EnvType.CLIENT
+val minecraftVersion = "1.13.2"
+val officialVersion = "1.13.2"
+val env = EnvType.BOTH
 
 version = if (System.getenv("BUILD_NUMBER") != null) {
     "$minecraftVersion.b${System.getenv("BUILD_NUMBER")}-${env.toString().toLowerCase()}"

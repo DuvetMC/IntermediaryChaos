@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_409 net/minecraft/client/texture/PlayerSkinTexture_1
-	COMMENT @nest net/minecraft/client/texture/PlayerSkinTexture$1
-	FIELD field_1981 playerSkin Lnet/minecraft/class_408;
-	METHOD run run ()V

@@ -1,4 +1,1 @@
 CLASS net/minecraft/class_716 net/minecraft/world/storage/AnvilWorldStorageSource
-	METHOD method_2326 convertRegionToAnvil (Ljava/io/File;Ljava/util/ArrayList;IILnet/minecraft/class_475;)V
-	METHOD method_2327 collectRegions (Ljava/io/File;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
-	METHOD method_2328 convertRegionsToAnvil (Ljava/util/ArrayList;IILnet/minecraft/class_475;)V

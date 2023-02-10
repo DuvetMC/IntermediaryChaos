@@ -1,15 +1,7 @@
 CLASS net/minecraft/class_906 net/minecraft/entity/living/effect/StatusEffectInstance
-	FIELD field_3984 id I
 	FIELD field_3985 duration I
 	FIELD field_3986 amplifier I
-	METHOD <init> <init> (III)V
-		ARG 1 id
-		ARG 2 duration
-		ARG 3 amplifier
 	METHOD hashCode hashCode ()I
-	METHOD method_2942 getId ()I
-	METHOD method_2943 combine (Lnet/minecraft/class_906;)V
-		ARG 1 instance
 	METHOD method_2944 tick (Lnet/minecraft/class_199;)Z
 		ARG 1 entity
 	METHOD method_2945 getDuration ()I

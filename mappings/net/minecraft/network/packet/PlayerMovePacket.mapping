@@ -1,7 +1,6 @@
 CLASS net/minecraft/class_541 net/minecraft/network/packet/PlayerMovePacket
 	FIELD field_2521 x D
 	FIELD field_2522 minY D
-	FIELD field_2523 y D
 	FIELD field_2524 yaw F
 	FIELD field_2525 pitch F
 	FIELD field_2526 onGround Z

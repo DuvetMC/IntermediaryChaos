@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_77 net/minecraft/block/BlockWithCulling
-	FIELD field_523 fancyGraphics Z
-	METHOD <init> <init> (IILnet/minecraft/class_87;Z)V
-		ARG 4 fancyGraphics

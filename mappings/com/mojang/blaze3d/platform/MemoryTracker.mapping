@@ -1,12 +1,7 @@
 CLASS net/minecraft/class_467 com/mojang/blaze3d/platform/MemoryTracker
-	FIELD field_2196 LIST_RANGES Ljava/util/List;
-	FIELD field_2199 LISTS Ljava/util/List;
-	METHOD method_1427 releaseLists ()V
 	METHOD method_1428 getLists (I)I
 		ARG 0 s
 	METHOD method_1430 createByteBuffer (I)Ljava/nio/ByteBuffer;
-		ARG 0 capacity
-	METHOD method_1431 createIntBuffer (I)Ljava/nio/IntBuffer;
 		ARG 0 capacity
 	METHOD method_1432 createFloatBuffer (I)Ljava/nio/FloatBuffer;
 		ARG 0 capacity

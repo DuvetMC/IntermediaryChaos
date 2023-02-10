@@ -2,10 +2,4 @@ CLASS net/minecraft/class_713 net/minecraft/world/storage/RegionWorldStorage
 	FIELD field_3312 dir Ljava/io/File;
 	FIELD field_3313 playerDataDir Ljava/io/File;
 	FIELD field_3314 startTime J
-	FIELD field_3798 dataDir Ljava/io/File;
-	METHOD <init> <init> (Ljava/io/File;Ljava/lang/String;Z)V
-		ARG 1 savesDir
-		ARG 2 name
-		ARG 3 createPlayerDataDir
-	METHOD method_2298 getDir ()Ljava/io/File;
 	METHOD method_2299 writeSessionLock ()V

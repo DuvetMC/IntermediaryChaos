@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_1016 net/minecraft/world/gen/structure/VillagePieces_LampPost
-	COMMENT @nest net/minecraft/world/gen/structure/VillagePieces$LampPost
-	METHOD method_3290 findSize (Ljava/util/List;Ljava/util/Random;IIII)Lnet/minecraft/class_969;

@@ -1,17 +1,9 @@
 CLASS net/minecraft/class_858 net/minecraft/world/map/SavedMapData
 	FIELD field_3816 centerX I
 	FIELD field_3817 centerZ I
-	FIELD field_3818 dimension B
 	FIELD field_3819 scale B
 	FIELD field_3820 colors [B
 	FIELD field_3822 holders Ljava/util/List;
-	FIELD field_3823 decorations Ljava/util/List;
 	FIELD field_3824 holdersByPlayer Ljava/util/Map;
-	METHOD method_2813 markDirty (III)V
-		ARG 1 index
-		ARG 2 minY
-		ARG 3 maxY
 	METHOD method_2814 tickHolder (Lnet/minecraft/class_203;Lnet/minecraft/class_226;)V
 		ARG 2 itemStack
-	METHOD method_2815 updateFromPacketData ([B)V
-		ARG 1 updatePacketData

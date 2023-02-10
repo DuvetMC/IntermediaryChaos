@@ -7,7 +7,6 @@ CLASS net/minecraft/class_199 net/minecraft/entity/living/LivingEntity
 	FIELD field_1051 cameraPitch F
 	FIELD field_1053 stepBobbingAmount F
 	FIELD field_1054 distanceTravelled F
-	FIELD field_1056 attackTimer I
 	FIELD field_1057 defaultMaxHealth I
 	FIELD field_1058 bodyYaw F
 	FIELD field_1059 prevBodyYaw F
@@ -35,56 +34,27 @@ CLASS net/minecraft/class_199 net/minecraft/entity/living/LivingEntity
 	FIELD field_2720 serverPitch D
 	FIELD field_4456 attackingPlayer Lnet/minecraft/class_203;
 	FIELD field_4458 arrowDespawnTimer I
-	FIELD field_4459 statusEffects Ljava/util/HashMap;
 	FIELD field_4461 airSpeed F
 	FIELD field_4462 playerHitTimer I
 	METHOD method_1256 isClimbing ()Z
-	METHOD method_1402 doSpawnEffects ()V
 	METHOD method_1696 jump ()V
-	METHOD method_1698 applyKnockback (Lnet/minecraft/class_198;IDD)V
-	METHOD method_1699 moveEntityWithVelocity (FF)V
-		ARG 1 sidewaysVelocity
-		ARG 2 forwardVelocity
 	METHOD method_1874 getSoundVolume ()F
 	METHOD method_1881 canSee (Lnet/minecraft/class_198;)Z
 		ARG 1 entity
-	METHOD method_1913 rayTrace (DF)Lnet/minecraft/class_73;
-		ARG 3 tickDelta
 	METHOD method_1914 getHandSwingProcess (F)F
 		ARG 1 tickDelta
-	METHOD method_1915 lerpPosition (F)Lnet/minecraft/class_72;
-		ARG 1 tickDelta
-	METHOD method_1916 getCameraRotation (F)Lnet/minecraft/class_72;
-		ARG 1 modifier
-	METHOD method_1981 getStackInHand ()Lnet/minecraft/class_226;
-	METHOD method_2029 applyDamage (Lnet/minecraft/class_955;I)V
 	METHOD method_2203 isWaterCreature ()Z
-	METHOD method_2204 dropLoot (Z)V
 	METHOD method_2340 isSleeping ()Z
 	METHOD method_2342 isDead ()Z
-	METHOD method_2832 getIconSprite (Lnet/minecraft/class_226;)I
-	METHOD method_3273 addStatusEffect (Lnet/minecraft/class_906;)V
-		ARG 1 instance
 	METHOD method_3274 getXpDrop (Lnet/minecraft/class_203;)I
 		ARG 1 playerEntity
-	METHOD method_3275 hasStatusEffect (Lnet/minecraft/class_1001;)Z
-		ARG 1 effect
 	METHOD method_3277 shouldDropXp ()Z
-	METHOD method_3279 tickStatusEffects ()V
 	METHOD method_3280 onStatusEffectApplied (Lnet/minecraft/class_906;)V
 		ARG 1 instance
 	METHOD method_3281 getEffectInstance (Lnet/minecraft/class_1001;)Lnet/minecraft/class_906;
 		ARG 1 effect
-	METHOD method_3282 onStatusEffectUpgraded (Lnet/minecraft/class_906;)V
 	METHOD method_3283 onStatusEffectRemoved (Lnet/minecraft/class_906;)V
 		ARG 1 effect
-	METHOD method_3284 removeEffect (I)V
-		ARG 1 id
-	METHOD method_3350 isCustomNameVisible ()Z
 	METHOD method_516 onKilled (Lnet/minecraft/class_955;)V
 		ARG 1 source
 	METHOD method_517 tickAI ()V
-	METHOD method_892 heal (I)V
-	METHOD method_893 tickDespawn ()V
-	METHOD method_954 getHurtSound ()Ljava/lang/String;
-	METHOD method_955 getDeathSound ()Ljava/lang/String;

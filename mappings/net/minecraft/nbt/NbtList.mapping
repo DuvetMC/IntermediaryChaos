@@ -1,9 +1,3 @@
 CLASS net/minecraft/class_393 net/minecraft/nbt/NbtList
 	FIELD field_1918 elements Ljava/util/List;
 	FIELD field_1919 type B
-	METHOD method_1163 get (I)Lnet/minecraft/class_397;
-		ARG 1 index
-	METHOD method_1164 add (Lnet/minecraft/class_397;)V
-		ARG 1 element
-	METHOD method_1165 size ()I
-	METHOD toString toString ()Ljava/lang/String;

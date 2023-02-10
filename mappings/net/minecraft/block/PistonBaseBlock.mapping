@@ -1,23 +1,2 @@
 CLASS net/minecraft/class_878 net/minecraft/block/PistonBaseBlock
 	FIELD field_3922 sticky Z
-	METHOD <init> <init> (IIZ)V
-		ARG 1 id
-		ARG 2 sprite
-		ARG 3 sticky
-	METHOD method_2887 canMoveBlock (ILnet/minecraft/class_191;IIIZ)Z
-		ARG 5 allowBreaking
-	METHOD method_2888 getFacingForPlacement (Lnet/minecraft/class_191;IIILnet/minecraft/class_203;)I
-		ARG 4 entity
-	METHOD method_2889 getFacing (I)I
-		ARG 0 metadata
-	METHOD method_2890 getExtended (I)Z
-		ARG 0 metadata
-	METHOD method_2891 shouldBeExtended (Lnet/minecraft/class_191;IIII)Z
-		ARG 5 facing
-	METHOD method_2892 getTopSprite ()I
-	METHOD method_2893 updateExtended (Lnet/minecraft/class_191;III)V
-		ARG 4 z
-	METHOD method_2894 canExtend (Lnet/minecraft/class_191;IIII)Z
-		ARG 4 dir
-	METHOD method_2895 push (Lnet/minecraft/class_191;IIII)Z
-		ARG 5 dir

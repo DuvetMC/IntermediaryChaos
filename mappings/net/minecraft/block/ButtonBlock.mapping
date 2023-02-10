@@ -1,8 +1,1 @@
 CLASS net/minecraft/class_478 net/minecraft/block/ButtonBlock
-	METHOD <init> <init> (II)V
-		ARG 1 id
-		ARG 2 sprite
-	METHOD method_1710 canSurviveOrBreak (Lnet/minecraft/class_191;III)Z
-		ARG 4 z
-	METHOD method_2353 getPlacementDirection (Lnet/minecraft/class_191;III)I
-		ARG 4 z

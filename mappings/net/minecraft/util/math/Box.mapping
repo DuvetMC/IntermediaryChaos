@@ -1,5 +1,4 @@
 CLASS net/minecraft/class_200 net/minecraft/util/math/Box
-	FIELD field_2191 CACHE Ljava/util/List;
 	FIELD field_34 minX D
 	FIELD field_35 maxX D
 	FIELD field_36 minY D
@@ -17,46 +16,20 @@ CLASS net/minecraft/class_200 net/minecraft/util/math/Box
 		ARG 5 dz
 	METHOD method_1099 intersects (Lnet/minecraft/class_200;)Z
 		ARG 1 box
-	METHOD method_1416 of (DDDDDD)Lnet/minecraft/class_200;
-		ARG 10 maxZ
 	METHOD method_1417 getAverageSideLength ()D
-	METHOD method_1419 set (Lnet/minecraft/class_200;)V
-		ARG 1 box
-	METHOD method_1420 set (DDDDDD)Lnet/minecraft/class_200;
-		ARG 11 maxZ
 	METHOD method_1960 contains (Lnet/minecraft/class_72;)Z
 		ARG 1 vec
-	METHOD method_2787 contract (DDD)Lnet/minecraft/class_200;
-		COMMENT Create a new {@code Box} that is contracted by the given amounts. The minimum and maximum
-		COMMENT values are increased and decreased respectively by the amounts given. This means the
-		COMMENT new {@code Box} will be smaller by twice the amounts given on each axis.
-		ARG 5 dz
-	METHOD method_438 containsYZ (Lnet/minecraft/class_72;)Z
-		ARG 1 vec
-	METHOD method_439 containsXZ (Lnet/minecraft/class_72;)Z
-		ARG 1 vec
-	METHOD method_440 containsXY (Lnet/minecraft/class_72;)Z
-		ARG 1 vec
-	METHOD method_518 copy ()Lnet/minecraft/class_200;
 	METHOD method_519 grow (DDD)Lnet/minecraft/class_200;
 		COMMENT Create a new {@code Box} that grows by the given amounts. Positive amounts lead to
 		COMMENT increases in the maximum values, while negative amounts lead to decreases in the
 		COMMENT minimum values. This ensures the new {@code Box} is always bigger (unless the amounts
 		COMMENT given are all {@code 0}).
 		ARG 5 dz
-	METHOD method_521 intersectX (Lnet/minecraft/class_200;D)D
-		ARG 2 limit
 	METHOD method_522 expand (DDD)Lnet/minecraft/class_200;
 		COMMENT Create a new {@code Box} that is expanded by the given amounts. The minimum and maximum
 		COMMENT values are decreased and increased respectively by the amounts given. This means the
 		COMMENT new {@code Box} will be bigger by twice the amounts given on each axis.
 		ARG 5 dz
-	METHOD method_523 intersectY (Lnet/minecraft/class_200;D)D
-		ARG 2 limit
-	METHOD method_524 setMoved (DDD)Lnet/minecraft/class_200;
-		ARG 5 dz
-	METHOD method_525 intersectZ (Lnet/minecraft/class_200;D)D
-		ARG 2 limit
 	METHOD method_618 clip (Lnet/minecraft/class_72;Lnet/minecraft/class_72;)Lnet/minecraft/class_73;
 		ARG 2 to
 	METHOD toString toString ()Ljava/lang/String;

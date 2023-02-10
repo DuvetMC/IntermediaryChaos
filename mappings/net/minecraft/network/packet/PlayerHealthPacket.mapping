@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_922 net/minecraft/network/packet/PlayerHealthPacket
-	FIELD field_4029 hunger I
-	FIELD field_4030 saturation F

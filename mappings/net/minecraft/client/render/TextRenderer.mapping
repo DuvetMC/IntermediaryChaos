@@ -1,7 +1,0 @@
-CLASS net/minecraft/class_62 net/minecraft/client/render/TextRenderer
-	FIELD field_343 specialCharacterWidth [I
-	METHOD method_188 getStringWidth (Ljava/lang/String;)I
-		ARG 1 text
-	METHOD method_190 drawLayer (Ljava/lang/String;IIIZ)V
-	METHOD method_559 draw (Ljava/lang/String;III)V
-	METHOD method_597 drawWithoutShadow (Ljava/lang/String;III)V

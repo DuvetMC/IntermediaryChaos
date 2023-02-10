@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_614 net/minecraft/world/gen/carver/NetherCaveCarver
-	METHOD method_1984 place (II[BDDD)V
-	METHOD method_1985 placeBranch (II[BDDDFFFIID)V

@@ -1,6 +1,5 @@
 CLASS net/minecraft/class_939 net/minecraft/world/gen/structure/StructurePiece
 	FIELD field_4074 box Lnet/minecraft/class_969;
-	FIELD field_4075 facing I
 	FIELD field_4076 generationDepth I
 	METHOD <init> <init> (I)V
 		ARG 1 generationDepth
@@ -13,37 +12,9 @@ CLASS net/minecraft/class_939 net/minecraft/world/gen/structure/StructurePiece
 		ARG 3 random
 	METHOD method_3002 getIntersectingPiece (Ljava/util/List;Lnet/minecraft/class_969;)Lnet/minecraft/class_939;
 		ARG 1 box
-	METHOD method_3004 setBlockWithMetadata (Lnet/minecraft/class_191;IIIIILnet/minecraft/class_969;)V
-		ARG 7 box
-	METHOD method_3005 getBlock (Lnet/minecraft/class_191;IIILnet/minecraft/class_969;)I
-		ARG 5 box
-	METHOD method_3006 postProcess (Lnet/minecraft/class_191;Ljava/util/Random;Lnet/minecraft/class_969;)Z
-		ARG 3 box
-	METHOD method_3007 bordersOnLiquids (Lnet/minecraft/class_191;Lnet/minecraft/class_969;)Z
-		ARG 2 box
-	METHOD method_3008 fillWithOutline (Lnet/minecraft/class_191;Lnet/minecraft/class_969;IIIIIIIIZ)V
-		ARG 11 avoidAir
-	METHOD method_3009 placeUpperHemisphere (Lnet/minecraft/class_191;Lnet/minecraft/class_969;IIIIIIIZ)V
-		ARG 10 avoidAir
-	METHOD method_3010 fill (Lnet/minecraft/class_191;Lnet/minecraft/class_969;IIIIIIZLjava/util/Random;Lnet/minecraft/class_986;)V
-		ARG 11 blocks
-	METHOD method_3011 setBlockWithThreshold (Lnet/minecraft/class_191;Lnet/minecraft/class_969;Ljava/util/Random;FIIIII)V
-		ARG 9 y
-	METHOD method_3012 fillRandomlyWithOutline (Lnet/minecraft/class_191;Lnet/minecraft/class_969;Ljava/util/Random;FIIIIIIIIZ)V
-		ARG 13 avoidAir
-	METHOD method_3013 placeWoodenDoor (Lnet/minecraft/class_191;Lnet/minecraft/class_969;Ljava/util/Random;IIII)V
-		ARG 7 metadata
-	METHOD method_3014 placeChestWithLoot (Lnet/minecraft/class_191;Lnet/minecraft/class_969;Ljava/util/Random;III[Lnet/minecraft/class_935;I)V
 	METHOD method_3015 getBoundingBox ()Lnet/minecraft/class_969;
 	METHOD method_3016 transformZ (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD method_3017 fillColumnDown (Lnet/minecraft/class_191;IIIIILnet/minecraft/class_969;)V
-		ARG 7 box
-	METHOD method_3018 fillAirColumnUp (Lnet/minecraft/class_191;IIILnet/minecraft/class_969;)V
-		ARG 5 box
 	METHOD method_3019 getGenerationDepth ()I
 		COMMENT Returns the distance between this piece and the structure start, traced along the structure piece tree.
-	METHOD method_3020 postProcessBlockMetadata (II)I
-		ARG 1 blockId
-		ARG 2 metadata

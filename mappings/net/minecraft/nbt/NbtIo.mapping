@@ -5,8 +5,6 @@ CLASS net/minecraft/class_453 net/minecraft/nbt/NbtIo
 		ARG 0 is
 	METHOD method_1448 write (Lnet/minecraft/class_244;Ljava/io/DataOutput;)V
 		ARG 1 output
-	METHOD method_1449 read (Ljava/io/DataInput;)Lnet/minecraft/class_244;
-		ARG 0 input
 	METHOD method_2955 read (Ljava/io/File;)Lnet/minecraft/class_244;
 		ARG 0 file
 	METHOD method_2956 writeSafe (Lnet/minecraft/class_244;Ljava/io/File;)V

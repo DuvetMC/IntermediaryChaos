@@ -1,10 +1,4 @@
 CLASS net/minecraft/class_419 net/minecraft/client/render/block/entity/BlockEntityRenderer
 	FIELD field_2002 dispatcher Lnet/minecraft/class_420;
-	METHOD method_1258 getTextRenderer ()Lnet/minecraft/class_62;
-	METHOD method_1259 bindTexture (Ljava/lang/String;)V
-	METHOD method_1260 render (Lnet/minecraft/class_257;DDDF)V
-		ARG 8 tickDelta
 	METHOD method_1261 init (Lnet/minecraft/class_420;)V
 		ARG 1 dispatcher
-	METHOD method_2885 setWorld (Lnet/minecraft/class_191;)V
-		ARG 1 world
