@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_217
+	FIELD field_1970 hostileSpawns Lnet/minecraft/class_404;
+	FIELD field_1971 passiveSpawns Lnet/minecraft/class_404;

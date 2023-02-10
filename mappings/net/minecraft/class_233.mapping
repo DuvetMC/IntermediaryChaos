@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_233
+	FIELD field_1248 random Ljava/util/Random;
 	METHOD method_645 load (Ljava/lang/String;Ljava/io/File;)Lnet/minecraft/class_232;
 	METHOD method_974 getRandom (Ljava/lang/String;)Lnet/minecraft/class_232;
 		ARG 1 path

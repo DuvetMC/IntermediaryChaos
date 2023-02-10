@@ -1,0 +1,42 @@
+CLASS net/minecraft/class_55 net/minecraft/client/MinecraftClient
+	FIELD field_1244 sounds Lnet/minecraft/class_234;
+	FIELD field_1470 mouseInput Lnet/minecraft/class_305;
+	FIELD field_1941 mcDir Ljava/io/File;
+	FIELD field_1969 startTime J
+	FIELD field_290 currentScreen Lnet/minecraft/class_59;
+	FIELD field_299 width I
+	FIELD field_300 height I
+	FIELD field_301 world Lnet/minecraft/class_191;
+	FIELD field_302 session Lnet/minecraft/class_63;
+	FIELD field_306 textRenderer Lnet/minecraft/class_62;
+	FIELD field_310 running Z
+	FIELD field_311 fullscreen Z
+	FIELD field_314 tickTimer Lnet/minecraft/class_33;
+	FIELD field_315 worldRenderer Lnet/minecraft/class_49;
+	FIELD field_316 player Lnet/minecraft/class_228;
+	FIELD field_318 particleManager Lnet/minecraft/class_64;
+	FIELD field_320 canvas Ljava/awt/Canvas;
+	FIELD field_606 loadingScreenRenderer Lnet/minecraft/class_118;
+	FIELD field_607 gameRenderer Lnet/minecraft/class_101;
+	FIELD field_767 options Lnet/minecraft/class_148;
+	METHOD <init> (Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+		ARG 1 canvas
+		ARG 2 applet
+		ARG 3 width
+		ARG 4 height
+		ARG 5 fullscreen
+	METHOD method_1100 setWorld (Lnet/minecraft/class_191;Ljava/lang/String;)V
+		ARG 1 world
+		ARG 2 s
+	METHOD method_1208 getMcDir ()Ljava/io/File;
+	METHOD method_1210 (Ljava/lang/String;)V
+		ARG 1 s
+	METHOD method_1211 respawnPlayer ()V
+	METHOD method_1274 requestShutdown ()V
+	METHOD method_1275 getChunkDebugInfo ()Ljava/lang/String;
+	METHOD method_1276 getEntityDebugInfo ()Ljava/lang/String;
+	METHOD method_1277 getParticleAndEntityDebugInfo ()Ljava/lang/String;
+	METHOD method_158 stop ()V
+	METHOD method_162 showScreen (Lnet/minecraft/class_59;)V
+		ARG 1 screen
+	METHOD run run ()V
