@@ -1,4 +1,10 @@
 CLASS net/minecraft/class_18 net/minecraft/block/Block
+	FIELD field_1229 PowderSound Lnet/minecraft/class_245;
+	FIELD field_1231 GRASS_SOUND Lnet/minecraft/class_245;
+	FIELD field_1232 STONE_SOUND Lnet/minecraft/class_245;
+	FIELD field_1233 IRON_SOUND Lnet/minecraft/class_245;
+	FIELD field_1234 WOOD_SOUND Lnet/minecraft/class_245;
+	FIELD field_1235 GRAVEL_SOUND Lnet/minecraft/class_245;
 	FIELD field_1262 FIRE Lnet/minecraft/class_252;
 	FIELD field_1326 CHEST Lnet/minecraft/class_18;
 	FIELD field_1382 REDSTONE_DUST Lnet/minecraft/class_18;
@@ -8,6 +14,9 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_1496 material Lnet/minecraft/class_79;
 	FIELD field_1570 WHEAT Lnet/minecraft/class_18;
 	FIELD field_1571 FARMLAND Lnet/minecraft/class_18;
+	FIELD field_1637 GLASS_SOUND Lnet/minecraft/class_245;
+	FIELD field_1638 WOOL_SOUND Lnet/minecraft/class_245;
+	FIELD field_1639 SAND_SOUND Lnet/minecraft/class_245;
 	FIELD field_1751 FURNACE Lnet/minecraft/class_18;
 	FIELD field_1908 LIT_FURNACE Lnet/minecraft/class_18;
 	FIELD field_1994 SIGN Lnet/minecraft/class_18;
@@ -18,7 +27,7 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_211 GRASS Lnet/minecraft/class_24;
 	FIELD field_213 BEDROCK Lnet/minecraft/class_18;
 	FIELD field_214 WATER Lnet/minecraft/class_18;
-	FIELD field_216 LAVA Lnet/minecraft/class_18;
+	FIELD field_216 LAVA_MOVING Lnet/minecraft/class_18;
 	FIELD field_2176 MONSTER_SPAWNER Lnet/minecraft/class_18;
 	FIELD field_2200 WOOD_STAIRS Lnet/minecraft/class_18;
 	FIELD field_2201 STONE_STAIRS Lnet/minecraft/class_18;
@@ -63,6 +72,7 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_3434 POWERED_REPEATER Lnet/minecraft/class_18;
 	FIELD field_3551 LOCKED_CHEST Lnet/minecraft/class_18;
 	FIELD field_3716 GOLD_RAIL Lnet/minecraft/class_18;
+	FIELD field_3718 stats Z
 	FIELD field_3899 TRAPDOOR Lnet/minecraft/class_18;
 	FIELD field_3938 STICKY_PISTON Lnet/minecraft/class_18;
 	FIELD field_3939 PISTON Lnet/minecraft/class_18;
@@ -79,6 +89,7 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_540 ROSE Lnet/minecraft/class_28;
 	FIELD field_541 BROWN_MUSHROOM Lnet/minecraft/class_28;
 	FIELD field_542 RED_MUSHROOM Lnet/minecraft/class_28;
+	FIELD field_855 isGrass [Z
 	FIELD field_909 STONE_SLAB Lnet/minecraft/class_18;
 	FIELD field_910 SLAB Lnet/minecraft/class_18;
 	FIELD field_911 BRICKS Lnet/minecraft/class_18;
@@ -93,7 +104,8 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_977 DIRT Lnet/minecraft/class_18;
 	FIELD field_978 STONE_BRICKS Lnet/minecraft/class_18;
 	FIELD field_979 SAPLING Lnet/minecraft/class_18;
-	FIELD field_980 OTHER_WATER Lnet/minecraft/class_18;
+	FIELD field_980 WATER_STILL Lnet/minecraft/class_18;
+	FIELD field_981 LAVA_STILL Lnet/minecraft/class_18;
 	FIELD field_982 GOLD_ORE Lnet/minecraft/class_18;
 	FIELD field_983 IRON_ORE Lnet/minecraft/class_18;
 	FIELD field_984 COAL_ORE Lnet/minecraft/class_18;
@@ -101,6 +113,7 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	METHOD <init> (ILnet/minecraft/class_79;)V
 		ARG 1 id
 		ARG 2 material
+	METHOD method_1083 onDestroyedByExplosion (Lnet/minecraft/class_14;III)V
 	METHOD method_1084 onAdded (Lnet/minecraft/class_14;III)V
 		ARG 1 world
 		ARG 2 x
@@ -108,6 +121,7 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 		ARG 4 z
 	METHOD method_109 (Lnet/minecraft/class_14;III)Lnet/minecraft/class_19;
 		ARG 1 world
+	METHOD method_1111 canStay (Lnet/minecraft/class_14;III)Z
 	METHOD method_1125 (Lnet/minecraft/class_14;IIILjava/util/Random;)V
 		ARG 1 world
 		ARG 2 x
@@ -125,7 +139,11 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 		ARG 3 y
 		ARG 4 z
 		ARG 5 neighborBlockId
+	METHOD method_1253 onBlockBreakStart (Lnet/minecraft/class_14;IIILnet/minecraft/class_3;)V
+	METHOD method_1286 speedBuffForEntity (Lnet/minecraft/class_14;IIILnet/minecraft/class_1;Lnet/minecraft/class_9;)V
 	METHOD method_1433 blockType (Lnet/minecraft/class_245;)Lnet/minecraft/class_18;
+	METHOD method_1614 getColourMultiplier (Lnet/minecraft/class_447;III)I
+	METHOD method_1727 onEntityCollision (Lnet/minecraft/class_14;IIILnet/minecraft/class_1;)V
 	METHOD method_1728 hasSignal (Lnet/minecraft/class_447;IIII)Z
 		ARG 1 world
 		ARG 2 x
@@ -139,6 +157,8 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 		ARG 4 z
 		ARG 5 direction
 	METHOD method_1730 isSignalSource ()Z
+	METHOD method_1731 setBoundsForItemRender ()V
+	METHOD method_1807 afterBreak (Lnet/minecraft/class_14;Lnet/minecraft/class_3;IIII)V
 	METHOD method_2004 onPlaced (Lnet/minecraft/class_14;IIILnet/minecraft/class_209;)V
 		ARG 1 world
 		ARG 2 x
@@ -156,6 +176,10 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 		ARG 5 type
 		ARG 6 data
 	METHOD method_2492 getTranslatedName ()Ljava/lang/String;
+	METHOD method_2731 getStatsEnabledBoolean ()Z
+	METHOD method_2732 disableStats ()Lnet/minecraft/class_18;
+	METHOD method_2856 initBlock ()V
+	METHOD method_2919 getRenderColour (I)I
 	METHOD method_2920 getPistonMoveBehavior ()I
 		COMMENT Returns this block's behavior when moved by a piston.
 		COMMENT <br>0: this block can be pushed and pulled
@@ -173,13 +197,14 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD method_735 (Lnet/minecraft/class_14;IIILnet/minecraft/class_3;)Z
+	METHOD method_735 activate (Lnet/minecraft/class_14;IIILnet/minecraft/class_3;)Z
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 player
-	METHOD method_927 (Lnet/minecraft/class_14;IIII)V
+	METHOD method_878 onSteppedOn (Lnet/minecraft/class_14;IIILnet/minecraft/class_1;)V
+	METHOD method_927 onPlace (Lnet/minecraft/class_14;IIII)V
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
