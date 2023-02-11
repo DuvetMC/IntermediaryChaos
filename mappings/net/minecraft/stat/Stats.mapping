@@ -27,3 +27,4 @@ CLASS net/minecraft/class_757 net/minecraft/stat/Stats
 	FIELD field_3659 RIDING_BOAT_DISTANCE Lnet/minecraft/class_844;
 	FIELD field_3660 RIDING_PIG_DISTANCE Lnet/minecraft/class_844;
 	METHOD method_2467 createMineBlockStats (Ljava/lang/String;I)[Lnet/minecraft/class_844;
+	METHOD method_2472 init ()V
