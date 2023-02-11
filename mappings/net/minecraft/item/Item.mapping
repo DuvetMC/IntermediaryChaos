@@ -96,6 +96,7 @@ CLASS net/minecraft/class_255 net/minecraft/item/Item
 	FIELD field_2634 EGG Lnet/minecraft/class_255;
 	FIELD field_2635 RECORD_13 Lnet/minecraft/class_255;
 	FIELD field_2636 RECORD_CAT Lnet/minecraft/class_255;
+	FIELD field_2667 is_3d Z
 	FIELD field_2740 COMPASS Lnet/minecraft/class_255;
 	FIELD field_2760 FISHING_ROD Lnet/minecraft/class_255;
 	FIELD field_2810 CLOCK Lnet/minecraft/class_255;
@@ -108,6 +109,7 @@ CLASS net/minecraft/class_255 net/minecraft/item/Item
 	FIELD field_3144 BONE Lnet/minecraft/class_255;
 	FIELD field_3145 SUGAR Lnet/minecraft/class_255;
 	FIELD field_3146 CAKE Lnet/minecraft/class_255;
+	FIELD field_3147 has_subtypes Z
 	FIELD field_3317 BED Lnet/minecraft/class_255;
 	FIELD field_3318 REPEATER Lnet/minecraft/class_255;
 	FIELD field_3474 COOKIE Lnet/minecraft/class_255;
@@ -115,23 +117,35 @@ CLASS net/minecraft/class_255 net/minecraft/item/Item
 	FIELD field_3919 SHEARS Lnet/minecraft/class_882;
 	METHOD <init> (I)V
 		ARG 1 id
+	METHOD method_1398 onSaddle (Lnet/minecraft/class_229;Lnet/minecraft/class_209;)V
+	METHOD method_1873 is3D ()Z
+	METHOD method_1907 make3D ()Lnet/minecraft/class_255;
+	METHOD method_1963 getRotateOnRender ()Z
 	METHOD method_2094 getTranslationKey ()Ljava/lang/String;
 	METHOD method_2095 setTextureAtlasPosition (II)Lnet/minecraft/class_255;
 		ARG 1 u
 		ARG 2 v
 	METHOD method_2096 setTranslationKey (Ljava/lang/String;)Lnet/minecraft/class_255;
+	METHOD method_2171 getPlacedMetaData (I)I
 	METHOD method_2172 setCraftingRemainder (Lnet/minecraft/class_255;)Lnet/minecraft/class_255;
 		ARG 1 remainder
+	METHOD method_2173 setHasSubTypes (Z)Lnet/minecraft/class_255;
+	METHOD method_2174 getTranslationSubString (Lnet/minecraft/class_229;)Ljava/lang/String;
 	METHOD method_2175 setMaxStackSize (I)Lnet/minecraft/class_255;
 		ARG 1 maxStackSize
 	METHOD method_2176 setMaxDurability (I)Lnet/minecraft/class_255;
+	METHOD method_2177 hasSubTypes ()Z
 	METHOD method_2178 getCraftingRemainder ()Lnet/minecraft/class_255;
 	METHOD method_2179 hasCraftingRemainder ()Z
+	METHOD method_2450 isDamageable ()Z
 	METHOD method_2451 getName ()Ljava/lang/String;
-	METHOD method_2598 (Lnet/minecraft/class_229;)I
+	METHOD method_2598 getIconIndex (Lnet/minecraft/class_229;)I
 		ARG 1 stack
 	METHOD method_2599 durabilityBarColor (I)I
 		ARG 1 durability
+	METHOD method_2797 OnUpdate (Lnet/minecraft/class_229;Lnet/minecraft/class_14;Lnet/minecraft/class_1;IZ)V
+	METHOD method_2798 OnCreate (Lnet/minecraft/class_229;Lnet/minecraft/class_14;Lnet/minecraft/class_3;)V
+	METHOD method_680 getIconIndexBasedOnDamage (I)I
 	METHOD method_681 breakMultiplier (Lnet/minecraft/class_229;Lnet/minecraft/class_18;)F
 	METHOD method_682 use (Lnet/minecraft/class_229;Lnet/minecraft/class_14;Lnet/minecraft/class_3;)Lnet/minecraft/class_229;
 	METHOD method_683 useOnBlock (Lnet/minecraft/class_229;Lnet/minecraft/class_3;Lnet/minecraft/class_14;IIII)Z
@@ -140,5 +154,7 @@ CLASS net/minecraft/class_255 net/minecraft/item/Item
 	METHOD method_811 setTextureId (I)Lnet/minecraft/class_255;
 		ARG 1 id
 	METHOD method_815 getAttackStrength (Lnet/minecraft/class_1;)I
+	METHOD method_816 postHit (Lnet/minecraft/class_229;Lnet/minecraft/class_209;Lnet/minecraft/class_209;)Z
+	METHOD method_817 postMine (Lnet/minecraft/class_229;IIIILnet/minecraft/class_209;)Z
 	METHOD method_818 getMaxdurability ()I
 	METHOD method_837 canBreak (Lnet/minecraft/class_18;)Z
