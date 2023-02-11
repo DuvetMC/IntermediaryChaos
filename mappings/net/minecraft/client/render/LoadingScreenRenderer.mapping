@@ -1,6 +1,20 @@
 CLASS net/minecraft/class_118 net/minecraft/client/render/LoadingScreenRenderer
 	FIELD field_601 task Ljava/lang/String;
+	FIELD field_602 client Lnet/minecraft/class_55;
 	FIELD field_603 title Ljava/lang/String;
 	FIELD field_937 systemTime J
+	METHOD <init> (Lnet/minecraft/class_55;)V
+		ARG 1 client
+	METHOD method_1201 serializeToGzippedStream (Lnet/minecraft/class_244;Ljava/io/OutputStream;)V
+		ARG 0 compound
+		ARG 1 os
+		ARG 5 stream
+	METHOD method_1202 deserializeFromGzippedStream (Ljava/io/InputStream;)Lnet/minecraft/class_244;
+		ARG 0 is
+		ARG 4 stream
+	METHOD method_1203 (Ljava/lang/String;)V
+		ARG 1 task
 	METHOD method_585 setTitle (Ljava/lang/String;)V
 		ARG 1 title
+		ARG 3 window
+		ARG 4 height

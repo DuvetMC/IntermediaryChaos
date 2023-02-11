@@ -4,6 +4,7 @@ CLASS net/minecraft/class_55 net/minecraft/client/MinecraftClient
 	FIELD field_1941 mcDir Ljava/io/File;
 	FIELD field_1969 startTime J
 	FIELD field_290 currentScreen Lnet/minecraft/class_59;
+	FIELD field_296 hitResult Lnet/minecraft/class_73;
 	FIELD field_299 width I
 	FIELD field_300 height I
 	FIELD field_301 world Lnet/minecraft/class_191;
@@ -16,6 +17,7 @@ CLASS net/minecraft/class_55 net/minecraft/client/MinecraftClient
 	FIELD field_316 player Lnet/minecraft/class_228;
 	FIELD field_318 particleManager Lnet/minecraft/class_64;
 	FIELD field_320 canvas Ljava/awt/Canvas;
+	FIELD field_520 gui Lnet/minecraft/class_96;
 	FIELD field_606 loadingScreenRenderer Lnet/minecraft/class_118;
 	FIELD field_607 gameRenderer Lnet/minecraft/class_101;
 	FIELD field_767 options Lnet/minecraft/class_148;
@@ -39,4 +41,9 @@ CLASS net/minecraft/class_55 net/minecraft/client/MinecraftClient
 	METHOD method_158 stop ()V
 	METHOD method_162 showScreen (Lnet/minecraft/class_59;)V
 		ARG 1 screen
+	METHOD method_779 (II)V
+		ARG 1 width
+		ARG 2 height
+		ARG 3 window
+	METHOD method_780 toggleFullscreen ()V
 	METHOD run run ()V

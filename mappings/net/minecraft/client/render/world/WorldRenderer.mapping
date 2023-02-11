@@ -31,9 +31,17 @@ CLASS net/minecraft/class_49 net/minecraft/client/render/world/WorldRenderer
 	FIELD field_389 renderdChunkBlockRenderers Ljava/util/List;
 	FIELD field_390 ticks I
 	FIELD field_487 glLists I
+	FIELD field_774 client Lnet/minecraft/class_55;
 	FIELD field_87 cameraX D
 	FIELD field_88 cameraY D
 	FIELD field_89 cameraZ D
+	METHOD <init> (Lnet/minecraft/class_55;Lnet/minecraft/class_52;)V
+		ARG 1 client
+		ARG 2 textureManager
+		ARG 8 random
+		ARG 9 x
+		ARG 10 x_
+		ARG 11 bufferBuilder
 	METHOD method_1059 render (IIID)I
 		ARG 1 renderStartIndex
 		ARG 2 chunksToRender
@@ -56,6 +64,7 @@ CLASS net/minecraft/class_49 net/minecraft/client/render/world/WorldRenderer
 	METHOD method_620 renderSky (F)V
 		ARG 1 tickDelta
 	METHOD method_621 setWorld (Lnet/minecraft/class_191;)V
+		ARG 1 world
 	METHOD method_624 tick ()V
 	METHOD method_900 checkColorOcclusion (II)V
 		ARG 1 start

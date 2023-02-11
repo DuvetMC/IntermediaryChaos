@@ -10,4 +10,7 @@ CLASS net/minecraft/class_201 net/minecraft/entity/player/PlayerInventory
 	METHOD method_1079 getEmptySlot ()I
 	METHOD method_527 getMainHandStack ()Lnet/minecraft/class_226;
 	METHOD method_528 indexOfItem (I)I
+		ARG 1 item
+	METHOD method_599 selectItem (I)V
+		ARG 1 item
 	METHOD method_984 getArmorProtectionValue ()I

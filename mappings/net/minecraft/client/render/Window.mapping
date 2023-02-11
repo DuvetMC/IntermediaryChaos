@@ -1,3 +1,8 @@
 CLASS net/minecraft/class_288 net/minecraft/client/render/Window
 	FIELD field_1399 width I
 	FIELD field_1400 height I
+	METHOD <init> (II)V
+		ARG 1 width
+		ARG 2 height
+	METHOD method_788 getWidth ()I
+	METHOD method_789 getHeight ()I

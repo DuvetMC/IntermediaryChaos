@@ -20,10 +20,13 @@ CLASS net/minecraft/class_376 net/minecraft/world/chunk/WorldChunk
 		ARG 1 sectionX
 		ARG 2 y
 		ARG 3 sectionZ
+	METHOD method_1031 setBlock (IIII)Z
+	METHOD method_1032 getLightValue (Lnet/minecraft/class_372;III)I
 	METHOD method_1035 getHeight (II)I
 		ARG 1 sectionX
 		ARG 2 sectionZ
 	METHOD method_1036 getLightAt (III)I
+	METHOD method_1037 setBlockMetadata (IIII)V
 	METHOD method_1039 hasSkyAccessAt (III)Z
 		ARG 1 sectionX
 		ARG 2 y
@@ -45,10 +48,16 @@ CLASS net/minecraft/class_376 net/minecraft/world/chunk/WorldChunk
 		ARG 4 blockEntity
 	METHOD method_1089 getBlockEntityAt (III)Lnet/minecraft/class_257;
 		ARG 3 sectionZ
+	METHOD method_1134 removeBlockEntity (III)V
 	METHOD method_1220 addEntity (Lnet/minecraft/class_198;)V
 		ARG 1 entity
 	METHOD method_1221 removeEntity (Lnet/minecraft/class_198;I)V
 		ARG 2 chunkY
+	METHOD method_1222 getEntitiesExcluding (Lnet/minecraft/class_198;Lnet/minecraft/class_200;Ljava/util/List;)V
+		ARG 1 entity
+		ARG 2 box
+		ARG 3 entities
 	METHOD method_1299 isAt (II)Z
 		ARG 1 chunkX
 		ARG 2 chunkZ
+	METHOD method_1316 setBlockWithMetadata (IIIII)Z

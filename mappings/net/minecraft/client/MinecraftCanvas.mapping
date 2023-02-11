@@ -1,4 +1,6 @@
-CLASS net/minecraft/class_428
+CLASS net/minecraft/class_428 net/minecraft/client/MinecraftCanvas
+	FIELD field_2055 world Lnet/minecraft/class_191;
+	FIELD field_2056 mcDir Ljava/io/File;
 	METHOD keyPressed keyPressed (Ljava/awt/event/KeyEvent;)V
 	METHOD keyReleased keyReleased (Ljava/awt/event/KeyEvent;)V
 	METHOD keyTyped keyTyped (Ljava/awt/event/KeyEvent;)V

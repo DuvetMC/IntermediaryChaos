@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_59 net/minecraft/client/gui/screen/Screen
+	FIELD field_333 client Lnet/minecraft/class_55;
 	FIELD field_334 titleWidth I
 	FIELD field_335 height I
 	FIELD field_336 buttons Ljava/util/List;
@@ -17,6 +18,10 @@ CLASS net/minecraft/class_59 net/minecraft/client/gui/screen/Screen
 		ARG 3 tickDelta
 	METHOD method_179 buttonClicked (Lnet/minecraft/class_57;)V
 		ARG 1 buttonWidget
+	METHOD method_180 refresh (Lnet/minecraft/class_55;II)V
+		ARG 1 client
+		ARG 2 width
+		ARG 3 height
 	METHOD method_182 removed ()V
 	METHOD method_184 tick ()V
 	METHOD method_185 handleMouse ()V
@@ -24,4 +29,5 @@ CLASS net/minecraft/class_59 net/minecraft/client/gui/screen/Screen
 		ARG 1 mouseX
 		ARG 2 mouseY
 		ARG 3 mouseButton
+		ARG 5 i
 	METHOD method_270 handleKeyboard ()V

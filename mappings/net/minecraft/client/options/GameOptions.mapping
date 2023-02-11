@@ -1,12 +1,42 @@
 CLASS net/minecraft/class_148 net/minecraft/client/options/GameOptions
+	FIELD field_1182 inventory Lnet/minecraft/class_147;
+	FIELD field_1183 drop Lnet/minecraft/class_147;
 	FIELD field_1634 defaultDifficulty I
 	FIELD field_1635 DIFFICULTIES [Ljava/lang/String;
 	FIELD field_2035 fancyGraphics Z
+	FIELD field_749 music Z
+	FIELD field_750 sound Z
 	FIELD field_751 invertMouseY Z
+	FIELD field_752 showFps Z
 	FIELD field_753 viewDistance I
+	FIELD field_754 forward Lnet/minecraft/class_147;
+	FIELD field_755 left Lnet/minecraft/class_147;
+	FIELD field_756 backward Lnet/minecraft/class_147;
+	FIELD field_757 right Lnet/minecraft/class_147;
+	FIELD field_758 jump Lnet/minecraft/class_147;
+	FIELD field_760 chat Lnet/minecraft/class_147;
+	FIELD field_761 toggleFog Lnet/minecraft/class_147;
+	FIELD field_762 saveLocation Lnet/minecraft/class_147;
+	FIELD field_763 loadLocation Lnet/minecraft/class_147;
+	FIELD field_764 allKeybinds [Lnet/minecraft/class_147;
 	FIELD field_765 RENDER_DISTANCES [Ljava/lang/String;
 	FIELD field_766 file Ljava/io/File;
 	FIELD field_832 viewBobbing Z
 	FIELD field_833 anaglyph Z
+	FIELD field_835 client Lnet/minecraft/class_55;
+	FIELD field_904 limitFramerate Z
+	METHOD <init> (Lnet/minecraft/class_55;Ljava/io/File;)V
+		ARG 1 client
+		ARG 2 mcDir
 	METHOD method_351 load ()V
+	METHOD method_352 getKeybindString (I)Ljava/lang/String;
+		ARG 1 id
+	METHOD method_353 setKeyCode (II)V
+		ARG 1 id
+		ARG 2 code
 	METHOD method_354 save ()V
+	METHOD method_355 getOptionText (I)Ljava/lang/String;
+		ARG 1 id
+	METHOD method_356 setOption (II)V
+		ARG 1 id
+		ARG 2 value

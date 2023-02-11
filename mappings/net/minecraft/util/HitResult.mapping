@@ -3,9 +3,14 @@ CLASS net/minecraft/class_73 net/minecraft/util/HitResult
 	FIELD field_377 x I
 	FIELD field_3 y I
 	FIELD field_5 z I
+	FIELD field_816 hitType I
 	FIELD field_817 pos Lnet/minecraft/class_72;
 	FIELD field_818 entity Lnet/minecraft/class_198;
 	METHOD <init> <init> (IIIILnet/minecraft/class_72;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
 		ARG 5 pos
 	METHOD <init> <init> (Lnet/minecraft/class_198;)V
 		ARG 1 entity

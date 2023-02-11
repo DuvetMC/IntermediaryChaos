@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_52 net/minecraft/client/texture/TextureManager
+	FIELD field_770 options Lnet/minecraft/class_148;
+	METHOD <init> (Lnet/minecraft/class_148;)V
+		ARG 1 options
+	METHOD method_145 (Ljava/lang/String;)I
+		ARG 1 texture

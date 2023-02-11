@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_432 net/minecraft/client/OperatingSystem_1
+	COMMENT @nest net/minecraft/client/OperatingSystem$1
+	FIELD field_2073 ORDINALS [I

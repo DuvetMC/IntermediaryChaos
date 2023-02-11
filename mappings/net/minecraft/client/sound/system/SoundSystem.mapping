@@ -3,11 +3,14 @@ CLASS net/minecraft/class_234 net/minecraft/client/sound/system/SoundSystem
 	FIELD field_1252 music Lnet/minecraft/class_233;
 	FIELD field_1253 nextSoundEventIndex I
 	FIELD field_1299 options Lnet/minecraft/class_148;
+	FIELD field_1636 ready Z
 	FIELD field_1718 soundSystem Lpaulscode/sound/SoundSystem;
-	METHOD method_646 (Lnet/minecraft/class_148;)V
+	METHOD method_646 init (Lnet/minecraft/class_148;)V
 		ARG 1 options
 	METHOD method_649 loadSound (Ljava/lang/String;Ljava/io/File;)V
 	METHOD method_687 volumeChanged ()V
+	METHOD method_976 playSound (Ljava/lang/String;FF)V
+		ARG 1 id
 	METHOD method_977 play (Ljava/lang/String;FFFFF)V
 		ARG 1 id
 		ARG 2 x
