@@ -31,8 +31,8 @@ enum class EnvType {
     BOTH
 }
 
-val minecraftVersion = "b1.8.1"
-val officialVersion = "b1.8.1"
+val minecraftVersion = "b1.7.3"
+val officialVersion = "b1.7.3"
 val env = EnvType.CLIENT
 
 version = if (System.getenv("BUILD_NUMBER") != null) {
@@ -90,7 +90,7 @@ tasks {
         onlyIf { !outputFile.exists() }
 
         doLast {
-            download("https://raw.githubusercontent.com/DuvetMC/old-intermediaries/master/intermediaries/$officialVersion.tiny", outputFile)
+            download("https://raw.githubusercontent.com/DuvetMC/old-intermediaries/main/old-intermediaries/$officialVersion.tiny", outputFile)
         }
     }
 
