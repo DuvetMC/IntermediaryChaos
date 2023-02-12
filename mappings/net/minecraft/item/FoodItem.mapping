@@ -1,1 +1,9 @@
 CLASS net/minecraft/class_257 net/minecraft/item/FoodItem
+	FIELD field_1281 hunger I
+	FIELD field_3568 meat Z
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 heal_amount
+		ARG 3 is_meat
+	METHOD method_2504 getHungerHealing ()I
+	METHOD method_2505 isMeat ()Z

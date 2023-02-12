@@ -1,1 +1,4 @@
 CLASS net/minecraft/class_564 net/minecraft/item/SugarcaneItem
+	FIELD field_2601 plant_block I
+	METHOD <init> (ILnet/minecraft/class_18;)V
+		ARG 1 id

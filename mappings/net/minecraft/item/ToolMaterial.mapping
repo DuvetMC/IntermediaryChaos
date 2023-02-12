@@ -1,0 +1,19 @@
+CLASS net/minecraft/class_678 net/minecraft/item/ToolMaterial
+	FIELD field_3126 WOOD Lnet/minecraft/class_678;
+	FIELD field_3127 STONE Lnet/minecraft/class_678;
+	FIELD field_3128 IRON Lnet/minecraft/class_678;
+	FIELD field_3129 DIAMOND Lnet/minecraft/class_678;
+	FIELD field_3130 GOLD Lnet/minecraft/class_678;
+	FIELD field_3131 level I
+	FIELD field_3132 durability I
+	FIELD field_3133 efficiency F
+	FIELD field_3134 attack_damage I
+	METHOD <init> (Ljava/lang/String;IIIFI)V
+		ARG 3 level
+		ARG 4 durability
+		ARG 5 efficiency
+		ARG 6 attack_damage
+	METHOD method_2141 getDurability ()I
+	METHOD method_2142 getMiningSpeed ()F
+	METHOD method_2143 getAttackDamage ()I
+	METHOD method_2144 getMiningLevel ()I

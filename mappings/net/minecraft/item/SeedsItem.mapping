@@ -1,1 +1,5 @@
 CLASS net/minecraft/class_340 net/minecraft/item/SeedsItem
+	FIELD field_1591 type I
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 type

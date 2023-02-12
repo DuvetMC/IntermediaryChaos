@@ -1,6 +1,7 @@
 CLASS net/minecraft/class_229 net/minecraft/item/ItemStack
 	FIELD field_1164 amount I
 	FIELD field_1166 item I
+	FIELD field_1167 coolDown I
 	FIELD field_1466 durability I
 	METHOD <init> (III)V
 		ARG 1 item
@@ -25,9 +26,25 @@ CLASS net/minecraft/class_229 net/minecraft/item/ItemStack
 		ARG 2 amount
 		ARG 3 durability
 	METHOD method_1193 writeData (Lnet/minecraft/class_461;)Lnet/minecraft/class_461;
+	METHOD method_1641 postMine (IIIILnet/minecraft/class_3;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 block_side
 	METHOD method_1642 getAttackStrength (Lnet/minecraft/class_1;)I
+	METHOD method_1643 use (Lnet/minecraft/class_14;Lnet/minecraft/class_3;)Lnet/minecraft/class_229;
+	METHOD method_1644 onBroken (Lnet/minecraft/class_3;)V
+	METHOD method_1645 useOnBlock (Lnet/minecraft/class_3;Lnet/minecraft/class_14;IIII)Z
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 block_side
+	METHOD method_1646 breakMultiplier (Lnet/minecraft/class_18;)F
+	METHOD method_1647 postHit (Lnet/minecraft/class_209;Lnet/minecraft/class_3;)V
+	METHOD method_1648 getIconIndex ()I
 	METHOD method_1649 readData (Lnet/minecraft/class_461;)V
 	METHOD method_1650 canBreak (Lnet/minecraft/class_18;)Z
+	METHOD method_1651 useOnEntity (Lnet/minecraft/class_209;)V
 	METHOD method_1652 getMaxStack ()I
 	METHOD method_1938 copy ()Lnet/minecraft/class_229;
 	METHOD method_2112 isEqual (Lnet/minecraft/class_229;)Z
@@ -35,11 +52,25 @@ CLASS net/minecraft/class_229 net/minecraft/item/ItemStack
 	METHOD method_2113 areStacksEqual (Lnet/minecraft/class_229;Lnet/minecraft/class_229;)Z
 		ARG 0 a
 		ARG 1 b
+	METHOD method_2114 getName ()Ljava/lang/String;
 	METHOD method_2184 isItemEqualTo (Lnet/minecraft/class_229;)Z
 		ARG 1 other
+	METHOD method_2185 isStackable ()Z
+	METHOD method_2186 isDamageable ()Z
+	METHOD method_2187 hasSubTypes ()Z
+	METHOD method_2188 isDamaged ()Z
+	METHOD method_2189 getDisplayedDurability ()I
+	METHOD method_2190 getDurability ()I
+	METHOD method_2818 setCoolDown (Lnet/minecraft/class_14;Lnet/minecraft/class_1;IZ)V
+	METHOD method_2819 setDamage (I)V
+		ARG 1 durability
+	METHOD method_2820 onCraft (Lnet/minecraft/class_14;Lnet/minecraft/class_3;)V
+	METHOD method_2821 areEqualIgnoreDamage (Lnet/minecraft/class_229;)Z
 	METHOD method_2869 copyStack (Lnet/minecraft/class_229;)Lnet/minecraft/class_229;
 		ARG 0 stack
 	METHOD method_684 getItem ()Lnet/minecraft/class_255;
 	METHOD method_763 takeItems (I)Lnet/minecraft/class_229;
 		ARG 1 count
 	METHOD method_819 getMaxDurability ()I
+	METHOD method_820 damage (ILnet/minecraft/class_1;)V
+		ARG 1 amount

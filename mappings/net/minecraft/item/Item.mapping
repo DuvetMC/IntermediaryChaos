@@ -117,7 +117,7 @@ CLASS net/minecraft/class_255 net/minecraft/item/Item
 	FIELD field_3919 SHEARS Lnet/minecraft/class_882;
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD method_1398 onSaddle (Lnet/minecraft/class_229;Lnet/minecraft/class_209;)V
+	METHOD method_1398 useOnEntity (Lnet/minecraft/class_229;Lnet/minecraft/class_209;)V
 	METHOD method_1873 is3D ()Z
 	METHOD method_1907 make3D ()Lnet/minecraft/class_255;
 	METHOD method_1963 getRotateOnRender ()Z
@@ -150,11 +150,19 @@ CLASS net/minecraft/class_255 net/minecraft/item/Item
 	METHOD method_682 use (Lnet/minecraft/class_229;Lnet/minecraft/class_14;Lnet/minecraft/class_3;)Lnet/minecraft/class_229;
 	METHOD method_683 useOnBlock (Lnet/minecraft/class_229;Lnet/minecraft/class_3;Lnet/minecraft/class_14;IIII)Z
 		ARG 1 stack
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 block_side
 	METHOD method_762 getStackSize ()I
 	METHOD method_811 setTextureId (I)Lnet/minecraft/class_255;
 		ARG 1 id
 	METHOD method_815 getAttackStrength (Lnet/minecraft/class_1;)I
 	METHOD method_816 postHit (Lnet/minecraft/class_229;Lnet/minecraft/class_209;Lnet/minecraft/class_209;)Z
 	METHOD method_817 postMine (Lnet/minecraft/class_229;IIIILnet/minecraft/class_209;)Z
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 block_side
 	METHOD method_818 getMaxdurability ()I
 	METHOD method_837 canBreak (Lnet/minecraft/class_18;)Z
