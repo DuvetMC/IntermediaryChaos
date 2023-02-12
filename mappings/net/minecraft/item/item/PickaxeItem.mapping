@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_285 net/minecraft/item/PickaxeItem
+	FIELD field_1385 EFFECTIVE_BLOCKS [Lnet/minecraft/class_18;
+	METHOD <init> (ILnet/minecraft/class_678;)V
+		ARG 1 id

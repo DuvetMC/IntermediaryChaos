@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_877 net/minecraft/item/map/PlayerUpdateTracker
+	FIELD field_3878 player Lnet/minecraft/class_3;
+	FIELD field_3879 xLocations [I
+	FIELD field_3880 zLocations [I
+	FIELD field_3881 state Lnet/minecraft/class_865;
+	FIELD field_3882 startX I
+	FIELD field_3883 startZ I

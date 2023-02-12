@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_287 net/minecraft/item/SwordItem
+	FIELD field_1464 attack_damage I
+	METHOD <init> (ILnet/minecraft/class_678;)V
+		ARG 1 id

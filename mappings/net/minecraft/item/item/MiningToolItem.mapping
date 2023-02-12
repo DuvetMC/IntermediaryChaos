@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_254 net/minecraft/item/MiningToolItem
+	FIELD field_1275 EFFECTIVE_BLOCKS [Lnet/minecraft/class_18;
+	FIELD field_1276 breakSpeed F
+	FIELD field_1514 attack_damage I
+	FIELD field_3137 material Lnet/minecraft/class_678;
+	METHOD <init> (IILnet/minecraft/class_678;[Lnet/minecraft/class_18;)V
+		ARG 1 id
+		ARG 2 additional_attack_damage
+		ARG 3 material
+		ARG 4 effective_blocks
