@@ -61,7 +61,7 @@ CLASS net/minecraft/class_229 net/minecraft/item/ItemStack
 	METHOD method_2188 isDamaged ()Z
 	METHOD method_2189 getDisplayedDurability ()I
 	METHOD method_2190 getDurability ()I
-	METHOD method_2818 setCoolDown (Lnet/minecraft/class_14;Lnet/minecraft/class_1;IZ)V
+	METHOD method_2818 setCooldown (Lnet/minecraft/class_14;Lnet/minecraft/class_1;IZ)V
 	METHOD method_2819 setDamage (I)V
 		ARG 1 durability
 	METHOD method_2820 onCraft (Lnet/minecraft/class_14;Lnet/minecraft/class_3;)V
