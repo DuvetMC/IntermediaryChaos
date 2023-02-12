@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_18 net/minecraft/block/Block
-	FIELD field_1229 PowderSound Lnet/minecraft/class_245;
+	FIELD field_1229 POWDER_SOUND Lnet/minecraft/class_245;
 	FIELD field_1231 GRASS_SOUND Lnet/minecraft/class_245;
 	FIELD field_1232 STONE_SOUND Lnet/minecraft/class_245;
 	FIELD field_1233 IRON_SOUND Lnet/minecraft/class_245;
@@ -26,7 +26,7 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_2091 RAIL Lnet/minecraft/class_18;
 	FIELD field_211 GRASS Lnet/minecraft/class_24;
 	FIELD field_213 BEDROCK Lnet/minecraft/class_18;
-	FIELD field_214 WATER Lnet/minecraft/class_18;
+	FIELD field_214 WATER_MOVING Lnet/minecraft/class_18;
 	FIELD field_216 LAVA_MOVING Lnet/minecraft/class_18;
 	FIELD field_2176 MONSTER_SPAWNER Lnet/minecraft/class_18;
 	FIELD field_2200 WOOD_STAIRS Lnet/minecraft/class_18;
