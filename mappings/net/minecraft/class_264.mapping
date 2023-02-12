@@ -1,4 +1,5 @@
-METHOD method_1282 (Lnet/minecraft/class_14;III)Z
+CLASS net/minecraft/class_264
+	METHOD method_1282 (Lnet/minecraft/class_14;III)Z
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
