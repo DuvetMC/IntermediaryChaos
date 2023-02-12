@@ -142,7 +142,7 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	METHOD method_1253 onBlockBreakStart (Lnet/minecraft/class_14;IIILnet/minecraft/class_3;)V
 	METHOD method_1286 speedBuffForEntity (Lnet/minecraft/class_14;IIILnet/minecraft/class_1;Lnet/minecraft/class_9;)V
 	METHOD method_1433 blockType (Lnet/minecraft/class_245;)Lnet/minecraft/class_18;
-	METHOD method_1614 getColourMultiplier (Lnet/minecraft/class_447;III)I
+	METHOD method_1614 getColorMultiplier (Lnet/minecraft/class_447;III)I
 	METHOD method_1727 onEntityCollision (Lnet/minecraft/class_14;IIILnet/minecraft/class_1;)V
 	METHOD method_1728 hasSignal (Lnet/minecraft/class_447;IIII)Z
 		ARG 1 world
@@ -179,7 +179,7 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	METHOD method_2731 getStatsEnabledBoolean ()Z
 	METHOD method_2732 disableStats ()Lnet/minecraft/class_18;
 	METHOD method_2856 initBlock ()V
-	METHOD method_2919 getRenderColour (I)I
+	METHOD method_2919 getRenderColor (I)I
 	METHOD method_2920 getPistonMoveBehavior ()I
 		COMMENT Returns this block's behavior when moved by a piston.
 		COMMENT <br>0: this block can be pushed and pulled

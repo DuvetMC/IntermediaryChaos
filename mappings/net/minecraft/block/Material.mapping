@@ -1,6 +1,7 @@
 CLASS net/minecraft/class_79 net/minecraft/block/Material
 	FIELD field_1498 GRASS Lnet/minecraft/class_79;
 	FIELD field_1499 ORE Lnet/minecraft/class_79;
+	FIELD field_1500 IRON Lnet/minecraft/class_79;
 	FIELD field_1507 GLASS Lnet/minecraft/class_79;
 	FIELD field_1508 TNT Lnet/minecraft/class_79;
 	FIELD field_1572 FOLIAGE Lnet/minecraft/class_79;
