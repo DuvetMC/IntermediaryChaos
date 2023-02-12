@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_577 net/minecraft/item/RecordItem
-	FIELD field_2650 record_name Ljava/lang/String;
-	METHOD <init> (ILjava/lang/String;)V
-		ARG 1 id
-		ARG 2 record_name

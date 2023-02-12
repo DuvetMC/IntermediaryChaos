@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_417 net/minecraft/item/BucketItem
-	FIELD field_2030 capacity I
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 capacity

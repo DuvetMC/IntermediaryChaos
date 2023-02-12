@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_289 net/minecraft/item/ShovelItem
-	FIELD field_1391 EFFECTIVE_BLOCKS [Lnet/minecraft/class_18;
-	METHOD <init> (ILnet/minecraft/class_678;)V
-		ARG 1 id

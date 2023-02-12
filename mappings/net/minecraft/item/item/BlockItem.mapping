@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_253 net/minecraft/item/BlockItem
-	FIELD field_1274 blockId I
