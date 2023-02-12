@@ -1,7 +1,7 @@
 CLASS net/minecraft/class_229 net/minecraft/item/ItemStack
 	FIELD field_1164 amount I
 	FIELD field_1166 item I
-	FIELD field_1167 coolDown I
+	FIELD field_1167 cooldown I
 	FIELD field_1466 durability I
 	METHOD <init> (III)V
 		ARG 1 item
@@ -30,7 +30,7 @@ CLASS net/minecraft/class_229 net/minecraft/item/ItemStack
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-		ARG 4 block_side
+		ARG 4 blockSide
 	METHOD method_1642 getAttackStrength (Lnet/minecraft/class_1;)I
 	METHOD method_1643 use (Lnet/minecraft/class_14;Lnet/minecraft/class_3;)Lnet/minecraft/class_229;
 	METHOD method_1644 onBroken (Lnet/minecraft/class_3;)V
@@ -38,7 +38,7 @@ CLASS net/minecraft/class_229 net/minecraft/item/ItemStack
 		ARG 3 x
 		ARG 4 y
 		ARG 5 z
-		ARG 6 block_side
+		ARG 6 blockSide
 	METHOD method_1646 breakMultiplier (Lnet/minecraft/class_18;)F
 	METHOD method_1647 postHit (Lnet/minecraft/class_209;Lnet/minecraft/class_3;)V
 	METHOD method_1648 getIconIndex ()I
