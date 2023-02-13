@@ -26,8 +26,8 @@ CLASS net/minecraft/class_18 net/minecraft/block/Block
 	FIELD field_2091 RAIL Lnet/minecraft/class_18;
 	FIELD field_211 GRASS Lnet/minecraft/class_24;
 	FIELD field_213 BEDROCK Lnet/minecraft/class_18;
-	FIELD field_214 WATER_FLOWING Lnet/minecraft/class_18;
-	FIELD field_216 LAVA_FLOWING Lnet/minecraft/class_18;
+	FIELD field_214 FLOWING_WATER Lnet/minecraft/class_18;
+	FIELD field_216 FLOWING_LAVA Lnet/minecraft/class_18;
 	FIELD field_2176 MONSTER_SPAWNER Lnet/minecraft/class_18;
 	FIELD field_2200 WOOD_STAIRS Lnet/minecraft/class_18;
 	FIELD field_2201 STONE_STAIRS Lnet/minecraft/class_18;
