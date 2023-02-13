@@ -1,3 +1,18 @@
 {
     // Add any consistent names here for easier remapping
+    "net/minecraft/client/Minecraft": "client",
+    "net/minecraft/client/MinecraftApplet": "applet",
+    "net/minecraft/class_226": "stack", // ItemStack
+    "net/minecraft/class_238": "item", // Item
+    "net/minecraft/class_35": "block", // Block
+    "net/minecraft/class_191": "world", // World
+
+    "java/lang/String": {
+        local_name: "s",
+        fallback: [
+            "str",
+            "string"
+        ]
+    },
+    "java/util/Random": "random",
 }
