@@ -5,6 +5,7 @@ CLASS net/minecraft/class_101 net/minecraft/client/render/GameRenderer
 	FIELD field_1093 fogBlue F
 	FIELD field_1173 newFogGrayScale F
 	FIELD field_1174 oldFogGrayScale F
+	FIELD field_556 wasActive Z
 	FIELD field_562 camera I
 	FIELD field_563 fogColorBuffer Ljava/nio/FloatBuffer;
 	FIELD field_885 ticks I
@@ -14,3 +15,5 @@ CLASS net/minecraft/class_101 net/minecraft/client/render/GameRenderer
 		ARG 1 tickDelta
 	METHOD method_361 applyViewBobbing (F)V
 		ARG 1 tickDelta
+	METHOD method_825 tick (F)V
+		ARG 1 partialTick

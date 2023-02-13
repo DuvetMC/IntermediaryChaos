@@ -3,6 +3,7 @@ CLASS net/minecraft/class_148 net/minecraft/client/options/GameOptions
 	FIELD field_1183 drop Lnet/minecraft/class_147;
 	FIELD field_1634 defaultDifficulty I
 	FIELD field_1635 DIFFICULTIES [Ljava/lang/String;
+	FIELD field_1741 thirdPerson Z
 	FIELD field_2035 fancyGraphics Z
 	FIELD field_749 music Z
 	FIELD field_750 sound Z

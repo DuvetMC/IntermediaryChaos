@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_285 net/minecraft/client/render/anim/GearAnimatedTexture
+	FIELD field_1393 gearData [I
+	FIELD field_1394 gearMiddleData [I

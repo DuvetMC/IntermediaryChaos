@@ -1,6 +1,10 @@
 CLASS net/minecraft/class_244 net/minecraft/nbt/NbtCompound
 	FIELD field_1302 elements Ljava/util/Map;
+	METHOD method_1142 hasElement (Ljava/lang/String;)Z
 	METHOD method_1143 putByte (Ljava/lang/String;B)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_1144 putFloat (Ljava/lang/String;F)V
 		ARG 1 key
 		ARG 2 value
 	METHOD method_1145 putInt (Ljava/lang/String;I)V

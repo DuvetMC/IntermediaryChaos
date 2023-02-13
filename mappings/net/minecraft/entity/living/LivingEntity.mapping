@@ -11,6 +11,8 @@ CLASS net/minecraft/class_199 net/minecraft/entity/living/LivingEntity
 	FIELD field_1057 defaultMaxHealth I
 	FIELD field_1058 bodyYaw F
 	FIELD field_1059 prevBodyYaw F
+	FIELD field_1060 health I
+	FIELD field_1458 skin Ljava/lang/String;
 	FIELD field_1459 prevHandSwingAmount F
 	FIELD field_1460 handSwingAmount F
 	FIELD field_1583 despawnTicks I

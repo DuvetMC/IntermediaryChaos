@@ -1,4 +1,7 @@
 CLASS net/minecraft/class_55 net/minecraft/client/MinecraftClient
+	FIELD field_1240 finishedAppletInit Z
+	FIELD field_1241 loadmapUser Ljava/lang/String;
+	FIELD field_1242 loadmapId I
 	FIELD field_1244 sounds Lnet/minecraft/class_234;
 	FIELD field_1470 mouseInput Lnet/minecraft/class_305;
 	FIELD field_1941 mcDir Ljava/io/File;
@@ -9,6 +12,8 @@ CLASS net/minecraft/class_55 net/minecraft/client/MinecraftClient
 	FIELD field_300 height I
 	FIELD field_301 world Lnet/minecraft/class_191;
 	FIELD field_302 session Lnet/minecraft/class_63;
+	FIELD field_303 host Ljava/lang/String;
+	FIELD field_305 paused Z
 	FIELD field_306 textRenderer Lnet/minecraft/class_62;
 	FIELD field_310 running Z
 	FIELD field_311 fullscreen Z
@@ -17,10 +22,13 @@ CLASS net/minecraft/class_55 net/minecraft/client/MinecraftClient
 	FIELD field_316 player Lnet/minecraft/class_228;
 	FIELD field_318 particleManager Lnet/minecraft/class_64;
 	FIELD field_320 canvas Ljava/awt/Canvas;
+	FIELD field_323 textureManager Lnet/minecraft/class_52;
+	FIELD field_392 ticks I
 	FIELD field_520 gui Lnet/minecraft/class_96;
 	FIELD field_606 loadingScreenRenderer Lnet/minecraft/class_118;
 	FIELD field_607 gameRenderer Lnet/minecraft/class_101;
 	FIELD field_767 options Lnet/minecraft/class_148;
+	FIELD field_906 thirdPerson Z
 	METHOD <init> (Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
 		ARG 1 canvas
 		ARG 2 applet
@@ -29,10 +37,8 @@ CLASS net/minecraft/class_55 net/minecraft/client/MinecraftClient
 		ARG 5 fullscreen
 	METHOD method_1100 setWorld (Lnet/minecraft/class_191;Ljava/lang/String;)V
 		ARG 1 world
-		ARG 2 s
 	METHOD method_1208 getMcDir ()Ljava/io/File;
 	METHOD method_1210 (Ljava/lang/String;)V
-		ARG 1 s
 	METHOD method_1211 respawnPlayer ()V
 	METHOD method_1274 requestShutdown ()V
 	METHOD method_1275 getChunkDebugInfo ()Ljava/lang/String;
@@ -41,7 +47,9 @@ CLASS net/minecraft/class_55 net/minecraft/client/MinecraftClient
 	METHOD method_158 stop ()V
 	METHOD method_162 showScreen (Lnet/minecraft/class_59;)V
 		ARG 1 screen
-	METHOD method_779 (II)V
+	METHOD method_173 tick ()V
+	METHOD method_243 showPauseScreen ()V
+	METHOD method_779 setScreenSize (II)V
 		ARG 1 width
 		ARG 2 height
 		ARG 3 window

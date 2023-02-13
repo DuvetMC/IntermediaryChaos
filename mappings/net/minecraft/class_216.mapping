@@ -2,3 +2,5 @@ CLASS net/minecraft/class_216
 	FIELD field_1126 client Lnet/minecraft/class_55;
 	METHOD <init> (Lnet/minecraft/class_55;)V
 		ARG 1 client
+	METHOD method_560 tick (F)V
+		ARG 1 partialTick

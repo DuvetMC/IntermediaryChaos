@@ -2,3 +2,8 @@ CLASS net/minecraft/class_81 net/minecraft/client/player/input/PlayerInput
 	FIELD field_418 movementSideways F
 	FIELD field_419 movementForward F
 	FIELD field_421 jumping Z
+	METHOD method_232 calculateMovement ()V
+	METHOD method_233 keyInput (IZ)V
+		ARG 1 key
+		ARG 2 pressed
+	METHOD method_234 reset ()V

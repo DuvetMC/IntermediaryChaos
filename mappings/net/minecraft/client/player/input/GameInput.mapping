@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_82 net/minecraft/client/player/input/GameInput
+	FIELD field_422 pressStates [Z
 	FIELD field_768 options Lnet/minecraft/class_148;
 	METHOD <init> <init> (Lnet/minecraft/class_148;)V
 		ARG 1 options

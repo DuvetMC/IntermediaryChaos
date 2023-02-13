@@ -87,9 +87,13 @@ CLASS net/minecraft/class_35 net/minecraft/block/Block
 	METHOD method_1083 onExploded (Lnet/minecraft/class_191;III)V
 		ARG 4 z
 	METHOD method_1084 onAdded (Lnet/minecraft/class_191;III)V
+		ARG 2 x
+		ARG 3 y
 		ARG 4 z
 	METHOD method_1085 dropItems (Lnet/minecraft/class_191;IIII)V
 	METHOD method_109 getCollisionShape (Lnet/minecraft/class_191;III)Lnet/minecraft/class_200;
+		ARG 2 x
+		ARG 3 y
 		ARG 4 z
 	METHOD method_1125 tick (Lnet/minecraft/class_191;IIILjava/util/Random;)V
 		COMMENT Performs a scheduled tick. Blocks that want to perform some action after a delay can

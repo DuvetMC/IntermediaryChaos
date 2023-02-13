@@ -1,8 +1,10 @@
 CLASS net/minecraft/client/MinecraftApplet net/minecraft/client/MinecraftApplet
+	FIELD field_1063 client Lnet/minecraft/class_55;
 	FIELD field_1064 mainThread Ljava/lang/Thread;
 	FIELD field_1065 canvas Ljava/awt/Canvas;
 	METHOD destroy destroy ()V
 	METHOD init init ()V
 	METHOD method_526 scheduleStop ()V
+	METHOD method_619 startThread ()V
 	METHOD start start ()V
 	METHOD stop stop ()V
