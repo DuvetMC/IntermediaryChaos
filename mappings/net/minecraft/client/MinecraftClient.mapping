@@ -3,7 +3,9 @@ CLASS net/minecraft/class_55 net/minecraft/client/MinecraftClient
 	FIELD field_1241 loadmapUser Ljava/lang/String;
 	FIELD field_1242 loadmapId I
 	FIELD field_1244 sounds Lnet/minecraft/class_234;
+	FIELD field_1456 c303 Lnet/minecraft/class_303;
 	FIELD field_1470 mouseInput Lnet/minecraft/class_305;
+	FIELD field_1471 mcDir Ljava/io/File;
 	FIELD field_1941 mcDir Ljava/io/File;
 	FIELD field_1969 startTime J
 	FIELD field_290 currentScreen Lnet/minecraft/class_59;
