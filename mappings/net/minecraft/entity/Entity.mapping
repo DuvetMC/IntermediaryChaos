@@ -1,16 +1,120 @@
 CLASS net/minecraft/class_1 net/minecraft/entity/Entity
+	FIELD field_1013 onGround Z
+	FIELD field_1014 horizontalCollision Z
+	FIELD field_1015 removed Z
+	FIELD field_1016 yOffset F
+	FIELD field_1017 pitch F
+	FIELD field_1018 prevDistanceTraveled F
+	FIELD field_1019 distanceTraveled F
+	FIELD field_1021 fallDistance F
+	FIELD field_1022 nextFlySoundDistance D
+	FIELD field_1023 lastRenderX D
+	FIELD field_1024 lastRenderY D
+	FIELD field_1025 stepHeight F
+	FIELD field_1026 age I
+	FIELD field_1028 yaw F
+	FIELD field_1029 nextStepSoundDistance I
+	FIELD field_1030 lastRenderZ F
 	FIELD field_1031 world Lnet/minecraft/class_14;
+	FIELD field_1032 prevX D
+	FIELD field_1033 prevY D
+	FIELD field_1034 prevZ D
 	FIELD field_1035 x D
 	FIELD field_1036 y D
 	FIELD field_1037 z D
-	FIELD field_1261 ticksOnFire I
-	FIELD field_1691 skinUrl Ljava/lang/String;
+	FIELD field_1038 velocityX D
+	FIELD field_1039 velocityY D
+	FIELD field_1040 velocityZ D
+	FIELD field_1041 yaw F
+	FIELD field_1042 pitch F
+	FIELD field_1043 prevYaw F
+	FIELD field_1044 prevPitch F
+	FIELD field_1168 random Ljava/util/Random;
+	FIELD field_1220 noClip Z
+	FIELD field_1221 pushSpeedReduction F
+	FIELD field_1260 fireResistance I
+	FIELD field_1261 fireTicks I
+	FIELD field_1345 maxAir I
+	FIELD field_1346 timeUntilRegen I
+	FIELD field_1347 air I
+	FIELD field_1348 touchingWater Z
+	FIELD field_1512 firstUpdate Z
+	FIELD field_1691 skinURL Ljava/lang/String;
+	FIELD field_1965 preventSpawning Z
 	FIELD field_1 hitbox Lnet/minecraft/class_19;
+	FIELD field_2143 rider Lnet/minecraft/class_1;
+	FIELD field_2144 passenger Lnet/minecraft/class_1;
+	FIELD field_2179 riderPitchDelta D
+	FIELD field_2180 riderYawDelta D
+	FIELD field_2230 collided Z
+	FIELD field_2507 entityId I
+	FIELD field_2508 followingID I
+	FIELD field_2519 verticalCollision Z
+	FIELD field_2532 addedToChunk Z
+	FIELD field_2533 trackedX I
+	FIELD field_2534 trackedY I
+	FIELD field_2535 trackedZ I
+	FIELD field_2627 chunkX I
+	FIELD field_2628 chunkY I
+	FIELD field_2629 chunkZ I
+	FIELD field_2746 renderDistanceMultiplier D
+	FIELD field_2903 isFireImmune Z
+	FIELD field_3004 attacked Z
+	FIELD field_3103 capeURL Ljava/lang/String;
+	FIELD field_3170 dataTracker Lnet/minecraft/class_701;
+	FIELD field_3713 inWeb Z
+	FIELD field_3886 ignoreCameraFrustum Z
+	FIELD field_3929 brightnessAtEyes F
 	METHOD <init> (Lnet/minecraft/class_14;)V
 		ARG 1 world
-	METHOD method_1073 (Lnet/minecraft/class_3;)V
+	METHOD method_1073 onPlayerCollision (Lnet/minecraft/class_3;)V
 		ARG 1 player
-	METHOD method_1195 (Lnet/minecraft/class_461;)V
+	METHOD method_1074 pushAwayFrom (Lnet/minecraft/class_1;)V
+	METHOD method_1075 addVelocity (DDD)V
+	METHOD method_1076 isPushable ()Z
+	METHOD method_1195 writeCustomDataToTag (Lnet/minecraft/class_461;)V
 		ARG 1 tag
-	METHOD method_1197 (Lnet/minecraft/class_461;)V
+	METHOD method_1196 toListTag ([D)Lnet/minecraft/class_464;
+	METHOD method_1197 readCustomDataFromTag (Lnet/minecraft/class_461;)V
 		ARG 1 tag
+	METHOD method_1198 toTag (Lnet/minecraft/class_461;)V
+	METHOD method_1199 fromTag (Lnet/minecraft/class_461;)V
+	METHOD method_1231 saveSelfToTag (Lnet/minecraft/class_461;)Z
+	METHOD method_1320 destroy ()V
+	METHOD method_1374 kill ()V
+	METHOD method_1375 baseTick ()V
+	METHOD method_1376 getCollisionBox ()Lnet/minecraft/class_19;
+	METHOD method_1399 setWorld (Lnet/minecraft/class_14;)V
+	METHOD method_1566 shouldRender (Lnet/minecraft/class_9;)Z
+	METHOD method_1567 toListTag ([F)Lnet/minecraft/class_464;
+	METHOD method_1568 setRotation (FF)V
+	METHOD method_1570 changeLookDirection (FF)V
+	METHOD method_1571 distanceTo (Lnet/minecraft/class_1;)F
+	METHOD method_1572 distanceTo (DDD)D
+	METHOD method_1573 squaredDistanceTo (DDD)D
+	METHOD method_1574 getSavedEntityId ()Ljava/lang/String;
+	METHOD method_1803 updatePositionAndAngles (DDDFF)V
+	METHOD method_1993 setOnFireFromLava ()V
+	METHOD method_2062 fall (DZ)V
+	METHOD method_2215 getDataTracker ()Lnet/minecraft/class_701;
+	METHOD method_2219 initDataTracker ()V
+	METHOD method_2220 setFlag (IZ)V
+	METHOD method_2487 canClimb ()Z
+	METHOD method_2713 isFireImmune ()Z
+	METHOD method_2714 isTouchingWater ()Z
+	METHOD method_499 setPitchAndYaw (FF)V
+	METHOD method_500 updatePosition (DDD)V
+	METHOD method_501 damage (Lnet/minecraft/class_1;I)Z
+	METHOD method_502 afterSpawn ()V
+	METHOD method_504 doesNotCollide (DDD)Z
+	METHOD method_505 tick ()V
+	METHOD method_506 handleFallDamage (F)V
+	METHOD method_507 move (DDD)V
+	METHOD method_510 expandHitBox ()Z
+	METHOD method_511 spawnSprintingParticles (Lnet/minecraft/class_79;)Z
+	METHOD method_512 isInLava ()Z
+	METHOD method_513 getBrightnessAtEyes (F)F
+	METHOD method_514 collides ()Z
+	METHOD method_602 refreshPositionAndAngles (DDDFF)V
+	METHOD method_796 burn (I)V
+	METHOD method_886 squaredDistanceTo (Lnet/minecraft/class_1;)D
