@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_400 net/minecraft/entity/EntityType
+	FIELD field_1966 nameToEntity Ljava/util/Map;
+	FIELD field_1967 entityToName Ljava/util/Map;
+	FIELD field_2704 iDToEntity Ljava/util/Map;
+	FIELD field_2705 entityToID Ljava/util/Map;
+	METHOD method_1232 getEntityFromTag (Lnet/minecraft/class_461;Lnet/minecraft/class_14;)Lnet/minecraft/class_1;
+	METHOD method_1233 register (Ljava/lang/Class;Ljava/lang/String;I)V
+	METHOD method_1234 getTranslationKey (Lnet/minecraft/class_1;)Ljava/lang/String;
+	METHOD method_1401 create (Ljava/lang/String;Lnet/minecraft/class_14;)Lnet/minecraft/class_1;
+	METHOD method_1927 create (ILnet/minecraft/class_14;)Lnet/minecraft/class_1;
+	METHOD method_1928 getID (Lnet/minecraft/class_1;)I

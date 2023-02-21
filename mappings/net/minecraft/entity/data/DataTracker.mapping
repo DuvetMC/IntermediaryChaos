@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_701 net/minecraft/entity/data/DataTracker
+	METHOD method_2228 get (I)B

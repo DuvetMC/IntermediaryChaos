@@ -84,6 +84,7 @@ CLASS net/minecraft/class_1 net/minecraft/entity/Entity
 	METHOD method_1374 kill ()V
 	METHOD method_1375 baseTick ()V
 	METHOD method_1376 getCollisionBox ()Lnet/minecraft/class_19;
+	METHOD method_1377 tickRiding ()V
 	METHOD method_1399 setWorld (Lnet/minecraft/class_14;)V
 	METHOD method_1566 shouldRender (Lnet/minecraft/class_9;)Z
 	METHOD method_1567 toListTag ([F)Lnet/minecraft/class_464;
@@ -94,14 +95,31 @@ CLASS net/minecraft/class_1 net/minecraft/entity/Entity
 	METHOD method_1573 squaredDistanceTo (DDD)D
 	METHOD method_1574 getSavedEntityId ()Ljava/lang/String;
 	METHOD method_1803 updatePositionAndAngles (DDDFF)V
+	METHOD method_1854 updateTrackedPositionAndAngles (DDDFFI)V
+	METHOD method_1955 isSneaking ()Z
 	METHOD method_1993 setOnFireFromLava ()V
+	METHOD method_2052 setVelocity (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_2061 handleStatus (B)V
+		ARG 1 status
 	METHOD method_2062 fall (DZ)V
+	METHOD method_2063 animateDamage ()V
+	METHOD method_2124 equip (III)V
+	METHOD method_2125 updateCloak ()V
 	METHOD method_2215 getDataTracker ()Lnet/minecraft/class_701;
+	METHOD method_2216 isOnFire ()Z
+	METHOD method_2217 hasPassengers ()Z
 	METHOD method_2219 initDataTracker ()V
 	METHOD method_2220 setFlag (IZ)V
+	METHOD method_2221 getFlag (I)Z
 	METHOD method_2487 canClimb ()Z
+	METHOD method_2711 onStruckByLightning (Lnet/minecraft/class_781;)V
+	METHOD method_2712 onKilledOther (Lnet/minecraft/class_209;)V
 	METHOD method_2713 isFireImmune ()Z
 	METHOD method_2714 isTouchingWater ()Z
+	METHOD method_2850 pushOutOfBlocks (DDD)Z
 	METHOD method_499 setPitchAndYaw (FF)V
 	METHOD method_500 updatePosition (DDD)V
 	METHOD method_501 damage (Lnet/minecraft/class_1;I)Z
@@ -118,3 +136,4 @@ CLASS net/minecraft/class_1 net/minecraft/entity/Entity
 	METHOD method_602 refreshPositionAndAngles (DDDFF)V
 	METHOD method_796 burn (I)V
 	METHOD method_886 squaredDistanceTo (Lnet/minecraft/class_1;)D
+	METHOD method_952 getSprite ()Ljava/lang/String;
