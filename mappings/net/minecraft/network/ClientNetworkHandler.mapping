@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_509 net/minecraft/network/ClientNetworkHandler
+	METHOD method_1853 close ()V

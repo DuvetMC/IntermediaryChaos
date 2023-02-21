@@ -1,3 +1,4 @@
 CLASS net/minecraft/class_514 net/minecraft/network/NetworkHandler
 	METHOD method_1867 onChatMessage (Lnet/minecraft/class_560;)V
+	METHOD method_1921 authenticate (Lnet/minecraft/class_511;)V
 	METHOD method_2053 onEntityInteraction (Lnet/minecraft/class_640;)V
