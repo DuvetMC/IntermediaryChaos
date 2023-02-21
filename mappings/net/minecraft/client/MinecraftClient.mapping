@@ -16,6 +16,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/MinecraftClient
 	FIELD field_316 clientPlayer Lnet/minecraft/class_231;
 	FIELD field_320 canvas Ljava/awt/Canvas;
 	FIELD field_3407 INSTANCE Lnet/minecraft/client/Minecraft;
+	FIELD field_3860 currentTime J
 	FIELD field_3861 error Z
 	FIELD field_3862 MEMORY_RESERVE [B
 	FIELD field_767 options Lnet/minecraft/class_124;
