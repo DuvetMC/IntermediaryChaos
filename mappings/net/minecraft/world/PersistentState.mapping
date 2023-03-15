@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_863 net/minecraft/world/PersistentState
+	FIELD field_3813 key Ljava/lang/String;
+	FIELD field_3814 dirty Z
+	METHOD method_2805 markDirty ()V
+	METHOD method_2806 fromTag (Lnet/minecraft/class_461;)V
+	METHOD method_2807 setDirty (Z)V
+	METHOD method_2808 isDirty ()Z
+	METHOD method_2809 toTag (Lnet/minecraft/class_461;)V

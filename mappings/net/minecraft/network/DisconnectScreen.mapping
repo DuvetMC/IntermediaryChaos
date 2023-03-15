@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_502 net/minecraft/network/DisconnectScreen
+	FIELD field_2362 header Ljava/lang/String;
+	FIELD field_2363 reason Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+		ARG 1 header
+		ARG 2 reason

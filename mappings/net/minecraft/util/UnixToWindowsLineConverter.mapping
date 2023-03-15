@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_852 net/minecraft/util/UnixToWindowsLineConverter
+	FIELD field_3762 newText Ljava/lang/String;

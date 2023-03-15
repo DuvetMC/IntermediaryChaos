@@ -1,1 +1,4 @@
 CLASS net/minecraft/class_880 net/minecraft/item/MapItem
+	METHOD method_2858 markDirty (Lnet/minecraft/class_14;Lnet/minecraft/class_1;Lnet/minecraft/class_865;)V
+	METHOD method_2859 getPlayerSyncData (Lnet/minecraft/class_229;Lnet/minecraft/class_14;)Lnet/minecraft/class_865;
+	METHOD method_2860 getPlayerMarkerPacket (SLnet/minecraft/class_14;)Lnet/minecraft/class_865;

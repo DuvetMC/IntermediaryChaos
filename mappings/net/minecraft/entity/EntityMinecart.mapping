@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_434 net/minecraft/entity/EntityMinecart
+	FIELD field_2096 slots [Lnet/minecraft/class_229;
+	FIELD field_2662 type I
+	FIELD field_2663 fuel I
+	FIELD field_2664 pushX D
+	FIELD field_2665 pushZ D

@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_763 net/minecraft/item/CookieItem
+	METHOD <init> (IIZI)V
+		ARG 1 id
+		ARG 2 healAmount
+		ARG 3 isMeat
+		ARG 4 stackSize

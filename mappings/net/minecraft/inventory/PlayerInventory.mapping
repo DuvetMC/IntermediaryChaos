@@ -8,5 +8,6 @@ CLASS net/minecraft/class_210 net/minecraft/inventory/PlayerInventory
 	METHOD method_1633 readTag (Lnet/minecraft/class_464;)V
 	METHOD method_1635 contains (I)Z
 	METHOD method_1636 getArmorSlot (I)Lnet/minecraft/class_229;
+	METHOD method_1640 dropAll ()V
 	METHOD method_527 getHeldItem ()Lnet/minecraft/class_229;
 	METHOD method_528 findItem (I)I
