@@ -54,7 +54,6 @@ CLASS net/minecraft/class_191 net/minecraft/world/World
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD method_1043 setBlockWithMetadata (IIIII)Z
 	METHOD method_1044 checkLight (IIII)V
 		ARG 1 x
 		ARG 2 z
