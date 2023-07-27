@@ -90,7 +90,7 @@ tasks {
         onlyIf { !outputFile.exists() }
 
         doLast {
-            download("https://raw.githubusercontent.com/DuvetMC/old-intermediaries/main/old-intermediaries/$officialVersion.tiny", outputFile)
+            download("https://raw.githubusercontent.com/DuvetMC/old-intermediaries/main/new-intermediaries/$officialVersion.tiny", outputFile)
         }
     }
 
